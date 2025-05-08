@@ -12,7 +12,7 @@
         "pack:dev": "npm run pack && tar -xvf ./bspk-styles-*.tgz"
     },
     "author": "",
-    "license": "CC-BY-ND-4.0",
+    "license": "CC-BY-4.0",
     "description": "",
     "devDependencies": {
         "@figma/plugin-typings": "*",
