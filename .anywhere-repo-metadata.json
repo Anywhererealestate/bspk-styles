@@ -1,0 +1,17 @@
+{
+    "version": "1.0.2",
+    "businessUnit": "AIS",
+    "techLeadsEmails": ["brian.reed@anywhere.re"],
+    "owningPods": ["Experience Pods"],
+    "ownerEmails": ["brian.reed@anywhere.re"],
+    "supportOwnerEmails": ["brian.reed@anywhere.re"],
+    "svpOwner": "Ng, Damian",
+    "applicationName": "Bespoke Styles",
+    "productionLevel": true,
+    "excludeFromSonarqube": false,
+    "excludeFromVeracode": false,
+    "excludeFromGitlab": false,
+    "excludeFromNewGitlabStructure": false,
+    "nextFollowUpDate": "2024-02-24",
+    "archived": true
+}
