@@ -1,0 +1,7 @@
+*
+!data/*.d.ts
+!data/*.js
+!data/*.js.map
+!*.md
+!*.css
+!variables.txt
