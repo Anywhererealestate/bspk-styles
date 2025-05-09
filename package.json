@@ -11,13 +11,17 @@
         "clean": "rm -rf data style ./*.js ./*.d.ts ./*.js.map ./*.ts",
         "pack:dev": "npm run pack && tar -xvf ./bspk-styles-*.tgz"
     },
-    "author": "",
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=20"
+    },
     "license": "CC-BY-4.0",
-    "description": "",
     "devDependencies": {
         "@figma/plugin-typings": "*",
         "@semantic-release/git": "^10.0.1",
-        "@semantic-release/gitlab": "^13.2.1",
+        "@semantic-release/github": "^11.0.2",
         "@semantic-release/npm": "^12.0.1",
         "@types/node": "^22.7.9",
         "nodemon": "^3.1.7",
