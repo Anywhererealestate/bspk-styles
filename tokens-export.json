@@ -1,5 +1,5 @@
 {
-    "generated": "2025-05-01T18:43:34.841Z",
+    "generated": "2025-07-08T20:32:21.402Z",
     "tokens": [
         {
             "id": "VariableID:279:6062",
@@ -16,7 +16,7 @@
         },
         {
             "id": "VariableID:279:6063",
-            "name": "Radius/small",
+            "name": "Radius/sm",
             "description": "",
             "collection": "Borders",
             "resolvedType": "FLOAT",
@@ -29,7 +29,7 @@
         },
         {
             "id": "VariableID:279:6064",
-            "name": "Radius/medium",
+            "name": "Radius/md",
             "description": "",
             "collection": "Borders",
             "resolvedType": "FLOAT",
@@ -42,7 +42,7 @@
         },
         {
             "id": "VariableID:279:6065",
-            "name": "Radius/large",
+            "name": "Radius/lg",
             "description": "",
             "collection": "Borders",
             "resolvedType": "FLOAT",
@@ -434,6 +434,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104435"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6515"
                 }
             }
         },
@@ -479,6 +483,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104436"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6543"
                 }
             }
         },
@@ -524,6 +532,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104437"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6583"
                 }
             }
         },
@@ -569,6 +581,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104439"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6513"
                 }
             }
         },
@@ -614,6 +630,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104420"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6510"
                 }
             }
         },
@@ -659,6 +679,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104453"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6578"
                 }
             }
         },
@@ -809,6 +833,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104452"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6581"
                 }
             }
         },
@@ -884,6 +912,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104444"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6557"
                 }
             }
         },
@@ -929,6 +961,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104445"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6502"
                 }
             }
         },
@@ -974,6 +1010,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104440"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6511"
                 }
             }
         },
@@ -1034,6 +1074,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104405"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6553"
                 }
             }
         },
@@ -1079,7 +1123,7 @@
         },
         {
             "id": "VariableID:151:16791",
-            "name": "Radius/x-large",
+            "name": "Radius/xlg",
             "description": "",
             "collection": "Borders",
             "resolvedType": "FLOAT",
@@ -1102,7 +1146,7 @@
         },
         {
             "id": "VariableID:151:16793",
-            "name": "Radius/circular",
+            "name": "Radius/full",
             "description": "",
             "collection": "Borders",
             "resolvedType": "FLOAT",
@@ -1230,6 +1274,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104425"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20849:2266"
                 }
             }
         },
@@ -1845,6 +1893,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20499"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6541"
                 }
             }
         },
@@ -1890,6 +1942,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104442"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6536"
                 }
             }
         },
@@ -1980,6 +2036,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104438"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6514"
                 }
             }
         },
@@ -2025,6 +2085,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20538"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6506"
                 }
             }
         },
@@ -2070,6 +2134,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56211"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6582"
                 }
             }
         },
@@ -2115,6 +2183,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20498"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6507"
                 }
             }
         },
@@ -3165,6 +3237,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104447"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6589"
                 }
             }
         },
@@ -3210,6 +3286,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104446"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6542"
                 }
             }
         },
@@ -3255,6 +3335,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104431"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6528"
                 }
             }
         },
@@ -3300,6 +3384,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104457"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6562"
                 }
             }
         },
@@ -3345,6 +3433,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104443"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6508"
                 }
             }
         },
@@ -3450,6 +3542,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104419"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6540"
                 }
             }
         },
@@ -3495,6 +3591,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104462"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6539"
                 }
             }
         },
@@ -3540,6 +3640,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104432"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6521"
                 }
             }
         },
@@ -3585,6 +3689,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104459"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6560"
                 }
             }
         },
@@ -3630,6 +3738,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104433"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6519"
                 }
             }
         },
@@ -3675,6 +3787,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104434"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6529"
                 }
             }
         },
@@ -3720,6 +3836,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104460"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6570"
                 }
             }
         },
@@ -3765,6 +3885,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3623:103911"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6509"
                 }
             }
         },
@@ -3810,6 +3934,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104397"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6572"
                 }
             }
         },
@@ -3853,6 +3981,10 @@
                     "id": "VariableID:3624:104497"
                 },
                 "10732:5": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:3624:104463"
+                },
+                "20852:0": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104463"
                 }
@@ -3915,6 +4047,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104448"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6588"
                 }
             }
         },
@@ -3960,6 +4096,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104449"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6571"
                 }
             }
         },
@@ -4005,6 +4145,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104451"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6505"
                 }
             }
         },
@@ -4050,6 +4194,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104450"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6533"
                 }
             }
         },
@@ -4095,6 +4243,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104417"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6491"
                 }
             }
         },
@@ -4140,6 +4292,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104399"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6593"
                 }
             }
         },
@@ -4185,6 +4341,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104400"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6493"
                 }
             }
         },
@@ -4230,6 +4390,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104422"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6489"
                 }
             }
         },
@@ -4275,6 +4439,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104441"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6573"
                 }
             }
         },
@@ -4320,6 +4488,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104404"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6486"
                 }
             }
         },
@@ -5359,6 +5531,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104418"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6495"
                 }
             }
         },
@@ -12263,6 +12439,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4459:58674"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6501"
                 }
             }
         },
@@ -12308,6 +12488,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4459:58676"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6483"
                 }
             }
         },
@@ -12353,6 +12537,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4459:58677"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6482"
                 }
             }
         },
@@ -12398,6 +12586,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4459:58678"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6481"
                 }
             }
         },
@@ -12443,6 +12635,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4459:58675"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6485"
                 }
             }
         },
@@ -13321,6 +13517,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4474:98000"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6574"
                 }
             }
         },
@@ -13661,6 +13861,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4803:83897"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6524"
                 }
             }
         },
@@ -14097,6 +14301,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4803:83898"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6490"
                 }
             }
         },
@@ -14142,6 +14350,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4803:83899"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6517"
                 }
             }
         },
@@ -14371,6 +14583,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:4858:21586"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6530"
                 }
             }
         },
@@ -16730,6 +16946,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:5625:103025"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6480"
                 }
             }
         },
@@ -16775,6 +16995,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56212"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6492"
                 }
             }
         },
@@ -16901,6 +17125,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104395"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6479"
                 }
             }
         },
@@ -16946,6 +17174,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104396"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6586"
                 }
             }
         },
@@ -17021,6 +17253,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104465"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6484"
                 }
             }
         },
@@ -17066,6 +17302,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104398"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6549"
                 }
             }
         },
@@ -17674,6 +17914,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56209"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6552"
                 }
             }
         },
@@ -17719,6 +17963,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56196"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6565"
                 }
             }
         },
@@ -17764,6 +18012,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56197"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6568"
                 }
             }
         },
@@ -17809,6 +18061,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56198"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6585"
                 }
             }
         },
@@ -17922,6 +18178,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5093"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6537"
                 }
             }
         },
@@ -19406,6 +19666,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104458"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6580"
                 }
             }
         },
@@ -19451,6 +19715,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104401"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6535"
                 }
             }
         },
@@ -19496,6 +19764,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104402"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6579"
                 }
             }
         },
@@ -19541,6 +19813,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104403"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6538"
                 }
             }
         },
@@ -19586,6 +19862,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104426"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6550"
                 }
             }
         },
@@ -19631,6 +19911,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104427"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6520"
                 }
             }
         },
@@ -19676,6 +19960,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104428"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6532"
                 }
             }
         },
@@ -19721,6 +20009,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104429"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6584"
                 }
             }
         },
@@ -19766,6 +20058,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56206"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6547"
                 }
             }
         },
@@ -19811,6 +20107,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56208"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6527"
                 }
             }
         },
@@ -19856,6 +20156,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5095"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6499"
                 }
             }
         },
@@ -19901,6 +20205,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5096"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6512"
                 }
             }
         },
@@ -19946,6 +20254,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5097"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6498"
                 }
             }
         },
@@ -19991,6 +20303,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5098"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6497"
                 }
             }
         },
@@ -20036,6 +20352,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5099"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6587"
                 }
             }
         },
@@ -20081,6 +20401,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5100"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6496"
                 }
             }
         },
@@ -20126,6 +20450,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5101"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6591"
                 }
             }
         },
@@ -20171,6 +20499,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5102"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6546"
                 }
             }
         },
@@ -20216,6 +20548,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5103"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6522"
                 }
             }
         },
@@ -20261,6 +20597,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7591:5104"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6494"
                 }
             }
         },
@@ -20966,6 +21306,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56191"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6518"
                 }
             }
         },
@@ -21011,6 +21355,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56190"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6563"
                 }
             }
         },
@@ -21056,6 +21404,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56189"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6566"
                 }
             }
         },
@@ -21101,6 +21453,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56213"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6577"
                 }
             }
         },
@@ -21146,6 +21502,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56214"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6590"
                 }
             }
         },
@@ -21191,6 +21551,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56215"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6561"
                 }
             }
         },
@@ -21236,6 +21600,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56192"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6556"
                 }
             }
         },
@@ -22013,6 +22381,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56195"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6569"
                 }
             }
         },
@@ -22738,6 +23110,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:7497:56194"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6516"
                 }
             }
         },
@@ -26817,12 +27193,16 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:9243:75676"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6488"
                 }
             }
         },
         {
             "id": "VariableID:10760:2090",
-            "name": "Spacing/sizing-18",
+            "name": "Spacing/sizing-19",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -26835,7 +27215,7 @@
         },
         {
             "id": "VariableID:10760:2091",
-            "name": "Spacing/sizing-20",
+            "name": "Spacing/sizing-21",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -26848,7 +27228,7 @@
         },
         {
             "id": "VariableID:10760:2092",
-            "name": "Spacing/sizing-22",
+            "name": "Spacing/sizing-23",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -26861,7 +27241,7 @@
         },
         {
             "id": "VariableID:10760:2093",
-            "name": "Spacing/sizing-24",
+            "name": "Spacing/sizing-25",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -26986,7 +27366,7 @@
                 },
                 "3231:1": {
                     "type": "VARIABLE_ALIAS",
-                    "id": "VariableID:6191:32211"
+                    "id": "VariableID:18937:52210"
                 },
                 "3232:0": {
                     "type": "VARIABLE_ALIAS",
@@ -27015,6 +27395,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:14935:41071"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:14958:50162"
                 }
             }
         },
@@ -27120,7 +27504,7 @@
         },
         {
             "id": "VariableID:12868:80639",
-            "name": "Spacing/sizing-17",
+            "name": "Spacing/sizing-18",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -27133,7 +27517,7 @@
         },
         {
             "id": "VariableID:12868:80640",
-            "name": "Spacing/sizing-19",
+            "name": "Spacing/sizing-20",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -27146,7 +27530,7 @@
         },
         {
             "id": "VariableID:12868:80641",
-            "name": "Spacing/sizing-21",
+            "name": "Spacing/sizing-22",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -27159,7 +27543,7 @@
         },
         {
             "id": "VariableID:12868:80642",
-            "name": "Spacing/sizing-23",
+            "name": "Spacing/sizing-24",
             "description": "",
             "collection": "Spacing & Sizing",
             "resolvedType": "FLOAT",
@@ -27652,391 +28036,391 @@
         },
         {
             "id": "VariableID:18190:13096",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/brown-light-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/brown-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.9215686321258545,
-                    "g": 0.8745098114013672,
-                    "b": 0.8549019694328308,
-                    "a": 1
+                    "r": 0.47843137383461,
+                    "g": 0.16470588743686676,
+                    "b": 0.04313725605607033,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13097",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/brown-dark-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/brown-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.239215686917305,
-                    "g": 0.08235294371843338,
-                    "b": 0.0235294122248888,
-                    "a": 1
+                    "r": 0.7137255072593689,
+                    "g": 0.5411764979362488,
+                    "b": 0.4745098054409027,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13098",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/platinum-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/platinum-1000-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.9254902005195618,
-                    "g": 0.9254902005195618,
-                    "b": 0.9254902005195618,
-                    "a": 1
+                    "r": 0.49803921580314636,
+                    "g": 0.49803921580314636,
+                    "b": 0.49803921580314636,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13099",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/platinum-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/platinum-700-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.250980406999588,
-                    "g": 0.250980406999588,
-                    "b": 0.250980406999588,
-                    "a": 1
+                    "r": 0.6980392336845398,
+                    "g": 0.6980392336845398,
+                    "b": 0.6980392336845398,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13100",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/bronze-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/bronze-1100-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.9215686321258545,
-                    "g": 0.8941176533699036,
-                    "b": 0.8823529481887817,
-                    "a": 1
+                    "r": 0.4745098054409027,
+                    "g": 0.29411765933036804,
+                    "b": 0.20392157137393951,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13101",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/bronze-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/bronze-800-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.239215686917305,
-                    "g": 0.14901961386203766,
-                    "b": 0.10196078568696976,
-                    "a": 1
+                    "r": 0.686274528503418,
+                    "g": 0.5764706134796143,
+                    "b": 0.5215686559677124,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13102",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/tanzanite-400",
-            "description": "",
-            "collection": "Global (primitives)",
-            "resolvedType": "COLOR",
-            "valuesByMode": {
-                "279:1": {
-                    "r": 0.8549019694328308,
-                    "g": 0.8901960849761963,
-                    "b": 0.9137254953384399,
-                    "a": 1
-                }
-            }
-        },
-        {
-            "id": "VariableID:18190:13103",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/tanzanite-1400",
-            "description": "",
-            "collection": "Global (primitives)",
-            "resolvedType": "COLOR",
-            "valuesByMode": {
-                "279:1": {
-                    "r": 0.019607843831181526,
-                    "g": 0.13725490868091583,
-                    "b": 0.21176470816135406,
-                    "a": 1
-                }
-            }
-        },
-        {
-            "id": "VariableID:18190:13104",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/azure-400",
-            "description": "",
-            "collection": "Global (primitives)",
-            "resolvedType": "COLOR",
-            "valuesByMode": {
-                "279:1": {
-                    "r": 0.8745098114013672,
-                    "g": 0.9411764740943909,
-                    "b": 0.9803921580314636,
-                    "a": 1
-                }
-            }
-        },
-        {
-            "id": "VariableID:18190:13105",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/azure-1200",
-            "description": "",
-            "collection": "Global (primitives)",
-            "resolvedType": "COLOR",
-            "valuesByMode": {
-                "279:1": {
-                    "r": 0.08235294371843338,
-                    "g": 0.30980393290519714,
-                    "b": 0.43921568989753723,
-                    "a": 1
-                }
-            }
-        },
-        {
-            "id": "VariableID:18190:13106",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/blackrose-400",
-            "description": "",
-            "collection": "Global (primitives)",
-            "resolvedType": "COLOR",
-            "valuesByMode": {
-                "279:1": {
-                    "r": 0.8627451062202454,
-                    "g": 0.8509804010391235,
-                    "b": 0.8784313797950745,
-                    "a": 1
-                }
-            }
-        },
-        {
-            "id": "VariableID:18190:13107",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/backrose-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/tanzanite-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
                     "r": 0.03921568766236305,
+                    "g": 0.27450981736183167,
+                    "b": 0.42352941632270813,
+                    "a": 0.30000001192092896
+                }
+            }
+        },
+        {
+            "id": "VariableID:18190:13103",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/tanzanite-900-opacity",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.47058823704719543,
+                    "g": 0.6000000238418579,
+                    "b": 0.6823529601097107,
+                    "a": 0.30000001192092896
+                }
+            }
+        },
+        {
+            "id": "VariableID:18190:13104",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/azure-700-opacity",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.16078431904315948,
+                    "g": 0.615686297416687,
+                    "b": 0.8784313797950745,
+                    "a": 0.30000001192092896
+                }
+            }
+        },
+        {
+            "id": "VariableID:18190:13105",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/azure-400-opacity",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.49803921580314636,
+                    "g": 0.7686274647712708,
+                    "b": 0.9254902005195618,
+                    "a": 0.30000001192092896
+                }
+            }
+        },
+        {
+            "id": "VariableID:18190:13106",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/blackrose-1200-opacity",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.07450980693101883,
                     "g": 0,
-                    "b": 0.10196078568696976,
-                    "a": 1
+                    "b": 0.20000000298023224,
+                    "a": 0.30000001192092896
+                }
+            }
+        },
+        {
+            "id": "VariableID:18190:13107",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/backrose-900-opacity",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.5843137502670288,
+                    "g": 0.5490196347236633,
+                    "b": 0.6392157077789307,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13108",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/cooper-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/cooper-800-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.9764705896377563,
-                    "g": 0.9254902005195618,
-                    "b": 0.8980392217636108,
-                    "a": 1
+                    "r": 0.8392156958580017,
+                    "g": 0.4941176474094391,
+                    "b": 0.3176470696926117,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13109",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/jade-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/jade-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.8823529481887817,
-                    "g": 0.9411764740943909,
-                    "b": 0.9215686321258545,
-                    "a": 1
+                    "r": 0.21960784494876862,
+                    "g": 0.6196078658103943,
+                    "b": 0.47843137383461,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13110",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/jade-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/jade-600-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.10980392247438431,
-                    "g": 0.30980393290519714,
-                    "b": 0.239215686917305,
-                    "a": 1
+                    "r": 0.5333333611488342,
+                    "g": 0.772549033164978,
+                    "b": 0.686274528503418,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13111",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/cadet-gray-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/cadet-gray-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.8549019694328308,
-                    "g": 0.8941176533699036,
-                    "b": 0.8980392217636108,
-                    "a": 1
+                    "r": 0.03529411926865578,
+                    "g": 0.29019609093666077,
+                    "b": 0.32549020648002625,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13112",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/cadet-gray-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/cadet-gray-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.019607843831181526,
-                    "g": 0.14509804546833038,
-                    "b": 0.16470588743686676,
-                    "a": 1
+                    "r": 0.47058823704719543,
+                    "g": 0.6078431606292725,
+                    "b": 0.6274510025978088,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13113",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/violet-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/violet-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.8901960849761963,
-                    "g": 0.8823529481887817,
-                    "b": 0.9215686321258545,
-                    "a": 1
+                    "r": 0.26274511218070984,
+                    "g": 0.20392157137393951,
+                    "b": 0.4745098054409027,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13114",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/violet-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/violet-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.13333334028720856,
-                    "g": 0.10196078568696976,
-                    "b": 0.239215686917305,
-                    "a": 1
+                    "r": 0.6313725709915161,
+                    "g": 0.6039215922355652,
+                    "b": 0.7372549176216125,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13115",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/cooper-1200",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/cooper-500-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.41960784792900085,
-                    "g": 0.24705882370471954,
-                    "b": 0.16078431904315948,
-                    "a": 1
+                    "r": 0.9019607901573181,
+                    "g": 0.6980392336845398,
+                    "b": 0.5921568870544434,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13116",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/sage-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/sage-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.8745098114013672,
-                    "g": 0.8784313797950745,
-                    "b": 0.8509804010391235,
-                    "a": 1
+                    "r": 0.1764705926179886,
+                    "g": 0.20000000298023224,
+                    "b": 0,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13117",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/sage-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/sage-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.09019608050584793,
-                    "g": 0.10196078568696976,
-                    "b": 0,
-                    "a": 1
+                    "r": 0.5882353186607361,
+                    "g": 0.6000000238418579,
+                    "b": 0.501960813999176,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13118",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/gold-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/gold-700-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.9490196108818054,
-                    "g": 0.9372549057006836,
-                    "b": 0.8745098114013672,
-                    "a": 1
+                    "r": 0.6705882549285889,
+                    "g": 0.572549045085907,
+                    "b": 0.16862745583057404,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13119",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/gold-1200",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/gold-400-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.33725491166114807,
-                    "g": 0.2862745225429535,
-                    "b": 0.08627451211214066,
-                    "a": 1
+                    "r": 0.8039215803146362,
+                    "g": 0.7450980544090271,
+                    "b": 0.501960813999176,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13120",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/maroon-400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/maroon-1200-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.8980392217636108,
-                    "g": 0.8549019694328308,
-                    "b": 0.8549019694328308,
-                    "a": 1
+                    "r": 0.32549020648002625,
+                    "g": 0.03529411926865578,
+                    "b": 0.03529411926865578,
+                    "a": 0.30000001192092896
                 }
             }
         },
         {
             "id": "VariableID:18190:13121",
-            "name": "Colors/System/Spectrum/Data visual/Highlight/maroon-1400",
+            "name": "Colors/System/Spectrum/Data visual/Highlight/maroon-900-opacity",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "279:1": {
-                    "r": 0.16470588743686676,
-                    "g": 0.019607843831181526,
-                    "b": 0.019607843831181526,
-                    "a": 1
+                    "r": 0.6627451181411743,
+                    "g": 0.5176470875740051,
+                    "b": 0.5176470875740051,
+                    "a": 0.30000001192092896
                 }
             }
         },
@@ -29153,6 +29537,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3783"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6554"
                 }
             }
         },
@@ -29198,6 +29586,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3782"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6576"
                 }
             }
         },
@@ -29243,6 +29635,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3781"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6558"
                 }
             }
         },
@@ -29288,6 +29684,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3784"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6551"
                 }
             }
         },
@@ -29333,6 +29733,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3785"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6559"
                 }
             }
         },
@@ -29378,6 +29782,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3786"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6545"
                 }
             }
         },
@@ -29423,6 +29831,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18198:3787"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6531"
                 }
             }
         },
@@ -29437,7 +29849,7 @@
                     "r": 1,
                     "g": 1,
                     "b": 1,
-                    "a": 0
+                    "a": 0.30000001192092896
                 }
             }
         },
@@ -29452,7 +29864,7 @@
                     "r": 0.12156862765550613,
                     "g": 0.12156862765550613,
                     "b": 0.12156862765550613,
-                    "a": 0
+                    "a": 0.30000001192092896
                 }
             }
         },
@@ -29651,6 +30063,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18364:15031"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6564"
                 }
             }
         },
@@ -30308,6 +30724,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18395:11109"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6526"
                 }
             }
         },
@@ -30353,6 +30773,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18395:11112"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6534"
                 }
             }
         },
@@ -30398,6 +30822,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18395:11111"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6544"
                 }
             }
         },
@@ -30443,6 +30871,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:18395:11110"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6525"
                 }
             }
         },
@@ -30600,6 +31032,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20494"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6503"
                 }
             }
         },
@@ -30645,6 +31081,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20497"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6575"
                 }
             }
         },
@@ -30690,6 +31130,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20496"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6504"
                 }
             }
         },
@@ -30735,6 +31179,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20495"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6592"
                 }
             }
         },
@@ -30780,6 +31228,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20492"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6500"
                 }
             }
         },
@@ -30825,6 +31277,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104439"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6513"
                 }
             }
         },
@@ -30870,6 +31326,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:19111:20493"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6058"
                 }
             }
         },
@@ -30915,6 +31375,10 @@
                 "10732:5": {
                     "type": "VARIABLE_ALIAS",
                     "id": "VariableID:3624:104442"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:6536"
                 }
             }
         },
@@ -32160,19 +32624,3266 @@
             }
         },
         {
-            "id": "VariableID:19111:20520",
-            "name": "Foreground/Link text/default-disabled 2",
+            "id": "VariableID:20730:5579",
+            "name": "Colors/Brands/Experiment/blue-light/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.0470588244497776,
+                    "g": 0.09019608050584793,
+                    "b": 0.21176470816135406,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5580",
+            "name": "Colors/Brands/Experiment/blue-light/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08627451211214066,
+                    "g": 0.18431372940540314,
+                    "b": 0.5098039507865906,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5581",
+            "name": "Colors/Brands/Experiment/blue-light/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.09019608050584793,
+                    "g": 0.24705882370471954,
+                    "b": 0.6705882549285889,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5582",
+            "name": "Colors/Brands/Experiment/blue-light/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5583",
+            "name": "Colors/Brands/Experiment/blue-light/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.20392157137393951,
+                    "g": 0.4745098054409027,
+                    "b": 0.9137254953384399,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5584",
+            "name": "Colors/Brands/Experiment/blue-light/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3803921639919281,
+                    "g": 0.6509804129600525,
+                    "b": 0.9803921580314636,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5592",
+            "name": "Colors/Brands/Experiment/Interactions/primary-light-opacity-8",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 0.07999999821186066
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5593",
+            "name": "Colors/Brands/Experiment/Interactions/primary-light-opacity-10",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5594",
+            "name": "Colors/Brands/Experiment/Interactions/primary-light-opacity-12",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 0.11999999731779099
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5595",
+            "name": "Colors/Brands/Experiment/Interactions/primary-light-opacity-16",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 0.1599999964237213
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5596",
+            "name": "Colors/Brands/Experiment/Interactions/primary-light-opacity-20",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.08235294371843338,
+                    "g": 0.3490196168422699,
+                    "b": 0.9176470637321472,
+                    "a": 0.20000000298023224
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5597",
+            "name": "Colors/Brands/Experiment/Interactions/primary-dark-opacity-8",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 0.07999999821186066
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5598",
+            "name": "Colors/Brands/Experiment/Interactions/primary-dark-opacity-10",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5599",
+            "name": "Colors/Brands/Experiment/Interactions/primary-dark-opacity-12",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 0.11999999731779099
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5600",
+            "name": "Colors/Brands/Experiment/Interactions/primary-dark-opacity-16",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 0.1599999964237213
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5601",
+            "name": "Colors/Brands/Experiment/Interactions/primary-dark-opacity-20",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 0.20000000298023224
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5607",
+            "name": "Colors/Brands/Experiment/blue-light/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.5686274766921997,
+                    "g": 0.7647058963775635,
+                    "b": 0.9921568632125854,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5608",
+            "name": "Colors/Brands/Experiment/blue-light/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.7450980544090271,
+                    "g": 0.8588235378265381,
+                    "b": 0.9960784316062927,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5609",
+            "name": "Colors/Brands/Experiment/blue-light/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8627451062202454,
+                    "g": 0.9215686321258545,
+                    "b": 0.9960784316062927,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5610",
+            "name": "Colors/Brands/Experiment/blue-light/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9490196108818054,
+                    "g": 0.9686274528503418,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5611",
+            "name": "Colors/Brands/Experiment/blue-dark/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9411764740943909,
+                    "g": 0.9647058844566345,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5612",
+            "name": "Colors/Brands/Experiment/blue-dark/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8627451062202454,
+                    "g": 0.9215686321258545,
+                    "b": 0.9960784316062927,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5613",
+            "name": "Colors/Brands/Experiment/blue-dark/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.47843137383461,
+                    "g": 0.7176470756530762,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5614",
+            "name": "Colors/Brands/Experiment/blue-dark/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3137255012989044,
+                    "g": 0.6313725709915161,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5615",
+            "name": "Colors/Brands/Experiment/blue-dark/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.18039216101169586,
+                    "g": 0.5333333611488342,
+                    "b": 0.9647058844566345,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5616",
+            "name": "Colors/Brands/Experiment/blue-dark/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.2078431397676468,
+                    "g": 0.47843137383461,
+                    "b": 0.9176470637321472,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5617",
+            "name": "Colors/Brands/Experiment/blue-dark/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.05882352963089943,
+                    "g": 0.3490196168422699,
+                    "b": 0.886274516582489,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5618",
+            "name": "Colors/Brands/Experiment/blue-dark/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.07450980693101883,
+                    "g": 0.27843138575553894,
+                    "b": 0.800000011920929,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5619",
+            "name": "Colors/Brands/Experiment/blue-dark/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.03921568766236305,
+                    "g": 0.18431372940540314,
+                    "b": 0.5215686559677124,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5620",
+            "name": "Colors/Brands/Experiment/blue-dark/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.0941176488995552,
+                    "g": 0.11372549086809158,
+                    "b": 0.20392157137393951,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5622",
+            "name": "Colors/Brands/Experiment/orange-light/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.27843138575553894,
+                    "g": 0.10196078568696976,
+                    "b": 0.03921568766236305,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5623",
+            "name": "Colors/Brands/Experiment/orange-light/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.501960813999176,
+                    "g": 0.1921568661928177,
+                    "b": 0.05882352963089943,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5624",
+            "name": "Colors/Brands/Experiment/orange-light/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.7137255072593689,
+                    "g": 0.23529411852359772,
+                    "b": 0.04313725605607033,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5625",
+            "name": "Colors/Brands/Experiment/orange-light/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8941176533699036,
+                    "g": 0.34117648005485535,
+                    "b": 0.0470588244497776,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5626",
+            "name": "Colors/Brands/Experiment/orange-light/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9647058844566345,
+                    "g": 0.45490196347236633,
+                    "b": 0.08627451211214066,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5627",
+            "name": "Colors/Brands/Experiment/orange-light/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9843137264251709,
+                    "g": 0.572549045085907,
+                    "b": 0.23529411852359772,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5628",
+            "name": "Colors/Brands/Experiment/orange-light/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9921568632125854,
+                    "g": 0.729411780834198,
+                    "b": 0.4470588266849518,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5629",
+            "name": "Colors/Brands/Experiment/orange-light/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9960784316062927,
+                    "g": 0.8392156958580017,
+                    "b": 0.6627451181411743,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5630",
+            "name": "Colors/Brands/Experiment/orange-light/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 1,
+                    "g": 0.929411768913269,
+                    "b": 0.8392156958580017,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5631",
+            "name": "Colors/Brands/Experiment/orange-light/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 1,
+                    "g": 0.9647058844566345,
+                    "b": 0.9215686321258545,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5632",
+            "name": "Colors/Brands/Experiment/orange-dark/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 1,
+                    "g": 0.9647058844566345,
+                    "b": 0.9215686321258545,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5633",
+            "name": "Colors/Brands/Experiment/orange-dark/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 1,
+                    "g": 0.929411768913269,
+                    "b": 0.8392156958580017,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5634",
+            "name": "Colors/Brands/Experiment/orange-dark/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9960784316062927,
+                    "g": 0.8392156958580017,
+                    "b": 0.6627451181411743,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5635",
+            "name": "Colors/Brands/Experiment/orange-dark/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9921568632125854,
+                    "g": 0.729411780834198,
+                    "b": 0.4470588266849518,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5636",
+            "name": "Colors/Brands/Experiment/orange-dark/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9843137264251709,
+                    "g": 0.572549045085907,
+                    "b": 0.23529411852359772,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5637",
+            "name": "Colors/Brands/Experiment/orange-dark/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9490196108818054,
+                    "g": 0.43921568989753723,
+                    "b": 0.07450980693101883,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5638",
+            "name": "Colors/Brands/Experiment/orange-dark/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8078431487083435,
+                    "g": 0.3529411852359772,
+                    "b": 0.027450980618596077,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5639",
+            "name": "Colors/Brands/Experiment/orange-dark/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.6705882549285889,
+                    "g": 0.2823529541492462,
+                    "b": 0.15294118225574493,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5640",
+            "name": "Colors/Brands/Experiment/orange-dark/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.5215686559677124,
+                    "g": 0.1725490242242813,
+                    "b": 0.05882352963089943,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5641",
+            "name": "Colors/Brands/Experiment/orange-dark/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.1921568661928177,
+                    "g": 0.08627451211214066,
+                    "b": 0.05098039284348488,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5642",
+            "name": "Colors/Brands/Experiment/blue-gray-light/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16078431904315948,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5643",
+            "name": "Colors/Brands/Experiment/blue-gray-light/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.11372549086809158,
+                    "g": 0.1568627506494522,
+                    "b": 0.22745098173618317,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5644",
+            "name": "Colors/Brands/Experiment/blue-gray-light/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.20392157137393951,
+                    "g": 0.25882354378700256,
+                    "b": 0.33725491166114807,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5645",
+            "name": "Colors/Brands/Experiment/blue-gray-light/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.2823529541492462,
+                    "g": 0.33725491166114807,
+                    "b": 0.4156862795352936,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5646",
+            "name": "Colors/Brands/Experiment/blue-gray-light/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3960784375667572,
+                    "g": 0.4588235318660736,
+                    "b": 0.545098066329956,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5647",
+            "name": "Colors/Brands/Experiment/blue-gray-light/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.6196078658103943,
+                    "g": 0.6745098233222961,
+                    "b": 0.7529411911964417,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5648",
+            "name": "Colors/Brands/Experiment/blue-gray-light/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.7843137383460999,
+                    "g": 0.8392156958580017,
+                    "b": 0.8980392217636108,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5649",
+            "name": "Colors/Brands/Experiment/blue-gray-light/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8823529481887817,
+                    "g": 0.9058823585510254,
+                    "b": 0.9372549057006836,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5650",
+            "name": "Colors/Brands/Experiment/blue-gray-light/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9450980424880981,
+                    "g": 0.9607843160629272,
+                    "b": 0.9764705896377563,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5651",
+            "name": "Colors/Brands/Experiment/blue-gray-light/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9725490212440491,
+                    "g": 0.9803921580314636,
+                    "b": 0.9882352948188782,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5652",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/900",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.9725490212440491,
+                    "g": 0.9803921580314636,
+                    "b": 0.9882352948188782,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5653",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/800",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.886274516582489,
+                    "g": 0.9215686321258545,
+                    "b": 0.9529411792755127,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5654",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/700",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.8313725590705872,
+                    "g": 0.8627451062202454,
+                    "b": 0.9098039269447327,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5655",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/600",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.6941176652908325,
+                    "g": 0.7529411911964417,
+                    "b": 0.8235294222831726,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5656",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/500",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.545098066329956,
+                    "g": 0.6078431606292725,
+                    "b": 0.6980392336845398,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5657",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/400",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.3686274588108063,
+                    "g": 0.4274509847164154,
+                    "b": 0.5098039507865906,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5658",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/300",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.19607843458652496,
+                    "g": 0.23137255012989044,
+                    "b": 0.2862745225429535,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5659",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/200",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.14509804546833038,
+                    "g": 0.18039216101169586,
+                    "b": 0.23529411852359772,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5660",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/100",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.10196078568696976,
+                    "g": 0.13725490868091583,
+                    "b": 0.19607843458652496,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:5661",
+            "name": "Colors/Brands/Experiment/blue-gray-dark/50",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:1": {
+                    "r": 0.0470588244497776,
+                    "g": 0.062745101749897,
+                    "b": 0.10980392247438431,
+                    "a": 1
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6478",
+            "name": "Interaction/brand-disabled-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:9243:11573"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:9243:11574"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6479",
+            "name": "Interaction/brand-hover-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5730:111878"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5801:49475"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6480",
+            "name": "Shadow/inner-shadow-100",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4792:112328"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4792:112329"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6481",
+            "name": "Shadow/shadow-32",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56385"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56385"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6482",
+            "name": "Shadow/shadow-25",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56384"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56384"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6483",
+            "name": "Shadow/shadow-15",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56383"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56383"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6484",
+            "name": "Interaction/hover-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5730:111894"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5801:49472"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6485",
+            "name": "Shadow/shadow-12",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4202:24117"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4202:24117"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6486",
+            "name": "Stroke/Neutral/Interaction/disabled-dark",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5645"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5655"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6488",
+            "name": "Interaction/disabled-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:9243:11573"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:9243:11573"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6489",
+            "name": "Stroke/Neutral/neutral-high-contrast",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5642"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5652"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6490",
+            "name": "Surface/Brand/secondary-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5629"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5639"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6491",
+            "name": "Stroke/Brand/brand-primary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5582"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5614"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6492",
+            "name": "Stroke/Brand/brand-primary-depth",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5580"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5612"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6493",
+            "name": "Background/shade",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5650"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5660"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6494",
+            "name": "Foreground/Spectrum/red",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106394"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:967"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6495",
+            "name": "Stroke/Brand/brand-secondary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5625"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5635"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6496",
+            "name": "Foreground/Spectrum/green",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106390"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:963"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6497",
+            "name": "Foreground/Spectrum/blue",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106388"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:961"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6498",
+            "name": "Foreground/Spectrum/purple",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106387"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:960"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6499",
+            "name": "Foreground/Spectrum/pink",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106385"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:958"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6500",
+            "name": "Foreground/Link text/subtle-inverse-pressed",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7472"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7472"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6501",
+            "name": "Shadow/shadow-10",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56386"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56386"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6502",
+            "name": "Status/success",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:184:22619"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:184:22619"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6503",
+            "name": "Foreground/Link text/subtle-pressed",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:319:65730"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7472"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6504",
+            "name": "Foreground/Link text/subtle-hovered",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76690"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:328:72192"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6505",
+            "name": "Status/on-warning",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76685"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76685"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6506",
+            "name": "Foreground/Link text/default-disabled",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109073"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109078"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6507",
+            "name": "Foreground/Link text/default-visited",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109084"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109085"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6508",
+            "name": "Foreground/Neutral/skeleton-element",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5649"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5659"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6509",
+            "name": "Surface/Brand/primary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5582"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5614"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6510",
+            "name": "Stroke/Neutral/neutral-low-contrast",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5649"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5659"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6511",
+            "name": "Foreground/Neutral/inverse-on-surface",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76735"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76735"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6512",
+            "name": "Foreground/Spectrum/magenta",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106386"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:959"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6513",
+            "name": "Foreground/Neutral/disabled-on-surface",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5650"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5660"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6514",
+            "name": "Foreground/Neutral/on-surface-variant-03",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5648"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5648"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6515",
+            "name": "Foreground/Neutral/on-surface",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5642"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5652"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6516",
+            "name": "Foreground/Brand/on-inverse-secondary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5628"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5638"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6517",
+            "name": "Foreground/Brand/brand-secondary-depth",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5623"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5633"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6518",
+            "name": "Data visual/category-3",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15118"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15118"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6519",
+            "name": "Foreground/Brand/brand-secondary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5625"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5635"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6520",
+            "name": "Surface/Spectrum/green",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41903"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:953"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6521",
+            "name": "Foreground/Brand/on-brand-primary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6522",
+            "name": "Foreground/Spectrum/orange",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106393"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:966"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6058",
+            "name": "Foreground/Link text/subtle-inverse-hovered",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:328:72192"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:328:72192"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6524",
+            "name": "Foreground/Brand/brand-primary-depth",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5580"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5612"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6525",
+            "name": "Data visual/green",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41913"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41913"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6526",
+            "name": "Data visual/green-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41903"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41903"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6527",
+            "name": "Surface/Spectrum/red",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41907"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:957"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6528",
+            "name": "Foreground/Brand/brand-primary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5582"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5614"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6529",
+            "name": "Foreground/Brand/on-brand-secondary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76689"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76685"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6530",
+            "name": "Background/scrim",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4451:56384"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4927:30556"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6531",
+            "name": "Data visual/category-7-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13113"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13113"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6532",
+            "name": "Surface/Spectrum/lime",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41904"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:954"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6533",
+            "name": "Status/on-information",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6534",
+            "name": "Data visual/red",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41917"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41917"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6535",
+            "name": "Surface/Spectrum/magenta",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41899"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:949"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6536",
+            "name": "Foreground/Neutral/disabled-on-color-surface",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5648"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5658"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6537",
+            "name": "Surface/Neutral/inverse-light",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76689"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6538",
+            "name": "Surface/Spectrum/blue",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41901"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:951"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6539",
+            "name": "Surface/Neutral/inverse-dark",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76689"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5661"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6540",
+            "name": "Stroke/Neutral/neutral-base",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5645"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5655"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6541",
+            "name": "Foreground/Link text/default",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:934:15833"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:934:15834"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6542",
+            "name": "Status/information",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:368:55164"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:368:55164"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6543",
+            "name": "Foreground/Neutral/on-surface-variant-01",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5644"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5654"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6544",
+            "name": "Data visual/red-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41907"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41907"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6545",
+            "name": "Data visual/category-6-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13098"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13098"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6546",
+            "name": "Foreground/Spectrum/yellow",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106392"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:965"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6547",
+            "name": "Surface/Spectrum/orange",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41906"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:956"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6548",
+            "name": "Surface/Neutral/Interactions/dark-disabled",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76733"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:319:66243"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6549",
+            "name": "Interaction/press-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5730:111895"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5801:49473"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6550",
+            "name": "Surface/Spectrum/teal",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41902"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:952"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6551",
+            "name": "Data visual/category-4-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13109"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13109"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6552",
+            "name": "Foreground/Brand/on-inverse-primary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5607"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5617"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6553",
+            "name": "Stroke/Neutral/Interaction/focus",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:105:15786"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6554",
+            "name": "Data visual/category-3-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13106"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13106"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6555",
+            "name": "Surface/Neutral/transparent",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:332:76746"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:332:76746"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6556",
+            "name": "Data visual/category-7",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15126"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15126"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6557",
+            "name": "Status/error",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:184:22618"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:184:22618"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6558",
+            "name": "Data visual/category-1-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13102"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13102"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6559",
+            "name": "Data visual/category-5-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13111"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13111"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6560",
+            "name": "Surface/Neutral/T3-low",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5648"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5658"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6561",
+            "name": "Data visual/category-6",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17871:1989"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17871:1989"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6562",
+            "name": "Surface/Neutral/Interactions/skeleton",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5649"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5659"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6563",
+            "name": "Data visual/category-2",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15116"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15116"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6564",
+            "name": "Data visual/gradient-end",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18361:8231"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18361:8231"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6565",
+            "name": "Interaction/primary-hover-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5593"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5593"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6566",
+            "name": "Data visual/category-1",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15114"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15114"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6567",
+            "name": "Surface/Neutral/Interactions/light-disabled",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7473"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76690"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6568",
+            "name": "Interaction/primary-press-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5596"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5596"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6569",
+            "name": "Stroke/Brand/brand-secondary-depth",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5623"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5633"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6570",
+            "name": "Surface/Neutral/T4-high",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5645"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5655"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6571",
+            "name": "Status/on-success",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6572",
+            "name": "Surface/Brand/secondary",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5625"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4927:67705"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6573",
+            "name": "Foreground/Neutral/on-color",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6574",
+            "name": "Surface/Brand/primary-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5608"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5639"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6575",
+            "name": "Foreground/Link text/default-pressed",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109072"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109075"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6576",
+            "name": "Data visual/category-2-highlight",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13104"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:18190:13104"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6577",
+            "name": "Data visual/category-4",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15120"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15120"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6578",
+            "name": "Surface/Neutral/T2-lowest",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5650"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5660"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6579",
+            "name": "Surface/Spectrum/purple",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41900"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:950"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6580",
+            "name": "Surface/Spectrum/pink",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41563"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6801:56780"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6581",
+            "name": "Surface/Neutral/T1-base",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76689"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6582",
+            "name": "Interaction/link-active-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5914:26012"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5914:26013"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6583",
+            "name": "Foreground/Neutral/on-surface-variant-02",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5646"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5656"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6584",
+            "name": "Surface/Spectrum/yellow",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6238:41905"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6713:955"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6585",
+            "name": "Interaction/primary-disabled-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5594"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5594"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6586",
+            "name": "Interaction/brand-press-opacity",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5730:111879"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5801:49474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6587",
+            "name": "Foreground/Spectrum/teal",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106389"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:962"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6588",
+            "name": "Status/on-error",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6589",
+            "name": "Status/warning",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:368:55163"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:368:55163"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6590",
+            "name": "Data visual/category-5",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15122"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:17934:15122"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6591",
+            "name": "Foreground/Spectrum/lime",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6547:106391"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:6714:964"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6592",
+            "name": "Foreground/Link text/default-hovered",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109071"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5083:109077"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20730:6593",
+            "name": "Background/base",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:331:76689"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2077",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
             "description": "",
             "collection": "Theme - Anywhere",
             "resolvedType": "COLOR",
             "valuesByMode": {
                 "3623:4": {
                     "type": "VARIABLE_ALIAS",
-                    "id": "VariableID:5083:109073"
+                    "id": "VariableID:284:7474"
                 },
                 "3623:8": {
                     "type": "VARIABLE_ALIAS",
-                    "id": "VariableID:5083:109078"
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2334",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Better Home & Garden",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3278:8": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3278:9": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2435",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Cartus",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3623:6": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3623:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2518",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Century 21",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3623:3": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3623:10": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2693",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Coldwell Banker",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3278:4": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3278:5": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:2870",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Corcoran",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3623:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3623:11": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:3043",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Denali & Boss",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3278:7": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3278:10": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:3144",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - ERA",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3623:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3623:13": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:3317",
+            "name": "Stroke/Neutral/Interactions/inverse-focus",
+            "description": "",
+            "collection": "Theme - Sotheby's",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "3623:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "3623:14": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20804:3720",
+            "name": "Stroke/Neutral/focus-on-inverse",
+            "description": "Highlight focus element",
+            "collection": "Brand",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "279:3": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2077"
+                },
+                "3231:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:3043"
+                },
+                "3232:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2334"
+                },
+                "7206:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2435"
+                },
+                "10732:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2518"
+                },
+                "10732:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2693"
+                },
+                "10732:3": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:2870"
+                },
+                "10732:4": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:3144"
+                },
+                "10732:5": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20804:3317"
+                },
+                "20852:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20849:2267"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20849:2266",
+            "name": "Stroke/Neutral/Interaction/disabled-light",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5648"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:20730:5658"
+                }
+            }
+        },
+        {
+            "id": "VariableID:20849:2267",
+            "name": "Stroke/Neutral/Interaction/inverse-focus",
+            "description": "",
+            "collection": "Theme - 3.0",
+            "resolvedType": "COLOR",
+            "valuesByMode": {
+                "20730:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                },
+                "20730:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:284:7474"
+                }
+            }
+        },
+        {
+            "id": "VariableID:21180:25477",
+            "name": "Spacings/680",
+            "description": "",
+            "collection": "Global (primitives)",
+            "resolvedType": "FLOAT",
+            "valuesByMode": {
+                "279:1": 68
+            }
+        },
+        {
+            "id": "VariableID:21186:33367",
+            "name": "Spacing/sizing-17",
+            "description": "",
+            "collection": "Spacing & Sizing",
+            "resolvedType": "FLOAT",
+            "valuesByMode": {
+                "264:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:21180:25477"
                 }
             }
         }
@@ -32190,6 +35901,7 @@
         "10732:3": "Corcoran",
         "10732:4": "ERA",
         "10732:5": "Sotheby's",
+        "20852:0": "3.0",
         "3278:4": "Light mode",
         "3278:5": "Dark mode",
         "3278:8": "Light mode",
@@ -32210,7 +35922,9 @@
         "3623:0": "Light mode",
         "3623:14": "Dark mode",
         "12155:0": "Mobile",
-        "12155:1": "Desktop"
+        "12155:1": "Desktop",
+        "20730:1": "Light mode",
+        "20730:2": "Dark mode"
     },
     "effectStyles": [
         {
