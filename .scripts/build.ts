@@ -191,6 +191,8 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         .join('\n');
 }
 
+const localBuild = process.argv.includes('-local') || process.argv.includes('--local');
+
 (() => {
     const {
         tokens,
@@ -492,7 +494,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
     });
 
     // generate variable data
-    fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/variables.json`, JSON.stringify(allVariables, null, 4));
+    if (localBuild) fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/variables.json`, JSON.stringify(allVariables, null, 4));
 
     // write files
     BRAND_MODES.forEach((brandSlug) => {
@@ -514,7 +516,8 @@ function variablesToCss(variables: Variable[], groupName?: string) {
             }
         });
 
-        fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/multi-nodes.json`, JSON.stringify(multiNodes, null, 4));
+        if (localBuild)
+            fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/multi-nodes.json`, JSON.stringify(multiNodes, null, 4));
 
         const brandRootVariables = brandVariables.filter(themeFilter('root'));
         let brandLightVariables = brandVariables.filter(themeFilter('light'));
@@ -557,12 +560,6 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         const brandRootNonDevice = brandRootVariables.filter(
             (v) => !v.modes.includes('desktop') && !v.modes.includes('mobile'),
         );
-
-        if (brandTypeFace)
-            fs.writeFileSync(
-                `${OUTPUT_DIRECTORY}/.tmp/${brandSlug}.json`,
-                JSON.stringify({ brandTypeFace, brandRootVariables }, null, 4),
-            );
 
         const generateFontStyle = (): string[] => {
             if (!brandTypeFace) return [];
@@ -646,7 +643,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
 
     console.log(`Prettying (${OUTPUT_DIRECTORY}/*.css)... `);
 
-    if (errorOutput.length > 0)
+    if (errorOutput.length > 0 && localBuild)
         fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/error-output.json`, JSON.stringify(errorOutput, null, 2));
 
     let error: any = false;
