@@ -288,7 +288,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         }
 
         if (item.name === 'Typeface') {
-            return `"${item.value}", ${item.value == 'Work Sans' ? 'sans-serif' : '"Work Sans", sans-serif'}`;
+            return `"${item.value}", ${item.value == 'Inter' ? 'sans-serif' : '"Inter", sans-serif'}`;
         }
 
         return nextValue;
@@ -588,7 +588,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         const generateFontStyle = (): string[] => {
             if (!brandTypeFace) return [];
 
-            const googleFont = encodeURIComponent(googleFonts.includes(brandTypeFace) ? brandTypeFace : 'Work Sans');
+            const googleFont = encodeURIComponent(googleFonts.includes(brandTypeFace) ? brandTypeFace : 'Inter');
 
             return [
                 `@import url('https://fonts.googleapis.com/css2?family=${googleFont}:ital,wght@0,100..900;1,100..900&display=swap');`,
