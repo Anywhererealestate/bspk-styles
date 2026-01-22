@@ -7,3 +7,4 @@ package
 */*.js.map
 multi-nodes.json
 .gitlab-ci.yml
+.tmp

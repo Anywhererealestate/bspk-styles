@@ -1,6 +1,6 @@
 /* Generated from figma export: 2025-07-08T20:32:21.402Z */
 
-@import url('https://fonts.googleapis.com/css2?family=Work%20Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: var(--typeface);
 }
@@ -893,7 +893,7 @@ body {
     /* Surface/Neutral/transparent - Theme - 3.0 */
     --surface-neutral-transparent: #ffffff00;
     /* Typeface - Brand */
-    --typeface: 'Inter', 'Work Sans', sans-serif;
+    --typeface: 'Inter', sans-serif;
     /* Typography/Line-height/lh-1 - Global (primitives) */
     --typography-line-height-lh-1: 16px;
     /* Typography/Line-height/lh-10 - Global (primitives) */

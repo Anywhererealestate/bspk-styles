@@ -145,7 +145,8 @@ function variablesToCss(variables: Variable[], groupName?: string) {
 
     Object.entries(selectorVariables).forEach(([key, vars]) => {
         if (vars.some((v) => v.css !== vars[0].css)) {
-            console.error(`${groupName} // Selector ${key} has different values:`, vars);
+            // todo: handle conflicts
+            // console.error(`${groupName} // Selector ${key} has different values:`, vars);
         }
     });
 
@@ -212,6 +213,8 @@ function variablesToCss(variables: Variable[], groupName?: string) {
     const nonBrandModes = ['light', 'dark', 'mobile', 'desktop'];
 
     const googleFonts = ['Work Sans', 'Geist', 'Inter'];
+
+    const DEFAULT_FONT = 'Inter';
 
     const slugSwaps: Record<string, string> = {
         'dark-mode': 'dark',
@@ -288,7 +291,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         }
 
         if (item.name === 'Typeface') {
-            return `"${item.value}", ${item.value == 'Inter' ? 'sans-serif' : '"Inter", sans-serif'}`;
+            return `"${item.value}", ${item.value == DEFAULT_FONT ? 'sans-serif' : `"${DEFAULT_FONT}", sans-serif`}`;
         }
 
         return nextValue;
@@ -588,7 +591,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         const generateFontStyle = (): string[] => {
             if (!brandTypeFace) return [];
 
-            const googleFont = encodeURIComponent(googleFonts.includes(brandTypeFace) ? brandTypeFace : 'Inter');
+            const googleFont = encodeURIComponent(googleFonts.includes(brandTypeFace) ? brandTypeFace : DEFAULT_FONT);
 
             return [
                 `@import url('https://fonts.googleapis.com/css2?family=${googleFont}:ital,wght@0,100..900;1,100..900&display=swap');`,
