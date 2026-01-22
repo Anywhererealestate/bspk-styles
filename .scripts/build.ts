@@ -21,6 +21,8 @@ const BRAND_MODES = [
     'sothebys',
 ] as const;
 
+const errorOutput: any[][] = [];
+
 const OUTPUT_DIRECTORY = path.resolve('./');
 const THEME_MODES = ['light', 'dark'] as const;
 const VALID_MODES = [...THEME_MODES, ...BRAND_MODES] as const;
@@ -145,19 +147,18 @@ function variablesToCss(variables: Variable[], groupName?: string) {
 
     Object.entries(selectorVariables).forEach(([key, vars]) => {
         if (vars.some((v) => v.css !== vars[0].css)) {
-            console.error(`${groupName} // Selector ${key} has different values:`, vars);
+            errorOutput.push([`${groupName} // Selector ${key} has different values:`, vars]);
         }
     });
 
-    const lastVariables = Object.entries(selectorVariables).map(([key, vars]) => {
-        const lastVar = vars[vars.length - 1];
+    const firstVariables = Object.entries(selectorVariables).map(([key, vars]) => {
         return {
-            ...lastVar,
+            ...vars[0],
             selector: key,
         };
     });
 
-    return lastVariables
+    return firstVariables
         .sort((a, b) => {
             if (a.selector < b.selector) return -1;
             if (a.selector > b.selector) return 1;
@@ -189,6 +190,8 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         })
         .join('\n');
 }
+
+const localBuild = process.argv.includes('-local') || process.argv.includes('--local');
 
 (() => {
     const {
@@ -370,8 +373,17 @@ function variablesToCss(variables: Variable[], groupName?: string) {
         });
     }
 
+    const hasBrand = (item: Variable) => item.modes.some((mode) => BRAND_MODES.includes(mode as any));
+
     // tokens
-    const allVariables = tokens.flatMap((token) => tokenToVariables(token));
+    const allVariables = tokens
+        .flatMap((token) => tokenToVariables(token))
+        // sort if has mode has a BRAND_MODES first using hasBrand
+        .sort((a, b) => {
+            if (hasBrand(a) && !hasBrand(b)) return -1;
+            if (!hasBrand(a) && hasBrand(b)) return 1;
+            return 0;
+        });
 
     //  effectStyles
     effectStyles.forEach((effectStyle: EffectStyle) => {
@@ -482,66 +494,30 @@ function variablesToCss(variables: Variable[], groupName?: string) {
     });
 
     // generate variable data
-
-    fs.writeFileSync(
-        `${OUTPUT_DIRECTORY}/variables.json`,
-        JSON.stringify(allVariables, null, 4)
-            .replace(/VariableID:/g, '')
-            .replace(/VARIABLE_ALIAS/g, 'VAR')
-            .replace(/"valuesByMode"/g, '"vbm"')
-            .replace(/"description"/g, '"desc"')
-            .replace(/"resolvedType"/g, '"rt"')
-            .replace(/"modes"/g, '"ms"')
-            .replace(/"name"/g, '"n"')
-            .replace(/"collection"/g, '"c"')
-            .replace(/"tokenChain"/g, '"tc"')
-            .replace(/"value"/g, '"v"')
-            .replace(/"selector"/g, '"s"')
-            .replace(/"type"/g, '"t"'),
-    );
-
-    fs.writeFileSync(
-        `${OUTPUT_DIRECTORY}/variables.txt`,
-        JSON.stringify(allVariables),
-        // .replace(/VariableID:/g, '')
-        // .replace(/VARIABLE_ALIAS/g, 'VAR')
-        // .replace(/"valuesByMode"/g, '"vbm"')
-        // .replace(/"description"/g, '"desc"')
-        // .replace(/"resolvedType"/g, '"rt"')
-        // .replace(/"modes"/g, '"ms"')
-        // .replace(/"name"/g, '"n"')
-        // .replace(/"collection"/g, '"c"')
-        // .replace(/"tokenChain"/g, '"tc"')
-        // .replace(/"value"/g, '"v"')
-        // .replace(/"selector"/g, '"s"')
-        // .replace(/"type"/g, '"t"')
-    );
+    if (localBuild) fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/variables.json`, JSON.stringify(allVariables, null, 4));
 
     // write files
     BRAND_MODES.forEach((brandSlug) => {
         const otherBrandSlugs: string[] = BRAND_MODES.filter((brand) => brand !== brandSlug);
 
-        const brandVariables = allVariables
-            .filter(
-                (item) =>
-                    // remove othwer brands
-                    !item.modes || item.modes.filter((mode) => otherBrandSlugs.includes(mode)).length === 0,
-            )
-            .reverse();
+        // remove other brands
+        const brandVariables = allVariables.filter(
+            (item) => !item.modes || item.modes.filter((mode) => otherBrandSlugs.includes(mode)).length === 0,
+        );
 
         const multiNodes: Variable[] = [];
 
         // validate theme modes - ensure only one theme mode is set
         brandVariables.forEach((item) => {
             const themeModes = THEME_MODES.filter((mode) => item.modes.includes(mode as any));
-
             if (themeModes.length > 1) {
-                console.error(`Variable ${item.name} has multiple theme modes: ${themeModes.join(', ')}`);
+                errorOutput.push([`Variable ${item.name} has multiple theme modes: ${themeModes.join(', ')}`, '']);
                 multiNodes.push(item);
             }
         });
 
-        fs.writeFileSync(`${OUTPUT_DIRECTORY}/multi-nodes.json`, JSON.stringify(multiNodes, null, 4));
+        if (localBuild)
+            fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/multi-nodes.json`, JSON.stringify(multiNodes, null, 4));
 
         const brandRootVariables = brandVariables.filter(themeFilter('root'));
         let brandLightVariables = brandVariables.filter(themeFilter('light'));
@@ -666,6 +642,9 @@ function variablesToCss(variables: Variable[], groupName?: string) {
     fs.writeFileSync(`README.md`, fs.readFileSync('README.md', 'utf8').replace(/\d\.\d\.\d/g, VERSION));
 
     console.log(`Prettying (${OUTPUT_DIRECTORY}/*.css)... `);
+
+    if (errorOutput.length > 0 && localBuild)
+        fs.writeFileSync(`${OUTPUT_DIRECTORY}/.tmp/error-output.json`, JSON.stringify(errorOutput, null, 2));
 
     let error: any = false;
     try {
