@@ -905,7 +905,7 @@ body {
     /* Colors/Brands/Cartus/Tertiary/85-light - Global (primitives) */
     --tertiary-85-light: #d9f0ef;
     /* Typeface - Brand */
-    --typeface: 'Inter', 'Work Sans', sans-serif;
+    --typeface: 'Inter', sans-serif;
     /* Typography/Line-height/lh-1 - Global (primitives) */
     --typography-line-height-lh-1: 16px;
     /* Typography/Line-height/lh-10 - Global (primitives) */
