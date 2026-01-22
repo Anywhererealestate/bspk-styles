@@ -604,17 +604,17 @@ body {
     --drop-shadow-south: 0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f;
     /* West - side sheets */
     --drop-shadow-west: -8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026;
-    /* Foreground/Brand/on-brand-primary - Theme - 3.0 */
+    /* Foreground/Brand/on-brand-primary - Theme - Anywhere */
     --foreground-brand-on-primary: #ffffff;
-    /* Foreground/Link text/subtle-inverse-hovered - Theme - 3.0 */
+    /* Foreground/Link text/subtle-inverse-hovered - Theme - Anywhere */
     --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
-    /* Foreground/Link text/subtle-inverse-pressed - Theme - 3.0 */
+    /* Foreground/Link text/subtle-inverse-pressed - Theme - Anywhere */
     --foreground-link-text-subtle-inverse-pressed: #d1d1d1;
-    /* Foreground/Neutral/inverse-on-surface - Theme - 3.0 */
+    /* Foreground/Neutral/inverse-on-surface - Theme - Anywhere */
     --foreground-neutral-inverse-on-surface: #fafafa;
-    /* Foreground/Neutral/on-color - Theme - 3.0 */
+    /* Foreground/Neutral/on-color - Theme - Anywhere */
     --foreground-neutral-on-color: #ffffff;
-    /* Foreground/Neutral/on-inverse-surface - Theme - 3.0 */
+    /* Foreground/Neutral/on-inverse-surface - Theme - Anywhere */
     --foreground-neutral-on-inverse-surface: #fafafa;
     /* Interaction/disabled-opacity - Theme - 3.0 */
     --interaction-disabled-opacity: #0000000f;
@@ -624,7 +624,7 @@ body {
     --interaction-primary-hover-opacity: #1559ea1a;
     /* Interaction/primary-press-opacity - Theme - 3.0 */
     --interaction-primary-press-opacity: #1559ea33;
-    /* Interactions/disabled-opacity - Theme - 3.0 */
+    /* Interactions/disabled-opacity - Theme - Anywhere */
     --interactions-disabled-opacity: #0000000f;
     /* Interactions/opacity-black-10 - Global (primitives) */
     --interactions-opacity-black-10: #0000001a;
@@ -870,17 +870,17 @@ body {
     --spacings-960: 96px;
     /* Spacings/None - Global (primitives) */
     --spacings-none: 0;
-    /* Status/on-error - Theme - 3.0 */
+    /* Status/on-error - Theme - Anywhere */
     --status-on-error: #ffffff;
-    /* Status/on-information - Theme - 3.0 */
+    /* Status/on-information - Theme - Anywhere */
     --status-on-information: #ffffff;
-    /* Status/on-informational - Theme - 3.0 */
+    /* Status/on-informational - Theme - Anywhere */
     --status-on-informational: #ffffff;
-    /* Status/on-success - Theme - 3.0 */
+    /* Status/on-success - Theme - Anywhere */
     --status-on-success: #ffffff;
-    /* Status/on-warning - Theme - 3.0 */
+    /* Status/on-warning - Theme - Anywhere */
     --status-on-warning: #141414;
-    /* Stroke/Neutral/focus-on-inverse - Theme - 3.0 */
+    /* Stroke/Neutral/focus-on-inverse - Theme - Anywhere */
     --stroke-neutral-focus-on-inverse: #ffffff;
     /* Stroke/Neutral/Interaction/inverse-focus - Theme - 3.0 */
     --stroke-neutral-interaction-inverse-focus: #ffffff;
@@ -894,7 +894,7 @@ body {
     --stroke-thicker: 4px;
     /* Stroke/thin - Borders */
     --stroke-thin: 1px;
-    /* Surface/Neutral/transparent - Theme - 3.0 */
+    /* Surface/Neutral/transparent - Theme - Anywhere */
     --surface-neutral-transparent: #ffffff00;
     /* Colors/Brands/Anywhere/Tertiary/00-base - Global (primitives) */
     --tertiary-00-base: #030330;

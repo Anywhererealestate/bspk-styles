@@ -604,15 +604,15 @@ body {
     --drop-shadow-south: 0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f;
     /* West - side sheets */
     --drop-shadow-west: -8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026;
-    /* Foreground/Link text/subtle-inverse-hovered - Theme - 3.0 */
+    /* Foreground/Link text/subtle-inverse-hovered - Theme - Denali & Boss */
     --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
-    /* Foreground/Link text/subtle-inverse-pressed - Theme - 3.0 */
+    /* Foreground/Link text/subtle-inverse-pressed - Theme - Denali & Boss */
     --foreground-link-text-subtle-inverse-pressed: #d1d1d1;
-    /* Foreground/Neutral/inverse-on-surface - Theme - 3.0 */
+    /* Foreground/Neutral/inverse-on-surface - Theme - Denali & Boss */
     --foreground-neutral-inverse-on-surface: #fafafa;
-    /* Foreground/Neutral/on-color - Theme - 3.0 */
+    /* Foreground/Neutral/on-color - Theme - Denali & Boss */
     --foreground-neutral-on-color: #ffffff;
-    /* Foreground/Neutral/on-inverse-surface - Theme - 3.0 */
+    /* Foreground/Neutral/on-inverse-surface - Theme - Denali & Boss */
     --foreground-neutral-on-inverse-surface: #fafafa;
     /* Interaction/disabled-opacity - Theme - 3.0 */
     --interaction-disabled-opacity: #0000000f;
@@ -866,17 +866,17 @@ body {
     --spacings-960: 96px;
     /* Spacings/None - Global (primitives) */
     --spacings-none: 0;
-    /* Status/on-error - Theme - 3.0 */
+    /* Status/on-error - Theme - Denali & Boss */
     --status-on-error: #ffffff;
-    /* Status/on-information - Theme - 3.0 */
+    /* Status/on-information - Theme - Denali & Boss */
     --status-on-information: #ffffff;
-    /* Status/on-informational - Theme - 3.0 */
+    /* Status/on-informational - Theme - Denali & Boss */
     --status-on-informational: #ffffff;
-    /* Status/on-success - Theme - 3.0 */
+    /* Status/on-success - Theme - Denali & Boss */
     --status-on-success: #ffffff;
-    /* Status/on-warning - Theme - 3.0 */
+    /* Status/on-warning - Theme - Denali & Boss */
     --status-on-warning: #141414;
-    /* Stroke/Neutral/focus-on-inverse - Theme - 3.0 */
+    /* Stroke/Neutral/focus-on-inverse - Theme - Denali & Boss */
     --stroke-neutral-focus-on-inverse: #ffffff;
     /* Stroke/Neutral/Interaction/inverse-focus - Theme - 3.0 */
     --stroke-neutral-interaction-inverse-focus: #ffffff;
@@ -890,7 +890,7 @@ body {
     --stroke-thicker: 4px;
     /* Stroke/thin - Borders */
     --stroke-thin: 1px;
-    /* Surface/Neutral/transparent - Theme - 3.0 */
+    /* Surface/Neutral/transparent - Theme - Denali & Boss */
     --surface-neutral-transparent: #ffffff00;
     /* Typeface - Brand */
     --typeface: 'Inter', sans-serif;
