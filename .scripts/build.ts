@@ -11,7 +11,9 @@ const DESKTOP_SELECTOR = `@media (width >= 640px)` as const;
 
 const BRAND_MODES = [
     'anywhere',
-    'denali-boss',
+    'agent',
+    'broker',
+    'experiment',
     'better-homes-gardens',
     'cartus',
     'century-21',
@@ -131,7 +133,12 @@ function themeFilter(theme: Theme | 'root') {
 
 function variablesToCss(variables: Variable[], groupName?: string) {
     function toValue(css: any) {
-        if (typeof css === 'string' && css.startsWith('--')) return `var(${css})`;
+        if (typeof css === 'string') {
+            if (css.startsWith('--')) return `var(${css})`;
+            if (css.includes('Semi Bold')) return css.replace('Semi Bold', 'semibold');
+            if (css.includes('semi bold')) return css.replace('semi bold', 'semibold');
+        }
+
         return `${css}`;
     }
 
@@ -241,7 +248,7 @@ const localBuild = process.argv.includes('-local') || process.argv.includes('--l
         let varName = slugify(item.name);
 
         if (item.collection === 'Global (primitives)' && item.name.startsWith('Colors/Brands')) {
-            const brand = [...BRAND_MODES, ...IGNORE_BRANDS, 'denali'].find((brandSlug) =>
+            const brand = [...BRAND_MODES, ...IGNORE_BRANDS].find((brandSlug) =>
                 varName.startsWith(`colors-brands-${brandSlug}-`),
             );
 
@@ -269,7 +276,7 @@ const localBuild = process.argv.includes('-local') || process.argv.includes('--l
 
         if (item.collection === 'Global (primitives)' && item.name.startsWith('Colors/Brands')) {
             const nameSlug = slugify(item.name);
-            brand = [...BRAND_MODES, ...IGNORE_BRANDS, 'denali'].find((brandSlug) =>
+            brand = [...BRAND_MODES, ...IGNORE_BRANDS].find((brandSlug) =>
                 nameSlug.startsWith(`colors-brands-${brandSlug}-`),
             );
         }

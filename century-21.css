@@ -1,4 +1,4 @@
-/* Generated from figma export: 2025-07-08T20:32:21.402Z */
+/* Generated from figma export: 2026-01-29T04:56:39.070Z */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
 body {
@@ -7,17 +7,17 @@ body {
 
 :root {
     /* Body/Base */
-    --body-base: 400 16px/20px var(--typeface);
+    --body-base: 400 16px/24px var(--typeface);
     /* Body/Base - line height */
-    --body-base-line-height: 20px;
+    --body-base-line-height: 24px;
     /* Body/Base - size */
     --body-base-size: 16px;
     /* Body/Base - style */
     --body-base-style: regular;
     /* Body/Large */
-    --body-large: 400 18px/24px var(--typeface);
+    --body-large: 400 18px/28px var(--typeface);
     /* Body/Large - line height */
-    --body-large-line-height: 24px;
+    --body-large-line-height: 28px;
     /* Body/Large - size */
     --body-large-size: 18px;
     /* Body/Large - style */
@@ -38,146 +38,6 @@ body {
     --body-x-small-size: 12px;
     /* Body/X-Small - style */
     --body-x-small-style: regular;
-    /* Colors/Brands/Experiment/blue-dark/100 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-100: #0a2f85;
-    /* Colors/Brands/Experiment/blue-dark/200 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-200: #1347cc;
-    /* Colors/Brands/Experiment/blue-dark/300 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-300: #0f59e2;
-    /* Colors/Brands/Experiment/blue-dark/400 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-400: #357aea;
-    /* Colors/Brands/Experiment/blue-dark/50 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-50: #181d34;
-    /* Colors/Brands/Experiment/blue-dark/500 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-500: #2e88f6;
-    /* Colors/Brands/Experiment/blue-dark/600 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-600: #50a1ff;
-    /* Colors/Brands/Experiment/blue-dark/700 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-700: #7ab7ff;
-    /* Colors/Brands/Experiment/blue-dark/800 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-800: #dcebfe;
-    /* Colors/Brands/Experiment/blue-dark/900 - Global (primitives) */
-    --colors-brands-experiment-blue-dark-900: #f0f6ff;
-    /* Colors/Brands/Experiment/blue-gray-dark/100 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-100: #1a2332;
-    /* Colors/Brands/Experiment/blue-gray-dark/200 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-200: #252e3c;
-    /* Colors/Brands/Experiment/blue-gray-dark/300 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-300: #323b49;
-    /* Colors/Brands/Experiment/blue-gray-dark/400 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-400: #5e6d82;
-    /* Colors/Brands/Experiment/blue-gray-dark/50 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-50: #0c101c;
-    /* Colors/Brands/Experiment/blue-gray-dark/500 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-500: #8b9bb2;
-    /* Colors/Brands/Experiment/blue-gray-dark/600 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-600: #b1c0d2;
-    /* Colors/Brands/Experiment/blue-gray-dark/700 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-700: #d4dce8;
-    /* Colors/Brands/Experiment/blue-gray-dark/800 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-800: #e2ebf3;
-    /* Colors/Brands/Experiment/blue-gray-dark/900 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-dark-900: #f8fafc;
-    /* Colors/Brands/Experiment/blue-gray-light/100 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-100: #f1f5f9;
-    /* Colors/Brands/Experiment/blue-gray-light/200 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-200: #e1e7ef;
-    /* Colors/Brands/Experiment/blue-gray-light/300 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-300: #c8d6e5;
-    /* Colors/Brands/Experiment/blue-gray-light/400 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-400: #9eacc0;
-    /* Colors/Brands/Experiment/blue-gray-light/50 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-50: #f8fafc;
-    /* Colors/Brands/Experiment/blue-gray-light/500 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-500: #65758b;
-    /* Colors/Brands/Experiment/blue-gray-light/600 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-600: #48566a;
-    /* Colors/Brands/Experiment/blue-gray-light/700 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-700: #344256;
-    /* Colors/Brands/Experiment/blue-gray-light/800 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-800: #1d283a;
-    /* Colors/Brands/Experiment/blue-gray-light/900 - Global (primitives) */
-    --colors-brands-experiment-blue-gray-light-900: #0f1729;
-    /* Colors/Brands/Experiment/blue-light/100 - Global (primitives) */
-    --colors-brands-experiment-blue-light-100: #dcebfe;
-    /* Colors/Brands/Experiment/blue-light/200 - Global (primitives) */
-    --colors-brands-experiment-blue-light-200: #bedbfe;
-    /* Colors/Brands/Experiment/blue-light/300 - Global (primitives) */
-    --colors-brands-experiment-blue-light-300: #91c3fd;
-    /* Colors/Brands/Experiment/blue-light/400 - Global (primitives) */
-    --colors-brands-experiment-blue-light-400: #61a6fa;
-    /* Colors/Brands/Experiment/blue-light/50 - Global (primitives) */
-    --colors-brands-experiment-blue-light-50: #f2f7ff;
-    /* Colors/Brands/Experiment/blue-light/500 - Global (primitives) */
-    --colors-brands-experiment-blue-light-500: #3479e9;
-    /* Colors/Brands/Experiment/blue-light/600 - Global (primitives) */
-    --colors-brands-experiment-blue-light-600: #1559ea;
-    /* Colors/Brands/Experiment/blue-light/700 - Global (primitives) */
-    --colors-brands-experiment-blue-light-700: #173fab;
-    /* Colors/Brands/Experiment/blue-light/800 - Global (primitives) */
-    --colors-brands-experiment-blue-light-800: #162f82;
-    /* Colors/Brands/Experiment/blue-light/900 - Global (primitives) */
-    --colors-brands-experiment-blue-light-900: #0c1736;
-    /* Colors/Brands/Experiment/Interactions/primary-dark-opacity-10 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-dark-opacity-10: #50a1ff1a;
-    /* Colors/Brands/Experiment/Interactions/primary-dark-opacity-12 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-dark-opacity-12: #50a1ff1f;
-    /* Colors/Brands/Experiment/Interactions/primary-dark-opacity-16 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-dark-opacity-16: #50a1ff29;
-    /* Colors/Brands/Experiment/Interactions/primary-dark-opacity-20 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-dark-opacity-20: #50a1ff33;
-    /* Colors/Brands/Experiment/Interactions/primary-dark-opacity-8 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-dark-opacity-8: #50a1ff14;
-    /* Colors/Brands/Experiment/Interactions/primary-light-opacity-10 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-light-opacity-10: #1559ea1a;
-    /* Colors/Brands/Experiment/Interactions/primary-light-opacity-12 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-light-opacity-12: #1559ea1f;
-    /* Colors/Brands/Experiment/Interactions/primary-light-opacity-16 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-light-opacity-16: #1559ea29;
-    /* Colors/Brands/Experiment/Interactions/primary-light-opacity-20 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-light-opacity-20: #1559ea33;
-    /* Colors/Brands/Experiment/Interactions/primary-light-opacity-8 - Global (primitives) */
-    --colors-brands-experiment-interactions-primary-light-opacity-8: #1559ea14;
-    /* Colors/Brands/Experiment/orange-dark/100 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-100: #852c0f;
-    /* Colors/Brands/Experiment/orange-dark/200 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-200: #ab4827;
-    /* Colors/Brands/Experiment/orange-dark/300 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-300: #ce5a07;
-    /* Colors/Brands/Experiment/orange-dark/400 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-400: #f27013;
-    /* Colors/Brands/Experiment/orange-dark/50 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-50: #31160d;
-    /* Colors/Brands/Experiment/orange-dark/500 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-500: #fb923c;
-    /* Colors/Brands/Experiment/orange-dark/600 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-600: #fdba72;
-    /* Colors/Brands/Experiment/orange-dark/700 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-700: #fed6a9;
-    /* Colors/Brands/Experiment/orange-dark/800 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-800: #ffedd6;
-    /* Colors/Brands/Experiment/orange-dark/900 - Global (primitives) */
-    --colors-brands-experiment-orange-dark-900: #fff6eb;
-    /* Colors/Brands/Experiment/orange-light/100 - Global (primitives) */
-    --colors-brands-experiment-orange-light-100: #ffedd6;
-    /* Colors/Brands/Experiment/orange-light/200 - Global (primitives) */
-    --colors-brands-experiment-orange-light-200: #fed6a9;
-    /* Colors/Brands/Experiment/orange-light/300 - Global (primitives) */
-    --colors-brands-experiment-orange-light-300: #fdba72;
-    /* Colors/Brands/Experiment/orange-light/400 - Global (primitives) */
-    --colors-brands-experiment-orange-light-400: #fb923c;
-    /* Colors/Brands/Experiment/orange-light/50 - Global (primitives) */
-    --colors-brands-experiment-orange-light-50: #fff6eb;
-    /* Colors/Brands/Experiment/orange-light/500 - Global (primitives) */
-    --colors-brands-experiment-orange-light-500: #f67416;
-    /* Colors/Brands/Experiment/orange-light/600 - Global (primitives) */
-    --colors-brands-experiment-orange-light-600: #e4570c;
-    /* Colors/Brands/Experiment/orange-light/700 - Global (primitives) */
-    --colors-brands-experiment-orange-light-700: #b63c0b;
-    /* Colors/Brands/Experiment/orange-light/800 - Global (primitives) */
-    --colors-brands-experiment-orange-light-800: #80310f;
-    /* Colors/Brands/Experiment/orange-light/900 - Global (primitives) */
-    --colors-brands-experiment-orange-light-900: #471a0a;
     /* Colors/Internal/pink-00-light - Global (primitives) */
     --colors-internal-pink-00-light: #ff4f8d;
     /* Colors/Internal/pink-50-dark - Global (primitives) */
@@ -209,7 +69,7 @@ body {
     /* Colors/Neutral/22 - Global (primitives) */
     --colors-neutral-22: #383838;
     /* Colors/Neutral/24 - Global (primitives) */
-    --colors-neutral-24: #424242;
+    --colors-neutral-24: #3d3d3d;
     /* Colors/Neutral/26 - Global (primitives) */
     --colors-neutral-26: #424242;
     /* Colors/Neutral/28 - Global (primitives) */
@@ -286,6 +146,10 @@ body {
     --colors-neutral-98: #fafafa;
     /* Colors/Neutral/transparent - Global (primitives) */
     --colors-neutral-transparent: #ffffff00;
+    /* Colors/System/AI-gradient/blue - Global (primitives) */
+    --colors-system-ai-gradient-blue: #215ecd;
+    /* Colors/System/AI-gradient/pink - Global (primitives) */
+    --colors-system-ai-gradient-pink: #c60ede;
     /* Colors/System/blue-dark - Global (primitives) */
     --colors-system-blue-dark: #5d92f5;
     /* Colors/System/blue-dark-bg - Global (primitives) */
@@ -334,10 +198,10 @@ body {
     --colors-system-spectrum-data-visual-azure-400: #7fc4ec;
     /* Colors/System/Spectrum/Data visual/azure-700 - Global (primitives) */
     --colors-system-spectrum-data-visual-azure-700: #299de0;
-    /* Colors/System/Spectrum/Data visual/backrose-900 - Global (primitives) */
-    --colors-system-spectrum-data-visual-backrose-900: #958ca3;
     /* Colors/System/Spectrum/Data visual/blackrose-1200 - Global (primitives) */
     --colors-system-spectrum-data-visual-blackrose-1200: #130033;
+    /* Colors/System/Spectrum/Data visual/blackrose-900 - Global (primitives) */
+    --colors-system-spectrum-data-visual-blackrose-900: #958ca3;
     /* Colors/System/Spectrum/Data visual/bronze-1100 - Global (primitives) */
     --colors-system-spectrum-data-visual-bronze-1100: #794b34;
     /* Colors/System/Spectrum/Data visual/bronze-800 - Global (primitives) */
@@ -366,10 +230,10 @@ body {
     --colors-system-spectrum-data-visual-highlight-azure-400-opacity: #7fc4ec4d;
     /* Colors/System/Spectrum/Data visual/Highlight/azure-700-opacity - Global (primitives) */
     --colors-system-spectrum-data-visual-highlight-azure-700-opacity: #299de04d;
-    /* Colors/System/Spectrum/Data visual/Highlight/backrose-900-opacity - Global (primitives) */
-    --colors-system-spectrum-data-visual-highlight-backrose-900-opacity: #958ca34d;
     /* Colors/System/Spectrum/Data visual/Highlight/blackrose-1200-opacity - Global (primitives) */
     --colors-system-spectrum-data-visual-highlight-blackrose-1200-opacity: #1300334d;
+    /* Colors/System/Spectrum/Data visual/Highlight/blackrose-900-opacity - Global (primitives) */
+    --colors-system-spectrum-data-visual-highlight-blackrose-900-opacity: #958ca34d;
     /* Colors/System/Spectrum/Data visual/Highlight/bronze-1100-opacity - Global (primitives) */
     --colors-system-spectrum-data-visual-highlight-bronze-1100-opacity: #794b344d;
     /* Colors/System/Spectrum/Data visual/Highlight/bronze-800-opacity - Global (primitives) */
@@ -590,10 +454,6 @@ body {
     --corner-radius-circular: 999px;
     /* Corner radius/None - Global (primitives) */
     --corner-radius-none: 0;
-    /* Data visual/category-06-highlight - Theme - Century 21 */
-    --data-visual-category-06-highlight: #7f7f7f4d;
-    /* Data visual/category-6-highlight - Theme - Century 21 */
-    --data-visual-category-6-highlight: #7f7f7f4d;
     /* East - navigation rails, drawers, sheets */
     --drop-shadow-east: 2px 0px 8px -2px #0000001a, 2px 0px 4px -2px #0000001f;
     /* Float */
@@ -608,6 +468,10 @@ body {
     --drop-shadow-south: 0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f;
     /* West - side sheets */
     --drop-shadow-west: -8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026;
+    /* Foreground/AI-powered/blue - Brand */
+    --foreground-ai-powered-blue: #000000;
+    /* Foreground/AI-powered/pink - Brand */
+    --foreground-ai-powered-pink: #000000;
     /* Foreground/Link text/subtle-inverse-hovered - Theme - Century 21 */
     --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
     /* Foreground/Link text/subtle-inverse-pressed - Theme - Century 21 */
@@ -618,14 +482,6 @@ body {
     --foreground-neutral-on-color: #ffffff;
     /* Foreground/Neutral/on-inverse-surface - Theme - Century 21 */
     --foreground-neutral-on-inverse-surface: #fafafa;
-    /* Interaction/disabled-opacity - Theme - 3.0 */
-    --interaction-disabled-opacity: #0000000f;
-    /* Interaction/primary-disabled-opacity - Theme - 3.0 */
-    --interaction-primary-disabled-opacity: #1559ea1f;
-    /* Interaction/primary-hover-opacity - Theme - 3.0 */
-    --interaction-primary-hover-opacity: #1559ea1a;
-    /* Interaction/primary-press-opacity - Theme - 3.0 */
-    --interaction-primary-press-opacity: #1559ea33;
     /* Interactions/opacity-black-10 - Global (primitives) */
     --interactions-opacity-black-10: #0000001a;
     /* Interactions/opacity-black-16 - Global (primitives) */
@@ -671,17 +527,17 @@ body {
     /* Colors/Brands/Century 21/Interactions/primary-light-opacity-8 - Global (primitives) */
     --interactions-primary-light-opacity-8: #7c693c14;
     /* Labels/Base */
-    --labels-base: 500 16px/20px var(--typeface);
+    --labels-base: 500 16px/24px var(--typeface);
     /* Labels/Base - line height */
-    --labels-base-line-height: 20px;
+    --labels-base-line-height: 24px;
     /* Labels/Base - size */
     --labels-base-size: 16px;
     /* Labels/Base - style */
     --labels-base-style: medium;
     /* Labels/Large */
-    --labels-large: 500 18px/24px var(--typeface);
+    --labels-large: 500 18px/28px var(--typeface);
     /* Labels/Large - line height */
-    --labels-large-line-height: 24px;
+    --labels-large-line-height: 28px;
     /* Labels/Large - size */
     --labels-large-size: 18px;
     /* Labels/Large - style */
@@ -880,10 +736,12 @@ body {
     --status-on-success: #ffffff;
     /* Status/on-warning - Theme - Century 21 */
     --status-on-warning: #141414;
+    /* Stroke/AI-powered/blue - Brand */
+    --stroke-ai-powered-blue: #000000;
+    /* Stroke/AI-powered/pink - Brand */
+    --stroke-ai-powered-pink: #000000;
     /* Stroke/Neutral/focus-on-inverse - Theme - Century 21 */
     --stroke-neutral-focus-on-inverse: #ffffff;
-    /* Stroke/Neutral/Interaction/inverse-focus - Theme - 3.0 */
-    --stroke-neutral-interaction-inverse-focus: #ffffff;
     /* Stroke/Neutral/Interactions/inverse-focus - Theme - Century 21 */
     --stroke-neutral-interactions-inverse-focus: #ffffff;
     /* Stroke/none - Borders */
@@ -894,6 +752,10 @@ body {
     --stroke-thicker: 4px;
     /* Stroke/thin - Borders */
     --stroke-thin: 1px;
+    /* Surface/AI-powered/blue - Brand */
+    --surface-ai-powered-blue: #000000;
+    /* Surface/AI-powered/pink - Brand */
+    --surface-ai-powered-pink: #000000;
     /* Surface/Neutral/transparent - Theme - Century 21 */
     --surface-neutral-transparent: #ffffff00;
     /* Colors/Brands/Century 21/Tertiary/00-base - Global (primitives) */
@@ -1029,7 +891,7 @@ body {
     /* Mobile/Display/Regular/Small - style */
     --display-regular-small-style: regular;
     /* Mobile/Display/Semibold/Large */
-    --display-semibold-large: 600 56px/72px var(--typeface);
+    --display-semibold-large: semibold 56px/72px var(--typeface);
     /* Mobile/Display/Semibold/Large - line height */
     --display-semibold-large-line-height: 72px;
     /* Mobile/Display/Semibold/Large - size */
@@ -1037,7 +899,7 @@ body {
     /* Mobile/Display/Semibold/Large - style */
     --display-semibold-large-style: semibold;
     /* Mobile/Display/Semibold/Medium */
-    --display-semibold-medium: 600 48px/60px var(--typeface);
+    --display-semibold-medium: semibold 48px/60px var(--typeface);
     /* Mobile/Display/Semibold/Medium - line height */
     --display-semibold-medium-line-height: 60px;
     /* Mobile/Display/Semibold/Medium - size */
@@ -1045,7 +907,7 @@ body {
     /* Mobile/Display/Semibold/Medium - style */
     --display-semibold-medium-style: semibold;
     /* Mobile/Display/Semibold/Small */
-    --display-semibold-small: 600 40px/48px var(--typeface);
+    --display-semibold-small: semibold 40px/48px var(--typeface);
     /* Mobile/Display/Semibold/Small - line height */
     --display-semibold-small-line-height: 48px;
     /* Mobile/Display/Semibold/Small - size */
@@ -1053,7 +915,7 @@ body {
     /* Mobile/Display/Semibold/Small - style */
     --display-semibold-small-style: semibold;
     /* Mobile/Heading/H1 - Large Headline */
-    --heading-h1: 600 32px/40px var(--typeface);
+    --heading-h1: semibold 32px/40px var(--typeface);
     /* Mobile/Heading/H1 - Large Headline line height */
     --heading-h1-line-height: 40px;
     /* Mobile/Heading/H1 - Large Headline size */
@@ -1061,7 +923,7 @@ body {
     /* Mobile/Heading/H1 - Large Headline style */
     --heading-h1-style: semibold;
     /* Mobile/Heading/H2 - Headline */
-    --heading-h2: 600 28px/36px var(--typeface);
+    --heading-h2: semibold 28px/36px var(--typeface);
     /* Mobile/Heading/H2 - Headline line height */
     --heading-h2-line-height: 36px;
     /* Mobile/Heading/H2 - Headline size */
@@ -1069,7 +931,7 @@ body {
     /* Mobile/Heading/H2 - Headline style */
     --heading-h2-style: semibold;
     /* Mobile/Heading/H3 - Headline */
-    --heading-h3: 600 24px/32px var(--typeface);
+    --heading-h3: semibold 24px/32px var(--typeface);
     /* Mobile/Heading/H3 - Headline line height */
     --heading-h3-line-height: 32px;
     /* Mobile/Heading/H3 - Headline size */
@@ -1077,7 +939,7 @@ body {
     /* Mobile/Heading/H3 - Headline style */
     --heading-h3-style: semibold;
     /* Mobile/Heading/H4 - Headline */
-    --heading-h4: 600 20px/28px var(--typeface);
+    --heading-h4: semibold 20px/28px var(--typeface);
     /* Mobile/Heading/H4 - Headline line height */
     --heading-h4-line-height: 28px;
     /* Mobile/Heading/H4 - Headline size */
@@ -1085,7 +947,7 @@ body {
     /* Mobile/Heading/H4 - Headline style */
     --heading-h4-style: semibold;
     /* Mobile/Heading/H5 */
-    --heading-h5: 600 18px/24px var(--typeface);
+    --heading-h5: semibold 18px/24px var(--typeface);
     /* Mobile/Heading/H5 - line height */
     --heading-h5-line-height: 24px;
     /* Mobile/Heading/H5 - size */
@@ -1167,7 +1029,7 @@ body {
         /* Desktop/Display/Regular/Small - Used in landing hero or marketing sections. style */
         --display-regular-small-style: regular;
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. */
-        --display-semibold-large: 600 64px/88px var(--typeface);
+        --display-semibold-large: semibold 64px/88px var(--typeface);
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. line height */
         --display-semibold-large-line-height: 88px;
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. size */
@@ -1175,7 +1037,7 @@ body {
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. style */
         --display-semibold-large-style: semibold;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. */
-        --display-semibold-medium: 600 56px/72px var(--typeface);
+        --display-semibold-medium: semibold 56px/72px var(--typeface);
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. line height */
         --display-semibold-medium-line-height: 72px;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. size */
@@ -1183,7 +1045,7 @@ body {
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. style */
         --display-semibold-medium-style: semibold;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. */
-        --display-semibold-small: 600 48px/60px var(--typeface);
+        --display-semibold-small: semibold 48px/60px var(--typeface);
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. line height */
         --display-semibold-small-line-height: 60px;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. size */
@@ -1191,7 +1053,7 @@ body {
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. style */
         --display-semibold-small-style: semibold;
         /* Desktop/Heading/H1 */
-        --heading-h1: 600 40px/48px var(--typeface);
+        --heading-h1: semibold 40px/48px var(--typeface);
         /* Desktop/Heading/H1 - line height */
         --heading-h1-line-height: 48px;
         /* Desktop/Heading/H1 - size */
@@ -1199,7 +1061,7 @@ body {
         /* Desktop/Heading/H1 - style */
         --heading-h1-style: semibold;
         /* Desktop/Heading/H2 */
-        --heading-h2: 600 32px/40px var(--typeface);
+        --heading-h2: semibold 32px/40px var(--typeface);
         /* Desktop/Heading/H2 - line height */
         --heading-h2-line-height: 40px;
         /* Desktop/Heading/H2 - size */
@@ -1207,7 +1069,7 @@ body {
         /* Desktop/Heading/H2 - style */
         --heading-h2-style: semibold;
         /* Desktop/Heading/H3 */
-        --heading-h3: 600 28px/36px var(--typeface);
+        --heading-h3: semibold 28px/36px var(--typeface);
         /* Desktop/Heading/H3 - line height */
         --heading-h3-line-height: 36px;
         /* Desktop/Heading/H3 - size */
@@ -1215,7 +1077,7 @@ body {
         /* Desktop/Heading/H3 - style */
         --heading-h3-style: semibold;
         /* Desktop/Heading/H4 */
-        --heading-h4: 600 24px/32px var(--typeface);
+        --heading-h4: semibold 24px/32px var(--typeface);
         /* Desktop/Heading/H4 - line height */
         --heading-h4-line-height: 32px;
         /* Desktop/Heading/H4 - size */
@@ -1223,7 +1085,7 @@ body {
         /* Desktop/Heading/H4 - style */
         --heading-h4-style: semibold;
         /* Desktop/Heading/H5 */
-        --heading-h5: 600 20px/28px var(--typeface);
+        --heading-h5: semibold 20px/28px var(--typeface);
         /* Desktop/Heading/H5 - line height */
         --heading-h5-line-height: 28px;
         /* Desktop/Heading/H5 - size */
@@ -1309,6 +1171,8 @@ body {
     --data-visual-category-05-highlight: #5309094d;
     /* Data visual/category-06 - Theme - Century 21 */
     --data-visual-category-06: #7f7f7f;
+    /* Data visual/category-06-highlight - Theme - Century 21 */
+    --data-visual-category-06-highlight: #7f7f7f4d;
     /* Data visual/category-07 - Theme - Century 21 */
     --data-visual-category-07: #530909;
     /* Data visual/category-07-highlight - Theme - Century 21 */
@@ -1335,6 +1199,8 @@ body {
     --data-visual-category-5-highlight: #5309094d;
     /* Data visual/category-6 - Theme - Century 21 */
     --data-visual-category-6: #7f7f7f;
+    /* Data visual/category-6-highlight - Theme - Century 21 */
+    --data-visual-category-6-highlight: #7f7f7f4d;
     /* Data visual/category-7 - Theme - Century 21 */
     --data-visual-category-7: #794b34;
     /* Data visual/category-7-highlight - Theme - Century 21 */
@@ -1357,6 +1223,10 @@ body {
     --data-visual-red: #d83a52;
     /* Data visual/red-highlight - Theme - Century 21 */
     --data-visual-red-highlight: #f9e1e5;
+    /* Foreground/AI-powered/blue - Theme - Agent Workplace */
+    --foreground-ai-powered-blue: #215ecd;
+    /* Foreground/AI-powered/pink - Theme - Agent Workplace */
+    --foreground-ai-powered-pink: #c60ede;
     /* Foreground/Brand/on-inverse-primary - Theme - Century 21 */
     --foreground-brand-on-inverse-primary: #b0a58a;
     /* Foreground/Brand/on-inverse-secondary - Theme - Century 21 */
@@ -1390,7 +1260,7 @@ body {
     /* Foreground/Link text/subtle-inversed-disabled - Theme - Coldwell Banker */
     --foreground-link-text-subtle-inversed-disabled: #757575;
     /* Foreground/Link text/subtle-pressed - Theme - Century 21 */
-    --foreground-link-text-subtle-pressed: #424242;
+    --foreground-link-text-subtle-pressed: #3d3d3d;
     /* Foreground/Neutral/disabled-on-color-surface - Theme - Century 21 */
     --foreground-neutral-disabled-on-color-surface: #757575;
     /* Foreground/Neutral/disabled-on-surface - Theme - Century 21 */
@@ -1398,13 +1268,13 @@ body {
     /* Foreground/Neutral/on-surface - Theme - Century 21 */
     --foreground-neutral-on-surface: #141414;
     /* Foreground/Neutral/on-surface-variant-01 - Theme - Century 21 */
-    --foreground-neutral-on-surface-variant-01: #474747;
+    --foreground-neutral-on-surface-variant-01: #707070;
     /* Foreground/Neutral/on-surface-variant-02 - Theme - Century 21 */
     --foreground-neutral-on-surface-variant-02: #757575;
     /* Foreground/Neutral/on-surface-variant-03 - Theme - Century 21 */
     --foreground-neutral-on-surface-variant-03: #8a8a8a;
     /* Foreground/Neutral/skeleton-element - Theme - Century 21 */
-    --foreground-neutral-skeleton-element: #c7c7c7;
+    --foreground-neutral-skeleton-element: #e0e0e0;
     /* Foreground/Spectrum/blue - Theme - Century 21 */
     --foreground-spectrum-blue: #143778;
     /* Foreground/Spectrum/green - Theme - Century 21 */
@@ -1425,18 +1295,6 @@ body {
     --foreground-spectrum-teal: #01413c;
     /* Foreground/Spectrum/yellow - Theme - Century 21 */
     --foreground-spectrum-yellow: #7b5e18;
-    /* Interaction/brand-disabled-opacity - Theme - 3.0 */
-    --interaction-brand-disabled-opacity: #0000000f;
-    /* Interaction/brand-hover-opacity - Theme - 3.0 */
-    --interaction-brand-hover-opacity: #0000001a;
-    /* Interaction/brand-press-opacity - Theme - 3.0 */
-    --interaction-brand-press-opacity: #00000033;
-    /* Interaction/hover-opacity - Theme - 3.0 */
-    --interaction-hover-opacity: #00000014;
-    /* Interaction/link-active-opacity - Theme - 3.0 */
-    --interaction-link-active-opacity: #0000004d;
-    /* Interaction/press-opacity - Theme - 3.0 */
-    --interaction-press-opacity: #00000029;
     /* Interactions/brand-disabled-opacity - Theme - Century 21 */
     --interactions-brand-disabled-opacity: #0000000f;
     /* Interactions/brand-hover-opacity - Theme - Century 21 */
@@ -1495,6 +1353,10 @@ body {
     --status-success: #258750;
     /* Status/warning - Theme - Century 21 */
     --status-warning: #f6bc2f;
+    /* Stroke/AI-powered/blue - Theme - Agent Workplace */
+    --stroke-ai-powered-blue: #215ecd;
+    /* Stroke/AI-powered/pink - Theme - Agent Workplace */
+    --stroke-ai-powered-pink: #c60ede;
     /* Stroke/Brand/brand-primary - Theme - Century 21 */
     --stroke-brand-primary: #7c693c;
     /* Stroke/Brand/brand-primary-depth - Theme - Century 21 */
@@ -1515,12 +1377,6 @@ body {
     --stroke-neutral-high: #141414;
     /* Stroke/Neutral/neutral-high-contrast - Theme - Century 21 */
     --stroke-neutral-high-contrast: #141414;
-    /* Stroke/Neutral/Interaction/disabled-dark - Theme - 3.0 */
-    --stroke-neutral-interaction-disabled-dark: #48566a;
-    /* Stroke/Neutral/Interaction/disabled-light - Theme - 3.0 */
-    --stroke-neutral-interaction-disabled-light: #c8d6e5;
-    /* Stroke/Neutral/Interaction/focus - Theme - 3.0 */
-    --stroke-neutral-interaction-focus: #000000;
     /* Stroke/Neutral/Interactions/disabled-dark - Theme - Century 21 */
     --stroke-neutral-interactions-disabled-dark: #757575;
     /* Stroke/Neutral/Interactions/disabled-light - Theme - Century 21 */
@@ -1531,6 +1387,10 @@ body {
     --stroke-neutral-low: #e0e0e0;
     /* Stroke/Neutral/neutral-low-contrast - Theme - Century 21 */
     --stroke-neutral-low-contrast: #e0e0e0;
+    /* Surface/AI-powered/blue - Theme - Agent Workplace */
+    --surface-ai-powered-blue: #215ecd;
+    /* Surface/AI-powered/pink - Theme - Agent Workplace */
+    --surface-ai-powered-pink: #c60ede;
     /* Surface/Brand/primary - Theme - Century 21 */
     --surface-brand-primary: #7c693c;
     /* Surface/Brand/primary-highlight - Theme - Century 21 */
@@ -1543,16 +1403,12 @@ body {
     --surface-neutral-interactions-dark-disabled: #d6d6d6;
     /* Surface/Neutral/Interactions/light-disabled - Theme - Century 21 */
     --surface-neutral-interactions-light-disabled: #f5f5f5;
-    /* Surface/Neutral/Interactions/skeleton - Theme - Century 21 */
-    --surface-neutral-interactions-skeleton: #e0e0e0;
     /* Surface/Neutral/inverse - Theme - Century 21 */
     --surface-neutral-inverse: #1f1f1f;
     /* Surface/Neutral/inverse-dark - Theme - Century 21 */
     --surface-neutral-inverse-dark: #1f1f1f;
     /* Surface/Neutral/inverse-light - Theme - Century 21 */
     --surface-neutral-inverse-light: #ffffff;
-    /* Surface/Neutral/skeleton - Theme - Century 21 */
-    --surface-neutral-skeleton: #e0e0e0;
     /* Surface/Neutral/T1-base - Theme - Century 21 */
     --surface-neutral-t1-base: #ffffff;
     /* Surface/Neutral/T2-lowest - Theme - Century 21 */
@@ -1560,7 +1416,7 @@ body {
     /* Surface/Neutral/T3-low - Theme - Century 21 */
     --surface-neutral-t3-low: #dbdbdb;
     /* Surface/Neutral/T4-high - Theme - Century 21 */
-    --surface-neutral-t4-high: #6b6b6b;
+    --surface-neutral-t4-high: #8a8a8a;
     /* Surface/Spectrum/blue - Theme - Century 21 */
     --surface-spectrum-blue: #dfe9fd;
     /* Surface/Spectrum/green - Theme - Century 21 */
@@ -1612,6 +1468,8 @@ body {
     --data-visual-category-05-highlight: #a984844d;
     /* Data visual/category-06 - Theme - Century 21 */
     --data-visual-category-06: #b2b2b2;
+    /* Data visual/category-06-highlight - Theme - Century 21 */
+    --data-visual-category-06-highlight: #7f7f7f4d;
     /* Data visual/category-07 - Theme - Century 21 */
     --data-visual-category-07: #a98484;
     /* Data visual/category-07-highlight - Theme - Century 21 */
@@ -1638,6 +1496,8 @@ body {
     --data-visual-category-5-highlight: #a984844d;
     /* Data visual/category-6 - Theme - Century 21 */
     --data-visual-category-6: #b2b2b2;
+    /* Data visual/category-6-highlight - Theme - Century 21 */
+    --data-visual-category-6-highlight: #7f7f7f4d;
     /* Data visual/category-7 - Theme - Century 21 */
     --data-visual-category-7: #af9385;
     /* Data visual/category-7-highlight - Theme - Century 21 */
@@ -1660,6 +1520,10 @@ body {
     --data-visual-red: #e88997;
     /* Data visual/red-highlight - Theme - Century 21 */
     --data-visual-red-highlight: #4c141d;
+    /* Foreground/AI-powered/blue - Theme - Agent Workplace */
+    --foreground-ai-powered-blue: #000000;
+    /* Foreground/AI-powered/pink - Theme - Agent Workplace */
+    --foreground-ai-powered-pink: #000000;
     /* Foreground/Brand/on-inverse-primary - Theme - Century 21 */
     --foreground-brand-on-inverse-primary: #b0a58a;
     /* Foreground/Brand/on-inverse-secondary - Brand */
@@ -1691,11 +1555,11 @@ body {
     /* Foreground/Link text/subtle-hovered - Theme - Century 21 */
     --foreground-link-text-subtle-hovered: #e6e6e6;
     /* Foreground/Link text/subtle-inversed-disabled - Theme - Coldwell Banker */
-    --foreground-link-text-subtle-inversed-disabled: #424242;
+    --foreground-link-text-subtle-inversed-disabled: #3d3d3d;
     /* Foreground/Link text/subtle-pressed - Theme - Century 21 */
     --foreground-link-text-subtle-pressed: #d1d1d1;
     /* Foreground/Neutral/disabled-on-color-surface - Theme - Century 21 */
-    --foreground-neutral-disabled-on-color-surface: #424242;
+    --foreground-neutral-disabled-on-color-surface: #3d3d3d;
     /* Foreground/Neutral/disabled-on-surface - Theme - Century 21 */
     --foreground-neutral-disabled-on-surface: #4d4d4d;
     /* Foreground/Neutral/on-surface - Theme - Century 21 */
@@ -1707,7 +1571,7 @@ body {
     /* Foreground/Neutral/on-surface-variant-03 - Theme - Century 21 */
     --foreground-neutral-on-surface-variant-03: #757575;
     /* Foreground/Neutral/skeleton-element - Theme - Century 21 */
-    --foreground-neutral-skeleton-element: #4d4d4d;
+    --foreground-neutral-skeleton-element: #333333;
     /* Foreground/Spectrum/blue - Theme - Century 21 */
     --foreground-spectrum-blue: #88aff7;
     /* Foreground/Spectrum/green - Theme - Century 21 */
@@ -1728,18 +1592,6 @@ body {
     --foreground-spectrum-teal: #74bbb4;
     /* Foreground/Spectrum/yellow - Theme - Century 21 */
     --foreground-spectrum-yellow: #fada8d;
-    /* Interaction/brand-disabled-opacity - Theme - 3.0 */
-    --interaction-brand-disabled-opacity: #ffffff0f;
-    /* Interaction/brand-hover-opacity - Theme - 3.0 */
-    --interaction-brand-hover-opacity: #ffffff1a;
-    /* Interaction/brand-press-opacity - Theme - 3.0 */
-    --interaction-brand-press-opacity: #ffffff33;
-    /* Interaction/hover-opacity - Theme - 3.0 */
-    --interaction-hover-opacity: #ffffff14;
-    /* Interaction/link-active-opacity - Theme - 3.0 */
-    --interaction-link-active-opacity: #ffffff4d;
-    /* Interaction/press-opacity - Theme - 3.0 */
-    --interaction-press-opacity: #ffffff29;
     /* Interactions/brand-disabled-opacity - Theme - Century 21 */
     --interactions-brand-disabled-opacity: #ffffff0f;
     /* Interactions/brand-hover-opacity - Theme - Century 21 */
@@ -1798,6 +1650,10 @@ body {
     --status-success: #519f73;
     /* Status/warning - Theme - Century 21 */
     --status-warning: #f8cd63;
+    /* Stroke/AI-powered/blue - Theme - Agent Workplace */
+    --stroke-ai-powered-blue: #000000;
+    /* Stroke/AI-powered/pink - Theme - Agent Workplace */
+    --stroke-ai-powered-pink: #000000;
     /* Stroke/Brand/brand-primary - Brand */
     --stroke-brand-primary: #ffffff;
     /* Stroke/Brand/brand-primary-depth - Theme - Century 21 */
@@ -1809,7 +1665,7 @@ body {
     /* Stroke/Neutral/neutral-base - Theme - Century 21 */
     --stroke-neutral-base: #6b6b6b;
     /* Stroke/Neutral/disabled-dark - Theme - Century 21 */
-    --stroke-neutral-disabled-dark: #424242;
+    --stroke-neutral-disabled-dark: #3d3d3d;
     /* Stroke/Neutral/disabled-light - Theme - Century 21 */
     --stroke-neutral-disabled-light: #4d4d4d;
     /* Stroke/Neutral/focus - Theme - Century 21 */
@@ -1818,14 +1674,8 @@ body {
     --stroke-neutral-high: #fafafa;
     /* Stroke/Neutral/neutral-high-contrast - Theme - Century 21 */
     --stroke-neutral-high-contrast: #fafafa;
-    /* Stroke/Neutral/Interaction/disabled-dark - Theme - 3.0 */
-    --stroke-neutral-interaction-disabled-dark: #b1c0d2;
-    /* Stroke/Neutral/Interaction/disabled-light - Theme - 3.0 */
-    --stroke-neutral-interaction-disabled-light: #323b49;
-    /* Stroke/Neutral/Interaction/focus - Theme - 3.0 */
-    --stroke-neutral-interaction-focus: #ffffff;
     /* Stroke/Neutral/Interactions/disabled-dark - Theme - Century 21 */
-    --stroke-neutral-interactions-disabled-dark: #424242;
+    --stroke-neutral-interactions-disabled-dark: #3d3d3d;
     /* Stroke/Neutral/Interactions/disabled-light - Theme - Century 21 */
     --stroke-neutral-interactions-disabled-light: #4d4d4d;
     /* Stroke/Neutral/Interactions/focus - Theme - Century 21 */
@@ -1834,6 +1684,10 @@ body {
     --stroke-neutral-low: #4d4d4d;
     /* Stroke/Neutral/neutral-low-contrast - Theme - Century 21 */
     --stroke-neutral-low-contrast: #4d4d4d;
+    /* Surface/AI-powered/blue - Theme - Agent Workplace */
+    --surface-ai-powered-blue: #000000;
+    /* Surface/AI-powered/pink - Theme - Agent Workplace */
+    --surface-ai-powered-pink: #000000;
     /* Surface/Brand/primary - Theme - Century 21 */
     --surface-brand-primary: #b0a58a;
     /* Surface/Brand/primary-highlight - Theme - Century 21 */
@@ -1846,16 +1700,12 @@ body {
     --surface-neutral-interactions-dark-disabled: #474747;
     /* Surface/Neutral/Interactions/light-disabled - Theme - Century 21 */
     --surface-neutral-interactions-light-disabled: #292929;
-    /* Surface/Neutral/Interactions/skeleton - Theme - Century 21 */
-    --surface-neutral-interactions-skeleton: #333333;
     /* Surface/Neutral/inverse - Theme - Century 21 */
     --surface-neutral-inverse: #383838;
     /* Surface/Neutral/inverse-dark - Theme - Century 21 */
     --surface-neutral-inverse-dark: #383838;
     /* Surface/Neutral/inverse-light - Theme - Century 21 */
     --surface-neutral-inverse-light: #575757;
-    /* Surface/Neutral/skeleton - Theme - Century 21 */
-    --surface-neutral-skeleton: #333333;
     /* Surface/Neutral/T1-base - Theme - Century 21 */
     --surface-neutral-t1-base: #1f1f1f;
     /* Surface/Neutral/T2-lowest - Theme - Century 21 */
@@ -1863,7 +1713,7 @@ body {
     /* Surface/Neutral/T3-low - Theme - Century 21 */
     --surface-neutral-t3-low: #383838;
     /* Surface/Neutral/T4-high - Theme - Century 21 */
-    --surface-neutral-t4-high: #474747;
+    --surface-neutral-t4-high: #7a7a7a;
     /* Surface/Spectrum/blue - Theme - Century 21 */
     --surface-spectrum-blue: #0e2754;
     /* Surface/Spectrum/green - Theme - Century 21 */
