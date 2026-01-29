@@ -135,8 +135,7 @@ function variablesToCss(variables: Variable[], groupName?: string) {
     function toValue(css: any) {
         if (typeof css === 'string') {
             if (css.startsWith('--')) return `var(${css})`;
-            if (css.includes('Semi Bold')) return css.replace('Semi Bold', 'semibold');
-            if (css.includes('semi bold')) return css.replace('semi bold', 'semibold');
+            return css.replace(/semi bold/i, CSS_VALUES.SemiBold.toString());
         }
 
         return `${css}`;
