@@ -1,4 +1,4 @@
-/* Generated from figma export: 2026-01-29T04:56:39.070Z */
+/* Generated from figma export: 2026-02-02T17:54:13.533Z */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
 body {
@@ -8,35 +8,35 @@ body {
 :root {
     /* Body/Base */
     --body-base: 400 16px/24px var(--typeface);
-    /* Body/Base - line height */
+    /* Body/Base -  line height */
     --body-base-line-height: 24px;
-    /* Body/Base - size */
+    /* Body/Base -  size */
     --body-base-size: 16px;
-    /* Body/Base - style */
+    /* Body/Base -  style */
     --body-base-style: regular;
     /* Body/Large */
     --body-large: 400 18px/28px var(--typeface);
-    /* Body/Large - line height */
+    /* Body/Large -  line height */
     --body-large-line-height: 28px;
-    /* Body/Large - size */
+    /* Body/Large -  size */
     --body-large-size: 18px;
-    /* Body/Large - style */
+    /* Body/Large -  style */
     --body-large-style: regular;
     /* Body/Small */
     --body-small: 400 14px/20px var(--typeface);
-    /* Body/Small - line height */
+    /* Body/Small -  line height */
     --body-small-line-height: 20px;
-    /* Body/Small - size */
+    /* Body/Small -  size */
     --body-small-size: 14px;
-    /* Body/Small - style */
+    /* Body/Small -  style */
     --body-small-style: regular;
     /* Body/X-Small */
     --body-x-small: 400 12px/16px var(--typeface);
-    /* Body/X-Small - line height */
+    /* Body/X-Small -  line height */
     --body-x-small-line-height: 16px;
-    /* Body/X-Small - size */
+    /* Body/X-Small -  size */
     --body-x-small-size: 12px;
-    /* Body/X-Small - style */
+    /* Body/X-Small -  style */
     --body-x-small-style: regular;
     /* Colors/Internal/pink-00-light - Global (primitives) */
     --colors-internal-pink-00-light: #ff4f8d;
@@ -452,8 +452,6 @@ body {
     --corner-radius-80: 8px;
     /* Corner radius/circular - Global (primitives) */
     --corner-radius-circular: 999px;
-    /* Corner radius/None - Global (primitives) */
-    --corner-radius-none: 0;
     /* East - navigation rails, drawers, sheets */
     --drop-shadow-east: 2px 0px 8px -2px #0000001a, 2px 0px 4px -2px #0000001f;
     /* Float */
@@ -468,20 +466,10 @@ body {
     --drop-shadow-south: 0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f;
     /* West - side sheets */
     --drop-shadow-west: -8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026;
-    /* Foreground/AI-powered/blue - Brand */
+    /* Foreground/AI-powered/blue - Theme - Cartus */
     --foreground-ai-powered-blue: #000000;
-    /* Foreground/AI-powered/pink - Brand */
+    /* Foreground/AI-powered/pink - Theme - Cartus */
     --foreground-ai-powered-pink: #000000;
-    /* Foreground/Link text/subtle-inverse-hovered - Theme - Cartus */
-    --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
-    /* Foreground/Link text/subtle-inverse-pressed - Theme - Cartus */
-    --foreground-link-text-subtle-inverse-pressed: #d1d1d1;
-    /* Foreground/Neutral/inverse-on-surface - Theme - Cartus */
-    --foreground-neutral-inverse-on-surface: #fafafa;
-    /* Foreground/Neutral/on-color - Theme - Cartus */
-    --foreground-neutral-on-color: #ffffff;
-    /* Foreground/Neutral/on-inverse-surface - Theme - Cartus */
-    --foreground-neutral-on-inverse-surface: #fafafa;
     /* Interactions/opacity-black-10 - Global (primitives) */
     --interactions-opacity-black-10: #0000001a;
     /* Interactions/opacity-black-16 - Global (primitives) */
@@ -528,35 +516,35 @@ body {
     --interactions-primary-light-opacity-8: #00478814;
     /* Labels/Base */
     --labels-base: 500 16px/24px var(--typeface);
-    /* Labels/Base - line height */
+    /* Labels/Base -  line height */
     --labels-base-line-height: 24px;
-    /* Labels/Base - size */
+    /* Labels/Base -  size */
     --labels-base-size: 16px;
-    /* Labels/Base - style */
+    /* Labels/Base -  style */
     --labels-base-style: medium;
     /* Labels/Large */
     --labels-large: 500 18px/28px var(--typeface);
-    /* Labels/Large - line height */
+    /* Labels/Large -  line height */
     --labels-large-line-height: 28px;
-    /* Labels/Large - size */
+    /* Labels/Large -  size */
     --labels-large-size: 18px;
-    /* Labels/Large - style */
+    /* Labels/Large -  style */
     --labels-large-style: medium;
     /* Labels/Small */
     --labels-small: 500 14px/20px var(--typeface);
-    /* Labels/Small - line height */
+    /* Labels/Small -  line height */
     --labels-small-line-height: 20px;
-    /* Labels/Small - size */
+    /* Labels/Small -  size */
     --labels-small-size: 14px;
-    /* Labels/Small - style */
+    /* Labels/Small -  style */
     --labels-small-style: medium;
     /* Labels/X-Small */
     --labels-x-small: 500 12px/16px var(--typeface);
-    /* Labels/X-Small - line height */
+    /* Labels/X-Small -  line height */
     --labels-x-small-line-height: 16px;
-    /* Labels/X-Small - size */
+    /* Labels/X-Small -  size */
     --labels-x-small-size: 12px;
-    /* Labels/X-Small - style */
+    /* Labels/X-Small -  style */
     --labels-x-small-style: medium;
     /* Colors/Brands/Cartus/Primary/00-base - Global (primitives) */
     --primary-00-base: #004788;
@@ -576,8 +564,6 @@ body {
     --radius-lg: 12px;
     /* Radius/md - Borders */
     --radius-md: 8px;
-    /* Radius/none - Borders */
-    --radius-none: 0;
     /* Radius/sm - Borders */
     --radius-sm: 4px;
     /* Radius/xlg - Borders */
@@ -672,8 +658,6 @@ body {
     --spacing-sizing-24: 148px;
     /* Spacing/sizing-25 - Spacing & Sizing */
     --spacing-sizing-25: 152px;
-    /* Spacing/sizing-none - Spacing & Sizing */
-    --spacing-sizing-none: 0;
     /* Spacings/1040 - Global (primitives) */
     --spacings-1040: 104px;
     /* Spacings/120 - Global (primitives) */
@@ -724,40 +708,20 @@ body {
     --spacings-800: 80px;
     /* Spacings/960 - Global (primitives) */
     --spacings-960: 96px;
-    /* Spacings/None - Global (primitives) */
-    --spacings-none: 0;
-    /* Status/on-error - Theme - Cartus */
-    --status-on-error: #ffffff;
-    /* Status/on-information - Theme - Cartus */
-    --status-on-information: #ffffff;
-    /* Status/on-informational - Theme - Cartus */
-    --status-on-informational: #ffffff;
-    /* Status/on-success - Theme - Cartus */
-    --status-on-success: #ffffff;
-    /* Status/on-warning - Theme - Cartus */
-    --status-on-warning: #141414;
-    /* Stroke/AI-powered/blue - Brand */
+    /* Stroke/AI-powered/blue - Theme - Cartus */
     --stroke-ai-powered-blue: #000000;
-    /* Stroke/AI-powered/pink - Brand */
+    /* Stroke/AI-powered/pink - Theme - Cartus */
     --stroke-ai-powered-pink: #000000;
-    /* Stroke/Neutral/focus-on-inverse - Theme - Cartus */
-    --stroke-neutral-focus-on-inverse: #ffffff;
-    /* Stroke/Neutral/Interactions/inverse-focus - Theme - Cartus */
-    --stroke-neutral-interactions-inverse-focus: #ffffff;
-    /* Stroke/none - Borders */
-    --stroke-none: 0;
     /* Stroke/thick - Borders */
     --stroke-thick: 2px;
     /* Stroke/thicker - Borders */
     --stroke-thicker: 4px;
     /* Stroke/thin - Borders */
     --stroke-thin: 1px;
-    /* Surface/AI-powered/blue - Brand */
+    /* Surface/AI-powered/blue - Theme - Cartus */
     --surface-ai-powered-blue: #000000;
-    /* Surface/AI-powered/pink - Brand */
+    /* Surface/AI-powered/pink - Theme - Cartus */
     --surface-ai-powered-pink: #000000;
-    /* Surface/Neutral/transparent - Theme - Cartus */
-    --surface-neutral-transparent: #ffffff00;
     /* Colors/Brands/Cartus/Tertiary/00-base - Global (primitives) */
     --tertiary-00-base: #009a95;
     /* Colors/Brands/Cartus/Tertiary/15-dark - Global (primitives) */
@@ -771,7 +735,7 @@ body {
     /* Colors/Brands/Cartus/Tertiary/85-light - Global (primitives) */
     --tertiary-85-light: #d9f0ef;
     /* Typeface - Brand */
-    --typeface: 'Inter', sans-serif;
+    --typeface: 'Inter';
     /* Typography/Line-height/lh-1 - Global (primitives) */
     --typography-line-height-lh-1: 16px;
     /* Typography/Line-height/lh-10 - Global (primitives) */
@@ -835,29 +799,29 @@ body {
     /* Typography/Size/xxxlg - Global (primitives) */
     --typography-size-xxxlg: 40px;
     /* Typography/Typeface/Arial - Global (primitives) */
-    --typography-typeface-arial: 'Arial', sans-serif;
+    --typography-typeface-arial: 'Arial';
     /* Typography/Typeface/Geist - Global (primitives) */
-    --typography-typeface-geist: 'Geist', sans-serif;
+    --typography-typeface-geist: 'Geist';
     /* Typography/Typeface/Helvetica - Global (primitives) */
-    --typography-typeface-helvetica: 'Helvetica', sans-serif;
+    --typography-typeface-helvetica: 'Helvetica';
     /* Typography/Typeface/Inter - Global (primitives) */
-    --typography-typeface-inter: 'Inter', sans-serif;
+    --typography-typeface-inter: 'Inter';
     /* Typography/Typeface/Lato - Global (primitives) */
-    --typography-typeface-lato: 'Lato', sans-serif;
+    --typography-typeface-lato: 'Lato';
     /* Typography/Typeface/Manrope - Global (primitives) */
-    --typography-typeface-manrope: 'Manrope', sans-serif;
+    --typography-typeface-manrope: 'Manrope';
     /* Typography/Typeface/Open Sans - Global (primitives) */
-    --typography-typeface-open-sans: 'Open Sans', sans-serif;
+    --typography-typeface-open-sans: 'Open Sans';
     /* Typography/Typeface/Red Hat Text - Global (primitives) */
-    --typography-typeface-red-hat-text: 'Red Hat Text', sans-serif;
+    --typography-typeface-red-hat-text: 'Red Hat Text';
     /* Typography/Typeface/Roboto - Global (primitives) */
-    --typography-typeface-roboto: 'Roboto', sans-serif;
+    --typography-typeface-roboto: 'Roboto';
     /* Typography/Typeface/SF Pro - Global (primitives) */
-    --typography-typeface-sf-pro: 'SF Pro', sans-serif;
+    --typography-typeface-sf-pro: 'SF Pro';
     /* Typography/Typeface/Typold - Global (primitives) */
-    --typography-typeface-typold: 'Typold', sans-serif;
+    --typography-typeface-typold: 'Typold';
     /* Typography/Typeface/Work Sans - Global (primitives) */
-    --typography-typeface-work-sans: 'Work Sans', sans-serif;
+    --typography-typeface-work-sans: 'Work Sans';
     /* Typography/Weight/300 - Global (primitives) */
     --typography-weight-300: 300;
     /* Typography/Weight/400 - Global (primitives) */
@@ -868,52 +832,52 @@ body {
     --typography-weight-600: 600;
     /* Mobile/Display/Regular/Large */
     --display-regular-large: 400 56px/72px var(--typeface);
-    /* Mobile/Display/Regular/Large - line height */
+    /* Mobile/Display/Regular/Large -  line height */
     --display-regular-large-line-height: 72px;
-    /* Mobile/Display/Regular/Large - size */
+    /* Mobile/Display/Regular/Large -  size */
     --display-regular-large-size: 56px;
-    /* Mobile/Display/Regular/Large - style */
+    /* Mobile/Display/Regular/Large -  style */
     --display-regular-large-style: regular;
     /* Mobile/Display/Regular/Medium */
     --display-regular-medium: 400 48px/60px var(--typeface);
-    /* Mobile/Display/Regular/Medium - line height */
+    /* Mobile/Display/Regular/Medium -  line height */
     --display-regular-medium-line-height: 60px;
-    /* Mobile/Display/Regular/Medium - size */
+    /* Mobile/Display/Regular/Medium -  size */
     --display-regular-medium-size: 48px;
-    /* Mobile/Display/Regular/Medium - style */
+    /* Mobile/Display/Regular/Medium -  style */
     --display-regular-medium-style: regular;
     /* Mobile/Display/Regular/Small */
     --display-regular-small: 400 40px/48px var(--typeface);
-    /* Mobile/Display/Regular/Small - line height */
+    /* Mobile/Display/Regular/Small -  line height */
     --display-regular-small-line-height: 48px;
-    /* Mobile/Display/Regular/Small - size */
+    /* Mobile/Display/Regular/Small -  size */
     --display-regular-small-size: 40px;
-    /* Mobile/Display/Regular/Small - style */
+    /* Mobile/Display/Regular/Small -  style */
     --display-regular-small-style: regular;
     /* Mobile/Display/Semibold/Large */
     --display-semibold-large: 600 56px/72px var(--typeface);
-    /* Mobile/Display/Semibold/Large - line height */
+    /* Mobile/Display/Semibold/Large -  line height */
     --display-semibold-large-line-height: 72px;
-    /* Mobile/Display/Semibold/Large - size */
+    /* Mobile/Display/Semibold/Large -  size */
     --display-semibold-large-size: 56px;
-    /* Mobile/Display/Semibold/Large - style */
-    --display-semibold-large-style: 600;
+    /* Mobile/Display/Semibold/Large -  style */
+    --display-semibold-large-style: semi bold;
     /* Mobile/Display/Semibold/Medium */
     --display-semibold-medium: 600 48px/60px var(--typeface);
-    /* Mobile/Display/Semibold/Medium - line height */
+    /* Mobile/Display/Semibold/Medium -  line height */
     --display-semibold-medium-line-height: 60px;
-    /* Mobile/Display/Semibold/Medium - size */
+    /* Mobile/Display/Semibold/Medium -  size */
     --display-semibold-medium-size: 48px;
-    /* Mobile/Display/Semibold/Medium - style */
-    --display-semibold-medium-style: 600;
+    /* Mobile/Display/Semibold/Medium -  style */
+    --display-semibold-medium-style: semi bold;
     /* Mobile/Display/Semibold/Small */
     --display-semibold-small: 600 40px/48px var(--typeface);
-    /* Mobile/Display/Semibold/Small - line height */
+    /* Mobile/Display/Semibold/Small -  line height */
     --display-semibold-small-line-height: 48px;
-    /* Mobile/Display/Semibold/Small - size */
+    /* Mobile/Display/Semibold/Small -  size */
     --display-semibold-small-size: 40px;
-    /* Mobile/Display/Semibold/Small - style */
-    --display-semibold-small-style: 600;
+    /* Mobile/Display/Semibold/Small -  style */
+    --display-semibold-small-style: semi bold;
     /* Mobile/Heading/H1 - Large Headline */
     --heading-h1: 600 32px/40px var(--typeface);
     /* Mobile/Heading/H1 - Large Headline line height */
@@ -921,7 +885,7 @@ body {
     /* Mobile/Heading/H1 - Large Headline size */
     --heading-h1-size: 32px;
     /* Mobile/Heading/H1 - Large Headline style */
-    --heading-h1-style: 600;
+    --heading-h1-style: semi bold;
     /* Mobile/Heading/H2 - Headline */
     --heading-h2: 600 28px/36px var(--typeface);
     /* Mobile/Heading/H2 - Headline line height */
@@ -929,7 +893,7 @@ body {
     /* Mobile/Heading/H2 - Headline size */
     --heading-h2-size: 28px;
     /* Mobile/Heading/H2 - Headline style */
-    --heading-h2-style: 600;
+    --heading-h2-style: semi bold;
     /* Mobile/Heading/H3 - Headline */
     --heading-h3: 600 24px/32px var(--typeface);
     /* Mobile/Heading/H3 - Headline line height */
@@ -937,7 +901,7 @@ body {
     /* Mobile/Heading/H3 - Headline size */
     --heading-h3-size: 24px;
     /* Mobile/Heading/H3 - Headline style */
-    --heading-h3-style: 600;
+    --heading-h3-style: semi bold;
     /* Mobile/Heading/H4 - Headline */
     --heading-h4: 600 20px/28px var(--typeface);
     /* Mobile/Heading/H4 - Headline line height */
@@ -945,22 +909,22 @@ body {
     /* Mobile/Heading/H4 - Headline size */
     --heading-h4-size: 20px;
     /* Mobile/Heading/H4 - Headline style */
-    --heading-h4-style: 600;
+    --heading-h4-style: semi bold;
     /* Mobile/Heading/H5 */
     --heading-h5: 600 18px/24px var(--typeface);
-    /* Mobile/Heading/H5 - line height */
+    /* Mobile/Heading/H5 -  line height */
     --heading-h5-line-height: 24px;
-    /* Mobile/Heading/H5 - size */
+    /* Mobile/Heading/H5 -  size */
     --heading-h5-size: 18px;
-    /* Mobile/Heading/H5 - style */
-    --heading-h5-style: 600;
+    /* Mobile/Heading/H5 -  style */
+    --heading-h5-style: semi bold;
     /* Mobile/Heading/H6 */
     --heading-h6: 500 16px/20px var(--typeface);
-    /* Mobile/Heading/H6 - line height */
+    /* Mobile/Heading/H6 -  line height */
     --heading-h6-line-height: 20px;
-    /* Mobile/Heading/H6 - size */
+    /* Mobile/Heading/H6 -  size */
     --heading-h6-size: 16px;
-    /* Mobile/Heading/H6 - style */
+    /* Mobile/Heading/H6 -  style */
     --heading-h6-style: medium;
     /* Mobile/Subheader/Large - Headline */
     --subheader-large: 400 20px/28px var(--typeface);
@@ -1002,6 +966,348 @@ body {
     --subheader-xxx-large-size: 32px;
     /* Mobile/Subheader/XXX-Large - Large Headline style */
     --subheader-xxx-large-style: regular;
+    /* light theme (default) */
+    /* Background/base - Brand */
+    --background-base: #ffffff;
+    /* Background/scrim - Theme - Cartus */
+    --background-scrim: #00000040;
+    /* Background/shade - Brand */
+    --background-shade: #f5f5f5;
+    /* Data visual/category-01 - Brand */
+    --data-visual-category-01: #0a466c;
+    /* Data visual/category-01-highlight - Brand */
+    --data-visual-category-01-highlight: #0a466c4d;
+    /* Data visual/category-02 - Brand */
+    --data-visual-category-02: #299de0;
+    /* Data visual/category-02-highlight - Brand */
+    --data-visual-category-02-highlight: #299de04d;
+    /* Data visual/category-03 - Brand */
+    --data-visual-category-03: #130033;
+    /* Data visual/category-03-highlight - Brand */
+    --data-visual-category-03-highlight: #1300334d;
+    /* Data visual/category-04 - Brand */
+    --data-visual-category-04: #389e7a;
+    /* Data visual/category-04-highlight - Brand */
+    --data-visual-category-04-highlight: #389e7a4d;
+    /* Data visual/category-05 - Brand */
+    --data-visual-category-05: #094a53;
+    /* Data visual/category-05-highlight - Brand */
+    --data-visual-category-05-highlight: #094a534d;
+    /* Data visual/category-06 - Brand */
+    --data-visual-category-06: #7f7f7f;
+    /* Data visual/category-06-highlight - Brand */
+    --data-visual-category-06-highlight: #7f7f7f4d;
+    /* Data visual/category-07 - Brand */
+    --data-visual-category-07: #433479;
+    /* Data visual/category-07-highlight - Brand */
+    --data-visual-category-07-highlight: #4334794d;
+    /* Data visual/category-1 - Theme - Better Home & Garden */
+    --data-visual-category-1: #0a466c;
+    /* Data visual/category-1-highlight - Theme - Cartus */
+    --data-visual-category-1-highlight: #0a466c4d;
+    /* Data visual/category-2 - Theme - Better Home & Garden */
+    --data-visual-category-2: #299de0;
+    /* Data visual/category-2-highlight - Theme - Cartus */
+    --data-visual-category-2-highlight: #299de04d;
+    /* Data visual/category-3 - Theme - Better Home & Garden */
+    --data-visual-category-3: #130033;
+    /* Data visual/category-3-highlight - Theme - Cartus */
+    --data-visual-category-3-highlight: #1300334d;
+    /* Data visual/category-4 - Theme - Better Home & Garden */
+    --data-visual-category-4: #389e7a;
+    /* Data visual/category-4-highlight - Theme - Cartus */
+    --data-visual-category-4-highlight: #389e7a4d;
+    /* Data visual/category-5 - Theme - Better Home & Garden */
+    --data-visual-category-5: #094a53;
+    /* Data visual/category-5-highlight - Theme - Cartus */
+    --data-visual-category-5-highlight: #094a534d;
+    /* Data visual/category-6 - Theme - Better Home & Garden */
+    --data-visual-category-6: #7f7f7f;
+    /* Data visual/category-6-highlight - Theme - Cartus */
+    --data-visual-category-6-highlight: #7f7f7f4d;
+    /* Data visual/category-7 - Theme - Better Home & Garden */
+    --data-visual-category-7: #433479;
+    /* Data visual/category-7-highlight - Theme - Cartus */
+    --data-visual-category-7-highlight: #4334794d;
+    /* Data visual/gradient-end - Theme - Cartus */
+    --data-visual-gradient-end: #ffffff4d;
+    /* Data visual/green - Theme - Cartus */
+    --data-visual-green: #258750;
+    /* Data visual/green-highlight - Theme - Cartus */
+    --data-visual-green-highlight: #deede5;
+    /* Data visual/negative - Brand */
+    --data-visual-negative: #d83a52;
+    /* Data visual/negative-highlight - Brand */
+    --data-visual-negative-highlight: #f9e1e5;
+    /* Data visual/positive - Brand */
+    --data-visual-positive: #258750;
+    /* Data visual/positive-highlight - Brand */
+    --data-visual-positive-highlight: #deede5;
+    /* Data visual/red - Theme - Cartus */
+    --data-visual-red: #d83a52;
+    /* Data visual/red-highlight - Theme - Cartus */
+    --data-visual-red-highlight: #f9e1e5;
+    /* Foreground/Brand/on-inverse-primary - Theme - Cartus */
+    --foreground-brand-on-inverse-primary: #6691b8;
+    /* Foreground/Brand/on-inverse-secondary - Theme - Cartus */
+    --foreground-brand-on-inverse-secondary: #eba691;
+    /* Foreground/Brand/on-brand-primary - Brand */
+    /* Foreground color used on Brand's primary color (non neutral color) */
+    --foreground-brand-on-primary: #ffffff;
+    /* Foreground/Brand/on-brand-secondary - Brand */
+    /* Foreground color used on Brand's primary color (non neutral color) */
+    --foreground-brand-on-secondary: #141414;
+    /* Foreground/Brand/brand-primary - Brand */
+    /* Foreground text and icons that match the brand's primary color */
+    --foreground-brand-primary: #004788;
+    /* Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden */
+    --foreground-brand-primary-depth: #217221;
+    /* Foreground/Brand/brand-secondary - Brand */
+    /* Foreground text and icons that match the brand's secondary color */
+    --foreground-brand-secondary: #2098d5;
+    /* Foreground/Brand/brand-secondary-depth - Theme - Cartus */
+    --foreground-brand-secondary-depth: #1b81b5;
+    /* Foreground/Link text/default - Brand */
+    --foreground-link-text-default: #215ecd;
+    /* Foreground/Link text/default-disabled - Brand */
+    --foreground-link-text-default-disabled: #7a9ee1;
+    /* Foreground/Link text/default-hovered - Theme - Cartus */
+    --foreground-link-text-default-hovered: #1e55b9;
+    /* Foreground/Link text/default-pressed - Theme - Cartus */
+    --foreground-link-text-default-pressed: #1a4ba4;
+    /* Foreground/Link text/default-visited - Brand */
+    --foreground-link-text-default-visited: #7a3e7a;
+    /* Foreground/Link text/subtle-disabled - Brand */
+    --foreground-link-text-subtle-disabled: #bdbdbd;
+    /* Foreground/Link text/subtle-hovered - Theme - Cartus */
+    --foreground-link-text-subtle-hovered: #292929;
+    /* Foreground/Link text/subtle-inverse-hovered - Theme - Cartus */
+    --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
+    /* Foreground/Link text/subtle-inverse-pressed - Theme - Cartus */
+    --foreground-link-text-subtle-inverse-pressed: #d1d1d1;
+    /* Foreground/Link text/subtle-inversed-disabled - Brand */
+    --foreground-link-text-subtle-inversed-disabled: #757575;
+    /* Foreground/Link text/subtle-pressed - Theme - Cartus */
+    --foreground-link-text-subtle-pressed: #3d3d3d;
+    /* Foreground/Neutral/disabled-on-color-surface - Brand */
+    --foreground-neutral-disabled-on-color-surface: #757575;
+    /* Foreground/Neutral/disabled-on-surface - Brand */
+    --foreground-neutral-disabled-on-surface: #bdbdbd;
+    /* Foreground/Neutral/inverse-on-surface - Theme - Cartus */
+    --foreground-neutral-inverse-on-surface: #fafafa;
+    /* Foreground/Neutral/on-color - Brand */
+    /* Interactive controls */
+    --foreground-neutral-on-color: #ffffff;
+    /* Foreground/Neutral/on-inverse-surface - Brand */
+    /* Text and icons against inverse surface */
+    --foreground-neutral-on-inverse-surface: #fafafa;
+    /* Foreground/Neutral/on-surface - Brand */
+    /* Default foreground text and icons against any surface color */
+    --foreground-neutral-on-surface: #141414;
+    /* Foreground/Neutral/on-surface-variant-01 - Brand */
+    /* Secondary foreground color for icons and text */
+    --foreground-neutral-on-surface-variant-01: #707070;
+    /* Foreground/Neutral/on-surface-variant-02 - Brand */
+    /* Tertiary foreground color for icons and text */
+    --foreground-neutral-on-surface-variant-02: #757575;
+    /* Foreground/Neutral/on-surface-variant-03 - Brand */
+    /* Quaternary foreground color for icons and text. Only for placeholder text */
+    --foreground-neutral-on-surface-variant-03: #8a8a8a;
+    /* Foreground/Neutral/skeleton-element - Brand */
+    --foreground-neutral-skeleton-element: #e0e0e0;
+    /* Foreground/Spectrum/blue - Theme - Cartus */
+    --foreground-spectrum-blue: #143778;
+    /* Foreground/Spectrum/green - Theme - Cartus */
+    --foreground-spectrum-green: #134428;
+    /* Foreground/Spectrum/lime - Theme - Cartus */
+    --foreground-spectrum-lime: #60651a;
+    /* Foreground/Spectrum/magenta - Theme - Cartus */
+    --foreground-spectrum-magenta: #63076f;
+    /* Foreground/Spectrum/orange - Brand */
+    --foreground-spectrum-orange: #773001;
+    /* Foreground/Spectrum/pink - Theme - Cartus */
+    --foreground-spectrum-pink: #6c1240;
+    /* Foreground/Spectrum/purple - Theme - Cartus */
+    --foreground-spectrum-purple: #310077;
+    /* Foreground/Spectrum/red - Brand */
+    --foreground-spectrum-red: #6c1d29;
+    /* Foreground/Spectrum/teal - Theme - Cartus */
+    --foreground-spectrum-teal: #01413c;
+    /* Foreground/Spectrum/yellow - Theme - Cartus */
+    --foreground-spectrum-yellow: #7b5e18;
+    /* Interactions/brand-disabled-opacity - Theme - Cartus */
+    --interactions-brand-disabled-opacity: #0000000f;
+    /* Interactions/brand-hover-opacity - Theme - Cartus */
+    --interactions-brand-hover-opacity: #0000001a;
+    /* Interactions/brand-press-opacity - Theme - Cartus */
+    --interactions-brand-press-opacity: #00000033;
+    /* Interactions/disabled-opacity - Theme - Cartus */
+    --interactions-disabled-opacity: #0000000f;
+    /* Interactions/hover-opacity - Theme - Cartus */
+    --interactions-hover-opacity: #00000014;
+    /* Interactions/link-active-opacity - Brand */
+    --interactions-link-active-opacity: #0000004d;
+    /* Interactions/neutral-hover-opacity - Brand */
+    /* surfaces using neutral tones */
+    --interactions-neutral-hover-opacity: #00000014;
+    /* Interactions/neutral-press-opacity - Brand */
+    /* surfaces using neutral tones */
+    --interactions-neutral-press-opacity: #00000029;
+    /* Interactions/press-opacity - Theme - Cartus */
+    --interactions-press-opacity: #00000029;
+    /* Interactions/primary-disabled-opacity - Theme - Cartus */
+    --interactions-primary-disabled-opacity: #0047881f;
+    /* Interactions/primary-hover-opacity - Theme - Cartus */
+    --interactions-primary-hover-opacity: #0047881a;
+    /* Interactions/primary-press-opacity - Theme - Cartus */
+    --interactions-primary-press-opacity: #00478833;
+    /* Shadow/shadow-10 - Theme - Cartus */
+    --shadow-10: #0000001a;
+    /* Shadow/shadow-12 - Theme - Cartus */
+    --shadow-12: #0000001f;
+    /* Shadow/shadow-15 - Theme - Cartus */
+    --shadow-15: #00000026;
+    /* Shadow/shadow-25 - Theme - Cartus */
+    --shadow-25: #00000040;
+    /* Shadow/shadow-32 - Theme - Cartus */
+    --shadow-32: #00000052;
+    /* Shadow/inner-shadow - Brand */
+    --shadow-inner: #ffffff;
+    /* Shadow/inner-shadow-100 - Theme - Better Home & Garden */
+    --shadow-inner-100: #ffffff;
+    /* Shadow/variant-01 - Brand */
+    --shadow-variant-01: #0000001a;
+    /* Shadow/variant-02 - Brand */
+    --shadow-variant-02: #0000001f;
+    /* Shadow/variant-03 - Brand */
+    --shadow-variant-03: #00000026;
+    /* Shadow/variant-04 - Brand */
+    --shadow-variant-04: #00000040;
+    /* Shadow/variant-05 - Brand */
+    --shadow-variant-05: #00000052;
+    /* Status/error - Brand */
+    /* Foreground error text and icons */
+    --status-error: #d83a52;
+    /* Status/information - Theme - Better Home & Garden */
+    --status-information: #276ef1;
+    /* Status/informational - Brand */
+    /* Foreground informational text and icons */
+    --status-informational: #276ef1;
+    /* Status/on-error - Brand */
+    /* Foreground error text and icons */
+    --status-on-error: #ffffff;
+    /* Status/on-information - Theme - Better Home & Garden */
+    --status-on-information: #ffffff;
+    /* Status/on-informational - Brand */
+    /* Foreground informational text and icons */
+    --status-on-informational: #ffffff;
+    /* Status/on-success - Brand */
+    /* Foreground success icons and text */
+    --status-on-success: #ffffff;
+    /* Status/on-warning - Brand */
+    /* Foreground warning icons */
+    --status-on-warning: #141414;
+    /* Status/success - Brand */
+    /* Foreground success icons and text */
+    --status-success: #258750;
+    /* Status/warning - Brand */
+    /* Foreground warning icons */
+    --status-warning: #f6bc2f;
+    /* Stroke/Brand/brand-primary - Brand */
+    /* Outline variant - decorative elements such as dividers */
+    --stroke-brand-primary: #004788;
+    /* Stroke/Brand/brand-primary-depth - Brand */
+    /* Outline variant - decorative elements such as dividers */
+    --stroke-brand-primary-depth: #003c74;
+    /* Stroke/Brand/brand-secondary - Theme - Better Home & Garden */
+    --stroke-brand-secondary: #dd6b47;
+    /* Stroke/Brand/brand-secondary-depth - Theme - Cartus */
+    --stroke-brand-secondary-depth: #bc5b3c;
+    /* Stroke/Neutral/neutral-base - Brand */
+    /* For control components */
+    --stroke-neutral-base: #949494;
+    /* Stroke/Neutral/disabled-dark - Brand */
+    /* Disabled outline separating the fill and surface background */
+    --stroke-neutral-disabled-dark: #757575;
+    /* Stroke/Neutral/disabled-light - Brand */
+    /* Disabled outline separating the fill and surface background */
+    --stroke-neutral-disabled-light: #bdbdbd;
+    /* Stroke/Neutral/focus - Brand */
+    /* Highlight focus element */
+    --stroke-neutral-focus: #000000;
+    /* Stroke/Neutral/focus-on-inverse - Brand */
+    /* Highlight focus element */
+    --stroke-neutral-focus-on-inverse: #ffffff;
+    /* Stroke/Neutral/neutral-high - Brand */
+    --stroke-neutral-high: #141414;
+    /* Stroke/Neutral/neutral-high-contrast - Theme - Cartus */
+    --stroke-neutral-high-contrast: #141414;
+    /* Stroke/Neutral/Interactions/disabled-dark - Theme - Cartus */
+    --stroke-neutral-interactions-disabled-dark: #757575;
+    /* Stroke/Neutral/Interactions/disabled-light - Theme - Cartus */
+    --stroke-neutral-interactions-disabled-light: #bdbdbd;
+    /* Stroke/Neutral/Interactions/focus - Theme - Cartus */
+    --stroke-neutral-interactions-focus: #000000;
+    /* Stroke/Neutral/Interactions/inverse-focus - Theme - Cartus */
+    --stroke-neutral-interactions-inverse-focus: #ffffff;
+    /* Stroke/Neutral/neutral-low - Brand */
+    /* Outline variant - decorative elements such as dividers */
+    --stroke-neutral-low: #e0e0e0;
+    /* Stroke/Neutral/neutral-low-contrast - Theme - Cartus */
+    --stroke-neutral-low-contrast: #e0e0e0;
+    /* Surface/Brand/primary - Brand */
+    --surface-brand-primary: #004788;
+    /* Surface/Brand/primary-highlight - Theme - Cartus */
+    --surface-brand-primary-highlight: #dfeddf;
+    /* Surface/Brand/secondary - Brand */
+    --surface-brand-secondary: #2098d5;
+    /* Surface/Brand/secondary-highlight - Theme - Cartus */
+    --surface-brand-secondary-highlight: #def0f9;
+    /* Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden */
+    --surface-neutral-interactions-dark-disabled: #d6d6d6;
+    /* Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden */
+    --surface-neutral-interactions-light-disabled: #f5f5f5;
+    /* Surface/Neutral/inverse - Brand */
+    /* Inverted. Use for toasts notification & snackbars */
+    --surface-neutral-inverse: #1f1f1f;
+    /* Surface/Neutral/inverse-dark - Theme - Better Home & Garden */
+    --surface-neutral-inverse-dark: #1f1f1f;
+    /* Surface/Neutral/inverse-light - Theme - Cartus */
+    --surface-neutral-inverse-light: #ffffff;
+    /* Surface/Neutral/T1-base - Brand */
+    --surface-neutral-t1-base: #ffffff;
+    /* Surface/Neutral/T2-lowest - Brand */
+    --surface-neutral-t2-lowest: #f5f5f5;
+    /* Surface/Neutral/T3-low - Brand */
+    /* Navigations, app bar etc */
+    --surface-neutral-t3-low: #dbdbdb;
+    /* Surface/Neutral/T4-high - Brand */
+    /* Navigations, app bar etc */
+    --surface-neutral-t4-high: #8a8a8a;
+    /* Surface/Neutral/T4-high 2 - Theme - Better Home & Garden */
+    --surface-neutral-t4-high-2: #8a8a8a;
+    /* Surface/Neutral/transparent - Brand */
+    --surface-neutral-transparent: #ffffff00;
+    /* Surface/Spectrum/blue - Theme - Cartus */
+    --surface-spectrum-blue: #dfe9fd;
+    /* Surface/Spectrum/green - Theme - Cartus */
+    --surface-spectrum-green: #deede5;
+    /* Surface/Spectrum/lime - Theme - Cartus */
+    --surface-spectrum-lime: #f6f7e0;
+    /* Surface/Spectrum/magenta - Theme - Cartus */
+    --surface-spectrum-magenta: #f6dbfa;
+    /* Surface/Spectrum/orange - Theme - Better Home & Garden */
+    --surface-spectrum-orange: #fce7d9;
+    /* Surface/Spectrum/pink - Theme - Cartus */
+    --surface-spectrum-pink: #f9deec;
+    /* Surface/Spectrum/purple - Theme - Cartus */
+    --surface-spectrum-purple: #e7d9fc;
+    /* Surface/Spectrum/red - Theme - Cartus */
+    --surface-spectrum-red: #f9e1e5;
+    /* Surface/Spectrum/teal - Theme - Cartus */
+    --surface-spectrum-teal: #d9eceb;
+    /* Surface/Spectrum/yellow - Theme - Cartus */
+    --surface-spectrum-yellow: #fef5e0;
 
     @media (width >= 640px) {
         /* Desktop/Display/Regular/Large - Used in landing hero or marketing sections. */
@@ -1035,7 +1341,7 @@ body {
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. size */
         --display-semibold-large-size: 64px;
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. style */
-        --display-semibold-large-style: 600;
+        --display-semibold-large-style: semi bold;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. */
         --display-semibold-medium: 600 56px/72px var(--typeface);
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. line height */
@@ -1043,7 +1349,7 @@ body {
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. size */
         --display-semibold-medium-size: 56px;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. style */
-        --display-semibold-medium-style: 600;
+        --display-semibold-medium-style: semi bold;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. */
         --display-semibold-small: 600 48px/60px var(--typeface);
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. line height */
@@ -1051,54 +1357,54 @@ body {
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. size */
         --display-semibold-small-size: 48px;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. style */
-        --display-semibold-small-style: 600;
+        --display-semibold-small-style: semi bold;
         /* Desktop/Heading/H1 */
         --heading-h1: 600 40px/48px var(--typeface);
-        /* Desktop/Heading/H1 - line height */
+        /* Desktop/Heading/H1 -  line height */
         --heading-h1-line-height: 48px;
-        /* Desktop/Heading/H1 - size */
+        /* Desktop/Heading/H1 -  size */
         --heading-h1-size: 40px;
-        /* Desktop/Heading/H1 - style */
-        --heading-h1-style: 600;
+        /* Desktop/Heading/H1 -  style */
+        --heading-h1-style: semi bold;
         /* Desktop/Heading/H2 */
         --heading-h2: 600 32px/40px var(--typeface);
-        /* Desktop/Heading/H2 - line height */
+        /* Desktop/Heading/H2 -  line height */
         --heading-h2-line-height: 40px;
-        /* Desktop/Heading/H2 - size */
+        /* Desktop/Heading/H2 -  size */
         --heading-h2-size: 32px;
-        /* Desktop/Heading/H2 - style */
-        --heading-h2-style: 600;
+        /* Desktop/Heading/H2 -  style */
+        --heading-h2-style: semi bold;
         /* Desktop/Heading/H3 */
         --heading-h3: 600 28px/36px var(--typeface);
-        /* Desktop/Heading/H3 - line height */
+        /* Desktop/Heading/H3 -  line height */
         --heading-h3-line-height: 36px;
-        /* Desktop/Heading/H3 - size */
+        /* Desktop/Heading/H3 -  size */
         --heading-h3-size: 28px;
-        /* Desktop/Heading/H3 - style */
-        --heading-h3-style: 600;
+        /* Desktop/Heading/H3 -  style */
+        --heading-h3-style: semi bold;
         /* Desktop/Heading/H4 */
         --heading-h4: 600 24px/32px var(--typeface);
-        /* Desktop/Heading/H4 - line height */
+        /* Desktop/Heading/H4 -  line height */
         --heading-h4-line-height: 32px;
-        /* Desktop/Heading/H4 - size */
+        /* Desktop/Heading/H4 -  size */
         --heading-h4-size: 24px;
-        /* Desktop/Heading/H4 - style */
-        --heading-h4-style: 600;
+        /* Desktop/Heading/H4 -  style */
+        --heading-h4-style: semi bold;
         /* Desktop/Heading/H5 */
         --heading-h5: 600 20px/28px var(--typeface);
-        /* Desktop/Heading/H5 - line height */
+        /* Desktop/Heading/H5 -  line height */
         --heading-h5-line-height: 28px;
-        /* Desktop/Heading/H5 - size */
+        /* Desktop/Heading/H5 -  size */
         --heading-h5-size: 20px;
-        /* Desktop/Heading/H5 - style */
-        --heading-h5-style: 600;
+        /* Desktop/Heading/H5 -  style */
+        --heading-h5-style: semi bold;
         /* Desktop/Heading/H6 */
         --heading-h6: 500 18px/24px var(--typeface);
-        /* Desktop/Heading/H6 - line height */
+        /* Desktop/Heading/H6 -  line height */
         --heading-h6-line-height: 24px;
-        /* Desktop/Heading/H6 - size */
+        /* Desktop/Heading/H6 -  size */
         --heading-h6-size: 18px;
-        /* Desktop/Heading/H6 - style */
+        /* Desktop/Heading/H6 -  style */
         --heading-h6-style: medium;
         /* Desktop/Subheader/Large - Headline */
         --subheader-large: 400 24px/32px var(--typeface);
@@ -1110,11 +1416,11 @@ body {
         --subheader-large-style: regular;
         /* Desktop/Subheader/Medium */
         --subheader-medium: 400 20px/28px var(--typeface);
-        /* Desktop/Subheader/Medium - line height */
+        /* Desktop/Subheader/Medium -  line height */
         --subheader-medium-line-height: 28px;
-        /* Desktop/Subheader/Medium - size */
+        /* Desktop/Subheader/Medium -  size */
         --subheader-medium-size: 20px;
-        /* Desktop/Subheader/Medium - style */
+        /* Desktop/Subheader/Medium -  style */
         --subheader-medium-style: regular;
         /* Desktop/Subheader/X-Large - Headline */
         --subheader-x-large: 400 28px/36px var(--typeface);
@@ -1141,364 +1447,68 @@ body {
         /* Desktop/Subheader/XXX-Large - Large Headline style */
         --subheader-xxx-large-style: regular;
     }
-
-    /** Light theme (default) **/
-    /* Background/base - Theme - Cartus */
-    --background-base: #ffffff;
-    /* Background/scrim - Theme - Cartus */
-    --background-scrim: #00000040;
-    /* Background/shade - Theme - Cartus */
-    --background-shade: #f5f5f5;
-    /* Data visual/category-01 - Theme - Cartus */
-    --data-visual-category-01: #0a466c;
-    /* Data visual/category-01-highlight - Theme - Cartus */
-    --data-visual-category-01-highlight: #0a466c4d;
-    /* Data visual/category-02 - Theme - Cartus */
-    --data-visual-category-02: #299de0;
-    /* Data visual/category-02-highlight - Theme - Cartus */
-    --data-visual-category-02-highlight: #299de04d;
-    /* Data visual/category-03 - Theme - Cartus */
-    --data-visual-category-03: #130033;
-    /* Data visual/category-03-highlight - Theme - Cartus */
-    --data-visual-category-03-highlight: #1300334d;
-    /* Data visual/category-04 - Theme - Cartus */
-    --data-visual-category-04: #389e7a;
-    /* Data visual/category-04-highlight - Theme - Cartus */
-    --data-visual-category-04-highlight: #389e7a4d;
-    /* Data visual/category-05 - Theme - Cartus */
-    --data-visual-category-05: #094a53;
-    /* Data visual/category-05-highlight - Theme - Cartus */
-    --data-visual-category-05-highlight: #094a534d;
-    /* Data visual/category-06 - Theme - Cartus */
-    --data-visual-category-06: #7f7f7f;
-    /* Data visual/category-06-highlight - Theme - Cartus */
-    --data-visual-category-06-highlight: #7f7f7f4d;
-    /* Data visual/category-07 - Theme - Cartus */
-    --data-visual-category-07: #433479;
-    /* Data visual/category-07-highlight - Theme - Cartus */
-    --data-visual-category-07-highlight: #4334794d;
-    /* Data visual/category-1 - Theme - Cartus */
-    --data-visual-category-1: #0a466c;
-    /* Data visual/category-1-highlight - Theme - Cartus */
-    --data-visual-category-1-highlight: #0a466c4d;
-    /* Data visual/category-2 - Theme - Cartus */
-    --data-visual-category-2: #299de0;
-    /* Data visual/category-2-highlight - Theme - Cartus */
-    --data-visual-category-2-highlight: #299de04d;
-    /* Data visual/category-3 - Theme - Cartus */
-    --data-visual-category-3: #130033;
-    /* Data visual/category-3-highlight - Theme - Cartus */
-    --data-visual-category-3-highlight: #1300334d;
-    /* Data visual/category-4 - Theme - Cartus */
-    --data-visual-category-4: #389e7a;
-    /* Data visual/category-4-highlight - Theme - Cartus */
-    --data-visual-category-4-highlight: #389e7a4d;
-    /* Data visual/category-5 - Theme - Cartus */
-    --data-visual-category-5: #094a53;
-    /* Data visual/category-5-highlight - Theme - Cartus */
-    --data-visual-category-5-highlight: #094a534d;
-    /* Data visual/category-6 - Theme - Cartus */
-    --data-visual-category-6: #7f7f7f;
-    /* Data visual/category-6-highlight - Theme - Cartus */
-    --data-visual-category-6-highlight: #7f7f7f4d;
-    /* Data visual/category-7 - Theme - Cartus */
-    --data-visual-category-7: #433479;
-    /* Data visual/category-7-highlight - Theme - Cartus */
-    --data-visual-category-7-highlight: #4334794d;
-    /* Data visual/gradient-end - Theme - Cartus */
-    --data-visual-gradient-end: #ffffff4d;
-    /* Data visual/green - Theme - Cartus */
-    --data-visual-green: #258750;
-    /* Data visual/green-highlight - Theme - Cartus */
-    --data-visual-green-highlight: #deede5;
-    /* Data visual/negative - Theme - Cartus */
-    --data-visual-negative: #d83a52;
-    /* Data visual/negative-highlight - Theme - Cartus */
-    --data-visual-negative-highlight: #f9e1e5;
-    /* Data visual/positive - Theme - Cartus */
-    --data-visual-positive: #258750;
-    /* Data visual/positive-highlight - Theme - Cartus */
-    --data-visual-positive-highlight: #deede5;
-    /* Data visual/red - Theme - Cartus */
-    --data-visual-red: #d83a52;
-    /* Data visual/red-highlight - Theme - Cartus */
-    --data-visual-red-highlight: #f9e1e5;
-    /* Foreground/AI-powered/blue - Theme - Agent Workplace */
-    --foreground-ai-powered-blue: #215ecd;
-    /* Foreground/AI-powered/pink - Theme - Agent Workplace */
-    --foreground-ai-powered-pink: #c60ede;
-    /* Foreground/Brand/on-inverse-primary - Theme - Cartus */
-    --foreground-brand-on-inverse-primary: #6691b8;
-    /* Foreground/Brand/on-inverse-secondary - Theme - Cartus */
-    --foreground-brand-on-inverse-secondary: #79c1e6;
-    /* Foreground/Brand/on-brand-primary - Theme - Cartus */
-    --foreground-brand-on-primary: #ffffff;
-    /* Foreground/Brand/on-brand-secondary - Theme - Cartus */
-    --foreground-brand-on-secondary: #141414;
-    /* Foreground/Brand/brand-primary - Theme - Cartus */
-    --foreground-brand-primary: #004788;
-    /* Foreground/Brand/brand-primary-depth - Theme - Cartus */
-    --foreground-brand-primary-depth: #003c74;
-    /* Foreground/Brand/brand-secondary - Theme - Cartus */
-    --foreground-brand-secondary: #2098d5;
-    /* Foreground/Brand/brand-secondary-depth - Theme - Cartus */
-    --foreground-brand-secondary-depth: #1b81b5;
-    /* Foreground/Link text/default - Theme - Cartus */
-    --foreground-link-text-default: #215ecd;
-    /* Foreground/Link text/default-disabled - Theme - Cartus */
-    --foreground-link-text-default-disabled: #7a9ee1;
-    /* Foreground/Link text/default-hovered - Theme - Cartus */
-    --foreground-link-text-default-hovered: #1e55b9;
-    /* Foreground/Link text/default-pressed - Theme - Cartus */
-    --foreground-link-text-default-pressed: #1a4ba4;
-    /* Foreground/Link text/default-visited - Theme - Cartus */
-    --foreground-link-text-default-visited: #7a3e7a;
-    /* Foreground/Link text/subtle-disabled - Theme - Cartus */
-    --foreground-link-text-subtle-disabled: #bdbdbd;
-    /* Foreground/Link text/subtle-hovered - Theme - Cartus */
-    --foreground-link-text-subtle-hovered: #292929;
-    /* Foreground/Link text/subtle-inversed-disabled - Theme - Cartus */
-    --foreground-link-text-subtle-inversed-disabled: #757575;
-    /* Foreground/Link text/subtle-pressed - Theme - Cartus */
-    --foreground-link-text-subtle-pressed: #3d3d3d;
-    /* Foreground/Neutral/disabled-on-color-surface - Theme - Cartus */
-    --foreground-neutral-disabled-on-color-surface: #757575;
-    /* Foreground/Neutral/disabled-on-surface - Theme - Cartus */
-    --foreground-neutral-disabled-on-surface: #bdbdbd;
-    /* Foreground/Neutral/on-surface - Theme - Cartus */
-    --foreground-neutral-on-surface: #141414;
-    /* Foreground/Neutral/on-surface-variant-01 - Theme - Cartus */
-    --foreground-neutral-on-surface-variant-01: #707070;
-    /* Foreground/Neutral/on-surface-variant-02 - Theme - Cartus */
-    --foreground-neutral-on-surface-variant-02: #757575;
-    /* Foreground/Neutral/on-surface-variant-03 - Theme - Cartus */
-    --foreground-neutral-on-surface-variant-03: #8a8a8a;
-    /* Foreground/Neutral/skeleton-element - Theme - Cartus */
-    --foreground-neutral-skeleton-element: #e0e0e0;
-    /* Foreground/Spectrum/blue - Theme - Cartus */
-    --foreground-spectrum-blue: #143778;
-    /* Foreground/Spectrum/green - Theme - Cartus */
-    --foreground-spectrum-green: #134428;
-    /* Foreground/Spectrum/lime - Theme - Cartus */
-    --foreground-spectrum-lime: #60651a;
-    /* Foreground/Spectrum/magenta - Theme - Cartus */
-    --foreground-spectrum-magenta: #63076f;
-    /* Foreground/Spectrum/orange - Theme - Cartus */
-    --foreground-spectrum-orange: #773001;
-    /* Foreground/Spectrum/pink - Theme - Cartus */
-    --foreground-spectrum-pink: #6c1240;
-    /* Foreground/Spectrum/purple - Theme - Cartus */
-    --foreground-spectrum-purple: #310077;
-    /* Foreground/Spectrum/red - Theme - Cartus */
-    --foreground-spectrum-red: #6c1d29;
-    /* Foreground/Spectrum/teal - Theme - Cartus */
-    --foreground-spectrum-teal: #01413c;
-    /* Foreground/Spectrum/yellow - Theme - Cartus */
-    --foreground-spectrum-yellow: #7b5e18;
-    /* Interactions/brand-disabled-opacity - Theme - Cartus */
-    --interactions-brand-disabled-opacity: #0000000f;
-    /* Interactions/brand-hover-opacity - Theme - Cartus */
-    --interactions-brand-hover-opacity: #0000001a;
-    /* Interactions/brand-press-opacity - Theme - Cartus */
-    --interactions-brand-press-opacity: #00000033;
-    /* Interactions/disabled-opacity - Theme - Cartus */
-    --interactions-disabled-opacity: #0000000f;
-    /* Interactions/hover-opacity - Theme - Cartus */
-    --interactions-hover-opacity: #00000014;
-    /* Interactions/link-active-opacity - Theme - Cartus */
-    --interactions-link-active-opacity: #0000004d;
-    /* Interactions/neutral-hover-opacity - Theme - Cartus */
-    --interactions-neutral-hover-opacity: #00000014;
-    /* Interactions/neutral-press-opacity - Theme - Cartus */
-    --interactions-neutral-press-opacity: #00000029;
-    /* Interactions/press-opacity - Theme - Cartus */
-    --interactions-press-opacity: #00000029;
-    /* Interactions/primary-disabled-opacity - Theme - Cartus */
-    --interactions-primary-disabled-opacity: #0047881f;
-    /* Interactions/primary-hover-opacity - Theme - Cartus */
-    --interactions-primary-hover-opacity: #0047881a;
-    /* Interactions/primary-press-opacity - Theme - Cartus */
-    --interactions-primary-press-opacity: #00478833;
-    /* Shadow/shadow-10 - Theme - Cartus */
-    --shadow-10: #0000001a;
-    /* Shadow/shadow-12 - Theme - Cartus */
-    --shadow-12: #0000001f;
-    /* Shadow/shadow-15 - Theme - Cartus */
-    --shadow-15: #00000026;
-    /* Shadow/shadow-25 - Theme - Cartus */
-    --shadow-25: #00000040;
-    /* Shadow/shadow-32 - Theme - Cartus */
-    --shadow-32: #00000052;
-    /* Shadow/inner-shadow - Theme - Cartus */
-    --shadow-inner: #ffffff;
-    /* Shadow/inner-shadow-100 - Theme - Cartus */
-    --shadow-inner-100: #ffffff;
-    /* Shadow/variant-01 - Theme - Cartus */
-    --shadow-variant-01: #0000001a;
-    /* Shadow/variant-02 - Theme - Cartus */
-    --shadow-variant-02: #0000001f;
-    /* Shadow/variant-03 - Theme - Cartus */
-    --shadow-variant-03: #00000026;
-    /* Shadow/variant-04 - Theme - Cartus */
-    --shadow-variant-04: #00000040;
-    /* Shadow/variant-05 - Theme - Cartus */
-    --shadow-variant-05: #00000052;
-    /* Status/error - Theme - Cartus */
-    --status-error: #d83a52;
-    /* Status/information - Theme - Cartus */
-    --status-information: #276ef1;
-    /* Status/informational - Theme - Cartus */
-    --status-informational: #276ef1;
-    /* Status/success - Theme - Cartus */
-    --status-success: #258750;
-    /* Status/warning - Theme - Cartus */
-    --status-warning: #f6bc2f;
-    /* Stroke/AI-powered/blue - Theme - Agent Workplace */
-    --stroke-ai-powered-blue: #215ecd;
-    /* Stroke/AI-powered/pink - Theme - Agent Workplace */
-    --stroke-ai-powered-pink: #c60ede;
-    /* Stroke/Brand/brand-primary - Theme - Cartus */
-    --stroke-brand-primary: #004788;
-    /* Stroke/Brand/brand-primary-depth - Theme - Cartus */
-    --stroke-brand-primary-depth: #003c74;
-    /* Stroke/Brand/brand-secondary - Theme - Cartus */
-    --stroke-brand-secondary: #2098d5;
-    /* Stroke/Brand/brand-secondary-depth - Theme - Cartus */
-    --stroke-brand-secondary-depth: #1b81b5;
-    /* Stroke/Neutral/neutral-base - Theme - Cartus */
-    --stroke-neutral-base: #949494;
-    /* Stroke/Neutral/disabled-dark - Theme - Cartus */
-    --stroke-neutral-disabled-dark: #757575;
-    /* Stroke/Neutral/disabled-light - Theme - Cartus */
-    --stroke-neutral-disabled-light: #bdbdbd;
-    /* Stroke/Neutral/focus - Theme - Cartus */
-    --stroke-neutral-focus: #000000;
-    /* Stroke/Neutral/neutral-high - Theme - Cartus */
-    --stroke-neutral-high: #141414;
-    /* Stroke/Neutral/neutral-high-contrast - Theme - Cartus */
-    --stroke-neutral-high-contrast: #141414;
-    /* Stroke/Neutral/Interactions/disabled-dark - Theme - Cartus */
-    --stroke-neutral-interactions-disabled-dark: #757575;
-    /* Stroke/Neutral/Interactions/disabled-light - Theme - Cartus */
-    --stroke-neutral-interactions-disabled-light: #bdbdbd;
-    /* Stroke/Neutral/Interactions/focus - Theme - Cartus */
-    --stroke-neutral-interactions-focus: #000000;
-    /* Stroke/Neutral/neutral-low - Theme - Cartus */
-    --stroke-neutral-low: #e0e0e0;
-    /* Stroke/Neutral/neutral-low-contrast - Theme - Cartus */
-    --stroke-neutral-low-contrast: #e0e0e0;
-    /* Surface/AI-powered/blue - Theme - Agent Workplace */
-    --surface-ai-powered-blue: #215ecd;
-    /* Surface/AI-powered/pink - Theme - Agent Workplace */
-    --surface-ai-powered-pink: #c60ede;
-    /* Surface/Brand/primary - Theme - Cartus */
-    --surface-brand-primary: #004788;
-    /* Surface/Brand/primary-highlight - Theme - Cartus */
-    --surface-brand-primary-highlight: #d9e3ed;
-    /* Surface/Brand/secondary - Theme - Cartus */
-    --surface-brand-secondary: #2098d5;
-    /* Surface/Brand/secondary-highlight - Theme - Cartus */
-    --surface-brand-secondary-highlight: #def0f9;
-    /* Surface/Neutral/Interactions/dark-disabled - Theme - Cartus */
-    --surface-neutral-interactions-dark-disabled: #d6d6d6;
-    /* Surface/Neutral/Interactions/light-disabled - Theme - Cartus */
-    --surface-neutral-interactions-light-disabled: #f5f5f5;
-    /* Surface/Neutral/inverse - Theme - Cartus */
-    --surface-neutral-inverse: #1f1f1f;
-    /* Surface/Neutral/inverse-dark - Theme - Cartus */
-    --surface-neutral-inverse-dark: #1f1f1f;
-    /* Surface/Neutral/inverse-light - Theme - Cartus */
-    --surface-neutral-inverse-light: #ffffff;
-    /* Surface/Neutral/T1-base - Theme - Cartus */
-    --surface-neutral-t1-base: #ffffff;
-    /* Surface/Neutral/T2-lowest - Theme - Cartus */
-    --surface-neutral-t2-lowest: #f5f5f5;
-    /* Surface/Neutral/T3-low - Theme - Cartus */
-    --surface-neutral-t3-low: #dbdbdb;
-    /* Surface/Neutral/T4-high - Theme - Cartus */
-    --surface-neutral-t4-high: #8a8a8a;
-    /* Surface/Spectrum/blue - Theme - Cartus */
-    --surface-spectrum-blue: #dfe9fd;
-    /* Surface/Spectrum/green - Theme - Cartus */
-    --surface-spectrum-green: #deede5;
-    /* Surface/Spectrum/lime - Theme - Cartus */
-    --surface-spectrum-lime: #f6f7e0;
-    /* Surface/Spectrum/magenta - Theme - Cartus */
-    --surface-spectrum-magenta: #f6dbfa;
-    /* Surface/Spectrum/orange - Theme - Cartus */
-    --surface-spectrum-orange: #fce7d9;
-    /* Surface/Spectrum/pink - Theme - Cartus */
-    --surface-spectrum-pink: #f9deec;
-    /* Surface/Spectrum/purple - Theme - Cartus */
-    --surface-spectrum-purple: #e7d9fc;
-    /* Surface/Spectrum/red - Theme - Cartus */
-    --surface-spectrum-red: #f9e1e5;
-    /* Surface/Spectrum/teal - Theme - Cartus */
-    --surface-spectrum-teal: #d9eceb;
-    /* Surface/Spectrum/yellow - Theme - Cartus */
-    --surface-spectrum-yellow: #fef5e0;
 }
-
+/* dark theme */
 [data-theme='dark'] {
-    /* Background/base - Theme - Cartus */
+    /* Background/base - Brand */
     --background-base: #1f1f1f;
     /* Background/scrim - Theme - Cartus */
     --background-scrim: #61616180;
-    /* Background/shade - Theme - Cartus */
+    /* Background/shade - Brand */
     --background-shade: #292929;
-    /* Data visual/category-01 - Theme - Cartus */
+    /* Data visual/category-01 - Brand */
     --data-visual-category-01: #7899ae;
-    /* Data visual/category-01-highlight - Theme - Cartus */
+    /* Data visual/category-01-highlight - Brand */
     --data-visual-category-01-highlight: #7899ae4d;
-    /* Data visual/category-02 - Theme - Cartus */
+    /* Data visual/category-02 - Brand */
     --data-visual-category-02: #7fc4ec;
-    /* Data visual/category-02-highlight - Theme - Cartus */
+    /* Data visual/category-02-highlight - Brand */
     --data-visual-category-02-highlight: #7fc4ec4d;
-    /* Data visual/category-03 - Theme - Cartus */
+    /* Data visual/category-03 - Brand */
     --data-visual-category-03: #958ca3;
-    /* Data visual/category-03-highlight - Theme - Cartus */
+    /* Data visual/category-03-highlight - Brand */
     --data-visual-category-03-highlight: #958ca34d;
-    /* Data visual/category-04 - Theme - Cartus */
+    /* Data visual/category-04 - Brand */
     --data-visual-category-04: #88c5af;
-    /* Data visual/category-04-highlight - Theme - Cartus */
+    /* Data visual/category-04-highlight - Brand */
     --data-visual-category-04-highlight: #88c5af4d;
-    /* Data visual/category-05 - Theme - Cartus */
+    /* Data visual/category-05 - Brand */
     --data-visual-category-05: #789ba0;
-    /* Data visual/category-05-highlight - Theme - Cartus */
+    /* Data visual/category-05-highlight - Brand */
     --data-visual-category-05-highlight: #789ba04d;
-    /* Data visual/category-06 - Theme - Cartus */
+    /* Data visual/category-06 - Brand */
     --data-visual-category-06: #b2b2b2;
-    /* Data visual/category-06-highlight - Theme - Cartus */
+    /* Data visual/category-06-highlight - Brand */
     --data-visual-category-06-highlight: #b2b2b24d;
-    /* Data visual/category-07 - Theme - Cartus */
+    /* Data visual/category-07 - Brand */
     --data-visual-category-07: #a19abc;
-    /* Data visual/category-07-highlight - Theme - Cartus */
+    /* Data visual/category-07-highlight - Brand */
     --data-visual-category-07-highlight: #a19abc4d;
-    /* Data visual/category-1 - Theme - Cartus */
-    --data-visual-category-1: #7899ae;
+    /* Data visual/category-1 - Theme - Better Home & Garden */
+    --data-visual-category-1: #0a466c;
     /* Data visual/category-1-highlight - Theme - Cartus */
     --data-visual-category-1-highlight: #7899ae4d;
-    /* Data visual/category-2 - Theme - Cartus */
+    /* Data visual/category-2 - Theme - Better Home & Garden */
     --data-visual-category-2: #7fc4ec;
     /* Data visual/category-2-highlight - Theme - Cartus */
     --data-visual-category-2-highlight: #7fc4ec4d;
-    /* Data visual/category-3 - Theme - Cartus */
+    /* Data visual/category-3 - Theme - Better Home & Garden */
     --data-visual-category-3: #958ca3;
     /* Data visual/category-3-highlight - Theme - Cartus */
     --data-visual-category-3-highlight: #958ca34d;
-    /* Data visual/category-4 - Theme - Cartus */
+    /* Data visual/category-4 - Theme - Better Home & Garden */
     --data-visual-category-4: #88c5af;
     /* Data visual/category-4-highlight - Theme - Cartus */
     --data-visual-category-4-highlight: #88c5af4d;
-    /* Data visual/category-5 - Theme - Cartus */
+    /* Data visual/category-5 - Theme - Better Home & Garden */
     --data-visual-category-5: #789ba0;
     /* Data visual/category-5-highlight - Theme - Cartus */
     --data-visual-category-5-highlight: #789ba04d;
-    /* Data visual/category-6 - Theme - Cartus */
+    /* Data visual/category-6 - Theme - Better Home & Garden */
     --data-visual-category-6: #b2b2b2;
     /* Data visual/category-6-highlight - Theme - Cartus */
     --data-visual-category-6-highlight: #b2b2b24d;
-    /* Data visual/category-7 - Theme - Cartus */
+    /* Data visual/category-7 - Theme - Better Home & Garden */
     --data-visual-category-7: #a19abc;
     /* Data visual/category-7-highlight - Theme - Cartus */
     --data-visual-category-7-highlight: #a19abc4d;
@@ -1508,69 +1518,85 @@ body {
     --data-visual-green: #7cb796;
     /* Data visual/green-highlight - Theme - Cartus */
     --data-visual-green-highlight: #0d2f1c;
-    /* Data visual/negative - Theme - Cartus */
+    /* Data visual/negative - Brand */
     --data-visual-negative: #e88997;
-    /* Data visual/negative-highlight - Theme - Cartus */
+    /* Data visual/negative-highlight - Brand */
     --data-visual-negative-highlight: #4c141d;
-    /* Data visual/positive - Theme - Cartus */
+    /* Data visual/positive - Brand */
     --data-visual-positive: #7cb796;
-    /* Data visual/positive-highlight - Theme - Cartus */
+    /* Data visual/positive-highlight - Brand */
     --data-visual-positive-highlight: #0d2f1c;
     /* Data visual/red - Theme - Cartus */
     --data-visual-red: #e88997;
     /* Data visual/red-highlight - Theme - Cartus */
     --data-visual-red-highlight: #4c141d;
-    /* Foreground/AI-powered/blue - Theme - Agent Workplace */
-    --foreground-ai-powered-blue: #000000;
-    /* Foreground/AI-powered/pink - Theme - Agent Workplace */
-    --foreground-ai-powered-pink: #000000;
     /* Foreground/Brand/on-inverse-primary - Theme - Cartus */
     --foreground-brand-on-inverse-primary: #6691b8;
     /* Foreground/Brand/on-inverse-secondary - Theme - Cartus */
-    --foreground-brand-on-inverse-secondary: #79c1e6;
-    /* Foreground/Brand/on-brand-primary - Theme - Cartus */
+    --foreground-brand-on-inverse-secondary: #eba691;
+    /* Foreground/Brand/on-brand-primary - Brand */
+    /* Foreground color used on Brand's primary color (non neutral color) */
     --foreground-brand-on-primary: #141414;
-    /* Foreground/Brand/on-brand-secondary - Theme - Cartus */
+    /* Foreground/Brand/on-brand-secondary - Brand */
+    /* Foreground color used on Brand's primary color (non neutral color) */
     --foreground-brand-on-secondary: #141414;
-    /* Foreground/Brand/brand-primary - Theme - Cartus */
+    /* Foreground/Brand/brand-primary - Brand */
+    /* Foreground text and icons that match the brand's primary color */
     --foreground-brand-primary: #6691b8;
-    /* Foreground/Brand/brand-primary-depth - Theme - Cartus */
-    --foreground-brand-primary-depth: #8cacc9;
-    /* Foreground/Brand/brand-secondary - Theme - Cartus */
+    /* Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden */
+    --foreground-brand-primary-depth: #88bc88;
+    /* Foreground/Brand/brand-secondary - Brand */
+    /* Foreground text and icons that match the brand's secondary color */
     --foreground-brand-secondary: #79c1e6;
     /* Foreground/Brand/brand-secondary-depth - Theme - Cartus */
     --foreground-brand-secondary-depth: #9bd1ec;
-    /* Foreground/Link text/default - Theme - Cartus */
+    /* Foreground/Link text/default - Brand */
     --foreground-link-text-default: #7a9ee1;
-    /* Foreground/Link text/default-disabled - Theme - Cartus */
+    /* Foreground/Link text/default-disabled - Brand */
     --foreground-link-text-default-disabled: #14387b;
     /* Foreground/Link text/default-hovered - Theme - Cartus */
     --foreground-link-text-default-hovered: #90afe6;
     /* Foreground/Link text/default-pressed - Theme - Cartus */
     --foreground-link-text-default-pressed: #a6bfeb;
-    /* Foreground/Link text/default-visited - Theme - Cartus */
+    /* Foreground/Link text/default-visited - Brand */
     --foreground-link-text-default-visited: #af8baf;
-    /* Foreground/Link text/subtle-disabled - Theme - Cartus */
+    /* Foreground/Link text/subtle-disabled - Brand */
     --foreground-link-text-subtle-disabled: #4d4d4d;
     /* Foreground/Link text/subtle-hovered - Theme - Cartus */
     --foreground-link-text-subtle-hovered: #e6e6e6;
-    /* Foreground/Link text/subtle-inversed-disabled - Theme - Cartus */
+    /* Foreground/Link text/subtle-inverse-hovered - Theme - Cartus */
+    --foreground-link-text-subtle-inverse-hovered: #e6e6e6;
+    /* Foreground/Link text/subtle-inverse-pressed - Theme - Cartus */
+    --foreground-link-text-subtle-inverse-pressed: #d1d1d1;
+    /* Foreground/Link text/subtle-inversed-disabled - Brand */
     --foreground-link-text-subtle-inversed-disabled: #3d3d3d;
     /* Foreground/Link text/subtle-pressed - Theme - Cartus */
     --foreground-link-text-subtle-pressed: #d1d1d1;
-    /* Foreground/Neutral/disabled-on-color-surface - Theme - Cartus */
+    /* Foreground/Neutral/disabled-on-color-surface - Brand */
     --foreground-neutral-disabled-on-color-surface: #3d3d3d;
-    /* Foreground/Neutral/disabled-on-surface - Theme - Cartus */
+    /* Foreground/Neutral/disabled-on-surface - Brand */
     --foreground-neutral-disabled-on-surface: #4d4d4d;
-    /* Foreground/Neutral/on-surface - Theme - Cartus */
+    /* Foreground/Neutral/inverse-on-surface - Theme - Cartus */
+    --foreground-neutral-inverse-on-surface: #fafafa;
+    /* Foreground/Neutral/on-color - Brand */
+    /* Interactive controls */
+    --foreground-neutral-on-color: #ffffff;
+    /* Foreground/Neutral/on-inverse-surface - Brand */
+    /* Text and icons against inverse surface */
+    --foreground-neutral-on-inverse-surface: #fafafa;
+    /* Foreground/Neutral/on-surface - Brand */
+    /* Default foreground text and icons against any surface color */
     --foreground-neutral-on-surface: #fafafa;
-    /* Foreground/Neutral/on-surface-variant-01 - Theme - Cartus */
+    /* Foreground/Neutral/on-surface-variant-01 - Brand */
+    /* Secondary foreground color for icons and text */
     --foreground-neutral-on-surface-variant-01: #c2c2c2;
-    /* Foreground/Neutral/on-surface-variant-02 - Theme - Cartus */
+    /* Foreground/Neutral/on-surface-variant-02 - Brand */
+    /* Tertiary foreground color for icons and text */
     --foreground-neutral-on-surface-variant-02: #9e9e9e;
-    /* Foreground/Neutral/on-surface-variant-03 - Theme - Cartus */
+    /* Foreground/Neutral/on-surface-variant-03 - Brand */
+    /* Quaternary foreground color for icons and text. Only for placeholder text */
     --foreground-neutral-on-surface-variant-03: #757575;
-    /* Foreground/Neutral/skeleton-element - Theme - Cartus */
+    /* Foreground/Neutral/skeleton-element - Brand */
     --foreground-neutral-skeleton-element: #333333;
     /* Foreground/Spectrum/blue - Theme - Cartus */
     --foreground-spectrum-blue: #88aff7;
@@ -1580,13 +1606,13 @@ body {
     --foreground-spectrum-lime: #dce28f;
     /* Foreground/Spectrum/magenta - Theme - Cartus */
     --foreground-spectrum-magenta: #e07aed;
-    /* Foreground/Spectrum/orange - Theme - Cartus */
+    /* Foreground/Spectrum/orange - Brand */
     --foreground-spectrum-orange: #f6a874;
     /* Foreground/Spectrum/pink - Theme - Cartus */
     --foreground-spectrum-pink: #ea86b9;
     /* Foreground/Spectrum/purple - Theme - Cartus */
     --foreground-spectrum-purple: #c8a6f9;
-    /* Foreground/Spectrum/red - Theme - Cartus */
+    /* Foreground/Spectrum/red - Brand */
     --foreground-spectrum-red: #ea93a0;
     /* Foreground/Spectrum/teal - Theme - Cartus */
     --foreground-spectrum-teal: #74bbb4;
@@ -1602,11 +1628,13 @@ body {
     --interactions-disabled-opacity: #ffffff0f;
     /* Interactions/hover-opacity - Theme - Cartus */
     --interactions-hover-opacity: #ffffff14;
-    /* Interactions/link-active-opacity - Theme - Cartus */
+    /* Interactions/link-active-opacity - Brand */
     --interactions-link-active-opacity: #ffffff4d;
-    /* Interactions/neutral-hover-opacity - Theme - Cartus */
+    /* Interactions/neutral-hover-opacity - Brand */
+    /* surfaces using neutral tones */
     --interactions-neutral-hover-opacity: #ffffff14;
-    /* Interactions/neutral-press-opacity - Theme - Cartus */
+    /* Interactions/neutral-press-opacity - Brand */
+    /* surfaces using neutral tones */
     --interactions-neutral-press-opacity: #ffffff29;
     /* Interactions/press-opacity - Theme - Cartus */
     --interactions-press-opacity: #ffffff29;
@@ -1626,51 +1654,74 @@ body {
     --shadow-25: #61616140;
     /* Shadow/shadow-32 - Theme - Cartus */
     --shadow-32: #61616152;
-    /* Shadow/inner-shadow - Theme - Cartus */
+    /* Shadow/inner-shadow - Brand */
     --shadow-inner: #000000;
-    /* Shadow/inner-shadow-100 - Theme - Cartus */
+    /* Shadow/inner-shadow-100 - Theme - Better Home & Garden */
     --shadow-inner-100: #000000;
-    /* Shadow/variant-01 - Theme - Cartus */
+    /* Shadow/variant-01 - Brand */
     --shadow-variant-01: #6161611a;
-    /* Shadow/variant-02 - Theme - Cartus */
+    /* Shadow/variant-02 - Brand */
     --shadow-variant-02: #6161611f;
-    /* Shadow/variant-03 - Theme - Cartus */
+    /* Shadow/variant-03 - Brand */
     --shadow-variant-03: #61616126;
-    /* Shadow/variant-04 - Theme - Cartus */
+    /* Shadow/variant-04 - Brand */
     --shadow-variant-04: #61616140;
-    /* Shadow/variant-05 - Theme - Cartus */
+    /* Shadow/variant-05 - Brand */
     --shadow-variant-05: #61616152;
-    /* Status/error - Theme - Cartus */
+    /* Status/error - Brand */
+    /* Foreground error text and icons */
     --status-error: #e26b7d;
-    /* Status/information - Theme - Cartus */
+    /* Status/information - Theme - Better Home & Garden */
     --status-information: #5d92f5;
-    /* Status/informational - Theme - Cartus */
+    /* Status/informational - Brand */
+    /* Foreground informational text and icons */
     --status-informational: #5d92f5;
-    /* Status/success - Theme - Cartus */
+    /* Status/on-error - Brand */
+    /* Foreground error text and icons */
+    --status-on-error: #ffffff;
+    /* Status/on-information - Theme - Better Home & Garden */
+    --status-on-information: #ffffff;
+    /* Status/on-informational - Brand */
+    /* Foreground informational text and icons */
+    --status-on-informational: #ffffff;
+    /* Status/on-success - Brand */
+    /* Foreground success icons and text */
+    --status-on-success: #ffffff;
+    /* Status/on-warning - Brand */
+    /* Foreground warning icons */
+    --status-on-warning: #141414;
+    /* Status/success - Brand */
+    /* Foreground success icons and text */
     --status-success: #519f73;
-    /* Status/warning - Theme - Cartus */
+    /* Status/warning - Brand */
+    /* Foreground warning icons */
     --status-warning: #f8cd63;
-    /* Stroke/AI-powered/blue - Theme - Agent Workplace */
-    --stroke-ai-powered-blue: #000000;
-    /* Stroke/AI-powered/pink - Theme - Agent Workplace */
-    --stroke-ai-powered-pink: #000000;
-    /* Stroke/Brand/brand-primary - Theme - Cartus */
+    /* Stroke/Brand/brand-primary - Brand */
+    /* Outline variant - decorative elements such as dividers */
     --stroke-brand-primary: #6691b8;
-    /* Stroke/Brand/brand-primary-depth - Theme - Cartus */
+    /* Stroke/Brand/brand-primary-depth - Brand */
+    /* Outline variant - decorative elements such as dividers */
     --stroke-brand-primary-depth: #8cacc9;
-    /* Stroke/Brand/brand-secondary - Theme - Cartus */
-    --stroke-brand-secondary: #79c1e6;
+    /* Stroke/Brand/brand-secondary - Theme - Better Home & Garden */
+    --stroke-brand-secondary: #f0bcac;
     /* Stroke/Brand/brand-secondary-depth - Theme - Cartus */
-    --stroke-brand-secondary-depth: #9bd1ec;
-    /* Stroke/Neutral/neutral-base - Theme - Cartus */
+    --stroke-brand-secondary-depth: #eba691;
+    /* Stroke/Neutral/neutral-base - Brand */
+    /* For control components */
     --stroke-neutral-base: #6b6b6b;
-    /* Stroke/Neutral/disabled-dark - Theme - Cartus */
+    /* Stroke/Neutral/disabled-dark - Brand */
+    /* Disabled outline separating the fill and surface background */
     --stroke-neutral-disabled-dark: #3d3d3d;
-    /* Stroke/Neutral/disabled-light - Theme - Cartus */
+    /* Stroke/Neutral/disabled-light - Brand */
+    /* Disabled outline separating the fill and surface background */
     --stroke-neutral-disabled-light: #4d4d4d;
-    /* Stroke/Neutral/focus - Theme - Cartus */
+    /* Stroke/Neutral/focus - Brand */
+    /* Highlight focus element */
     --stroke-neutral-focus: #ffffff;
-    /* Stroke/Neutral/neutral-high - Theme - Cartus */
+    /* Stroke/Neutral/focus-on-inverse - Brand */
+    /* Highlight focus element */
+    --stroke-neutral-focus-on-inverse: #ffffff;
+    /* Stroke/Neutral/neutral-high - Brand */
     --stroke-neutral-high: #fafafa;
     /* Stroke/Neutral/neutral-high-contrast - Theme - Cartus */
     --stroke-neutral-high-contrast: #fafafa;
@@ -1680,40 +1731,46 @@ body {
     --stroke-neutral-interactions-disabled-light: #4d4d4d;
     /* Stroke/Neutral/Interactions/focus - Theme - Cartus */
     --stroke-neutral-interactions-focus: #ffffff;
-    /* Stroke/Neutral/neutral-low - Theme - Cartus */
+    /* Stroke/Neutral/Interactions/inverse-focus - Theme - Cartus */
+    --stroke-neutral-interactions-inverse-focus: #ffffff;
+    /* Stroke/Neutral/neutral-low - Brand */
+    /* Outline variant - decorative elements such as dividers */
     --stroke-neutral-low: #4d4d4d;
     /* Stroke/Neutral/neutral-low-contrast - Theme - Cartus */
     --stroke-neutral-low-contrast: #4d4d4d;
-    /* Surface/AI-powered/blue - Theme - Agent Workplace */
-    --surface-ai-powered-blue: #000000;
-    /* Surface/AI-powered/pink - Theme - Agent Workplace */
-    --surface-ai-powered-pink: #000000;
-    /* Surface/Brand/primary - Theme - Cartus */
+    /* Surface/Brand/primary - Brand */
     --surface-brand-primary: #6691b8;
     /* Surface/Brand/primary-highlight - Theme - Cartus */
-    --surface-brand-primary-highlight: #001222;
-    /* Surface/Brand/secondary - Theme - Cartus */
+    --surface-brand-primary-highlight: #0a220a;
+    /* Surface/Brand/secondary - Brand */
     --surface-brand-secondary: #79c1e6;
     /* Surface/Brand/secondary-highlight - Theme - Cartus */
     --surface-brand-secondary-highlight: #082635;
-    /* Surface/Neutral/Interactions/dark-disabled - Theme - Cartus */
+    /* Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden */
     --surface-neutral-interactions-dark-disabled: #474747;
-    /* Surface/Neutral/Interactions/light-disabled - Theme - Cartus */
+    /* Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden */
     --surface-neutral-interactions-light-disabled: #292929;
-    /* Surface/Neutral/inverse - Theme - Cartus */
+    /* Surface/Neutral/inverse - Brand */
+    /* Inverted. Use for toasts notification & snackbars */
     --surface-neutral-inverse: #383838;
-    /* Surface/Neutral/inverse-dark - Theme - Cartus */
+    /* Surface/Neutral/inverse-dark - Theme - Better Home & Garden */
     --surface-neutral-inverse-dark: #383838;
     /* Surface/Neutral/inverse-light - Theme - Cartus */
     --surface-neutral-inverse-light: #575757;
-    /* Surface/Neutral/T1-base - Theme - Cartus */
+    /* Surface/Neutral/T1-base - Brand */
     --surface-neutral-t1-base: #1f1f1f;
-    /* Surface/Neutral/T2-lowest - Theme - Cartus */
+    /* Surface/Neutral/T2-lowest - Brand */
     --surface-neutral-t2-lowest: #2e2e2e;
-    /* Surface/Neutral/T3-low - Theme - Cartus */
+    /* Surface/Neutral/T3-low - Brand */
+    /* Navigations, app bar etc */
     --surface-neutral-t3-low: #383838;
-    /* Surface/Neutral/T4-high - Theme - Cartus */
+    /* Surface/Neutral/T4-high - Brand */
+    /* Navigations, app bar etc */
     --surface-neutral-t4-high: #7a7a7a;
+    /* Surface/Neutral/T4-high 2 - Theme - Better Home & Garden */
+    --surface-neutral-t4-high-2: #7a7a7a;
+    /* Surface/Neutral/transparent - Brand */
+    --surface-neutral-transparent: #ffffff00;
     /* Surface/Spectrum/blue - Theme - Cartus */
     --surface-spectrum-blue: #0e2754;
     /* Surface/Spectrum/green - Theme - Cartus */
@@ -1722,7 +1779,7 @@ body {
     --surface-spectrum-lime: #434712;
     /* Surface/Spectrum/magenta - Theme - Cartus */
     --surface-spectrum-magenta: #45054e;
-    /* Surface/Spectrum/orange - Theme - Cartus */
+    /* Surface/Spectrum/orange - Theme - Better Home & Garden */
     --surface-spectrum-orange: #532201;
     /* Surface/Spectrum/pink - Theme - Cartus */
     --surface-spectrum-pink: #4c0c2d;

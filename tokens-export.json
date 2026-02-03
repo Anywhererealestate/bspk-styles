@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-29T04:56:39.070Z",
+    "generated": "2026-02-02T17:54:13.533Z",
     "tokens": [
         {
             "id": "VariableID:279:6062",
@@ -4489,7 +4489,7 @@
         },
         {
             "id": "VariableID:3233:123528",
-            "name": "Colors/Brands/Agent/Primary/00-base",
+            "name": "Colors/Brands/Agent Workplace/Primary/00-base",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -4504,7 +4504,7 @@
         },
         {
             "id": "VariableID:3278:126747",
-            "name": "Colors/Brands/Agent/Secondary/85-light",
+            "name": "Colors/Brands/Agent Workplace/Secondary/85-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -4519,7 +4519,7 @@
         },
         {
             "id": "VariableID:3278:126748",
-            "name": "Colors/Brands/Agent/Secondary/55-light",
+            "name": "Colors/Brands/Agent Workplace/Secondary/55-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -4534,7 +4534,7 @@
         },
         {
             "id": "VariableID:3278:126749",
-            "name": "Colors/Brands/Agent/Secondary/40-light",
+            "name": "Colors/Brands/Agent Workplace/Secondary/40-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -4549,7 +4549,7 @@
         },
         {
             "id": "VariableID:3278:126754",
-            "name": "Colors/Brands/Agent/Secondary/00-base",
+            "name": "Colors/Brands/Agent Workplace/Secondary/00-base",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13261,7 +13261,7 @@
         },
         {
             "id": "VariableID:4803:82708",
-            "name": "Colors/Brands/Agent/Primary/85-light",
+            "name": "Colors/Brands/Agent Workplace/Primary/85-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13276,7 +13276,7 @@
         },
         {
             "id": "VariableID:4803:82710",
-            "name": "Colors/Brands/Agent/Primary/15-dark",
+            "name": "Colors/Brands/Agent Workplace/Primary/15-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13291,7 +13291,7 @@
         },
         {
             "id": "VariableID:4803:82729",
-            "name": "Colors/Brands/Agent/Primary/40-light",
+            "name": "Colors/Brands/Agent Workplace/Primary/40-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13306,7 +13306,7 @@
         },
         {
             "id": "VariableID:4803:82732",
-            "name": "Colors/Brands/Agent/Primary/75-dark",
+            "name": "Colors/Brands/Agent Workplace/Primary/75-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13321,7 +13321,7 @@
         },
         {
             "id": "VariableID:4803:82733",
-            "name": "Colors/Brands/Agent/Primary/55-light",
+            "name": "Colors/Brands/Agent Workplace/Primary/55-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13353,7 +13353,7 @@
         },
         {
             "id": "VariableID:4803:83702",
-            "name": "Colors/Brands/Agent/Secondary/75-dark",
+            "name": "Colors/Brands/Agent Workplace/Secondary/75-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -13368,7 +13368,7 @@
         },
         {
             "id": "VariableID:4803:83703",
-            "name": "Colors/Brands/Agent/Secondary/15-dark",
+            "name": "Colors/Brands/Agent Workplace/Secondary/15-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17205,7 +17205,7 @@
         },
         {
             "id": "VariableID:5830:2355",
-            "name": "Colors/Brands/Agent/Interactions/primary-dark-opacity-10",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-dark-opacity-10",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17220,7 +17220,7 @@
         },
         {
             "id": "VariableID:5830:2356",
-            "name": "Colors/Brands/Agent/Interactions/primary-light-opacity-10",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-light-opacity-10",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17235,7 +17235,7 @@
         },
         {
             "id": "VariableID:5830:32023",
-            "name": "Colors/Brands/Agent/Interactions/primary-dark-opacity-20",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-dark-opacity-20",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17250,7 +17250,7 @@
         },
         {
             "id": "VariableID:5830:32024",
-            "name": "Colors/Brands/Agent/Interactions/primary-light-opacity-20",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-light-opacity-20",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17265,7 +17265,7 @@
         },
         {
             "id": "VariableID:5830:103449",
-            "name": "Colors/Brands/Agent/Interactions/primary-light-opacity-8",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-light-opacity-8",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17280,7 +17280,7 @@
         },
         {
             "id": "VariableID:5830:108566",
-            "name": "Colors/Brands/Agent/Interactions/primary-light-opacity-16",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-light-opacity-16",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17295,7 +17295,7 @@
         },
         {
             "id": "VariableID:5830:113644",
-            "name": "Colors/Brands/Agent/Interactions/primary-dark-opacity-8",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-dark-opacity-8",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17310,7 +17310,7 @@
         },
         {
             "id": "VariableID:5830:113645",
-            "name": "Colors/Brands/Agent/Interactions/primary-dark-opacity-16",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-dark-opacity-16",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17342,7 +17342,7 @@
         },
         {
             "id": "VariableID:5830:113673",
-            "name": "Colors/Brands/Agent/Interactions/primary-dark-opacity-12",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-dark-opacity-12",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -17357,7 +17357,7 @@
         },
         {
             "id": "VariableID:5830:113674",
-            "name": "Colors/Brands/Agent/Interactions/primary-light-opacity-12",
+            "name": "Colors/Brands/Agent Workplace/Interactions/primary-light-opacity-12",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33715,7 +33715,7 @@
         },
         {
             "id": "VariableID:25368:10036",
-            "name": "Colors/Brands/Broker/Primary/85-light",
+            "name": "Colors/Brands/Broker Workplace/Primary/85-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33730,7 +33730,7 @@
         },
         {
             "id": "VariableID:25368:10037",
-            "name": "Colors/Brands/Broker/Primary/55-light",
+            "name": "Colors/Brands/Broker Workplace/Primary/55-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33745,7 +33745,7 @@
         },
         {
             "id": "VariableID:25368:10038",
-            "name": "Colors/Brands/Broker/Primary/40-light",
+            "name": "Colors/Brands/Broker Workplace/Primary/40-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33760,7 +33760,7 @@
         },
         {
             "id": "VariableID:25368:10039",
-            "name": "Colors/Brands/Broker/Primary/00-base",
+            "name": "Colors/Brands/Broker Workplace/Primary/00-base",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33775,7 +33775,7 @@
         },
         {
             "id": "VariableID:25368:10040",
-            "name": "Colors/Brands/Broker/Primary/15-dark",
+            "name": "Colors/Brands/Broker Workplace/Primary/15-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33790,7 +33790,7 @@
         },
         {
             "id": "VariableID:25368:10041",
-            "name": "Colors/Brands/Broker/Primary/75-dark",
+            "name": "Colors/Brands/Broker Workplace/Primary/75-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33805,7 +33805,7 @@
         },
         {
             "id": "VariableID:25368:10042",
-            "name": "Colors/Brands/Broker/Secondary/85-light",
+            "name": "Colors/Brands/Broker Workplace/Secondary/85-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33820,7 +33820,7 @@
         },
         {
             "id": "VariableID:25368:10043",
-            "name": "Colors/Brands/Broker/Secondary/55-light",
+            "name": "Colors/Brands/Broker Workplace/Secondary/55-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33835,7 +33835,7 @@
         },
         {
             "id": "VariableID:25368:10044",
-            "name": "Colors/Brands/Broker/Secondary/40-light",
+            "name": "Colors/Brands/Broker Workplace/Secondary/40-light",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33850,7 +33850,7 @@
         },
         {
             "id": "VariableID:25368:10045",
-            "name": "Colors/Brands/Broker/Secondary/00-base",
+            "name": "Colors/Brands/Broker Workplace/Secondary/00-base",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33865,7 +33865,7 @@
         },
         {
             "id": "VariableID:25368:10046",
-            "name": "Colors/Brands/Broker/Secondary/15-dark",
+            "name": "Colors/Brands/Broker Workplace/Secondary/15-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33880,7 +33880,7 @@
         },
         {
             "id": "VariableID:25368:10047",
-            "name": "Colors/Brands/Broker/Secondary/75-dark",
+            "name": "Colors/Brands/Broker Workplace/Secondary/75-dark",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33895,7 +33895,7 @@
         },
         {
             "id": "VariableID:25368:10048",
-            "name": "Colors/Brands/Broker/Interactions/primary-light-opacity-8",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-8",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33910,7 +33910,7 @@
         },
         {
             "id": "VariableID:25368:10049",
-            "name": "Colors/Brands/Broker/Interactions/primary-light-opacity-10",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-10",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33925,7 +33925,7 @@
         },
         {
             "id": "VariableID:25368:10050",
-            "name": "Colors/Brands/Broker/Interactions/primary-light-opacity-12",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-12",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33940,7 +33940,7 @@
         },
         {
             "id": "VariableID:25368:10051",
-            "name": "Colors/Brands/Broker/Interactions/primary-light-opacity-16",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-16",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33955,7 +33955,7 @@
         },
         {
             "id": "VariableID:25368:10052",
-            "name": "Colors/Brands/Broker/Interactions/primary-light-opacity-20",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-20",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33970,7 +33970,7 @@
         },
         {
             "id": "VariableID:25368:10053",
-            "name": "Colors/Brands/Broker/Interactions/primary-dark-opacity-8",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-8",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -33985,7 +33985,7 @@
         },
         {
             "id": "VariableID:25368:10054",
-            "name": "Colors/Brands/Broker/Interactions/primary-dark-opacity-10",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-10",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -34000,7 +34000,7 @@
         },
         {
             "id": "VariableID:25368:10055",
-            "name": "Colors/Brands/Broker/Interactions/primary-dark-opacity-12",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-12",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -34015,7 +34015,7 @@
         },
         {
             "id": "VariableID:25368:10056",
-            "name": "Colors/Brands/Broker/Interactions/primary-dark-opacity-16",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-16",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
@@ -34030,7 +34030,7 @@
         },
         {
             "id": "VariableID:25368:10057",
-            "name": "Colors/Brands/Broker/Interactions/primary-dark-opacity-20",
+            "name": "Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-20",
             "description": "",
             "collection": "Global (primitives)",
             "resolvedType": "COLOR",
