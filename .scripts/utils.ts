@@ -64,34 +64,14 @@ export const BRANDS = [
     },
 ] as const;
 
-export const BRAND_SLUGS = BRANDS.map((brand) => brand.slug);
+const BRAND_SLUGS = BRANDS.map((brand) => brand.slug);
 
-export const IGNORE_BRANDS = ['zip-realty', 'estately', 'market-quest', 'experiment', 'not-used'];
+const IGNORE_BRANDS = ['zip-realty', 'estately', 'market-quest', 'experiment', 'not-used'];
 
-export const DARK_SELECTOR = `[data-theme="dark"]` as const;
-export const ROOT_SELECTOR = ':root' as const;
-export const DESKTOP_SELECTOR = `@media (width >= 640px)` as const;
+const THEME_MODES = ['light', 'dark'] as const;
+const DEVICE_MODES = ['mobile', 'desktop'] as const;
 
-export const BRAND_MODES: Brand[] = [
-    'anywhere',
-    'agent-workplace',
-    'broker-workplace',
-    'better-homes-gardens',
-    'cartus',
-    'century-21',
-    'coldwell-banker',
-    'corcoran',
-    'era',
-    'sothebys',
-] as const;
-
-export const errorOutput: any[][] = [];
-
-export const THEME_MODES = ['light', 'dark'] as const;
-export const DEVICE_MODES = ['mobile', 'desktop'] as const;
-export const VALID_MODES = [...THEME_MODES, ...BRAND_MODES] as const;
-
-export const STRING_SWAPS = {
+const STRING_SWAPS = {
     Regular: 400,
     Medium: 500,
     SemiBold: 600,
@@ -162,10 +142,10 @@ function isObject(item: any): item is Record<string, any> {
     return Boolean(item && typeof item === 'object' && !Array.isArray(item) && item);
 }
 
-export const isVariableValue = (value: unknown): value is VariableAlias & { referencedToken: Token } =>
+const isVariableValue = (value: unknown): value is VariableAlias & { referencedToken: Token } =>
     isObject(value) && 'type' in value && value.type === 'VARIABLE_ALIAS' && 'id' in value;
 
-export const MODE_KEYS: Record<string, Theme | Brand | 'default' | Device> = {
+const MODE_KEYS: Record<string, Theme | Brand | 'default' | Device> = {
     'Mode 1': 'default',
     Anywhere: 'anywhere',
     'Agent Workplace': 'agent-workplace',
