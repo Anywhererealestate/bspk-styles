@@ -1,8 +1,8 @@
 /**
- * This script processes design tokens exported from Figma and generates for each brand
+ * This script processes design tokens exported from Figma and generates for each brand:
  *
- * - TS file with CSS variables including variables specifically for light and dark themes.
- * - TypeScript file with values including values specifically for light and dark themes.
+ * - Stylesheet file with CSS variables including variables specifically for light and dark themes.
+ * - Typescript file with values including values specifically for light and dark themes, mobile and desktop.
  */
 import { EffectStyle, TextStyle } from '@figma/plugin-typings/plugin-api-standalone';
 import {
