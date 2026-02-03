@@ -1,8 +1,13 @@
 {
     "compilerOptions": {
         "target": "ES2020",
-        "lib": ["ES2020", "DOM"],
-        "typeRoots": ["./node_modules/@types"],
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
         "strict": true,
         "skipLibCheck": true,
         "moduleResolution": "node",
@@ -15,6 +20,11 @@
         "strictNullChecks": true,
         "esModuleInterop": true
     },
-    "include": ["data/*.ts"],
-    "ignore": ["node_modules"]
+    "include": [
+        "data/*.ts",
+        "brands.ts"
+    ],
+    "ignore": [
+        "node_modules"
+    ]
 }

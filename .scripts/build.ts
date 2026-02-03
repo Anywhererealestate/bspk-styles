@@ -5,10 +5,12 @@
  * - Typescript file with values including values specifically for light and dark themes, mobile and desktop.
  */
 import { EffectStyle, TextStyle } from '@figma/plugin-typings/plugin-api-standalone';
+
+import { BRANDS } from '../brands';
+
 import {
     Token,
     Brand,
-    BRANDS,
     generateVariablesFromTokens,
     getTokenVariableCSS,
     generateVariablesFromEffectStyles,
