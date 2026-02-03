@@ -6,3 +6,6 @@ package
 */*.js.map
 .gitlab-ci.yml
 .tmp
+brands.*
+!brands.ts
+
