@@ -13,7 +13,8 @@
         "pack:dev": "npm run pack && tar -xvf ./bspk-styles-*.tgz"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "provenance": true
     },
     "engines": {
         "node": ">=20"
