@@ -16,6 +16,10 @@
         "access": "public",
         "provenance": true
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Anywhererealestate/bspk-styles"
+    },
     "engines": {
         "node": ">=22"
     },
