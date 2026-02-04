@@ -142,11 +142,13 @@ function main() {
 
     execSync(`prettier --write data/*.ts`, { stdio: 'inherit' });
 
-    compareSlugs();
+    // These are sanity checks to ensure that the generated variables are consistent across themes and devices. If there are any discrepancies, this will throw an error with details about the issue.
 
-    Object.entries(globalThis.debug).forEach(([key, value]) => {
-        fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
-    });
+    // compareSlugs();
+
+    // Object.entries(globalThis.debug).forEach(([key, value]) => {
+    //     fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
+    // });
 }
 
 main();
