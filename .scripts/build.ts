@@ -3,6 +3,8 @@
  *
  * - Stylesheet file with CSS variables including variables specifically for light and dark themes.
  * - Typescript file with values including values specifically for light and dark themes, mobile and desktop.
+ *
+ * $ npx tsx .scripts/build.ts
  */
 import { EffectStyle, TextStyle } from '@figma/plugin-typings/plugin-api-standalone';
 

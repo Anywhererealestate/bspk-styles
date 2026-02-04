@@ -2,11 +2,11 @@
     "name": "@bspk/styles",
     "version": "1.1.0",
     "license": "CC-BY-4.0",
+    "type": "module",
     "scripts": {
         "lint": "stylelint \"*.css\" && prettier --write .",
         "build:plugin": "cd figma-plugin && npm run build",
-        "build": "ts-node .scripts/build.ts && tsc",
-        "build:local": "ts-node .scripts/build.ts -local && tsc",
+        "build": "npx tsx .scripts/build.ts && tsc",
         "dev": "nodemon .scripts/build.ts --watch .scripts/build.ts",
         "semantic-release": "semantic-release",
         "pack": "rm -rf ./package && npm run build && npm pack",
