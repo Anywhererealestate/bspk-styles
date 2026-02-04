@@ -97,7 +97,7 @@ export const TEXT_TOKENS = {
         // Mobile/Display/Semibold/Large -  size
         displaySemiboldLargeSize: '56px',
         // Mobile/Display/Semibold/Large -  style
-        displaySemiboldLargeStyle: 'semi bold',
+        displaySemiboldLargeStyle: '600',
         // Mobile/Display/Semibold/Medium
         displaySemiboldMedium: '600 48px/60px var(--typeface)',
         // Mobile/Display/Semibold/Medium -  line height
@@ -105,7 +105,7 @@ export const TEXT_TOKENS = {
         // Mobile/Display/Semibold/Medium -  size
         displaySemiboldMediumSize: '48px',
         // Mobile/Display/Semibold/Medium -  style
-        displaySemiboldMediumStyle: 'semi bold',
+        displaySemiboldMediumStyle: '600',
         // Mobile/Display/Semibold/Small
         displaySemiboldSmall: '600 40px/48px var(--typeface)',
         // Mobile/Display/Semibold/Small -  line height
@@ -113,7 +113,7 @@ export const TEXT_TOKENS = {
         // Mobile/Display/Semibold/Small -  size
         displaySemiboldSmallSize: '40px',
         // Mobile/Display/Semibold/Small -  style
-        displaySemiboldSmallStyle: 'semi bold',
+        displaySemiboldSmallStyle: '600',
         // Mobile/Heading/H1 - Large Headline
         headingH1: '600 32px/40px var(--typeface)',
         // Mobile/Heading/H1 - Large Headline line height
@@ -121,7 +121,7 @@ export const TEXT_TOKENS = {
         // Mobile/Heading/H1 - Large Headline size
         headingH1Size: '32px',
         // Mobile/Heading/H1 - Large Headline style
-        headingH1Style: 'semi bold',
+        headingH1Style: '600',
         // Mobile/Heading/H2 - Headline
         headingH2: '600 28px/36px var(--typeface)',
         // Mobile/Heading/H2 - Headline line height
@@ -129,7 +129,7 @@ export const TEXT_TOKENS = {
         // Mobile/Heading/H2 - Headline size
         headingH2Size: '28px',
         // Mobile/Heading/H2 - Headline style
-        headingH2Style: 'semi bold',
+        headingH2Style: '600',
         // Mobile/Heading/H3 - Headline
         headingH3: '600 24px/32px var(--typeface)',
         // Mobile/Heading/H3 - Headline line height
@@ -137,7 +137,7 @@ export const TEXT_TOKENS = {
         // Mobile/Heading/H3 - Headline size
         headingH3Size: '24px',
         // Mobile/Heading/H3 - Headline style
-        headingH3Style: 'semi bold',
+        headingH3Style: '600',
         // Mobile/Heading/H4 - Headline
         headingH4: '600 20px/28px var(--typeface)',
         // Mobile/Heading/H4 - Headline line height
@@ -145,7 +145,7 @@ export const TEXT_TOKENS = {
         // Mobile/Heading/H4 - Headline size
         headingH4Size: '20px',
         // Mobile/Heading/H4 - Headline style
-        headingH4Style: 'semi bold',
+        headingH4Style: '600',
         // Mobile/Heading/H5
         headingH5: '600 18px/24px var(--typeface)',
         // Mobile/Heading/H5 -  line height
@@ -153,7 +153,7 @@ export const TEXT_TOKENS = {
         // Mobile/Heading/H5 -  size
         headingH5Size: '18px',
         // Mobile/Heading/H5 -  style
-        headingH5Style: 'semi bold',
+        headingH5Style: '600',
         // Mobile/Heading/H6
         headingH6: '500 16px/20px var(--typeface)',
         // Mobile/Heading/H6 -  line height
@@ -236,7 +236,7 @@ export const TEXT_TOKENS = {
         // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. size
         displaySemiboldLargeSize: '64px',
         // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. style
-        displaySemiboldLargeStyle: 'semi bold',
+        displaySemiboldLargeStyle: '600',
         // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections.
         displaySemiboldMedium: '600 56px/72px var(--typeface)',
         // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. line height
@@ -244,7 +244,7 @@ export const TEXT_TOKENS = {
         // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. size
         displaySemiboldMediumSize: '56px',
         // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. style
-        displaySemiboldMediumStyle: 'semi bold',
+        displaySemiboldMediumStyle: '600',
         // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections.
         displaySemiboldSmall: '600 48px/60px var(--typeface)',
         // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. line height
@@ -252,7 +252,7 @@ export const TEXT_TOKENS = {
         // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. size
         displaySemiboldSmallSize: '48px',
         // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. style
-        displaySemiboldSmallStyle: 'semi bold',
+        displaySemiboldSmallStyle: '600',
         // Desktop/Heading/H1
         headingH1: '600 40px/48px var(--typeface)',
         // Desktop/Heading/H1 -  line height
@@ -260,7 +260,7 @@ export const TEXT_TOKENS = {
         // Desktop/Heading/H1 -  size
         headingH1Size: '40px',
         // Desktop/Heading/H1 -  style
-        headingH1Style: 'semi bold',
+        headingH1Style: '600',
         // Desktop/Heading/H2
         headingH2: '600 32px/40px var(--typeface)',
         // Desktop/Heading/H2 -  line height
@@ -268,7 +268,7 @@ export const TEXT_TOKENS = {
         // Desktop/Heading/H2 -  size
         headingH2Size: '32px',
         // Desktop/Heading/H2 -  style
-        headingH2Style: 'semi bold',
+        headingH2Style: '600',
         // Desktop/Heading/H3
         headingH3: '600 28px/36px var(--typeface)',
         // Desktop/Heading/H3 -  line height
@@ -276,7 +276,7 @@ export const TEXT_TOKENS = {
         // Desktop/Heading/H3 -  size
         headingH3Size: '28px',
         // Desktop/Heading/H3 -  style
-        headingH3Style: 'semi bold',
+        headingH3Style: '600',
         // Desktop/Heading/H4
         headingH4: '600 24px/32px var(--typeface)',
         // Desktop/Heading/H4 -  line height
@@ -284,7 +284,7 @@ export const TEXT_TOKENS = {
         // Desktop/Heading/H4 -  size
         headingH4Size: '24px',
         // Desktop/Heading/H4 -  style
-        headingH4Style: 'semi bold',
+        headingH4Style: '600',
         // Desktop/Heading/H5
         headingH5: '600 20px/28px var(--typeface)',
         // Desktop/Heading/H5 -  line height
@@ -292,7 +292,7 @@ export const TEXT_TOKENS = {
         // Desktop/Heading/H5 -  size
         headingH5Size: '20px',
         // Desktop/Heading/H5 -  style
-        headingH5Style: 'semi bold',
+        headingH5Style: '600',
         // Desktop/Heading/H6
         headingH6: '500 18px/24px var(--typeface)',
         // Desktop/Heading/H6 -  line height

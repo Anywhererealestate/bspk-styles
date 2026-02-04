@@ -837,7 +837,7 @@ body {
     /* Mobile/Display/Semibold/Large -  size */
     --display-semibold-large-size: 56px;
     /* Mobile/Display/Semibold/Large -  style */
-    --display-semibold-large-style: semi bold;
+    --display-semibold-large-style: 600;
     /* Mobile/Display/Semibold/Medium */
     --display-semibold-medium: 600 48px/60px var(--typeface);
     /* Mobile/Display/Semibold/Medium -  line height */
@@ -845,7 +845,7 @@ body {
     /* Mobile/Display/Semibold/Medium -  size */
     --display-semibold-medium-size: 48px;
     /* Mobile/Display/Semibold/Medium -  style */
-    --display-semibold-medium-style: semi bold;
+    --display-semibold-medium-style: 600;
     /* Mobile/Display/Semibold/Small */
     --display-semibold-small: 600 40px/48px var(--typeface);
     /* Mobile/Display/Semibold/Small -  line height */
@@ -853,7 +853,7 @@ body {
     /* Mobile/Display/Semibold/Small -  size */
     --display-semibold-small-size: 40px;
     /* Mobile/Display/Semibold/Small -  style */
-    --display-semibold-small-style: semi bold;
+    --display-semibold-small-style: 600;
     /* Mobile/Heading/H1 - Large Headline */
     --heading-h1: 600 32px/40px var(--typeface);
     /* Mobile/Heading/H1 - Large Headline line height */
@@ -861,7 +861,7 @@ body {
     /* Mobile/Heading/H1 - Large Headline size */
     --heading-h1-size: 32px;
     /* Mobile/Heading/H1 - Large Headline style */
-    --heading-h1-style: semi bold;
+    --heading-h1-style: 600;
     /* Mobile/Heading/H2 - Headline */
     --heading-h2: 600 28px/36px var(--typeface);
     /* Mobile/Heading/H2 - Headline line height */
@@ -869,7 +869,7 @@ body {
     /* Mobile/Heading/H2 - Headline size */
     --heading-h2-size: 28px;
     /* Mobile/Heading/H2 - Headline style */
-    --heading-h2-style: semi bold;
+    --heading-h2-style: 600;
     /* Mobile/Heading/H3 - Headline */
     --heading-h3: 600 24px/32px var(--typeface);
     /* Mobile/Heading/H3 - Headline line height */
@@ -877,7 +877,7 @@ body {
     /* Mobile/Heading/H3 - Headline size */
     --heading-h3-size: 24px;
     /* Mobile/Heading/H3 - Headline style */
-    --heading-h3-style: semi bold;
+    --heading-h3-style: 600;
     /* Mobile/Heading/H4 - Headline */
     --heading-h4: 600 20px/28px var(--typeface);
     /* Mobile/Heading/H4 - Headline line height */
@@ -885,7 +885,7 @@ body {
     /* Mobile/Heading/H4 - Headline size */
     --heading-h4-size: 20px;
     /* Mobile/Heading/H4 - Headline style */
-    --heading-h4-style: semi bold;
+    --heading-h4-style: 600;
     /* Mobile/Heading/H5 */
     --heading-h5: 600 18px/24px var(--typeface);
     /* Mobile/Heading/H5 -  line height */
@@ -893,7 +893,7 @@ body {
     /* Mobile/Heading/H5 -  size */
     --heading-h5-size: 18px;
     /* Mobile/Heading/H5 -  style */
-    --heading-h5-style: semi bold;
+    --heading-h5-style: 600;
     /* Mobile/Heading/H6 */
     --heading-h6: 500 16px/20px var(--typeface);
     /* Mobile/Heading/H6 -  line height */
@@ -1329,7 +1329,7 @@ body {
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. size */
         --display-semibold-large-size: 64px;
         /* Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. style */
-        --display-semibold-large-style: semi bold;
+        --display-semibold-large-style: 600;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. */
         --display-semibold-medium: 600 56px/72px var(--typeface);
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. line height */
@@ -1337,7 +1337,7 @@ body {
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. size */
         --display-semibold-medium-size: 56px;
         /* Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. style */
-        --display-semibold-medium-style: semi bold;
+        --display-semibold-medium-style: 600;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. */
         --display-semibold-small: 600 48px/60px var(--typeface);
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. line height */
@@ -1345,7 +1345,7 @@ body {
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. size */
         --display-semibold-small-size: 48px;
         /* Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. style */
-        --display-semibold-small-style: semi bold;
+        --display-semibold-small-style: 600;
         /* Desktop/Heading/H1 */
         --heading-h1: 600 40px/48px var(--typeface);
         /* Desktop/Heading/H1 -  line height */
@@ -1353,7 +1353,7 @@ body {
         /* Desktop/Heading/H1 -  size */
         --heading-h1-size: 40px;
         /* Desktop/Heading/H1 -  style */
-        --heading-h1-style: semi bold;
+        --heading-h1-style: 600;
         /* Desktop/Heading/H2 */
         --heading-h2: 600 32px/40px var(--typeface);
         /* Desktop/Heading/H2 -  line height */
@@ -1361,7 +1361,7 @@ body {
         /* Desktop/Heading/H2 -  size */
         --heading-h2-size: 32px;
         /* Desktop/Heading/H2 -  style */
-        --heading-h2-style: semi bold;
+        --heading-h2-style: 600;
         /* Desktop/Heading/H3 */
         --heading-h3: 600 28px/36px var(--typeface);
         /* Desktop/Heading/H3 -  line height */
@@ -1369,7 +1369,7 @@ body {
         /* Desktop/Heading/H3 -  size */
         --heading-h3-size: 28px;
         /* Desktop/Heading/H3 -  style */
-        --heading-h3-style: semi bold;
+        --heading-h3-style: 600;
         /* Desktop/Heading/H4 */
         --heading-h4: 600 24px/32px var(--typeface);
         /* Desktop/Heading/H4 -  line height */
@@ -1377,7 +1377,7 @@ body {
         /* Desktop/Heading/H4 -  size */
         --heading-h4-size: 24px;
         /* Desktop/Heading/H4 -  style */
-        --heading-h4-style: semi bold;
+        --heading-h4-style: 600;
         /* Desktop/Heading/H5 */
         --heading-h5: 600 20px/28px var(--typeface);
         /* Desktop/Heading/H5 -  line height */
@@ -1385,7 +1385,7 @@ body {
         /* Desktop/Heading/H5 -  size */
         --heading-h5-size: 20px;
         /* Desktop/Heading/H5 -  style */
-        --heading-h5-style: semi bold;
+        --heading-h5-style: 600;
         /* Desktop/Heading/H6 */
         --heading-h6: 500 18px/24px var(--typeface);
         /* Desktop/Heading/H6 -  line height */

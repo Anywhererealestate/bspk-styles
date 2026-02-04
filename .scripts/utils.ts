@@ -17,7 +17,7 @@ declare global {
     }
 }
 
-globalThis.debug = {};
+globalThis.debug = globalThis.debug || {};
 
 const GOOGLE_FONTS = ['Work Sans', 'Geist', 'Inter'];
 
@@ -28,12 +28,13 @@ const IGNORE_BRANDS = ['zip-realty', 'estately', 'market-quest', 'experiment', '
 const THEME_MODES = ['light', 'dark'] as const;
 const DEVICE_MODES = ['mobile', 'desktop'] as const;
 
-const STRING_SWAPS = {
+const STRING_SWAPS: Record<string, string | number> = {
     Regular: 400,
     Medium: 500,
     SemiBold: 600,
     Light: 300,
     'Semi Bold': 600,
+    'semi bold': 600,
 };
 
 const DEFAULT_FONT = 'Inter';
@@ -120,23 +121,31 @@ const MODE_KEYS: Record<string, Theme | Brand | 'default' | Device> = {
     Desktop: 'desktop',
 } as const;
 
-const debug_uniqueCSSStrings: { name: string; values: any[] }[] = [];
+const processCSSValue = (css: unknown, slug: string): string | number => {
+    let nextValue = css as string | number;
 
-const processNonObjectValue = (values: unknown): string | number => {
-    let nextValue = values as string | number;
-
-    if (typeof values === 'number' || values?.toString().match(/^\d+$/)) {
+    if (typeof css === 'number' || css?.toString().match(/^\d+$/)) {
         nextValue = nextValue + 'px';
         if (nextValue === '0px') nextValue = 0;
+        return nextValue;
     }
 
-    if (typeof values === 'string') {
-        if (values in STRING_SWAPS) {
-            nextValue = STRING_SWAPS[values as keyof typeof STRING_SWAPS];
-        } else {
-            nextValue = `"${nextValue}"`;
+    if (typeof css === 'string') {
+        // If a STRING_SWAPS key is found in values, replace it with the corresponding value
+
+        const replacements = Object.entries(STRING_SWAPS).filter(([key]) => css.includes(key));
+
+        if (replacements.length > 0) {
+            replacements.forEach(([key, replacement]) => {
+                nextValue = (nextValue as string).replace(new RegExp(key, 'g'), replacement.toString());
+            });
+            return nextValue;
         }
-        debug_uniqueCSSStrings[debug_uniqueCSSStrings.length - 1]?.values.push(nextValue);
+
+        if (slug.includes('typeface')) {
+            console.log(slug);
+            return `"${nextValue}"`;
+        }
     }
 
     return nextValue;
@@ -150,11 +159,38 @@ type Variable = {
     collection: string;
     description?: string;
     values?: Record<string, unknown>;
+    varName: string;
     cssValues?: {
         modes: string[];
         value: string | number;
     }[];
 };
+
+type EffectVariable = {
+    slug: string;
+    id: string;
+    name: string;
+    css: string;
+    value: (string | number)[];
+    effectStyle: EffectStyle;
+    type: Effect['type'];
+    modes: string[];
+    description?: string;
+    varName: string;
+};
+
+type TypeVariable = {
+    slug: string;
+    id: string;
+    name: string;
+    css: string | number;
+    modes: string[];
+    type: any;
+    description: string;
+    varName: string;
+};
+
+// generate Variables
 
 export function generateVariablesFromTokens(tokens: Token[], modes: Record<string, string>): Variable[] {
     let variables: Record<
@@ -284,6 +320,7 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
                 if (!variables[slug])
                     variables[slug] = {
                         slug,
+                        varName: pascalCase(slug),
                         name,
                         values: {},
                         description: token.description,
@@ -308,12 +345,15 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
 
     /** Flatten variable values recursively looking for "default" keys in values object to flatten */
     {
+        // This function recursively flattens the token values by looking for "default" keys and flattening the values into a single array of cssValues with associated modes. It also converts any rgb color objects into hex strings and processes CSS values to add units where necessary.
+
         const flattenCssValues = (
             values: Record<string, unknown> | unknown,
             prevModes: string[],
+            slug: string,
         ): Variable['cssValues'] => {
             if (!isObject(values)) {
-                return [{ modes: prevModes, value: processNonObjectValue(values) }];
+                return [{ modes: prevModes, value: processCSSValue(values, slug) }];
             }
 
             if (['r', 'g', 'b', 'a'].every((channel) => channel in values)) {
@@ -331,7 +371,7 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
                     if (['r', 'g', 'b', 'a'].every((channel) => channel in value)) {
                         css = rgbToHex(value);
                     }
-                } else css = processNonObjectValue(value);
+                } else css = processCSSValue(value, slug);
                 return [
                     {
                         modes: prevModes,
@@ -341,14 +381,14 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
             }
 
             return Object.entries(values).flatMap(([mode, val]) => {
-                return flattenCssValues(val as Record<string, Record<string, unknown>>, [...prevModes, mode]) || [];
+                return (
+                    flattenCssValues(val as Record<string, Record<string, unknown>>, [...prevModes, mode], slug) || []
+                );
             });
         };
 
         Object.values(variables).forEach((variable) => {
-            debug_uniqueCSSStrings.push({ name: variable.name, values: [] });
-            variable.cssValues = flattenCssValues(variable.values!, []) || [];
-            delete variable.values;
+            variable.cssValues = flattenCssValues(variable.values!, [], variable.slug) || [];
         });
 
         //globalThis.debug['uniqueCSSStrings'] = debug_uniqueCSSStrings;
@@ -374,52 +414,6 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
     return variablesList;
 }
 
-export function getTokenVariableCSS(
-    variables: Variable[],
-    {
-        brand,
-        theme,
-    }: {
-        brand: Brand;
-        theme: Theme | 'root';
-    },
-): { line: string[]; slug: string }[] {
-    return variables.flatMap((variable) => {
-        const value = variable.cssValues?.find((cssValue) => {
-            const hasBrandOrNone =
-                cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
-            const hasThemeOrNone =
-                theme !== 'root'
-                    ? cssValue.modes.includes(theme)
-                    : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
-            return hasBrandOrNone && hasThemeOrNone;
-        })?.value;
-
-        if (!value) return [];
-
-        return {
-            line: [
-                `/* ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection} */`,
-                variable.description && `/* ${variable.description} */`,
-                `--${variable.slug}: ${value};`,
-            ].filter(Boolean) as string[],
-            slug: variable.slug,
-        };
-    });
-}
-
-type EffectVariable = {
-    slug: string;
-    id: string;
-    name: string;
-    css: string;
-    value: string[];
-    effectStyle: EffectStyle;
-    type: Effect['type'];
-    modes: string[];
-    description?: string;
-};
-
 export function generateVariablesFromEffectStyles(effectStyles: EffectStyle[]): EffectVariable[] {
     const effectVariables: EffectVariable[] = [];
 
@@ -441,12 +435,15 @@ export function generateVariablesFromEffectStyles(effectStyles: EffectStyle[]): 
             if (effect.type === 'LAYER_BLUR') values.push(`blur(${effect.radius}px)`);
         });
 
+        const slug = slugify([type, effectStyle.name]);
+
         effectVariables.push({
-            slug: slugify([type, effectStyle.name]),
+            slug,
+            varName: pascalCase(slug),
             id: effectStyle.id,
             name: effectStyle.name,
             css: values.join(', '),
-            value: values,
+            value: values.map((v) => processCSSValue(v, slug)),
             effectStyle,
             type,
             modes: [],
@@ -456,28 +453,6 @@ export function generateVariablesFromEffectStyles(effectStyles: EffectStyle[]): 
 
     return effectVariables;
 }
-
-export function getEffectVariableCSS(effectVariables: EffectVariable[]): { line: string[]; slug: string }[] {
-    return effectVariables.map((variable) => {
-        return {
-            line: [
-                `/* ${variable.name}${variable.description ? ' - ' + variable.description : ''} */`,
-                `--${variable.slug}: ${variable.css};`,
-            ],
-            slug: variable.slug,
-        };
-    });
-}
-
-type TypeVariable = {
-    slug: string;
-    id: string;
-    name: string;
-    css: string;
-    modes: string[];
-    type: any;
-    description: string;
-};
 
 export function generateVariablesFromTextStyles(textStyles: TextStyle[]): TypeVariable[] {
     const allVariables: TypeVariable[] = [];
@@ -516,11 +491,14 @@ export function generateVariablesFromTextStyles(textStyles: TextStyle[]): TypeVa
         if (textStyle.name.startsWith('Mobile/')) modes = ['mobile'];
         if (textStyle.name.startsWith('Desktop/')) modes = ['desktop'];
 
+        const slug = slugify(name);
+
         allVariables.push({
-            slug: slugify(name),
+            slug: slug,
+            varName: pascalCase(slug),
             id: textStyle.id,
             name: textStyle.name,
-            css: value.join(' ') + ' var(--typeface)',
+            css: processCSSValue(value.join(' ') + ' var(--typeface)', slug),
             modes,
             type: 'FONT',
             description: textStyle.description,
@@ -540,22 +518,75 @@ export function generateVariablesFromTextStyles(textStyles: TextStyle[]): TypeVa
                     label: 'style',
                     css: textStyle.fontName.style.toLowerCase(),
                 },
-            ].map(({ label, css }) => ({
-                slug: slugify(name + '-' + label),
-                id: textStyle.id,
-                name: textStyle.name,
-                css,
-                modes,
-                type: 'FONT',
-                description: textStyle.description + ' ' + label,
-            })),
+            ].map(({ label, css }) => {
+                const slug = slugify(name + '-' + label);
+
+                return {
+                    slug,
+                    varName: pascalCase(slug),
+                    id: textStyle.id,
+                    name: textStyle.name,
+                    css: processCSSValue(css, slug),
+                    modes,
+                    type: 'FONT',
+                    description: textStyle.description + ' ' + label,
+                };
+            }),
         );
     });
 
     return allVariables;
 }
 
-export function getTextVariableCSS(
+// get css from variables
+
+export function getCSSFromTokenVariables(
+    variables: Variable[],
+    {
+        brand,
+        theme,
+    }: {
+        brand: Brand;
+        theme: Theme | 'root';
+    },
+): { line: string[]; slug: string }[] {
+    return variables.flatMap((variable) => {
+        const value = variable.cssValues?.find((cssValue) => {
+            const hasBrandOrNone =
+                cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
+            const hasThemeOrNone =
+                theme !== 'root'
+                    ? cssValue.modes.includes(theme)
+                    : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
+            return hasBrandOrNone && hasThemeOrNone;
+        })?.value;
+
+        if (!value) return [];
+
+        return {
+            line: [
+                `/* ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection} */`,
+                variable.description && `/* ${variable.description} */`,
+                `--${variable.slug}: ${value};`,
+            ].filter(Boolean) as string[],
+            slug: variable.slug,
+        };
+    });
+}
+
+export function getCSSFromEffectVariables(effectVariables: EffectVariable[]): { line: string[]; slug: string }[] {
+    return effectVariables.map((variable) => {
+        return {
+            line: [
+                `/* ${variable.name}${variable.description ? ' - ' + variable.description : ''} */`,
+                `--${variable.slug}: ${variable.css};`,
+            ],
+            slug: variable.slug,
+        };
+    });
+}
+
+export function getCSSFromTextVariables(
     textVariables: TypeVariable[],
     { device }: { device: Device | 'root' },
 ): { line: string[]; slug: string }[] {
@@ -575,6 +606,8 @@ export function getTextVariableCSS(
         });
 }
 
+// generate font style
+
 export const generateFontStyle = (variables: Variable[], brandSlug: string): string[] => {
     const brandTypeFace = variables
         // find the typeface variable for the brand
@@ -589,7 +622,9 @@ export const generateFontStyle = (variables: Variable[], brandSlug: string): str
         .replace(/['"]/g, '');
 
     if (!brandTypeFace)
-        throw new Error(`Generating font style for brand ${brandSlug} with typeface ${brandTypeFace || DEFAULT_FONT}`);
+        throw new Error(
+            `typeface not found for font style for brand ${brandSlug} with typeface ${brandTypeFace || DEFAULT_FONT}`,
+        );
 
     const googleFont = encodeURIComponent(GOOGLE_FONTS.includes(brandTypeFace) ? brandTypeFace : DEFAULT_FONT);
 
@@ -598,6 +633,8 @@ export const generateFontStyle = (variables: Variable[], brandSlug: string): str
         `body {\n\tfont-family: var(--typeface);\n}\n`,
     ];
 };
+
+// compare slugs in existing anywhere.css files to newly generated .tmp/anywhere.css files to find any unexpected changes in variables
 
 export function compareSlugs() {
     // compare slugs from anywhere.css to slugs from .tmp/anywhere.css
@@ -651,6 +688,8 @@ export function compareSlugs() {
         });
     }
 }
+
+// get TS from variables
 
 export function getTextVariableTS(
     textVariables: TypeVariable[],
@@ -717,4 +756,41 @@ export function getEffectVariableTS(effectVariables: EffectVariable[]): { line: 
             slug: variable.slug,
         };
     });
+}
+
+export function generateMeta({
+    textVariables,
+    effectVariables,
+    tokenVariables,
+}: {
+    textVariables: TypeVariable[];
+    effectVariables: EffectVariable[];
+    tokenVariables: Variable[];
+}): string {
+    const meta: {
+        varName: string;
+        description?: string;
+        cssVariable: string;
+        tokenName: string;
+        collection?: string;
+        cssValue?: string | number;
+        cssValues?: {
+            modes: string[];
+            value: string | number;
+        }[];
+    }[] = [];
+
+    [...textVariables, ...effectVariables, ...tokenVariables].forEach((variable) => {
+        meta.push({
+            varName: variable.varName,
+            description: variable.description?.trim() || undefined,
+            cssVariable: `--${variable.slug}`,
+            tokenName: variable.name,
+            collection: 'collection' in variable ? variable.collection : undefined,
+            cssValue: 'css' in variable ? variable.css : undefined,
+            cssValues: 'cssValues' in variable ? variable.cssValues : undefined,
+        });
+    });
+
+    return `export const META = ${JSON.stringify(meta, null, 4)};`;
 }

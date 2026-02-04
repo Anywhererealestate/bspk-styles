@@ -14,16 +14,17 @@ import {
     Token,
     Brand,
     generateVariablesFromTokens,
-    getTokenVariableCSS,
+    getCSSFromTokenVariables,
     generateVariablesFromEffectStyles,
-    getEffectVariableCSS,
+    getCSSFromEffectVariables,
     generateVariablesFromTextStyles,
-    getTextVariableCSS,
+    getCSSFromTextVariables,
     generateFontStyle,
     compareSlugs,
     getTextVariableTS,
     getTokenVariableTS,
     getEffectVariableTS,
+    generateMeta,
 } from './utils';
 import fs from 'fs';
 import { execSync } from 'child_process';
@@ -51,9 +52,11 @@ function main() {
 
     const textVariables = generateVariablesFromTextStyles(textStyles);
 
-    globalThis.debug.variables = tokenVariables;
-
     execSync(`rm -rf data .tmp && mkdir .tmp data`, { stdio: 'inherit' });
+
+    fs.writeFileSync(`.tmp/tokenVariables.json`, JSON.stringify(tokenVariables, null, 4));
+    fs.writeFileSync(`.tmp/effectVariables.json`, JSON.stringify(effectVariables, null, 4));
+    fs.writeFileSync(`.tmp/textVariables.json`, JSON.stringify(textVariables, null, 4));
 
     const sortAndWrite = (...vars: { slug: string; line: string[] }[][]) =>
         vars
@@ -72,28 +75,28 @@ function main() {
                 // ROOT - variables
                 `:root {`,
                 sortAndWrite(
-                    getTextVariableCSS(textVariables, { device: 'root' }),
-                    getEffectVariableCSS(effectVariables),
-                    getTokenVariableCSS(tokenVariables, { brand: brand.slug as Brand, theme: 'root' }),
+                    getCSSFromTextVariables(textVariables, { device: 'root' }),
+                    getCSSFromEffectVariables(effectVariables),
+                    getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'root' }),
                 ),
 
                 // ROOT - mobile (default)
-                sortAndWrite(getTextVariableCSS(textVariables, { device: 'mobile' })),
+                sortAndWrite(getCSSFromTextVariables(textVariables, { device: 'mobile' })),
 
                 // ROOT - light theme (default)
                 '/* light theme (default) */',
-                sortAndWrite(getTokenVariableCSS(tokenVariables, { brand: brand.slug as Brand, theme: 'light' })),
+                sortAndWrite(getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'light' })),
 
                 // ROOT - desktop overrides
-                `\t@media (width >= 640px) {`,
-                sortAndWrite(getTextVariableCSS(textVariables, { device: 'desktop' })),
+                `\n\t@media (width >= 640px) {`,
+                sortAndWrite(getCSSFromTextVariables(textVariables, { device: 'desktop' })),
                 '\t}',
                 '}',
 
                 // DARK - variables
                 '/* dark theme */',
                 `[data-theme='dark'] {`,
-                sortAndWrite(getTokenVariableCSS(tokenVariables, { brand: brand.slug as Brand, theme: 'dark' })),
+                sortAndWrite(getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'dark' })),
                 '}',
             ]
                 .flat()
@@ -141,18 +144,26 @@ function main() {
 
     fs.writeFileSync(`README.md`, fs.readFileSync('README.md', 'utf8').replace(/\d\.\d\.\d/g, VERSION));
 
+    // generate meta
+
+    fs.writeFileSync(
+        `data/meta.ts`,
+        `/* Generated from figma export: ${exportGenerated} */\n${generateMeta({ textVariables, effectVariables, tokenVariables })}`,
+    );
+
     execSync(`prettier --write *.css`, { stdio: 'inherit' });
     execSync(`npx stylelint "*.css" --fix`, { stdio: 'inherit' });
-
     execSync(`prettier --write data/*.ts`, { stdio: 'inherit' });
 
     // These are sanity checks to ensure that the generated variables are consistent across themes and devices. If there are any discrepancies, this will throw an error with details about the issue.
 
     // compareSlugs();
 
-    Object.entries(globalThis.debug).forEach(([key, value]) => {
-        fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
-    });
+    // This is for debugging - it writes the generated variables to .tmp for inspection. You can uncomment this if you want to see the raw generated variables.
+
+    // Object.entries(globalThis.debug).forEach(([key, value]) => {
+    //     fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
+    // });
 }
 
 main();
