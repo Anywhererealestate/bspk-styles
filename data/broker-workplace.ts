@@ -776,10 +776,6 @@ export const COLOR_TOKENS = {
     cornerRadius80: '8px',
     // Corner radius/circular - Global (primitives)
     cornerRadiusCircular: '999px',
-    // Foreground/AI-powered/blue - Theme - ERA
-    foregroundAiPoweredBlue: '#000000',
-    // Foreground/AI-powered/pink - Theme - ERA
-    foregroundAiPoweredPink: '#000000',
     // Interactions/opacity-black-10 - Global (primitives)
     interactionsOpacityBlack10: '#0000001a',
     // Interactions/opacity-black-16 - Global (primitives)
@@ -804,38 +800,38 @@ export const COLOR_TOKENS = {
     interactionsOpacityWhite6: '#ffffff0f',
     // Interactions/opacity-white-8 - Global (primitives)
     interactionsOpacityWhite8: '#ffffff14',
-    // Colors/Brands/ERA/Interactions/primary-dark-opacity-10 - Global (primitives)
-    interactionsPrimaryDarkOpacity10: '#6d84af1a',
-    // Colors/Brands/ERA/Interactions/primary-dark-opacity-12 - Global (primitives)
-    interactionsPrimaryDarkOpacity12: '#6d84af1f',
-    // Colors/Brands/ERA/Interactions/primary-dark-opacity-16 - Global (primitives)
-    interactionsPrimaryDarkOpacity16: '#6d84af29',
-    // Colors/Brands/ERA/Interactions/primary-dark-opacity-20 - Global (primitives)
-    interactionsPrimaryDarkOpacity20: '#6d84af33',
-    // Colors/Brands/ERA/Interactions/primary-dark-opacity-8 - Global (primitives)
-    interactionsPrimaryDarkOpacity8: '#6d84af14',
-    // Colors/Brands/ERA/Interactions/primary-light-opacity-10 - Global (primitives)
-    interactionsPrimaryLightOpacity10: '#0b32791a',
-    // Colors/Brands/ERA/Interactions/primary-light-opacity-12 - Global (primitives)
-    interactionsPrimaryLightOpacity12: '#0b32791f',
-    // Colors/Brands/ERA/Interactions/primary-light-opacity-16 - Global (primitives)
-    interactionsPrimaryLightOpacity16: '#0b327929',
-    // Colors/Brands/ERA/Interactions/primary-light-opacity-20 - Global (primitives)
-    interactionsPrimaryLightOpacity20: '#0b327933',
-    // Colors/Brands/ERA/Interactions/primary-light-opacity-8 - Global (primitives)
-    interactionsPrimaryLightOpacity8: '#0b327914',
-    // Colors/Brands/ERA/Primary/00-base - Global (primitives)
-    primary00Base: '#0b3279',
-    // Colors/Brands/ERA/Primary/15-dark - Global (primitives)
-    primary15Dark: '#092b67',
-    // Colors/Brands/ERA/Primary/40-light - Global (primitives)
-    primary40Light: '#6d84af',
-    // Colors/Brands/ERA/Primary/55-light - Global (primitives)
-    primary55Light: '#91a3c3',
-    // Colors/Brands/ERA/Primary/75-dark - Global (primitives)
-    primary75Dark: '#030d1e',
-    // Colors/Brands/ERA/Primary/85-light - Global (primitives)
-    primary85Light: '#dae0eb',
+    // Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-10 - Global (primitives)
+    interactionsPrimaryDarkOpacity10: '#7574821a',
+    // Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-12 - Global (primitives)
+    interactionsPrimaryDarkOpacity12: '#7574821f',
+    // Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-16 - Global (primitives)
+    interactionsPrimaryDarkOpacity16: '#75748229',
+    // Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-20 - Global (primitives)
+    interactionsPrimaryDarkOpacity20: '#75748233',
+    // Colors/Brands/Broker Workplace/Interactions/primary-dark-opacity-8 - Global (primitives)
+    interactionsPrimaryDarkOpacity8: '#75748214',
+    // Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-10 - Global (primitives)
+    interactionsPrimaryLightOpacity10: '#19172f1a',
+    // Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-12 - Global (primitives)
+    interactionsPrimaryLightOpacity12: '#19172f1f',
+    // Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-16 - Global (primitives)
+    interactionsPrimaryLightOpacity16: '#19172f29',
+    // Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-20 - Global (primitives)
+    interactionsPrimaryLightOpacity20: '#19172f33',
+    // Colors/Brands/Broker Workplace/Interactions/primary-light-opacity-8 - Global (primitives)
+    interactionsPrimaryLightOpacity8: '#19172f14',
+    // Colors/Brands/Broker Workplace/Primary/00-base - Global (primitives)
+    primary00Base: '#19172f',
+    // Colors/Brands/Broker Workplace/Primary/15-dark - Global (primitives)
+    primary15Dark: '#151428',
+    // Colors/Brands/Broker Workplace/Primary/40-light - Global (primitives)
+    primary40Light: '#757482',
+    // Colors/Brands/Broker Workplace/Primary/55-light - Global (primitives)
+    primary55Light: '#9897a1',
+    // Colors/Brands/Broker Workplace/Primary/75-dark - Global (primitives)
+    primary75Dark: '#06060c',
+    // Colors/Brands/Broker Workplace/Primary/85-light - Global (primitives)
+    primary85Light: '#dddce0',
     // Radius/full - Borders
     radiusFull: '999px',
     // Radius/lg - Borders
@@ -846,18 +842,18 @@ export const COLOR_TOKENS = {
     radiusSm: '4px',
     // Radius/xlg - Borders
     radiusXlg: '16px',
-    // Colors/Brands/ERA/Secondary/00-base - Global (primitives)
-    secondary00Base: '#c8102e',
-    // Colors/Brands/ERA/Secondary/15-dark - Global (primitives)
-    secondary15Dark: '#aa0e27',
-    // Colors/Brands/ERA/Secondary/40-light - Global (primitives)
-    secondary40Light: '#de7082',
-    // Colors/Brands/ERA/Secondary/55-light - Global (primitives)
-    secondary55Light: '#e693a1',
-    // Colors/Brands/ERA/Secondary/75-dark - Global (primitives)
-    secondary75Dark: '#32040c',
-    // Colors/Brands/ERA/Secondary/85-light - Global (primitives)
-    secondary85Light: '#f7dbe0',
+    // Colors/Brands/Broker Workplace/Secondary/00-base - Global (primitives)
+    secondary00Base: '#eb672f',
+    // Colors/Brands/Broker Workplace/Secondary/15-dark - Global (primitives)
+    secondary15Dark: '#c85828',
+    // Colors/Brands/Broker Workplace/Secondary/40-light - Global (primitives)
+    secondary40Light: '#f3a482',
+    // Colors/Brands/Broker Workplace/Secondary/55-light - Global (primitives)
+    secondary55Light: '#f6bba1',
+    // Colors/Brands/Broker Workplace/Secondary/75-dark - Global (primitives)
+    secondary75Dark: '#3b1a0c',
+    // Colors/Brands/Broker Workplace/Secondary/85-light - Global (primitives)
+    secondary85Light: '#fce8e0',
     // Shadows/Inner-Shadow-black-100 - Global (primitives)
     shadowsInnerShadowBlack100: '#000000',
     // Shadows/Inner-Shadow-white-100 - Global (primitives)
@@ -986,34 +982,14 @@ export const COLOR_TOKENS = {
     spacings800: '80px',
     // Spacings/960 - Global (primitives)
     spacings960: '96px',
-    // Stroke/AI-powered/blue - Theme - ERA
-    strokeAiPoweredBlue: '#000000',
-    // Stroke/AI-powered/pink - Theme - ERA
-    strokeAiPoweredPink: '#000000',
     // Stroke/thick - Borders
     strokeThick: '2px',
     // Stroke/thicker - Borders
     strokeThicker: '4px',
     // Stroke/thin - Borders
     strokeThin: '1px',
-    // Surface/AI-powered/blue - Theme - ERA
-    surfaceAiPoweredBlue: '#000000',
-    // Surface/AI-powered/pink - Theme - ERA
-    surfaceAiPoweredPink: '#000000',
-    // Colors/Brands/ERA/Tertiary/00-base - Global (primitives)
-    tertiary00Base: '#990033',
-    // Colors/Brands/ERA/Tertiary/15-dark - Global (primitives)
-    tertiary15Dark: '#82002b',
-    // Colors/Brands/ERA/Tertiary/40-light - Global (primitives)
-    tertiary40Light: '#c26685',
-    // Colors/Brands/ERA/Tertiary/55-light - Global (primitives)
-    tertiary55Light: '#d18ca3',
-    // Colors/Brands/ERA/Tertiary/75-dark - Global (primitives)
-    tertiary75Dark: '#26000d',
-    // Colors/Brands/ERA/Tertiary/85-light - Global (primitives)
-    tertiary85Light: '#f0d9e0',
     // Typeface - Brand
-    typeface: '"SF Pro"',
+    typeface: '"Inter"',
     // Typography/Line-height/lh-1 - Global (primitives)
     typographyLineHeightLh1: '16px',
     // Typography/Line-height/lh-10 - Global (primitives)
@@ -1111,71 +1087,71 @@ export const COLOR_TOKENS = {
     light: {
         // Background/base - Brand
         backgroundBase: '#ffffff',
-        // Background/scrim - Theme - ERA
+        // Background/scrim - Theme - Broker Workplace
         backgroundScrim: '#00000040',
         // Background/shade - Brand
         backgroundShade: '#f5f5f5',
         // Data visual/category-01 - Brand
-        dataVisualCategory01: '#0a466c',
+        dataVisualCategory01: '#d67e51',
         // Data visual/category-01-highlight - Brand
-        dataVisualCategory01Highlight: '#0a466c4d',
+        dataVisualCategory01Highlight: '#d67e514d',
         // Data visual/category-02 - Brand
-        dataVisualCategory02: '#299de0',
+        dataVisualCategory02: '#7a2a0b',
         // Data visual/category-02-highlight - Brand
-        dataVisualCategory02Highlight: '#299de04d',
+        dataVisualCategory02Highlight: '#7a2a0b4d',
         // Data visual/category-03 - Brand
-        dataVisualCategory03: '#130033',
+        dataVisualCategory03: '#ab922b',
         // Data visual/category-03-highlight - Brand
-        dataVisualCategory03Highlight: '#1300334d',
+        dataVisualCategory03Highlight: '#ab922b4d',
         // Data visual/category-04 - Brand
-        dataVisualCategory04: '#389e7a',
+        dataVisualCategory04: '#2d3300',
         // Data visual/category-04-highlight - Brand
-        dataVisualCategory04Highlight: '#389e7a4d',
+        dataVisualCategory04Highlight: '#2d33004d',
         // Data visual/category-05 - Brand
-        dataVisualCategory05: '#094a53',
+        dataVisualCategory05: '#794b34',
         // Data visual/category-05-highlight - Brand
-        dataVisualCategory05Highlight: '#094a534d',
+        dataVisualCategory05Highlight: '#794b344d',
         // Data visual/category-06 - Brand
         dataVisualCategory06: '#7f7f7f',
         // Data visual/category-06-highlight - Brand
         dataVisualCategory06Highlight: '#7f7f7f4d',
         // Data visual/category-07 - Brand
-        dataVisualCategory07: '#433479',
+        dataVisualCategory07: '#530909',
         // Data visual/category-07-highlight - Brand
-        dataVisualCategory07Highlight: '#4334794d',
+        dataVisualCategory07Highlight: '#5309094d',
         // Data visual/category-1 - Theme - Better Home & Garden
         dataVisualCategory1: '#0a466c',
-        // Data visual/category-1-highlight - Theme - ERA
+        // Data visual/category-1-highlight - Theme - Broker Workplace
         dataVisualCategory1Highlight: '#0a466c4d',
         // Data visual/category-2 - Theme - Better Home & Garden
         dataVisualCategory2: '#299de0',
-        // Data visual/category-2-highlight - Theme - ERA
+        // Data visual/category-2-highlight - Theme - Broker Workplace
         dataVisualCategory2Highlight: '#299de04d',
         // Data visual/category-3 - Theme - Better Home & Garden
         dataVisualCategory3: '#130033',
-        // Data visual/category-3-highlight - Theme - ERA
+        // Data visual/category-3-highlight - Theme - Broker Workplace
         dataVisualCategory3Highlight: '#1300334d',
         // Data visual/category-4 - Theme - Better Home & Garden
         dataVisualCategory4: '#389e7a',
-        // Data visual/category-4-highlight - Theme - ERA
+        // Data visual/category-4-highlight - Theme - Broker Workplace
         dataVisualCategory4Highlight: '#389e7a4d',
         // Data visual/category-5 - Theme - Better Home & Garden
         dataVisualCategory5: '#094a53',
-        // Data visual/category-5-highlight - Theme - ERA
+        // Data visual/category-5-highlight - Theme - Broker Workplace
         dataVisualCategory5Highlight: '#094a534d',
         // Data visual/category-6 - Theme - Better Home & Garden
         dataVisualCategory6: '#7f7f7f',
-        // Data visual/category-6-highlight - Theme - ERA
+        // Data visual/category-6-highlight - Theme - Broker Workplace
         dataVisualCategory6Highlight: '#7f7f7f4d',
         // Data visual/category-7 - Theme - Better Home & Garden
         dataVisualCategory7: '#433479',
-        // Data visual/category-7-highlight - Theme - ERA
+        // Data visual/category-7-highlight - Theme - Broker Workplace
         dataVisualCategory7Highlight: '#4334794d',
-        // Data visual/gradient-end - Theme - ERA
+        // Data visual/gradient-end - Theme - Broker Workplace
         dataVisualGradientEnd: '#ffffff4d',
-        // Data visual/green - Theme - ERA
+        // Data visual/green - Theme - Broker Workplace
         dataVisualGreen: '#258750',
-        // Data visual/green-highlight - Theme - ERA
+        // Data visual/green-highlight - Theme - Broker Workplace
         dataVisualGreenHighlight: '#deede5',
         // Data visual/negative - Brand
         dataVisualNegative: '#d83a52',
@@ -1185,53 +1161,57 @@ export const COLOR_TOKENS = {
         dataVisualPositive: '#258750',
         // Data visual/positive-highlight - Brand
         dataVisualPositiveHighlight: '#deede5',
-        // Data visual/red - Theme - ERA
+        // Data visual/red - Theme - Broker Workplace
         dataVisualRed: '#d83a52',
-        // Data visual/red-highlight - Theme - ERA
+        // Data visual/red-highlight - Theme - Broker Workplace
         dataVisualRedHighlight: '#f9e1e5',
-        // Foreground/Brand/on-inverse-primary - Theme - ERA
-        foregroundBrandOnInversePrimary: '#6d84af',
-        // Foreground/Brand/on-inverse-secondary - Theme - ERA
+        // Foreground/AI-powered/blue - Theme - Broker Workplace
+        foregroundAiPoweredBlue: '#215ecd',
+        // Foreground/AI-powered/pink - Theme - Broker Workplace
+        foregroundAiPoweredPink: '#c60ede',
+        // Foreground/Brand/on-inverse-primary - Theme - Broker Workplace
+        foregroundBrandOnInversePrimary: '#757482',
+        // Foreground/Brand/on-inverse-secondary - Theme - Broker Workplace
         foregroundBrandOnInverseSecondary: '#eba691',
         // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnPrimary: '#ffffff',
         // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnSecondary: '#ffffff',
         // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
-        foregroundBrandPrimary: '#0b3279',
+        foregroundBrandPrimary: '#19172f',
         // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
         foregroundBrandPrimaryDepth: '#217221',
         // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
-        foregroundBrandSecondary: '#c8102e',
-        // Foreground/Brand/brand-secondary-depth - Theme - ERA
-        foregroundBrandSecondaryDepth: '#aa0e27',
+        foregroundBrandSecondary: '#eb672f',
+        // Foreground/Brand/brand-secondary-depth - Theme - Broker Workplace
+        foregroundBrandSecondaryDepth: '#bc5b3c',
         // Foreground/Link text/default - Brand
         foregroundLinkTextDefault: '#215ecd',
         // Foreground/Link text/default-disabled - Brand
         foregroundLinkTextDefaultDisabled: '#7a9ee1',
-        // Foreground/Link text/default-hovered - Theme - ERA
+        // Foreground/Link text/default-hovered - Theme - Broker Workplace
         foregroundLinkTextDefaultHovered: '#1e55b9',
-        // Foreground/Link text/default-pressed - Theme - ERA
+        // Foreground/Link text/default-pressed - Theme - Broker Workplace
         foregroundLinkTextDefaultPressed: '#1a4ba4',
         // Foreground/Link text/default-visited - Brand
         foregroundLinkTextDefaultVisited: '#7a3e7a',
         // Foreground/Link text/subtle-disabled - Brand
         foregroundLinkTextSubtleDisabled: '#bdbdbd',
-        // Foreground/Link text/subtle-hovered - Theme - ERA
+        // Foreground/Link text/subtle-hovered - Theme - Broker Workplace
         foregroundLinkTextSubtleHovered: '#292929',
-        // Foreground/Link text/subtle-inverse-hovered - Theme - ERA
+        // Foreground/Link text/subtle-inverse-hovered - Theme - Broker Workplace
         foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-pressed - Theme - ERA
+        // Foreground/Link text/subtle-inverse-pressed - Theme - Broker Workplace
         foregroundLinkTextSubtleInversePressed: '#d1d1d1',
         // Foreground/Link text/subtle-inversed-disabled - Brand
         foregroundLinkTextSubtleInversedDisabled: '#757575',
-        // Foreground/Link text/subtle-pressed - Theme - ERA
+        // Foreground/Link text/subtle-pressed - Theme - Broker Workplace
         foregroundLinkTextSubtlePressed: '#3d3d3d',
         // Foreground/Neutral/disabled-on-color-surface - Brand
         foregroundNeutralDisabledOnColorSurface: '#757575',
         // Foreground/Neutral/disabled-on-surface - Brand
         foregroundNeutralDisabledOnSurface: '#bdbdbd',
-        // Foreground/Neutral/inverse-on-surface - Theme - ERA
+        // Foreground/Neutral/inverse-on-surface - Theme - Broker Workplace
         foregroundNeutralInverseOnSurface: '#fafafa',
         // Foreground/Neutral/on-color - Brand - Interactive controls
         foregroundNeutralOnColor: '#ffffff',
@@ -1247,59 +1227,59 @@ export const COLOR_TOKENS = {
         foregroundNeutralOnSurfaceVariant03: '#8a8a8a',
         // Foreground/Neutral/skeleton-element - Brand
         foregroundNeutralSkeletonElement: '#e0e0e0',
-        // Foreground/Spectrum/blue - Theme - ERA
+        // Foreground/Spectrum/blue - Theme - Broker Workplace
         foregroundSpectrumBlue: '#143778',
-        // Foreground/Spectrum/green - Theme - ERA
+        // Foreground/Spectrum/green - Theme - Broker Workplace
         foregroundSpectrumGreen: '#134428',
-        // Foreground/Spectrum/lime - Theme - ERA
+        // Foreground/Spectrum/lime - Theme - Broker Workplace
         foregroundSpectrumLime: '#60651a',
-        // Foreground/Spectrum/magenta - Theme - ERA
+        // Foreground/Spectrum/magenta - Theme - Broker Workplace
         foregroundSpectrumMagenta: '#63076f',
         // Foreground/Spectrum/orange - Brand
         foregroundSpectrumOrange: '#773001',
-        // Foreground/Spectrum/pink - Theme - ERA
+        // Foreground/Spectrum/pink - Theme - Broker Workplace
         foregroundSpectrumPink: '#6c1240',
-        // Foreground/Spectrum/purple - Theme - ERA
+        // Foreground/Spectrum/purple - Theme - Broker Workplace
         foregroundSpectrumPurple: '#310077',
         // Foreground/Spectrum/red - Brand
         foregroundSpectrumRed: '#6c1d29',
-        // Foreground/Spectrum/teal - Theme - ERA
+        // Foreground/Spectrum/teal - Theme - Broker Workplace
         foregroundSpectrumTeal: '#01413c',
-        // Foreground/Spectrum/yellow - Theme - ERA
+        // Foreground/Spectrum/yellow - Theme - Broker Workplace
         foregroundSpectrumYellow: '#7b5e18',
-        // Interactions/brand-disabled-opacity - Theme - ERA
+        // Interactions/brand-disabled-opacity - Theme - Broker Workplace
         interactionsBrandDisabledOpacity: '#0000000f',
-        // Interactions/brand-hover-opacity - Theme - ERA
+        // Interactions/brand-hover-opacity - Theme - Broker Workplace
         interactionsBrandHoverOpacity: '#0000001a',
-        // Interactions/brand-press-opacity - Theme - ERA
+        // Interactions/brand-press-opacity - Theme - Broker Workplace
         interactionsBrandPressOpacity: '#00000033',
-        // Interactions/disabled-opacity - Theme - ERA
+        // Interactions/disabled-opacity - Theme - Broker Workplace
         interactionsDisabledOpacity: '#0000000f',
-        // Interactions/hover-opacity - Theme - ERA
+        // Interactions/hover-opacity - Theme - Broker Workplace
         interactionsHoverOpacity: '#00000014',
         // Interactions/link-active-opacity - Brand
         interactionsLinkActiveOpacity: '#0000004d',
         // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
-        interactionsNeutralHoverOpacity: '#00000014',
+        interactionsNeutralHoverOpacity: '#0000001a',
         // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
         interactionsNeutralPressOpacity: '#00000029',
-        // Interactions/press-opacity - Theme - ERA
+        // Interactions/press-opacity - Theme - Broker Workplace
         interactionsPressOpacity: '#00000029',
-        // Interactions/primary-disabled-opacity - Theme - ERA
-        interactionsPrimaryDisabledOpacity: '#0b32791f',
-        // Interactions/primary-hover-opacity - Theme - ERA
-        interactionsPrimaryHoverOpacity: '#0b32791a',
-        // Interactions/primary-press-opacity - Theme - ERA
-        interactionsPrimaryPressOpacity: '#0b327933',
-        // Shadow/shadow-10 - Theme - ERA
+        // Interactions/primary-disabled-opacity - Theme - Broker Workplace
+        interactionsPrimaryDisabledOpacity: '#19172f1f',
+        // Interactions/primary-hover-opacity - Theme - Broker Workplace
+        interactionsPrimaryHoverOpacity: '#19172f1a',
+        // Interactions/primary-press-opacity - Theme - Broker Workplace
+        interactionsPrimaryPressOpacity: '#19172f33',
+        // Shadow/shadow-10 - Theme - Broker Workplace
         shadow10: '#0000001a',
-        // Shadow/shadow-12 - Theme - ERA
+        // Shadow/shadow-12 - Theme - Broker Workplace
         shadow12: '#0000001f',
-        // Shadow/shadow-15 - Theme - ERA
+        // Shadow/shadow-15 - Theme - Broker Workplace
         shadow15: '#00000026',
-        // Shadow/shadow-25 - Theme - ERA
+        // Shadow/shadow-25 - Theme - Broker Workplace
         shadow25: '#00000040',
-        // Shadow/shadow-32 - Theme - ERA
+        // Shadow/shadow-32 - Theme - Broker Workplace
         shadow32: '#00000052',
         // Shadow/inner-shadow - Brand
         shadowInner: '#ffffff',
@@ -1335,13 +1315,17 @@ export const COLOR_TOKENS = {
         statusSuccess: '#258750',
         // Status/warning - Brand - Foreground warning icons
         statusWarning: '#f6bc2f',
+        // Stroke/AI-powered/blue - Theme - Broker Workplace
+        strokeAiPoweredBlue: '#215ecd',
+        // Stroke/AI-powered/pink - Theme - Broker Workplace
+        strokeAiPoweredPink: '#c60ede',
         // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
-        strokeBrandPrimary: '#0b3279',
+        strokeBrandPrimary: '#19172f',
         // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
-        strokeBrandPrimaryDepth: '#092b67',
+        strokeBrandPrimaryDepth: '#151428',
         // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
         strokeBrandSecondary: '#dd6b47',
-        // Stroke/Brand/brand-secondary-depth - Theme - ERA
+        // Stroke/Brand/brand-secondary-depth - Theme - Broker Workplace
         strokeBrandSecondaryDepth: '#bc5b3c',
         // Stroke/Neutral/neutral-base - Brand - For control components
         strokeNeutralBase: '#949494',
@@ -1354,29 +1338,33 @@ export const COLOR_TOKENS = {
         // Stroke/Neutral/focus-on-inverse - Brand - Highlight focus element
         strokeNeutralFocusOnInverse: '#ffffff',
         // Stroke/Neutral/neutral-high - Brand
-        strokeNeutralHigh: '#242424',
-        // Stroke/Neutral/neutral-high-contrast - Theme - ERA
+        strokeNeutralHigh: '#141414',
+        // Stroke/Neutral/neutral-high-contrast - Theme - Broker Workplace
         strokeNeutralHighContrast: '#141414',
-        // Stroke/Neutral/Interactions/disabled-dark - Theme - ERA
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - Broker Workplace
         strokeNeutralInteractionsDisabledDark: '#757575',
-        // Stroke/Neutral/Interactions/disabled-light - Theme - ERA
+        // Stroke/Neutral/Interactions/disabled-light - Theme - Broker Workplace
         strokeNeutralInteractionsDisabledLight: '#bdbdbd',
-        // Stroke/Neutral/Interactions/focus - Theme - ERA
+        // Stroke/Neutral/Interactions/focus - Theme - Broker Workplace
         strokeNeutralInteractionsFocus: '#000000',
-        // Stroke/Neutral/Interactions/inverse-focus - Theme - ERA
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - Broker Workplace
         strokeNeutralInteractionsInverseFocus: '#ffffff',
         // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
         strokeNeutralLow: '#e0e0e0',
-        // Stroke/Neutral/neutral-low-contrast - Theme - ERA
+        // Stroke/Neutral/neutral-low-contrast - Theme - Broker Workplace
         strokeNeutralLowContrast: '#e0e0e0',
+        // Surface/AI-powered/blue - Theme - Broker Workplace
+        surfaceAiPoweredBlue: '#215ecd',
+        // Surface/AI-powered/pink - Theme - Broker Workplace
+        surfaceAiPoweredPink: '#c60ede',
         // Surface/Brand/primary - Brand
-        surfaceBrandPrimary: '#0b3279',
-        // Surface/Brand/primary-highlight - Theme - ERA
+        surfaceBrandPrimary: '#19172f',
+        // Surface/Brand/primary-highlight - Theme - Broker Workplace
         surfaceBrandPrimaryHighlight: '#dfeddf',
         // Surface/Brand/secondary - Brand
-        surfaceBrandSecondary: '#c8102e',
-        // Surface/Brand/secondary-highlight - Theme - ERA
-        surfaceBrandSecondaryHighlight: '#f7dbe0',
+        surfaceBrandSecondary: '#eb672f',
+        // Surface/Brand/secondary-highlight - Theme - Broker Workplace
+        surfaceBrandSecondaryHighlight: '#fae9e3',
         // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
         surfaceNeutralInteractionsDarkDisabled: '#d6d6d6',
         // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
@@ -1385,7 +1373,7 @@ export const COLOR_TOKENS = {
         surfaceNeutralInverse: '#1f1f1f',
         // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
         surfaceNeutralInverseDark: '#1f1f1f',
-        // Surface/Neutral/inverse-light - Theme - ERA
+        // Surface/Neutral/inverse-light - Theme - Broker Workplace
         surfaceNeutralInverseLight: '#ffffff',
         // Surface/Neutral/T1-base - Brand
         surfaceNeutralT1Base: '#ffffff',
@@ -1399,96 +1387,96 @@ export const COLOR_TOKENS = {
         surfaceNeutralT4High2: '#8a8a8a',
         // Surface/Neutral/transparent - Brand
         surfaceNeutralTransparent: '#ffffff00',
-        // Surface/Spectrum/blue - Theme - ERA
+        // Surface/Spectrum/blue - Theme - Broker Workplace
         surfaceSpectrumBlue: '#dfe9fd',
-        // Surface/Spectrum/green - Theme - ERA
+        // Surface/Spectrum/green - Theme - Broker Workplace
         surfaceSpectrumGreen: '#deede5',
-        // Surface/Spectrum/lime - Theme - ERA
+        // Surface/Spectrum/lime - Theme - Broker Workplace
         surfaceSpectrumLime: '#f6f7e0',
-        // Surface/Spectrum/magenta - Theme - ERA
+        // Surface/Spectrum/magenta - Theme - Broker Workplace
         surfaceSpectrumMagenta: '#f6dbfa',
         // Surface/Spectrum/orange - Theme - Better Home & Garden
         surfaceSpectrumOrange: '#fce7d9',
-        // Surface/Spectrum/pink - Theme - ERA
+        // Surface/Spectrum/pink - Theme - Broker Workplace
         surfaceSpectrumPink: '#f9deec',
-        // Surface/Spectrum/purple - Theme - ERA
+        // Surface/Spectrum/purple - Theme - Broker Workplace
         surfaceSpectrumPurple: '#e7d9fc',
-        // Surface/Spectrum/red - Theme - ERA
+        // Surface/Spectrum/red - Theme - Broker Workplace
         surfaceSpectrumRed: '#f9e1e5',
-        // Surface/Spectrum/teal - Theme - ERA
+        // Surface/Spectrum/teal - Theme - Broker Workplace
         surfaceSpectrumTeal: '#d9eceb',
-        // Surface/Spectrum/yellow - Theme - ERA
+        // Surface/Spectrum/yellow - Theme - Broker Workplace
         surfaceSpectrumYellow: '#fef5e0',
     },
 
     dark: {
         // Background/base - Brand
         backgroundBase: '#1f1f1f',
-        // Background/scrim - Theme - ERA
+        // Background/scrim - Theme - Broker Workplace
         backgroundScrim: '#61616180',
         // Background/shade - Brand
         backgroundShade: '#292929',
         // Data visual/category-01 - Brand
-        dataVisualCategory01: '#7899ae',
+        dataVisualCategory01: '#e6b297',
         // Data visual/category-01-highlight - Brand
-        dataVisualCategory01Highlight: '#7899ae4d',
+        dataVisualCategory01Highlight: '#e6b2974d',
         // Data visual/category-02 - Brand
-        dataVisualCategory02: '#7fc4ec',
+        dataVisualCategory02: '#b68a79',
         // Data visual/category-02-highlight - Brand
-        dataVisualCategory02Highlight: '#7fc4ec4d',
+        dataVisualCategory02Highlight: '#b68a794d',
         // Data visual/category-03 - Brand
-        dataVisualCategory03: '#958ca3',
+        dataVisualCategory03: '#cdbe80',
         // Data visual/category-03-highlight - Brand
-        dataVisualCategory03Highlight: '#958ca34d',
+        dataVisualCategory03Highlight: '#cdbe804d',
         // Data visual/category-04 - Brand
-        dataVisualCategory04: '#88c5af',
+        dataVisualCategory04: '#969980',
         // Data visual/category-04-highlight - Brand
-        dataVisualCategory04Highlight: '#88c5af4d',
+        dataVisualCategory04Highlight: '#9699804d',
         // Data visual/category-05 - Brand
-        dataVisualCategory05: '#789ba0',
+        dataVisualCategory05: '#af9385',
         // Data visual/category-05-highlight - Brand
-        dataVisualCategory05Highlight: '#789ba04d',
+        dataVisualCategory05Highlight: '#af93854d',
         // Data visual/category-06 - Brand
         dataVisualCategory06: '#b2b2b2',
         // Data visual/category-06-highlight - Brand
         dataVisualCategory06Highlight: '#b2b2b24d',
         // Data visual/category-07 - Brand
-        dataVisualCategory07: '#a19abc',
+        dataVisualCategory07: '#a98484',
         // Data visual/category-07-highlight - Brand
-        dataVisualCategory07Highlight: '#a19abc4d',
+        dataVisualCategory07Highlight: '#a984844d',
         // Data visual/category-1 - Theme - Better Home & Garden
         dataVisualCategory1: '#0a466c',
-        // Data visual/category-1-highlight - Theme - ERA
+        // Data visual/category-1-highlight - Theme - Broker Workplace
         dataVisualCategory1Highlight: '#7899ae4d',
         // Data visual/category-2 - Theme - Better Home & Garden
         dataVisualCategory2: '#7fc4ec',
-        // Data visual/category-2-highlight - Theme - ERA
+        // Data visual/category-2-highlight - Theme - Broker Workplace
         dataVisualCategory2Highlight: '#7fc4ec4d',
         // Data visual/category-3 - Theme - Better Home & Garden
         dataVisualCategory3: '#958ca3',
-        // Data visual/category-3-highlight - Theme - ERA
+        // Data visual/category-3-highlight - Theme - Broker Workplace
         dataVisualCategory3Highlight: '#958ca34d',
         // Data visual/category-4 - Theme - Better Home & Garden
         dataVisualCategory4: '#88c5af',
-        // Data visual/category-4-highlight - Theme - ERA
+        // Data visual/category-4-highlight - Theme - Broker Workplace
         dataVisualCategory4Highlight: '#88c5af4d',
         // Data visual/category-5 - Theme - Better Home & Garden
         dataVisualCategory5: '#789ba0',
-        // Data visual/category-5-highlight - Theme - ERA
+        // Data visual/category-5-highlight - Theme - Broker Workplace
         dataVisualCategory5Highlight: '#789ba04d',
         // Data visual/category-6 - Theme - Better Home & Garden
         dataVisualCategory6: '#b2b2b2',
-        // Data visual/category-6-highlight - Theme - ERA
+        // Data visual/category-6-highlight - Theme - Broker Workplace
         dataVisualCategory6Highlight: '#b2b2b24d',
         // Data visual/category-7 - Theme - Better Home & Garden
         dataVisualCategory7: '#a19abc',
-        // Data visual/category-7-highlight - Theme - ERA
+        // Data visual/category-7-highlight - Theme - Broker Workplace
         dataVisualCategory7Highlight: '#a19abc4d',
-        // Data visual/gradient-end - Theme - ERA
+        // Data visual/gradient-end - Theme - Broker Workplace
         dataVisualGradientEnd: '#1f1f1f4d',
-        // Data visual/green - Theme - ERA
+        // Data visual/green - Theme - Broker Workplace
         dataVisualGreen: '#7cb796',
-        // Data visual/green-highlight - Theme - ERA
+        // Data visual/green-highlight - Theme - Broker Workplace
         dataVisualGreenHighlight: '#0d2f1c',
         // Data visual/negative - Brand
         dataVisualNegative: '#e88997',
@@ -1498,53 +1486,57 @@ export const COLOR_TOKENS = {
         dataVisualPositive: '#7cb796',
         // Data visual/positive-highlight - Brand
         dataVisualPositiveHighlight: '#0d2f1c',
-        // Data visual/red - Theme - ERA
+        // Data visual/red - Theme - Broker Workplace
         dataVisualRed: '#e88997',
-        // Data visual/red-highlight - Theme - ERA
+        // Data visual/red-highlight - Theme - Broker Workplace
         dataVisualRedHighlight: '#4c141d',
-        // Foreground/Brand/on-inverse-primary - Theme - ERA
-        foregroundBrandOnInversePrimary: '#6d84af',
-        // Foreground/Brand/on-inverse-secondary - Theme - ERA
+        // Foreground/AI-powered/blue - Theme - Broker Workplace
+        foregroundAiPoweredBlue: '#000000',
+        // Foreground/AI-powered/pink - Theme - Broker Workplace
+        foregroundAiPoweredPink: '#000000',
+        // Foreground/Brand/on-inverse-primary - Theme - Broker Workplace
+        foregroundBrandOnInversePrimary: '#757482',
+        // Foreground/Brand/on-inverse-secondary - Theme - Broker Workplace
         foregroundBrandOnInverseSecondary: '#eba691',
         // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
-        foregroundBrandOnPrimary: '#ffffff',
+        foregroundBrandOnPrimary: '#141414',
         // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnSecondary: '#141414',
         // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
-        foregroundBrandPrimary: '#6d84af',
+        foregroundBrandPrimary: '#757482',
         // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
         foregroundBrandPrimaryDepth: '#88bc88',
         // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
-        foregroundBrandSecondary: '#de7082',
-        // Foreground/Brand/brand-secondary-depth - Theme - ERA
-        foregroundBrandSecondaryDepth: '#e693a1',
+        foregroundBrandSecondary: '#f3a482',
+        // Foreground/Brand/brand-secondary-depth - Theme - Broker Workplace
+        foregroundBrandSecondaryDepth: '#eba691',
         // Foreground/Link text/default - Brand
         foregroundLinkTextDefault: '#7a9ee1',
         // Foreground/Link text/default-disabled - Brand
         foregroundLinkTextDefaultDisabled: '#14387b',
-        // Foreground/Link text/default-hovered - Theme - ERA
+        // Foreground/Link text/default-hovered - Theme - Broker Workplace
         foregroundLinkTextDefaultHovered: '#90afe6',
-        // Foreground/Link text/default-pressed - Theme - ERA
+        // Foreground/Link text/default-pressed - Theme - Broker Workplace
         foregroundLinkTextDefaultPressed: '#a6bfeb',
         // Foreground/Link text/default-visited - Brand
         foregroundLinkTextDefaultVisited: '#af8baf',
         // Foreground/Link text/subtle-disabled - Brand
         foregroundLinkTextSubtleDisabled: '#4d4d4d',
-        // Foreground/Link text/subtle-hovered - Theme - ERA
+        // Foreground/Link text/subtle-hovered - Theme - Broker Workplace
         foregroundLinkTextSubtleHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-hovered - Theme - ERA
+        // Foreground/Link text/subtle-inverse-hovered - Theme - Broker Workplace
         foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-pressed - Theme - ERA
+        // Foreground/Link text/subtle-inverse-pressed - Theme - Broker Workplace
         foregroundLinkTextSubtleInversePressed: '#d1d1d1',
         // Foreground/Link text/subtle-inversed-disabled - Brand
         foregroundLinkTextSubtleInversedDisabled: '#3d3d3d',
-        // Foreground/Link text/subtle-pressed - Theme - ERA
+        // Foreground/Link text/subtle-pressed - Theme - Broker Workplace
         foregroundLinkTextSubtlePressed: '#d1d1d1',
         // Foreground/Neutral/disabled-on-color-surface - Brand
         foregroundNeutralDisabledOnColorSurface: '#3d3d3d',
         // Foreground/Neutral/disabled-on-surface - Brand
         foregroundNeutralDisabledOnSurface: '#4d4d4d',
-        // Foreground/Neutral/inverse-on-surface - Theme - ERA
+        // Foreground/Neutral/inverse-on-surface - Theme - Broker Workplace
         foregroundNeutralInverseOnSurface: '#fafafa',
         // Foreground/Neutral/on-color - Brand - Interactive controls
         foregroundNeutralOnColor: '#ffffff',
@@ -1560,59 +1552,59 @@ export const COLOR_TOKENS = {
         foregroundNeutralOnSurfaceVariant03: '#757575',
         // Foreground/Neutral/skeleton-element - Brand
         foregroundNeutralSkeletonElement: '#333333',
-        // Foreground/Spectrum/blue - Theme - ERA
+        // Foreground/Spectrum/blue - Theme - Broker Workplace
         foregroundSpectrumBlue: '#88aff7',
-        // Foreground/Spectrum/green - Theme - ERA
+        // Foreground/Spectrum/green - Theme - Broker Workplace
         foregroundSpectrumGreen: '#87bd9f',
-        // Foreground/Spectrum/lime - Theme - ERA
+        // Foreground/Spectrum/lime - Theme - Broker Workplace
         foregroundSpectrumLime: '#dce28f',
-        // Foreground/Spectrum/magenta - Theme - ERA
+        // Foreground/Spectrum/magenta - Theme - Broker Workplace
         foregroundSpectrumMagenta: '#e07aed',
         // Foreground/Spectrum/orange - Brand
         foregroundSpectrumOrange: '#f6a874',
-        // Foreground/Spectrum/pink - Theme - ERA
+        // Foreground/Spectrum/pink - Theme - Broker Workplace
         foregroundSpectrumPink: '#ea86b9',
-        // Foreground/Spectrum/purple - Theme - ERA
+        // Foreground/Spectrum/purple - Theme - Broker Workplace
         foregroundSpectrumPurple: '#c8a6f9',
         // Foreground/Spectrum/red - Brand
         foregroundSpectrumRed: '#ea93a0',
-        // Foreground/Spectrum/teal - Theme - ERA
+        // Foreground/Spectrum/teal - Theme - Broker Workplace
         foregroundSpectrumTeal: '#74bbb4',
-        // Foreground/Spectrum/yellow - Theme - ERA
+        // Foreground/Spectrum/yellow - Theme - Broker Workplace
         foregroundSpectrumYellow: '#fada8d',
-        // Interactions/brand-disabled-opacity - Theme - ERA
+        // Interactions/brand-disabled-opacity - Theme - Broker Workplace
         interactionsBrandDisabledOpacity: '#ffffff0f',
-        // Interactions/brand-hover-opacity - Theme - ERA
+        // Interactions/brand-hover-opacity - Theme - Broker Workplace
         interactionsBrandHoverOpacity: '#ffffff1a',
-        // Interactions/brand-press-opacity - Theme - ERA
+        // Interactions/brand-press-opacity - Theme - Broker Workplace
         interactionsBrandPressOpacity: '#ffffff33',
-        // Interactions/disabled-opacity - Theme - ERA
+        // Interactions/disabled-opacity - Theme - Broker Workplace
         interactionsDisabledOpacity: '#ffffff0f',
-        // Interactions/hover-opacity - Theme - ERA
+        // Interactions/hover-opacity - Theme - Broker Workplace
         interactionsHoverOpacity: '#ffffff14',
         // Interactions/link-active-opacity - Brand
         interactionsLinkActiveOpacity: '#ffffff4d',
         // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
-        interactionsNeutralHoverOpacity: '#ffffff14',
+        interactionsNeutralHoverOpacity: '#ffffff1a',
         // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
         interactionsNeutralPressOpacity: '#ffffff29',
-        // Interactions/press-opacity - Theme - ERA
+        // Interactions/press-opacity - Theme - Broker Workplace
         interactionsPressOpacity: '#ffffff29',
-        // Interactions/primary-disabled-opacity - Theme - ERA
-        interactionsPrimaryDisabledOpacity: '#0b32791f',
-        // Interactions/primary-hover-opacity - Theme - ERA
-        interactionsPrimaryHoverOpacity: '#0b32791a',
-        // Interactions/primary-press-opacity - Theme - ERA
-        interactionsPrimaryPressOpacity: '#0b327933',
-        // Shadow/shadow-10 - Theme - ERA
+        // Interactions/primary-disabled-opacity - Theme - Broker Workplace
+        interactionsPrimaryDisabledOpacity: '#7574821f',
+        // Interactions/primary-hover-opacity - Theme - Broker Workplace
+        interactionsPrimaryHoverOpacity: '#7574821a',
+        // Interactions/primary-press-opacity - Theme - Broker Workplace
+        interactionsPrimaryPressOpacity: '#75748233',
+        // Shadow/shadow-10 - Theme - Broker Workplace
         shadow10: '#6161611a',
-        // Shadow/shadow-12 - Theme - ERA
+        // Shadow/shadow-12 - Theme - Broker Workplace
         shadow12: '#6161611f',
-        // Shadow/shadow-15 - Theme - ERA
+        // Shadow/shadow-15 - Theme - Broker Workplace
         shadow15: '#61616126',
-        // Shadow/shadow-25 - Theme - ERA
+        // Shadow/shadow-25 - Theme - Broker Workplace
         shadow25: '#61616140',
-        // Shadow/shadow-32 - Theme - ERA
+        // Shadow/shadow-32 - Theme - Broker Workplace
         shadow32: '#61616152',
         // Shadow/inner-shadow - Brand
         shadowInner: '#000000',
@@ -1648,13 +1640,17 @@ export const COLOR_TOKENS = {
         statusSuccess: '#519f73',
         // Status/warning - Brand - Foreground warning icons
         statusWarning: '#f8cd63',
+        // Stroke/AI-powered/blue - Theme - Broker Workplace
+        strokeAiPoweredBlue: '#000000',
+        // Stroke/AI-powered/pink - Theme - Broker Workplace
+        strokeAiPoweredPink: '#000000',
         // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
-        strokeBrandPrimary: '#6d84af',
+        strokeBrandPrimary: '#757482',
         // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
-        strokeBrandPrimaryDepth: '#91a3c3',
+        strokeBrandPrimaryDepth: '#9897a1',
         // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
         strokeBrandSecondary: '#f0bcac',
-        // Stroke/Brand/brand-secondary-depth - Theme - ERA
+        // Stroke/Brand/brand-secondary-depth - Theme - Broker Workplace
         strokeBrandSecondaryDepth: '#eba691',
         // Stroke/Neutral/neutral-base - Brand - For control components
         strokeNeutralBase: '#6b6b6b',
@@ -1668,37 +1664,41 @@ export const COLOR_TOKENS = {
         strokeNeutralFocusOnInverse: '#ffffff',
         // Stroke/Neutral/neutral-high - Brand
         strokeNeutralHigh: '#fafafa',
-        // Stroke/Neutral/neutral-high-contrast - Theme - ERA
+        // Stroke/Neutral/neutral-high-contrast - Theme - Broker Workplace
         strokeNeutralHighContrast: '#fafafa',
-        // Stroke/Neutral/Interactions/disabled-dark - Theme - ERA
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - Broker Workplace
         strokeNeutralInteractionsDisabledDark: '#3d3d3d',
-        // Stroke/Neutral/Interactions/disabled-light - Theme - ERA
+        // Stroke/Neutral/Interactions/disabled-light - Theme - Broker Workplace
         strokeNeutralInteractionsDisabledLight: '#4d4d4d',
-        // Stroke/Neutral/Interactions/focus - Theme - ERA
+        // Stroke/Neutral/Interactions/focus - Theme - Broker Workplace
         strokeNeutralInteractionsFocus: '#ffffff',
-        // Stroke/Neutral/Interactions/inverse-focus - Theme - ERA
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - Broker Workplace
         strokeNeutralInteractionsInverseFocus: '#ffffff',
         // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
         strokeNeutralLow: '#4d4d4d',
-        // Stroke/Neutral/neutral-low-contrast - Theme - ERA
+        // Stroke/Neutral/neutral-low-contrast - Theme - Broker Workplace
         strokeNeutralLowContrast: '#4d4d4d',
+        // Surface/AI-powered/blue - Theme - Broker Workplace
+        surfaceAiPoweredBlue: '#000000',
+        // Surface/AI-powered/pink - Theme - Broker Workplace
+        surfaceAiPoweredPink: '#000000',
         // Surface/Brand/primary - Brand
-        surfaceBrandPrimary: '#6d84af',
-        // Surface/Brand/primary-highlight - Theme - ERA
+        surfaceBrandPrimary: '#757482',
+        // Surface/Brand/primary-highlight - Theme - Broker Workplace
         surfaceBrandPrimaryHighlight: '#0a220a',
         // Surface/Brand/secondary - Brand
-        surfaceBrandSecondary: '#de7082',
-        // Surface/Brand/secondary-highlight - Theme - ERA
-        surfaceBrandSecondaryHighlight: '#32040c',
+        surfaceBrandSecondary: '#f3a482',
+        // Surface/Brand/secondary-highlight - Theme - Broker Workplace
+        surfaceBrandSecondaryHighlight: '#371b12',
         // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
         surfaceNeutralInteractionsDarkDisabled: '#474747',
         // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
         surfaceNeutralInteractionsLightDisabled: '#292929',
         // Surface/Neutral/inverse - Brand - Inverted. Use for toasts notification & snackbars
-        surfaceNeutralInverse: '#333333',
+        surfaceNeutralInverse: '#383838',
         // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
         surfaceNeutralInverseDark: '#383838',
-        // Surface/Neutral/inverse-light - Theme - ERA
+        // Surface/Neutral/inverse-light - Theme - Broker Workplace
         surfaceNeutralInverseLight: '#575757',
         // Surface/Neutral/T1-base - Brand
         surfaceNeutralT1Base: '#1f1f1f',
@@ -1712,25 +1712,25 @@ export const COLOR_TOKENS = {
         surfaceNeutralT4High2: '#7a7a7a',
         // Surface/Neutral/transparent - Brand
         surfaceNeutralTransparent: '#ffffff00',
-        // Surface/Spectrum/blue - Theme - ERA
+        // Surface/Spectrum/blue - Theme - Broker Workplace
         surfaceSpectrumBlue: '#0e2754',
-        // Surface/Spectrum/green - Theme - ERA
+        // Surface/Spectrum/green - Theme - Broker Workplace
         surfaceSpectrumGreen: '#0d2f1c',
-        // Surface/Spectrum/lime - Theme - ERA
+        // Surface/Spectrum/lime - Theme - Broker Workplace
         surfaceSpectrumLime: '#434712',
-        // Surface/Spectrum/magenta - Theme - ERA
+        // Surface/Spectrum/magenta - Theme - Broker Workplace
         surfaceSpectrumMagenta: '#45054e',
         // Surface/Spectrum/orange - Theme - Better Home & Garden
         surfaceSpectrumOrange: '#532201',
-        // Surface/Spectrum/pink - Theme - ERA
+        // Surface/Spectrum/pink - Theme - Broker Workplace
         surfaceSpectrumPink: '#4c0c2d',
-        // Surface/Spectrum/purple - Theme - ERA
+        // Surface/Spectrum/purple - Theme - Broker Workplace
         surfaceSpectrumPurple: '#220053',
-        // Surface/Spectrum/red - Theme - ERA
+        // Surface/Spectrum/red - Theme - Broker Workplace
         surfaceSpectrumRed: '#4c141d',
-        // Surface/Spectrum/teal - Theme - ERA
+        // Surface/Spectrum/teal - Theme - Broker Workplace
         surfaceSpectrumTeal: '#012e2a',
-        // Surface/Spectrum/yellow - Theme - ERA
+        // Surface/Spectrum/yellow - Theme - Broker Workplace
         surfaceSpectrumYellow: '#564210',
     },
 };

@@ -8,19 +8,11 @@
             system-ui,
             -apple-system,
             Segoe UI,
-            Roboto,
-            Ubuntu,
-            Cantarell,
-            Noto Sans,
-            sans-serif,
-            BlinkMacSystemFont,
-            'Segoe UI',
-            Roboto,
-            'Helvetica Neue',
-            Arial,
-            'Noto Sans',
-            sans-serif,
-            SFProLocalRange;
+            sans-serif;
+
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
     }
 
     html,
@@ -45,27 +37,105 @@
         padding: 0;
     }
 
-    main > div p:first-child {
-        font-size: larger;
+    .blink {
+        animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    button[type='button'] {
+        background-color: #555;
+        border: solid 1px hsl(0 0% 74% / 1);
+        border-radius: 4px;
+        color: #fff;
+        font-weight: 400;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    [data-success] {
+        background: green;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        font-weight: 600;
     }
 </style>
 <main>
     <div data-working>
-        <p>Generating variable data ...</p>
+        <p>
+            Generating export<span>..<span class="blink">.</span></span>
+        </p>
     </div>
+
     <div data-complete style="display: none">
-        <p>Variable data logged to console.</p>
-        <p>Copy into tokens-export.json.</p>
+        <button type="button" data-copy>Copy Export Data</button>
+    </div>
+    <div data-copied style="display: none">
+        <p data-success>Copied!</p>
+        <p>Paste into tokens-export.json.</p>
+    </div>
+    <div data-copied-error style="display: none">
+        <p style="color: red">Variable data could not be copied to clipboard.</p>
+        <pre></pre>
     </div>
 </main>
 <script>
     const mainElement = document.querySelector('main');
 
+    let data = null;
+
+    mainElement.querySelector('[data-copy]').onclick = () => {
+        command = navigator.clipboard ? navigator.clipboard.writeText : fallbackCopyTextToClipboard;
+
+        command(JSON.stringify(data, null, 4))
+            .then(() => {
+                mainElement.querySelector('[data-working]').style.display = 'none';
+                mainElement.querySelector('[data-complete]').style.display = 'none';
+                mainElement.querySelector('[data-copied]').removeAttribute('style');
+            })
+            .catch((err) => {
+                mainElement.querySelector('[data-working]').style.display = 'none';
+                mainElement.querySelector('[data-complete]').style.display = 'none';
+                mainElement.querySelector('[data-copied-error]').removeAttribute('style');
+                mainElement.querySelector('[data-copied-error] pre').textContent = err;
+            });
+    };
+
+    async function fallbackCopyTextToClipboard(text) {
+        // Create a temporary, off-screen textarea element
+        const tempInput = document.createElement('textarea');
+        tempInput.value = text;
+        tempInput.style.position = 'absolute';
+        tempInput.style.left = '-9999px'; // Move off-screen
+        document.body.appendChild(tempInput);
+
+        // Select the text within the textarea
+        tempInput.select();
+        tempInput.setSelectionRange(0, 9999999999999); // For mobile devices
+
+        try {
+            // Execute the copy command
+            const successful = document.execCommand('copy');
+            return Promise.resolve(successful);
+        } catch (err) {
+            return Promise.reject(err);
+        }
+
+        // Clean up: remove the temporary element
+        document.body.removeChild(tempInput);
+    }
+
     window.onmessage = ({ data: { pluginMessage } }) => {
-        console.log({
+        data = {
             generated: new Date().toISOString(),
             ...pluginMessage.data,
-        });
+        };
 
         setTimeout(() => {
             mainElement.querySelector('[data-working]').style.display = 'none';

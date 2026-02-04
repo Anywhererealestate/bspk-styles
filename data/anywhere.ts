@@ -1,913 +1,1744 @@
-/* Generated from figma export: 2025-07-08T20:32:21.402Z */
-export const bspkBoxShadow = Object.freeze({
-    dropShadowEast: '2px 0px 8px -2px #0000001a, 2px 0px 4px -2px #0000001f',
-    dropShadowFloat: '0px 0px 1px 0px #00000052, 0px 8px 12px 0px #00000026',
-    dropShadowNorth: '0px -2px 8px -2px #0000001a, 0px -2px 4px -2px #0000001f',
-    dropShadowRaise: '0px 0px 1px 0px #00000026, 0px 1px 1px 0px #00000052',
-    dropShadowScroll: '0px 0px 3px 0px #00000052',
-    dropShadowSouth: '0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f',
-    dropShadowWest: '-8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026',
-});
+/* Generated from figma export: 2026-02-02T17:54:13.533Z */
 
-export const bspkColor = Object.freeze({
-    dark: {
-        backgroundBase: '#1f1f1f',
-        backgroundScrim: '#00000080',
-        backgroundShade: '#1a2332',
-        dataVisualCategory01: '#130033',
-        dataVisualCategory01Highlight: '#1300334d',
-        dataVisualCategory02: '#299de0',
-        dataVisualCategory02Highlight: '#299de04d',
-        dataVisualCategory03: '#0a466c',
-        dataVisualCategory03Highlight: '#0a466c4d',
-        dataVisualCategory04: '#389e7a',
-        dataVisualCategory04Highlight: '#389e7a4d',
-        dataVisualCategory05: '#094a53',
-        dataVisualCategory05Highlight: '#094a534d',
-        dataVisualCategory06: '#7f7f7f',
-        dataVisualCategory06Highlight: '#7f7f7f4d',
-        dataVisualCategory07: '#433479',
-        dataVisualCategory07Highlight: '#4334794d',
-        dataVisualCategory1: '#0a466c',
-        dataVisualCategory1Highlight: '#0a466c4d',
-        dataVisualCategory2: '#299de0',
-        dataVisualCategory2Highlight: '#299de04d',
-        dataVisualCategory3: '#130033',
-        dataVisualCategory3Highlight: '#1300334d',
-        dataVisualCategory4: '#389e7a',
-        dataVisualCategory4Highlight: '#389e7a4d',
-        dataVisualCategory5: '#094a53',
-        dataVisualCategory5Highlight: '#094a534d',
-        dataVisualCategory6: '#7f7f7f',
-        dataVisualCategory6Highlight: '#7f7f7f4d',
-        dataVisualCategory7: '#433479',
-        dataVisualCategory7Highlight: '#4334794d',
-        dataVisualGradientEnd: '#ffffff4d',
-        dataVisualGreen: '#258750',
-        dataVisualGreenHighlight: '#deede5',
-        dataVisualNegative: '#d83a52',
-        dataVisualNegativeHighlight: '#f9e1e5',
-        dataVisualPositive: '#258750',
-        dataVisualPositiveHighlight: '#deede5',
-        dataVisualRed: '#d83a52',
-        dataVisualRedHighlight: '#f9e1e5',
-        foregroundBrandOnInversePrimary: '#0f59e2',
-        foregroundBrandOnInverseSecondary: '#ce5a07',
-        foregroundBrandOnSecondary: '#141414',
-        foregroundBrandPrimary: '#50a1ff',
-        foregroundBrandPrimaryDepth: '#dcebfe',
-        foregroundBrandSecondary: '#fdba72',
-        foregroundBrandSecondaryDepth: '#ffedd6',
-        foregroundLinkTextDefault: '#7a9ee1',
-        foregroundLinkTextDefaultDisabled: '#14387b',
-        foregroundLinkTextDefaultHovered: '#90afe6',
-        foregroundLinkTextDefaultPressed: '#a6bfeb',
-        foregroundLinkTextDefaultVisited: '#af8baf',
-        foregroundLinkTextSubtleDisabled: '#1a2332',
-        foregroundLinkTextSubtleHovered: '#e6e6e6',
-        foregroundLinkTextSubtleInversedDisabled: '#323b49',
-        foregroundLinkTextSubtlePressed: '#d1d1d1',
-        foregroundNeutralDisabledOnColorSurface: '#323b49',
-        foregroundNeutralDisabledOnSurface: '#1a2332',
-        foregroundNeutralOnSurface: '#f8fafc',
-        foregroundNeutralOnSurfaceVariant01: '#d4dce8',
-        foregroundNeutralOnSurfaceVariant02: '#8b9bb2',
-        foregroundNeutralOnSurfaceVariant03: '#c8d6e5',
-        foregroundNeutralSkeletonElement: '#252e3c',
-        foregroundSpectrumBlue: '#88aff7',
-        foregroundSpectrumGreen: '#87bd9f',
-        foregroundSpectrumLime: '#dce28f',
-        foregroundSpectrumMagenta: '#e07aed',
-        foregroundSpectrumOrange: '#f6a874',
-        foregroundSpectrumPink: '#ea86b9',
-        foregroundSpectrumPurple: '#c8a6f9',
-        foregroundSpectrumRed: '#ea93a0',
-        foregroundSpectrumTeal: '#74bbb4',
-        foregroundSpectrumYellow: '#fada8d',
-        interactionBrandDisabledOpacity: '#ffffff0f',
-        interactionBrandHoverOpacity: '#ffffff1a',
-        interactionBrandPressOpacity: '#ffffff33',
-        interactionHoverOpacity: '#ffffff14',
-        interactionLinkActiveOpacity: '#ffffff4d',
-        interactionPressOpacity: '#ffffff29',
-        interactionsBrandDisabledOpacity: '#ffffff0f',
-        interactionsBrandHoverOpacity: '#ffffff1a',
-        interactionsBrandPressOpacity: '#ffffff33',
-        interactionsHoverOpacity: '#ffffff14',
-        interactionsLinkActiveOpacity: '#ffffff4d',
-        interactionsNeutralHoverOpacity: '#ffffff14',
-        interactionsNeutralPressOpacity: '#ffffff29',
-        interactionsPressOpacity: '#ffffff29',
-        interactionsPrimaryDisabledOpacity: '#1559ea1f',
-        interactionsPrimaryHoverOpacity: '#1559ea1a',
-        interactionsPrimaryPressOpacity: '#1559ea33',
-        shadow10: '#0000001a',
-        shadow12: '#0000001f',
-        shadow15: '#00000026',
-        shadow25: '#00000040',
-        shadow32: '#00000052',
-        shadowInner: '#000000',
-        shadowInner100: '#000000',
-        shadowVariant01: '#0000001a',
-        shadowVariant02: '#0000001f',
-        shadowVariant03: '#00000026',
-        shadowVariant04: '#00000040',
-        shadowVariant05: '#00000052',
-        statusError: '#d83a52',
-        statusInformation: '#276ef1',
-        statusInformational: '#276ef1',
-        statusSuccess: '#258750',
-        statusWarning: '#f6bc2f',
-        strokeBrandPrimary: '#50a1ff',
-        strokeBrandPrimaryDepth: '#dcebfe',
-        strokeBrandSecondary: '#fdba72',
-        strokeBrandSecondaryDepth: '#ffedd6',
-        strokeNeutralBase: '#b1c0d2',
-        strokeNeutralDisabledDark: '#b1c0d2',
-        strokeNeutralDisabledLight: '#323b49',
-        strokeNeutralFocus: '#ffffff',
-        strokeNeutralHigh: '#f8fafc',
-        strokeNeutralHighContrast: '#f8fafc',
-        strokeNeutralInteractionDisabledDark: '#b1c0d2',
-        strokeNeutralInteractionDisabledLight: '#323b49',
-        strokeNeutralInteractionFocus: '#ffffff',
-        strokeNeutralInteractionsDisabledDark: '#424242',
-        strokeNeutralInteractionsDisabledLight: '#4d4d4d',
-        strokeNeutralInteractionsFocus: '#ffffff',
-        strokeNeutralLow: '#252e3c',
-        strokeNeutralLowContrast: '#252e3c',
-        surfaceBrandPrimary: '#50a1ff',
-        surfaceBrandPrimaryHighlight: '#ab4827',
-        surfaceBrandSecondary: '#2098d5',
-        surfaceBrandSecondaryHighlight: '#ab4827',
-        surfaceNeutralInteractionsDarkDisabled: '#474747',
-        surfaceNeutralInteractionsLightDisabled: '#292929',
-        surfaceNeutralInteractionsSkeleton: '#252e3c',
-        surfaceNeutralInverse: '#0c101c',
-        surfaceNeutralInverseDark: '#0c101c',
-        surfaceNeutralInverseLight: '#1f1f1f',
-        surfaceNeutralSkeleton: '#252e3c',
-        surfaceNeutralT1Base: '#1f1f1f',
-        surfaceNeutralT2Lowest: '#1a2332',
-        surfaceNeutralT3Low: '#323b49',
-        surfaceNeutralT4High: '#b1c0d2',
-        surfaceSpectrumBlue: '#0e2754',
-        surfaceSpectrumGreen: '#0d2f1c',
-        surfaceSpectrumLime: '#434712',
-        surfaceSpectrumMagenta: '#45054e',
-        surfaceSpectrumOrange: '#532201',
-        surfaceSpectrumPink: '#4c0c2d',
-        surfaceSpectrumPurple: '#220053',
-        surfaceSpectrumRed: '#4c141d',
-        surfaceSpectrumTeal: '#012e2a',
-        surfaceSpectrumYellow: '#564210',
+export const TEXT_TOKENS = {
+    // Body/Base
+    bodyBase: '400 16px/24px var(--typeface)',
+    // Body/Base -  line height
+    bodyBaseLineHeight: '24px',
+    // Body/Base -  size
+    bodyBaseSize: '16px',
+    // Body/Base -  style
+    bodyBaseStyle: 'regular',
+    // Body/Large
+    bodyLarge: '400 18px/28px var(--typeface)',
+    // Body/Large -  line height
+    bodyLargeLineHeight: '28px',
+    // Body/Large -  size
+    bodyLargeSize: '18px',
+    // Body/Large -  style
+    bodyLargeStyle: 'regular',
+    // Body/Small
+    bodySmall: '400 14px/20px var(--typeface)',
+    // Body/Small -  line height
+    bodySmallLineHeight: '20px',
+    // Body/Small -  size
+    bodySmallSize: '14px',
+    // Body/Small -  style
+    bodySmallStyle: 'regular',
+    // Body/X-Small
+    bodyXSmall: '400 12px/16px var(--typeface)',
+    // Body/X-Small -  line height
+    bodyXSmallLineHeight: '16px',
+    // Body/X-Small -  size
+    bodyXSmallSize: '12px',
+    // Body/X-Small -  style
+    bodyXSmallStyle: 'regular',
+    // Labels/Base
+    labelsBase: '500 16px/24px var(--typeface)',
+    // Labels/Base -  line height
+    labelsBaseLineHeight: '24px',
+    // Labels/Base -  size
+    labelsBaseSize: '16px',
+    // Labels/Base -  style
+    labelsBaseStyle: 'medium',
+    // Labels/Large
+    labelsLarge: '500 18px/28px var(--typeface)',
+    // Labels/Large -  line height
+    labelsLargeLineHeight: '28px',
+    // Labels/Large -  size
+    labelsLargeSize: '18px',
+    // Labels/Large -  style
+    labelsLargeStyle: 'medium',
+    // Labels/Small
+    labelsSmall: '500 14px/20px var(--typeface)',
+    // Labels/Small -  line height
+    labelsSmallLineHeight: '20px',
+    // Labels/Small -  size
+    labelsSmallSize: '14px',
+    // Labels/Small -  style
+    labelsSmallStyle: 'medium',
+    // Labels/X-Small
+    labelsXSmall: '500 12px/16px var(--typeface)',
+    // Labels/X-Small -  line height
+    labelsXSmallLineHeight: '16px',
+    // Labels/X-Small -  size
+    labelsXSmallSize: '12px',
+    // Labels/X-Small -  style
+    labelsXSmallStyle: 'medium',
+    mobile: {
+        // Mobile/Display/Regular/Large
+        displayRegularLarge: '400 56px/72px var(--typeface)',
+        // Mobile/Display/Regular/Large -  line height
+        displayRegularLargeLineHeight: '72px',
+        // Mobile/Display/Regular/Large -  size
+        displayRegularLargeSize: '56px',
+        // Mobile/Display/Regular/Large -  style
+        displayRegularLargeStyle: 'regular',
+        // Mobile/Display/Regular/Medium
+        displayRegularMedium: '400 48px/60px var(--typeface)',
+        // Mobile/Display/Regular/Medium -  line height
+        displayRegularMediumLineHeight: '60px',
+        // Mobile/Display/Regular/Medium -  size
+        displayRegularMediumSize: '48px',
+        // Mobile/Display/Regular/Medium -  style
+        displayRegularMediumStyle: 'regular',
+        // Mobile/Display/Regular/Small
+        displayRegularSmall: '400 40px/48px var(--typeface)',
+        // Mobile/Display/Regular/Small -  line height
+        displayRegularSmallLineHeight: '48px',
+        // Mobile/Display/Regular/Small -  size
+        displayRegularSmallSize: '40px',
+        // Mobile/Display/Regular/Small -  style
+        displayRegularSmallStyle: 'regular',
+        // Mobile/Display/Semibold/Large
+        displaySemiboldLarge: '600 56px/72px var(--typeface)',
+        // Mobile/Display/Semibold/Large -  line height
+        displaySemiboldLargeLineHeight: '72px',
+        // Mobile/Display/Semibold/Large -  size
+        displaySemiboldLargeSize: '56px',
+        // Mobile/Display/Semibold/Large -  style
+        displaySemiboldLargeStyle: 'semi bold',
+        // Mobile/Display/Semibold/Medium
+        displaySemiboldMedium: '600 48px/60px var(--typeface)',
+        // Mobile/Display/Semibold/Medium -  line height
+        displaySemiboldMediumLineHeight: '60px',
+        // Mobile/Display/Semibold/Medium -  size
+        displaySemiboldMediumSize: '48px',
+        // Mobile/Display/Semibold/Medium -  style
+        displaySemiboldMediumStyle: 'semi bold',
+        // Mobile/Display/Semibold/Small
+        displaySemiboldSmall: '600 40px/48px var(--typeface)',
+        // Mobile/Display/Semibold/Small -  line height
+        displaySemiboldSmallLineHeight: '48px',
+        // Mobile/Display/Semibold/Small -  size
+        displaySemiboldSmallSize: '40px',
+        // Mobile/Display/Semibold/Small -  style
+        displaySemiboldSmallStyle: 'semi bold',
+        // Mobile/Heading/H1 - Large Headline
+        headingH1: '600 32px/40px var(--typeface)',
+        // Mobile/Heading/H1 - Large Headline line height
+        headingH1LineHeight: '40px',
+        // Mobile/Heading/H1 - Large Headline size
+        headingH1Size: '32px',
+        // Mobile/Heading/H1 - Large Headline style
+        headingH1Style: 'semi bold',
+        // Mobile/Heading/H2 - Headline
+        headingH2: '600 28px/36px var(--typeface)',
+        // Mobile/Heading/H2 - Headline line height
+        headingH2LineHeight: '36px',
+        // Mobile/Heading/H2 - Headline size
+        headingH2Size: '28px',
+        // Mobile/Heading/H2 - Headline style
+        headingH2Style: 'semi bold',
+        // Mobile/Heading/H3 - Headline
+        headingH3: '600 24px/32px var(--typeface)',
+        // Mobile/Heading/H3 - Headline line height
+        headingH3LineHeight: '32px',
+        // Mobile/Heading/H3 - Headline size
+        headingH3Size: '24px',
+        // Mobile/Heading/H3 - Headline style
+        headingH3Style: 'semi bold',
+        // Mobile/Heading/H4 - Headline
+        headingH4: '600 20px/28px var(--typeface)',
+        // Mobile/Heading/H4 - Headline line height
+        headingH4LineHeight: '28px',
+        // Mobile/Heading/H4 - Headline size
+        headingH4Size: '20px',
+        // Mobile/Heading/H4 - Headline style
+        headingH4Style: 'semi bold',
+        // Mobile/Heading/H5
+        headingH5: '600 18px/24px var(--typeface)',
+        // Mobile/Heading/H5 -  line height
+        headingH5LineHeight: '24px',
+        // Mobile/Heading/H5 -  size
+        headingH5Size: '18px',
+        // Mobile/Heading/H5 -  style
+        headingH5Style: 'semi bold',
+        // Mobile/Heading/H6
+        headingH6: '500 16px/20px var(--typeface)',
+        // Mobile/Heading/H6 -  line height
+        headingH6LineHeight: '20px',
+        // Mobile/Heading/H6 -  size
+        headingH6Size: '16px',
+        // Mobile/Heading/H6 -  style
+        headingH6Style: 'medium',
+        // Mobile/Subheader/Large - Headline
+        subheaderLarge: '400 20px/28px var(--typeface)',
+        // Mobile/Subheader/Large - Headline line height
+        subheaderLargeLineHeight: '28px',
+        // Mobile/Subheader/Large - Headline size
+        subheaderLargeSize: '20px',
+        // Mobile/Subheader/Large - Headline style
+        subheaderLargeStyle: 'regular',
+        // Mobile/Subheader/Medium - Headline
+        subheaderMedium: '400 18px/24px var(--typeface)',
+        // Mobile/Subheader/Medium - Headline line height
+        subheaderMediumLineHeight: '24px',
+        // Mobile/Subheader/Medium - Headline size
+        subheaderMediumSize: '18px',
+        // Mobile/Subheader/Medium - Headline style
+        subheaderMediumStyle: 'regular',
+        // Mobile/Subheader/X-Large - Headline
+        subheaderXLarge: '400 24px/32px var(--typeface)',
+        // Mobile/Subheader/X-Large - Headline line height
+        subheaderXLargeLineHeight: '32px',
+        // Mobile/Subheader/X-Large - Headline size
+        subheaderXLargeSize: '24px',
+        // Mobile/Subheader/X-Large - Headline style
+        subheaderXLargeStyle: 'regular',
+        // Mobile/Subheader/XX-Large - Large Headline
+        subheaderXxLarge: '400 28px/36px var(--typeface)',
+        // Mobile/Subheader/XX-Large - Large Headline line height
+        subheaderXxLargeLineHeight: '36px',
+        // Mobile/Subheader/XX-Large - Large Headline size
+        subheaderXxLargeSize: '28px',
+        // Mobile/Subheader/XX-Large - Large Headline style
+        subheaderXxLargeStyle: 'regular',
+        // Mobile/Subheader/XXX-Large - Large Headline
+        subheaderXxxLarge: '400 32px/40px var(--typeface)',
+        // Mobile/Subheader/XXX-Large - Large Headline line height
+        subheaderXxxLargeLineHeight: '40px',
+        // Mobile/Subheader/XXX-Large - Large Headline size
+        subheaderXxxLargeSize: '32px',
+        // Mobile/Subheader/XXX-Large - Large Headline style
+        subheaderXxxLargeStyle: 'regular',
     },
+
+    desktop: {
+        // Desktop/Display/Regular/Large - Used in landing hero or marketing sections.
+        displayRegularLarge: '400 64px/88px var(--typeface)',
+        // Desktop/Display/Regular/Large - Used in landing hero or marketing sections. line height
+        displayRegularLargeLineHeight: '88px',
+        // Desktop/Display/Regular/Large - Used in landing hero or marketing sections. size
+        displayRegularLargeSize: '64px',
+        // Desktop/Display/Regular/Large - Used in landing hero or marketing sections. style
+        displayRegularLargeStyle: 'regular',
+        // Desktop/Display/Regular/Medium - Used in landing hero or marketing sections.
+        displayRegularMedium: '400 56px/72px var(--typeface)',
+        // Desktop/Display/Regular/Medium - Used in landing hero or marketing sections. line height
+        displayRegularMediumLineHeight: '72px',
+        // Desktop/Display/Regular/Medium - Used in landing hero or marketing sections. size
+        displayRegularMediumSize: '56px',
+        // Desktop/Display/Regular/Medium - Used in landing hero or marketing sections. style
+        displayRegularMediumStyle: 'regular',
+        // Desktop/Display/Regular/Small - Used in landing hero or marketing sections.
+        displayRegularSmall: '400 48px/60px var(--typeface)',
+        // Desktop/Display/Regular/Small - Used in landing hero or marketing sections. line height
+        displayRegularSmallLineHeight: '60px',
+        // Desktop/Display/Regular/Small - Used in landing hero or marketing sections. size
+        displayRegularSmallSize: '48px',
+        // Desktop/Display/Regular/Small - Used in landing hero or marketing sections. style
+        displayRegularSmallStyle: 'regular',
+        // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections.
+        displaySemiboldLarge: '600 64px/88px var(--typeface)',
+        // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. line height
+        displaySemiboldLargeLineHeight: '88px',
+        // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. size
+        displaySemiboldLargeSize: '64px',
+        // Desktop/Display/SemiBold/Large - Used in landing hero or marketing sections. style
+        displaySemiboldLargeStyle: 'semi bold',
+        // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections.
+        displaySemiboldMedium: '600 56px/72px var(--typeface)',
+        // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. line height
+        displaySemiboldMediumLineHeight: '72px',
+        // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. size
+        displaySemiboldMediumSize: '56px',
+        // Desktop/Display/SemiBold/Medium - Used in landing hero or marketing sections. style
+        displaySemiboldMediumStyle: 'semi bold',
+        // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections.
+        displaySemiboldSmall: '600 48px/60px var(--typeface)',
+        // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. line height
+        displaySemiboldSmallLineHeight: '60px',
+        // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. size
+        displaySemiboldSmallSize: '48px',
+        // Desktop/Display/SemiBold/Small - Used in landing hero or marketing sections. style
+        displaySemiboldSmallStyle: 'semi bold',
+        // Desktop/Heading/H1
+        headingH1: '600 40px/48px var(--typeface)',
+        // Desktop/Heading/H1 -  line height
+        headingH1LineHeight: '48px',
+        // Desktop/Heading/H1 -  size
+        headingH1Size: '40px',
+        // Desktop/Heading/H1 -  style
+        headingH1Style: 'semi bold',
+        // Desktop/Heading/H2
+        headingH2: '600 32px/40px var(--typeface)',
+        // Desktop/Heading/H2 -  line height
+        headingH2LineHeight: '40px',
+        // Desktop/Heading/H2 -  size
+        headingH2Size: '32px',
+        // Desktop/Heading/H2 -  style
+        headingH2Style: 'semi bold',
+        // Desktop/Heading/H3
+        headingH3: '600 28px/36px var(--typeface)',
+        // Desktop/Heading/H3 -  line height
+        headingH3LineHeight: '36px',
+        // Desktop/Heading/H3 -  size
+        headingH3Size: '28px',
+        // Desktop/Heading/H3 -  style
+        headingH3Style: 'semi bold',
+        // Desktop/Heading/H4
+        headingH4: '600 24px/32px var(--typeface)',
+        // Desktop/Heading/H4 -  line height
+        headingH4LineHeight: '32px',
+        // Desktop/Heading/H4 -  size
+        headingH4Size: '24px',
+        // Desktop/Heading/H4 -  style
+        headingH4Style: 'semi bold',
+        // Desktop/Heading/H5
+        headingH5: '600 20px/28px var(--typeface)',
+        // Desktop/Heading/H5 -  line height
+        headingH5LineHeight: '28px',
+        // Desktop/Heading/H5 -  size
+        headingH5Size: '20px',
+        // Desktop/Heading/H5 -  style
+        headingH5Style: 'semi bold',
+        // Desktop/Heading/H6
+        headingH6: '500 18px/24px var(--typeface)',
+        // Desktop/Heading/H6 -  line height
+        headingH6LineHeight: '24px',
+        // Desktop/Heading/H6 -  size
+        headingH6Size: '18px',
+        // Desktop/Heading/H6 -  style
+        headingH6Style: 'medium',
+        // Desktop/Subheader/Large - Headline
+        subheaderLarge: '400 24px/32px var(--typeface)',
+        // Desktop/Subheader/Large - Headline line height
+        subheaderLargeLineHeight: '32px',
+        // Desktop/Subheader/Large - Headline size
+        subheaderLargeSize: '24px',
+        // Desktop/Subheader/Large - Headline style
+        subheaderLargeStyle: 'regular',
+        // Desktop/Subheader/Medium
+        subheaderMedium: '400 20px/28px var(--typeface)',
+        // Desktop/Subheader/Medium -  line height
+        subheaderMediumLineHeight: '28px',
+        // Desktop/Subheader/Medium -  size
+        subheaderMediumSize: '20px',
+        // Desktop/Subheader/Medium -  style
+        subheaderMediumStyle: 'regular',
+        // Desktop/Subheader/X-Large - Headline
+        subheaderXLarge: '400 28px/36px var(--typeface)',
+        // Desktop/Subheader/X-Large - Headline line height
+        subheaderXLargeLineHeight: '36px',
+        // Desktop/Subheader/X-Large - Headline size
+        subheaderXLargeSize: '28px',
+        // Desktop/Subheader/X-Large - Headline style
+        subheaderXLargeStyle: 'regular',
+        // Desktop/Subheader/XX-Large - Headline
+        subheaderXxLarge: '400 32px/40px var(--typeface)',
+        // Desktop/Subheader/XX-Large - Headline line height
+        subheaderXxLargeLineHeight: '40px',
+        // Desktop/Subheader/XX-Large - Headline size
+        subheaderXxLargeSize: '32px',
+        // Desktop/Subheader/XX-Large - Headline style
+        subheaderXxLargeStyle: 'regular',
+        // Desktop/Subheader/XXX-Large - Large Headline
+        subheaderXxxLarge: '400 40px/48px var(--typeface)',
+        // Desktop/Subheader/XXX-Large - Large Headline line height
+        subheaderXxxLargeLineHeight: '48px',
+        // Desktop/Subheader/XXX-Large - Large Headline size
+        subheaderXxxLargeSize: '40px',
+        // Desktop/Subheader/XXX-Large - Large Headline style
+        subheaderXxxLargeStyle: 'regular',
+    },
+};
+
+export const EFFECT_TOKENS = {
+    // East - navigation rails, drawers, sheets
+    dropShadowEast: '2px 0px 8px -2px #0000001a, 2px 0px 4px -2px #0000001f',
+    // Float
+    dropShadowFloat: '0px 0px 1px 0px #00000052, 0px 8px 12px 0px #00000026',
+    // North - Bottom navigation, button dock, bottom sheet
+    dropShadowNorth: '0px -2px 8px -2px #0000001a, 0px -2px 4px -2px #0000001f',
+    // Raise
+    dropShadowRaise: '0px 0px 1px 0px #00000026, 0px 1px 1px 0px #00000052',
+    // Scroll
+    dropShadowScroll: '0px 0px 3px 0px #00000052',
+    // South - top navigation
+    dropShadowSouth: '0px 2px 8px -2px #0000001a, 0px 2px 4px -2px #0000001f',
+    // West - side sheets
+    dropShadowWest: '-8px 0px 8px -2px #0000001a, -5px 4px 4px -6px #00000026',
+};
+
+export const COLOR_TOKENS = {
+    // Colors/Internal/pink-00-light - Global (primitives)
+    colorsInternalPink00Light: '#ff4f8d',
+    // Colors/Internal/pink-50-dark - Global (primitives)
+    colorsInternalPink50Dark: '#802847',
+    // Colors/Neutral/00 - Global (primitives)
+    colorsNeutral00: '#000000',
+    // Colors/Neutral/02 - Global (primitives)
+    colorsNeutral02: '#050505',
+    // Colors/Neutral/04 - Global (primitives)
+    colorsNeutral04: '#0a0a0a',
+    // Colors/Neutral/06 - Global (primitives)
+    colorsNeutral06: '#0f0f0f',
+    // Colors/Neutral/08 - Global (primitives)
+    colorsNeutral08: '#141414',
+    // Colors/Neutral/10 - Global (primitives)
+    colorsNeutral10: '#1a1a1a',
+    // Colors/Neutral/100 - Global (primitives)
+    colorsNeutral100: '#ffffff',
+    // Colors/Neutral/12 - Global (primitives)
+    colorsNeutral12: '#1f1f1f',
+    // Colors/Neutral/14 - Global (primitives)
+    colorsNeutral14: '#242424',
+    // Colors/Neutral/16 - Global (primitives)
+    colorsNeutral16: '#292929',
+    // Colors/Neutral/18 - Global (primitives)
+    colorsNeutral18: '#2e2e2e',
+    // Colors/Neutral/20 - Global (primitives)
+    colorsNeutral20: '#333333',
+    // Colors/Neutral/22 - Global (primitives)
+    colorsNeutral22: '#383838',
+    // Colors/Neutral/24 - Global (primitives)
+    colorsNeutral24: '#3d3d3d',
+    // Colors/Neutral/26 - Global (primitives)
+    colorsNeutral26: '#424242',
+    // Colors/Neutral/28 - Global (primitives)
+    colorsNeutral28: '#474747',
+    // Colors/Neutral/30 - Global (primitives)
+    colorsNeutral30: '#4d4d4d',
+    // Colors/Neutral/32 - Global (primitives)
+    colorsNeutral32: '#525252',
+    // Colors/Neutral/34 - Global (primitives)
+    colorsNeutral34: '#575757',
+    // Colors/Neutral/36 - Global (primitives)
+    colorsNeutral36: '#5c5c5c',
+    // Colors/Neutral/38 - Global (primitives)
+    colorsNeutral38: '#616161',
+    // Colors/Neutral/40 - Global (primitives)
+    colorsNeutral40: '#666666',
+    // Colors/Neutral/42 - Global (primitives)
+    colorsNeutral42: '#6b6b6b',
+    // Colors/Neutral/44 - Global (primitives)
+    colorsNeutral44: '#707070',
+    // Colors/Neutral/46 - Global (primitives)
+    colorsNeutral46: '#757575',
+    // Colors/Neutral/48 - Global (primitives)
+    colorsNeutral48: '#7a7a7a',
+    // Colors/Neutral/50 - Global (primitives)
+    colorsNeutral50: '#808080',
+    // Colors/Neutral/52 - Global (primitives)
+    colorsNeutral52: '#858585',
+    // Colors/Neutral/54 - Global (primitives)
+    colorsNeutral54: '#8a8a8a',
+    // Colors/Neutral/56 - Global (primitives)
+    colorsNeutral56: '#8f8f8f',
+    // Colors/Neutral/58 - Global (primitives)
+    colorsNeutral58: '#949494',
+    // Colors/Neutral/60 - Global (primitives)
+    colorsNeutral60: '#999999',
+    // Colors/Neutral/62 - Global (primitives)
+    colorsNeutral62: '#9e9e9e',
+    // Colors/Neutral/64 - Global (primitives)
+    colorsNeutral64: '#a3a3a3',
+    // Colors/Neutral/66 - Global (primitives)
+    colorsNeutral66: '#a8a8a8',
+    // Colors/Neutral/68 - Global (primitives)
+    colorsNeutral68: '#adadad',
+    // Colors/Neutral/70 - Global (primitives)
+    colorsNeutral70: '#b3b3b3',
+    // Colors/Neutral/72 - Global (primitives)
+    colorsNeutral72: '#b8b8b8',
+    // Colors/Neutral/74 - Global (primitives)
+    colorsNeutral74: '#bdbdbd',
+    // Colors/Neutral/76 - Global (primitives)
+    colorsNeutral76: '#c2c2c2',
+    // Colors/Neutral/78 - Global (primitives)
+    colorsNeutral78: '#c7c7c7',
+    // Colors/Neutral/80 - Global (primitives)
+    colorsNeutral80: '#cccccc',
+    // Colors/Neutral/82 - Global (primitives)
+    colorsNeutral82: '#d1d1d1',
+    // Colors/Neutral/84 - Global (primitives)
+    colorsNeutral84: '#d6d6d6',
+    // Colors/Neutral/86 - Global (primitives)
+    colorsNeutral86: '#dbdbdb',
+    // Colors/Neutral/88 - Global (primitives)
+    colorsNeutral88: '#e0e0e0',
+    // Colors/Neutral/90 - Global (primitives)
+    colorsNeutral90: '#e6e6e6',
+    // Colors/Neutral/92 - Global (primitives)
+    colorsNeutral92: '#ebebeb',
+    // Colors/Neutral/94 - Global (primitives)
+    colorsNeutral94: '#f0f0f0',
+    // Colors/Neutral/96 - Global (primitives)
+    colorsNeutral96: '#f5f5f5',
+    // Colors/Neutral/98 - Global (primitives)
+    colorsNeutral98: '#fafafa',
+    // Colors/Neutral/transparent - Global (primitives)
+    colorsNeutralTransparent: '#ffffff00',
+    // Colors/System/AI-gradient/blue - Global (primitives)
+    colorsSystemAiGradientBlue: '#215ecd',
+    // Colors/System/AI-gradient/pink - Global (primitives)
+    colorsSystemAiGradientPink: '#c60ede',
+    // Colors/System/blue-dark - Global (primitives)
+    colorsSystemBlueDark: '#5d92f5',
+    // Colors/System/blue-dark-bg - Global (primitives)
+    colorsSystemBlueDarkBg: '#0e2754',
+    // Colors/System/blue-light - Global (primitives)
+    colorsSystemBlueLight: '#276ef1',
+    // Colors/System/blue-light-bg - Global (primitives)
+    colorsSystemBlueLightBg: '#dfe9fd',
+    // Colors/System/green-dark - Global (primitives)
+    colorsSystemGreenDark: '#519f73',
+    // Colors/System/green-dark-bg - Global (primitives)
+    colorsSystemGreenDarkBg: '#0d2f1c',
+    // Colors/System/green-light - Global (primitives)
+    colorsSystemGreenLight: '#258750',
+    // Colors/System/green-light-bg - Global (primitives)
+    colorsSystemGreenLightBg: '#d3e7dc',
+    // Colors/System/Links/00-default-light - Global (primitives)
+    colorsSystemLinks00DefaultLight: '#215ecd',
+    // Colors/System/Links/10-hover-light - Global (primitives)
+    colorsSystemLinks10HoverLight: '#1e55b9',
+    // Colors/System/Links/20-press-light - Global (primitives)
+    colorsSystemLinks20PressLight: '#1a4ba4',
+    // Colors/System/Links/30-active-dark - Global (primitives)
+    colorsSystemLinks30ActiveDark: '#648edc',
+    // Colors/System/Links/30-active-light - Global (primitives)
+    colorsSystemLinks30ActiveLight: '#174290',
+    // Colors/System/Links/40-default-dark - Global (primitives)
+    colorsSystemLinks40DefaultDark: '#7a9ee1',
+    // Colors/System/Links/40-disabled-dark - Global (primitives)
+    colorsSystemLinks40DisabledDark: '#14387b',
+    // Colors/System/Links/40-disabled-light - Global (primitives)
+    colorsSystemLinks40DisabledLight: '#7a9ee1',
+    // Colors/System/Links/50-hover-dark - Global (primitives)
+    colorsSystemLinks50HoverDark: '#90afe6',
+    // Colors/System/Links/60-press-dark - Global (primitives)
+    colorsSystemLinks60PressDark: '#a6bfeb',
+    // Colors/System/red-dark - Global (primitives)
+    colorsSystemRedDark: '#e26b7d',
+    // Colors/System/red-dark-bg - Global (primitives)
+    colorsSystemRedDarkBg: '#4c141d',
+    // Colors/System/red-light - Global (primitives)
+    colorsSystemRedLight: '#d83a52',
+    // Colors/System/red-light-bg - Global (primitives)
+    colorsSystemRedLightBg: '#f9e1e9',
+    // Colors/System/Spectrum/Data visual/azure-400 - Global (primitives)
+    colorsSystemSpectrumDataVisualAzure400: '#7fc4ec',
+    // Colors/System/Spectrum/Data visual/azure-700 - Global (primitives)
+    colorsSystemSpectrumDataVisualAzure700: '#299de0',
+    // Colors/System/Spectrum/Data visual/blackrose-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualBlackrose1200: '#130033',
+    // Colors/System/Spectrum/Data visual/blackrose-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualBlackrose900: '#958ca3',
+    // Colors/System/Spectrum/Data visual/bronze-1100 - Global (primitives)
+    colorsSystemSpectrumDataVisualBronze1100: '#794b34',
+    // Colors/System/Spectrum/Data visual/bronze-800 - Global (primitives)
+    colorsSystemSpectrumDataVisualBronze800: '#af9385',
+    // Colors/System/Spectrum/Data visual/brown-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualBrown1200: '#7a2a0b',
+    // Colors/System/Spectrum/Data visual/brown-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualBrown900: '#b68a79',
+    // Colors/System/Spectrum/Data visual/cadet-gray-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualCadetGray1200: '#094a53',
+    // Colors/System/Spectrum/Data visual/cadet-gray-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualCadetGray900: '#789ba0',
+    // Colors/System/Spectrum/Data visual/cooper-500 - Global (primitives)
+    colorsSystemSpectrumDataVisualCooper500: '#e6b297',
+    // Colors/System/Spectrum/Data visual/cooper-800 - Global (primitives)
+    colorsSystemSpectrumDataVisualCooper800: '#d67e51',
+    // Colors/System/Spectrum/Data visual/gold-400 - Global (primitives)
+    colorsSystemSpectrumDataVisualGold400: '#cdbe80',
+    // Colors/System/Spectrum/Data visual/gold-700 - Global (primitives)
+    colorsSystemSpectrumDataVisualGold700: '#ab922b',
+    // Colors/System/Spectrum/Data visual/Gradient/opacity-black - Global (primitives)
+    colorsSystemSpectrumDataVisualGradientOpacityBlack: '#1f1f1f4d',
+    // Colors/System/Spectrum/Data visual/Gradient/opacity-white - Global (primitives)
+    colorsSystemSpectrumDataVisualGradientOpacityWhite: '#ffffff4d',
+    // Colors/System/Spectrum/Data visual/Highlight/azure-400-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightAzure400Opacity: '#7fc4ec4d',
+    // Colors/System/Spectrum/Data visual/Highlight/azure-700-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightAzure700Opacity: '#299de04d',
+    // Colors/System/Spectrum/Data visual/Highlight/blackrose-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBlackrose1200Opacity: '#1300334d',
+    // Colors/System/Spectrum/Data visual/Highlight/blackrose-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBlackrose900Opacity: '#958ca34d',
+    // Colors/System/Spectrum/Data visual/Highlight/bronze-1100-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBronze1100Opacity: '#794b344d',
+    // Colors/System/Spectrum/Data visual/Highlight/bronze-800-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBronze800Opacity: '#af93854d',
+    // Colors/System/Spectrum/Data visual/Highlight/brown-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBrown1200Opacity: '#7a2a0b4d',
+    // Colors/System/Spectrum/Data visual/Highlight/brown-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightBrown900Opacity: '#b68a794d',
+    // Colors/System/Spectrum/Data visual/Highlight/cadet-gray-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightCadetGray1200Opacity: '#094a534d',
+    // Colors/System/Spectrum/Data visual/Highlight/cadet-gray-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightCadetGray900Opacity: '#789ba04d',
+    // Colors/System/Spectrum/Data visual/Highlight/cooper-500-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightCooper500Opacity: '#e6b2974d',
+    // Colors/System/Spectrum/Data visual/Highlight/cooper-800-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightCooper800Opacity: '#d67e514d',
+    // Colors/System/Spectrum/Data visual/Highlight/gold-400-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightGold400Opacity: '#cdbe804d',
+    // Colors/System/Spectrum/Data visual/Highlight/gold-700-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightGold700Opacity: '#ab922b4d',
+    // Colors/System/Spectrum/Data visual/Highlight/jade-600-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightJade600Opacity: '#88c5af4d',
+    // Colors/System/Spectrum/Data visual/Highlight/jade-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightJade900Opacity: '#389e7a4d',
+    // Colors/System/Spectrum/Data visual/Highlight/maroon-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightMaroon1200Opacity: '#5309094d',
+    // Colors/System/Spectrum/Data visual/Highlight/maroon-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightMaroon900Opacity: '#a984844d',
+    // Colors/System/Spectrum/Data visual/Highlight/platinum-1000-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightPlatinum1000Opacity: '#7f7f7f4d',
+    // Colors/System/Spectrum/Data visual/Highlight/platinum-700-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightPlatinum700Opacity: '#b2b2b24d',
+    // Colors/System/Spectrum/Data visual/Highlight/sage-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightSage1200Opacity: '#2d33004d',
+    // Colors/System/Spectrum/Data visual/Highlight/sage-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightSage900Opacity: '#9699804d',
+    // Colors/System/Spectrum/Data visual/Highlight/tanzanite-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightTanzanite1200Opacity: '#0a466c4d',
+    // Colors/System/Spectrum/Data visual/Highlight/tanzanite-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightTanzanite900Opacity: '#7899ae4d',
+    // Colors/System/Spectrum/Data visual/Highlight/violet-1200-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightViolet1200Opacity: '#4334794d',
+    // Colors/System/Spectrum/Data visual/Highlight/violet-900-opacity - Global (primitives)
+    colorsSystemSpectrumDataVisualHighlightViolet900Opacity: '#a19abc4d',
+    // Colors/System/Spectrum/Data visual/jade-600 - Global (primitives)
+    colorsSystemSpectrumDataVisualJade600: '#88c5af',
+    // Colors/System/Spectrum/Data visual/jade-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualJade900: '#389e7a',
+    // Colors/System/Spectrum/Data visual/maroon-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualMaroon1200: '#530909',
+    // Colors/System/Spectrum/Data visual/maroon-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualMaroon900: '#a98484',
+    // Colors/System/Spectrum/Data visual/platinum-1000 - Global (primitives)
+    colorsSystemSpectrumDataVisualPlatinum1000: '#7f7f7f',
+    // Colors/System/Spectrum/Data visual/platinum-700 - Global (primitives)
+    colorsSystemSpectrumDataVisualPlatinum700: '#b2b2b2',
+    // Colors/System/Spectrum/Data visual/sage-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualSage1200: '#2d3300',
+    // Colors/System/Spectrum/Data visual/sage-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualSage900: '#969980',
+    // Colors/System/Spectrum/Data visual/tanzanite-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualTanzanite1200: '#0a466c',
+    // Colors/System/Spectrum/Data visual/tanzanite-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualTanzanite900: '#7899ae',
+    // Colors/System/Spectrum/Data visual/violet-1200 - Global (primitives)
+    colorsSystemSpectrumDataVisualViolet1200: '#433479',
+    // Colors/System/Spectrum/Data visual/violet-900 - Global (primitives)
+    colorsSystemSpectrumDataVisualViolet900: '#a19abc',
+    // Colors/System/Spectrum/Depth/45-blue-dark - Global (primitives)
+    colorsSystemSpectrumDepth45BlueDark: '#88aff7',
+    // Colors/System/Spectrum/Depth/45-green-dark - Global (primitives)
+    colorsSystemSpectrumDepth45GreenDark: '#87bd9f',
+    // Colors/System/Spectrum/Depth/45-lime-dark - Global (primitives)
+    colorsSystemSpectrumDepth45LimeDark: '#dce28f',
+    // Colors/System/Spectrum/Depth/45-magenta-dark - Global (primitives)
+    colorsSystemSpectrumDepth45MagentaDark: '#e07aed',
+    // Colors/System/Spectrum/Depth/45-orange-dark - Global (primitives)
+    colorsSystemSpectrumDepth45OrangeDark: '#f6a874',
+    // Colors/System/Spectrum/Depth/45-pink-dark - Global (primitives)
+    colorsSystemSpectrumDepth45PinkDark: '#ea86b9',
+    // Colors/System/Spectrum/Depth/45-purple-dark - Global (primitives)
+    colorsSystemSpectrumDepth45PurpleDark: '#c8a6f9',
+    // Colors/System/Spectrum/Depth/45-red-dark - Global (primitives)
+    colorsSystemSpectrumDepth45RedDark: '#ea93a0',
+    // Colors/System/Spectrum/Depth/45-teal-dark - Global (primitives)
+    colorsSystemSpectrumDepth45TealDark: '#74bbb4',
+    // Colors/System/Spectrum/Depth/45-yellow-dark - Global (primitives)
+    colorsSystemSpectrumDepth45YellowDark: '#fada8d',
+    // Colors/System/Spectrum/Depth/50-blue-light - Global (primitives)
+    colorsSystemSpectrumDepth50BlueLight: '#143778',
+    // Colors/System/Spectrum/Depth/50-green-light - Global (primitives)
+    colorsSystemSpectrumDepth50GreenLight: '#134428',
+    // Colors/System/Spectrum/Depth/50-lime-light - Global (primitives)
+    colorsSystemSpectrumDepth50LimeLight: '#60651a',
+    // Colors/System/Spectrum/Depth/50-magenta-light - Global (primitives)
+    colorsSystemSpectrumDepth50MagentaLight: '#63076f',
+    // Colors/System/Spectrum/Depth/50-orange-light - Global (primitives)
+    colorsSystemSpectrumDepth50OrangeLight: '#773001',
+    // Colors/System/Spectrum/Depth/50-pink-light - Global (primitives)
+    colorsSystemSpectrumDepth50PinkLight: '#6c1240',
+    // Colors/System/Spectrum/Depth/50-purple-light - Global (primitives)
+    colorsSystemSpectrumDepth50PurpleLight: '#310077',
+    // Colors/System/Spectrum/Depth/50-red-light - Global (primitives)
+    colorsSystemSpectrumDepth50RedLight: '#6c1d29',
+    // Colors/System/Spectrum/Depth/50-teal-light - Global (primitives)
+    colorsSystemSpectrumDepth50TealLight: '#01413c',
+    // Colors/System/Spectrum/Depth/50-yellow-light - Global (primitives)
+    colorsSystemSpectrumDepth50YellowLight: '#7b5e18',
+    // Colors/System/Spectrum/Highlight/65-blue-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65BlueDark: '#0e2754',
+    // Colors/System/Spectrum/Highlight/65-green-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65GreenDark: '#0d2f1c',
+    // Colors/System/Spectrum/Highlight/65-lime-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65LimeDark: '#434712',
+    // Colors/System/Spectrum/Highlight/65-magenta-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65MagentaDark: '#45054e',
+    // Colors/System/Spectrum/Highlight/65-orange-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65OrangeDark: '#532201',
+    // Colors/System/Spectrum/Highlight/65-pink-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65PinkDark: '#4c0c2d',
+    // Colors/System/Spectrum/Highlight/65-purple-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65PurpleDark: '#220053',
+    // Colors/System/Spectrum/Highlight/65-red-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65RedDark: '#4c141d',
+    // Colors/System/Spectrum/Highlight/65-teal-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65TealDark: '#012e2a',
+    // Colors/System/Spectrum/Highlight/65-yellow-dark - Global (primitives)
+    colorsSystemSpectrumHighlight65YellowDark: '#564210',
+    // Colors/System/Spectrum/Highlight/85-blue-light - Global (primitives)
+    colorsSystemSpectrumHighlight85BlueLight: '#dfe9fd',
+    // Colors/System/Spectrum/Highlight/85-green-light - Global (primitives)
+    colorsSystemSpectrumHighlight85GreenLight: '#deede5',
+    // Colors/System/Spectrum/Highlight/85-lime-light - Global (primitives)
+    colorsSystemSpectrumHighlight85LimeLight: '#f6f7e0',
+    // Colors/System/Spectrum/Highlight/85-magenta-light - Global (primitives)
+    colorsSystemSpectrumHighlight85MagentaLight: '#f6dbfa',
+    // Colors/System/Spectrum/Highlight/85-orange-light - Global (primitives)
+    colorsSystemSpectrumHighlight85OrangeLight: '#fce7d9',
+    // Colors/System/Spectrum/Highlight/85-pink-light - Global (primitives)
+    colorsSystemSpectrumHighlight85PinkLight: '#f9deec',
+    // Colors/System/Spectrum/Highlight/85-purple-light - Global (primitives)
+    colorsSystemSpectrumHighlight85PurpleLight: '#e7d9fc',
+    // Colors/System/Spectrum/Highlight/85-red-light - Global (primitives)
+    colorsSystemSpectrumHighlight85RedLight: '#f9e1e5',
+    // Colors/System/Spectrum/Highlight/85-teal-light - Global (primitives)
+    colorsSystemSpectrumHighlight85TealLight: '#d9eceb',
+    // Colors/System/Spectrum/Highlight/85-yellow-light - Global (primitives)
+    colorsSystemSpectrumHighlight85YellowLight: '#fef5e0',
+    // Colors/System/Spectrum/Vibrant/00-blue-light - Global (primitives)
+    colorsSystemSpectrumVibrant00BlueLight: '#276ef1',
+    // Colors/System/Spectrum/Vibrant/00-green-light - Global (primitives)
+    colorsSystemSpectrumVibrant00GreenLight: '#258750',
+    // Colors/System/Spectrum/Vibrant/00-lime-light - Global (primitives)
+    colorsSystemSpectrumVibrant00LimeLight: '#c0ca33',
+    // Colors/System/Spectrum/Vibrant/00-magenta-light - Global (primitives)
+    colorsSystemSpectrumVibrant00MagentaLight: '#c60ede',
+    // Colors/System/Spectrum/Vibrant/00-orange-light - Global (primitives)
+    colorsSystemSpectrumVibrant00OrangeLight: '#ee6002',
+    // Colors/System/Spectrum/Vibrant/00-pink-light - Global (primitives)
+    colorsSystemSpectrumVibrant00PinkLight: '#d82380',
+    // Colors/System/Spectrum/Vibrant/00-purple-light - Global (primitives)
+    colorsSystemSpectrumVibrant00PurpleLight: '#6200ee',
+    // Colors/System/Spectrum/Vibrant/00-red-light - Global (primitives)
+    colorsSystemSpectrumVibrant00RedLight: '#d83a52',
+    // Colors/System/Spectrum/Vibrant/00-teal-light - Global (primitives)
+    colorsSystemSpectrumVibrant00TealLight: '#038377',
+    // Colors/System/Spectrum/Vibrant/00-yellow-light - Global (primitives)
+    colorsSystemSpectrumVibrant00YellowLight: '#f6bc2f',
+    // Colors/System/Spectrum/Vibrant/40-blue-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40BlueDark: '#5d92f5',
+    // Colors/System/Spectrum/Vibrant/40-green-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40GreenDark: '#7cb796',
+    // Colors/System/Spectrum/Vibrant/40-lime-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40LimeDark: '#d9df85',
+    // Colors/System/Spectrum/Vibrant/40-magenta-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40MagentaDark: '#dd6eeb',
+    // Colors/System/Spectrum/Vibrant/40-orange-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40OrangeDark: '#f5a067',
+    // Colors/System/Spectrum/Vibrant/40-pink-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40PinkDark: '#e87bb3',
+    // Colors/System/Spectrum/Vibrant/40-purple-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40PurpleDark: '#a166f5',
+    // Colors/System/Spectrum/Vibrant/40-red-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40RedDark: '#e88997',
+    // Colors/System/Spectrum/Vibrant/40-teal-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40TealDark: '#68b5ad',
+    // Colors/System/Spectrum/Vibrant/40-yellow-dark - Global (primitives)
+    colorsSystemSpectrumVibrant40YellowDark: '#fad782',
+    // Colors/System/Visited links/00-default-light - Global (primitives)
+    colorsSystemVisitedLinks00DefaultLight: '#7a3e7a',
+    // Colors/System/Visited links/30-active-dark - Global (primitives)
+    colorsSystemVisitedLinks30ActiveDark: '#a278a2',
+    // Colors/System/Visited links/30-active-light - Global (primitives)
+    colorsSystemVisitedLinks30ActiveLight: '#552b55',
+    // Colors/System/Visited links/40-default-dark - Global (primitives)
+    colorsSystemVisitedLinks40DefaultDark: '#af8baf',
+    // Colors/System/Visited links/40-disabled-dark - Global (primitives)
+    colorsSystemVisitedLinks40DisabledDark: '#492549',
+    // Colors/System/Visited links/40-disabled-light - Global (primitives)
+    colorsSystemVisitedLinks40DisabledLight: '#af8baf',
+    // Colors/System/yellow-dark - Global (primitives)
+    colorsSystemYellowDark: '#f8cd63',
+    // Colors/System/yellow-dark-bg - Global (primitives)
+    colorsSystemYellowDarkBg: '#564210',
+    // Colors/System/yellow-light - Global (primitives)
+    colorsSystemYellowLight: '#f6bc2f',
+    // Colors/System/yellow-light-bg - Global (primitives)
+    colorsSystemYellowLightBg: '#fef5e0',
+    // Corner radius/120 - Global (primitives)
+    cornerRadius120: '12px',
+    // Corner radius/160 - Global (primitives)
+    cornerRadius160: '16px',
+    // Corner radius/40 - Global (primitives)
+    cornerRadius40: '4px',
+    // Corner radius/80 - Global (primitives)
+    cornerRadius80: '8px',
+    // Corner radius/circular - Global (primitives)
+    cornerRadiusCircular: '999px',
+    // Foreground/AI-powered/blue - Theme - Anywhere
+    foregroundAiPoweredBlue: '#000000',
+    // Foreground/AI-powered/pink - Theme - Anywhere
+    foregroundAiPoweredPink: '#000000',
+    // Interactions/opacity-black-10 - Global (primitives)
+    interactionsOpacityBlack10: '#0000001a',
+    // Interactions/opacity-black-16 - Global (primitives)
+    interactionsOpacityBlack16: '#00000029',
+    // Interactions/opacity-black-20 - Global (primitives)
+    interactionsOpacityBlack20: '#00000033',
+    // Interactions/opacity-black-30 - Global (primitives)
+    interactionsOpacityBlack30: '#0000004d',
+    // Interactions/opacity-black-6 - Global (primitives)
+    interactionsOpacityBlack6: '#0000000f',
+    // Interactions/opacity-black-8 - Global (primitives)
+    interactionsOpacityBlack8: '#00000014',
+    // Interactions/opacity-white-10 - Global (primitives)
+    interactionsOpacityWhite10: '#ffffff1a',
+    // Interactions/opacity-white-16 - Global (primitives)
+    interactionsOpacityWhite16: '#ffffff29',
+    // Interactions/opacity-white-20 - Global (primitives)
+    interactionsOpacityWhite20: '#ffffff33',
+    // Interactions/opacity-white-30 - Global (primitives)
+    interactionsOpacityWhite30: '#ffffff4d',
+    // Interactions/opacity-white-6 - Global (primitives)
+    interactionsOpacityWhite6: '#ffffff0f',
+    // Interactions/opacity-white-8 - Global (primitives)
+    interactionsOpacityWhite8: '#ffffff14',
+    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-10 - Global (primitives)
+    interactionsPrimaryDarkOpacity10: '#7271901a',
+    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-12 - Global (primitives)
+    interactionsPrimaryDarkOpacity12: '#7271901f',
+    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-16 - Global (primitives)
+    interactionsPrimaryDarkOpacity16: '#72719029',
+    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-20 - Global (primitives)
+    interactionsPrimaryDarkOpacity20: '#72719033',
+    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-8 - Global (primitives)
+    interactionsPrimaryDarkOpacity8: '#72719014',
+    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-10 - Global (primitives)
+    interactionsPrimaryLightOpacity10: '#1413461a',
+    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-12 - Global (primitives)
+    interactionsPrimaryLightOpacity12: '#1413461f',
+    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-16 - Global (primitives)
+    interactionsPrimaryLightOpacity16: '#14134629',
+    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-20 - Global (primitives)
+    interactionsPrimaryLightOpacity20: '#14134633',
+    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-8 - Global (primitives)
+    interactionsPrimaryLightOpacity8: '#14134614',
+    // Colors/Brands/Anywhere/Primary/00-base - Global (primitives)
+    primary00Base: '#141346',
+    // Colors/Brands/Anywhere/Primary/15-dark - Global (primitives)
+    primary15Dark: '#11103c',
+    // Colors/Brands/Anywhere/Primary/40-light - Global (primitives)
+    primary40Light: '#727190',
+    // Colors/Brands/Anywhere/Primary/55-light - Global (primitives)
+    primary55Light: '#9595ac',
+    // Colors/Brands/Anywhere/Primary/75-dark - Global (primitives)
+    primary75Dark: '#050512',
+    // Colors/Brands/Anywhere/Primary/85-light - Global (primitives)
+    primary85Light: '#dcdce3',
+    // Radius/full - Borders
+    radiusFull: '999px',
+    // Radius/lg - Borders
+    radiusLg: '12px',
+    // Radius/md - Borders
+    radiusMd: '8px',
+    // Radius/sm - Borders
+    radiusSm: '4px',
+    // Radius/xlg - Borders
+    radiusXlg: '16px',
+    // Colors/Brands/Anywhere/Secondary/00-base - Global (primitives)
+    secondary00Base: '#e95525',
+    // Colors/Brands/Anywhere/Secondary/15-dark - Global (primitives)
+    secondary15Dark: '#c6481f',
+    // Colors/Brands/Anywhere/Secondary/15-light - Global (primitives)
+    secondary15Light: '#f5b39d',
+    // Colors/Brands/Anywhere/Secondary/25-base - Global (primitives)
+    secondary25Base: '#af401c',
+    // Colors/Brands/Anywhere/Secondary/40-light - Global (primitives)
+    secondary40Light: '#f2997c',
+    // Colors/Brands/Anywhere/Secondary/55-light - Global (primitives)
+    secondary55Light: '#f5b39d',
+    // Colors/Brands/Anywhere/Secondary/75-dark - Global (primitives)
+    secondary75Dark: '#3a1509',
+    // Colors/Brands/Anywhere/Secondary/85-light - Global (primitives)
+    secondary85Light: '#fce6de',
+    // Shadows/Inner-Shadow-black-100 - Global (primitives)
+    shadowsInnerShadowBlack100: '#000000',
+    // Shadows/Inner-Shadow-white-100 - Global (primitives)
+    shadowsInnerShadowWhite100: '#ffffff',
+    // Shadows/Shadow-black-10 - Global (primitives)
+    shadowsShadowBlack10: '#0000001a',
+    // Shadows/Shadow-black-12 - Global (primitives)
+    shadowsShadowBlack12: '#0000001f',
+    // Shadows/Shadow-black-15 - Global (primitives)
+    shadowsShadowBlack15: '#00000026',
+    // Shadows/Shadow-black-25 - Global (primitives)
+    shadowsShadowBlack25: '#00000040',
+    // Shadows/Shadow-black-32 - Global (primitives)
+    shadowsShadowBlack32: '#00000052',
+    // Shadows/Shadow-black-50 - Global (primitives)
+    shadowsShadowBlack50: '#00000080',
+    // Shadows/Shadow-gray-10 - Global (primitives)
+    shadowsShadowGray10: '#6161611a',
+    // Shadows/Shadow-gray-12 - Global (primitives)
+    shadowsShadowGray12: '#6161611f',
+    // Shadows/Shadow-gray-15 - Global (primitives)
+    shadowsShadowGray15: '#61616126',
+    // Shadows/Shadow-gray-25 - Global (primitives)
+    shadowsShadowGray25: '#61616140',
+    // Shadows/Shadow-gray-32 - Global (primitives)
+    shadowsShadowGray32: '#61616152',
+    // Shadows/Shadow-gray-50 - Global (primitives)
+    shadowsShadowGray50: '#61616180',
+    // Spacing/sizing-01 - Spacing & Sizing
+    spacingSizing01: '4px',
+    // Spacing/sizing-02 - Spacing & Sizing
+    spacingSizing02: '8px',
+    // Spacing/sizing-03 - Spacing & Sizing
+    spacingSizing03: '12px',
+    // Spacing/sizing-04 - Spacing & Sizing
+    spacingSizing04: '16px',
+    // Spacing/sizing-05 - Spacing & Sizing
+    spacingSizing05: '20px',
+    // Spacing/sizing-06 - Spacing & Sizing
+    spacingSizing06: '24px',
+    // Spacing/sizing-07 - Spacing & Sizing
+    spacingSizing07: '28px',
+    // Spacing/sizing-08 - Spacing & Sizing
+    spacingSizing08: '32px',
+    // Spacing/sizing-09 - Spacing & Sizing
+    spacingSizing09: '36px',
+    // Spacing/sizing-10 - Spacing & Sizing
+    spacingSizing10: '40px',
+    // Spacing/sizing-11 - Spacing & Sizing
+    spacingSizing11: '44px',
+    // Spacing/sizing-12 - Spacing & Sizing
+    spacingSizing12: '48px',
+    // Spacing/sizing-13 - Spacing & Sizing
+    spacingSizing13: '52px',
+    // Spacing/sizing-14 - Spacing & Sizing
+    spacingSizing14: '56px',
+    // Spacing/sizing-15 - Spacing & Sizing
+    spacingSizing15: '60px',
+    // Spacing/sizing-16 - Spacing & Sizing
+    spacingSizing16: '64px',
+    // Spacing/sizing-17 - Spacing & Sizing
+    spacingSizing17: '68px',
+    // Spacing/sizing-18 - Spacing & Sizing
+    spacingSizing18: '72px',
+    // Spacing/sizing-19 - Spacing & Sizing
+    spacingSizing19: '80px',
+    // Spacing/sizing-20 - Spacing & Sizing
+    spacingSizing20: '96px',
+    // Spacing/sizing-21 - Spacing & Sizing
+    spacingSizing21: '104px',
+    // Spacing/sizing-22 - Spacing & Sizing
+    spacingSizing22: '120px',
+    // Spacing/sizing-23 - Spacing & Sizing
+    spacingSizing23: '128px',
+    // Spacing/sizing-24 - Spacing & Sizing
+    spacingSizing24: '148px',
+    // Spacing/sizing-25 - Spacing & Sizing
+    spacingSizing25: '152px',
+    // Spacings/1040 - Global (primitives)
+    spacings1040: '104px',
+    // Spacings/120 - Global (primitives)
+    spacings120: '12px',
+    // Spacings/1200 - Global (primitives)
+    spacings1200: '120px',
+    // Spacings/1280 - Global (primitives)
+    spacings1280: '128px',
+    // Spacings/1480 - Global (primitives)
+    spacings1480: '148px',
+    // Spacings/1520 - Global (primitives)
+    spacings1520: '152px',
+    // Spacings/160 - Global (primitives)
+    spacings160: '16px',
+    // Spacings/200 - Global (primitives)
+    spacings200: '20px',
+    // Spacings/240 - Global (primitives)
+    spacings240: '24px',
+    // Spacings/280 - Global (primitives)
+    spacings280: '28px',
+    // Spacings/320 - Global (primitives)
+    spacings320: '32px',
+    // Spacings/360 - Global (primitives)
+    spacings360: '36px',
+    // Spacings/40 - Global (primitives)
+    spacings40: '4px',
+    // Spacings/400 - Global (primitives)
+    spacings400: '40px',
+    // Spacings/440 - Global (primitives)
+    spacings440: '44px',
+    // Spacings/480 - Global (primitives)
+    spacings480: '48px',
+    // Spacings/520 - Global (primitives)
+    spacings520: '52px',
+    // Spacings/560 - Global (primitives)
+    spacings560: '56px',
+    // Spacings/600 - Global (primitives)
+    spacings600: '60px',
+    // Spacings/640 - Global (primitives)
+    spacings640: '64px',
+    // Spacings/680 - Global (primitives)
+    spacings680: '68px',
+    // Spacings/720 - Global (primitives)
+    spacings720: '72px',
+    // Spacings/80 - Global (primitives)
+    spacings80: '8px',
+    // Spacings/800 - Global (primitives)
+    spacings800: '80px',
+    // Spacings/960 - Global (primitives)
+    spacings960: '96px',
+    // Stroke/AI-powered/blue - Theme - Anywhere
+    strokeAiPoweredBlue: '#000000',
+    // Stroke/AI-powered/pink - Theme - Anywhere
+    strokeAiPoweredPink: '#000000',
+    // Stroke/thick - Borders
+    strokeThick: '2px',
+    // Stroke/thicker - Borders
+    strokeThicker: '4px',
+    // Stroke/thin - Borders
+    strokeThin: '1px',
+    // Surface/AI-powered/blue - Theme - Anywhere
+    surfaceAiPoweredBlue: '#000000',
+    // Surface/AI-powered/pink - Theme - Anywhere
+    surfaceAiPoweredPink: '#000000',
+    // Colors/Brands/Anywhere/Tertiary/00-base - Global (primitives)
+    tertiary00Base: '#030330',
+    // Colors/Brands/Anywhere/Tertiary/15-dark - Global (primitives)
+    tertiary15Dark: '#030329',
+    // Colors/Brands/Anywhere/Tertiary/40-light - Global (primitives)
+    tertiary40Light: '#686883',
+    // Colors/Brands/Anywhere/Tertiary/55-light - Global (primitives)
+    tertiary55Light: '#8e8ea2',
+    // Colors/Brands/Anywhere/Tertiary/75-dark - Global (primitives)
+    tertiary75Dark: '#01010c',
+    // Colors/Brands/Anywhere/Tertiary/85-light - Global (primitives)
+    tertiary85Light: '#d9d9e0',
+    // Typeface - Brand
+    typeface: '"Inter"',
+    // Typography/Line-height/lh-1 - Global (primitives)
+    typographyLineHeightLh1: '16px',
+    // Typography/Line-height/lh-10 - Global (primitives)
+    typographyLineHeightLh10: '48px',
+    // Typography/Line-height/lh-11 - Global (primitives)
+    typographyLineHeightLh11: '56px',
+    // Typography/Line-height/lh-12 - Global (primitives)
+    typographyLineHeightLh12: '60px',
+    // Typography/Line-height/lh-13 - Global (primitives)
+    typographyLineHeightLh13: '64px',
+    // Typography/Line-height/lh-14 - Global (primitives)
+    typographyLineHeightLh14: '72px',
+    // Typography/Line-height/lh-15 - Global (primitives)
+    typographyLineHeightLh15: '88px',
+    // Typography/Line-height/lh-2 - Global (primitives)
+    typographyLineHeightLh2: '20px',
+    // Typography/Line-height/lh-3 - Global (primitives)
+    typographyLineHeightLh3: '22px',
+    // Typography/Line-height/lh-4 - Global (primitives)
+    typographyLineHeightLh4: '24px',
+    // Typography/Line-height/lh-5 - Global (primitives)
+    typographyLineHeightLh5: '28px',
+    // Typography/Line-height/lh-6 - Global (primitives)
+    typographyLineHeightLh6: '32px',
+    // Typography/Line-height/lh-7 - Global (primitives)
+    typographyLineHeightLh7: '36px',
+    // Typography/Line-height/lh-8 - Global (primitives)
+    typographyLineHeightLh8: '40px',
+    // Typography/Line-height/lh-9 - Global (primitives)
+    typographyLineHeightLh9: '44px',
+    // Typography/Size/base - Global (primitives)
+    typographySizeBase: '16px',
+    // Typography/Size/bp-md - Global (primitives)
+    typographySizeBpMd: '18px',
+    // Typography/Size/d-lg-m - Global (primitives)
+    typographySizeDLgM: '64px',
+    // Typography/Size/d-lg (old) - Global (primitives)
+    typographySizeDLgOld: '60px',
+    // Typography/Size/d-md-m - Global (primitives)
+    typographySizeDMdM: '56px',
+    // Typography/Size/d-md (old) - Global (primitives)
+    typographySizeDMdOld: '52px',
+    // Typography/Size/d-sm-m - Global (primitives)
+    typographySizeDSmM: '48px',
+    // Typography/Size/d-sm (old) - Global (primitives)
+    typographySizeDSmOld: '44px',
+    // Typography/Size/lg-xlg - Global (primitives)
+    typographySizeLgXlg: '28px',
+    // Typography/Size/md-mdp - Global (primitives)
+    typographySizeMdMdp: '20px',
+    // Typography/Size/mdp-lg - Global (primitives)
+    typographySizeMdpLg: '24px',
+    // Typography/Size/sm - Global (primitives)
+    typographySizeSm: '14px',
+    // Typography/Size/xlg-xxlg - Global (primitives)
+    typographySizeXlgXxlg: '32px',
+    // Typography/Size/xs - Global (primitives)
+    typographySizeXs: '12px',
+    // Typography/Size/xxlg-xxxlg - Global (primitives)
+    typographySizeXxlgXxxlg: '36px',
+    // Typography/Size/xxxlg - Global (primitives)
+    typographySizeXxxlg: '40px',
+    // Typography/Typeface/Arial - Global (primitives)
+    typographyTypefaceArial: '"Arial"',
+    // Typography/Typeface/Geist - Global (primitives)
+    typographyTypefaceGeist: '"Geist"',
+    // Typography/Typeface/Helvetica - Global (primitives)
+    typographyTypefaceHelvetica: '"Helvetica"',
+    // Typography/Typeface/Inter - Global (primitives)
+    typographyTypefaceInter: '"Inter"',
+    // Typography/Typeface/Lato - Global (primitives)
+    typographyTypefaceLato: '"Lato"',
+    // Typography/Typeface/Manrope - Global (primitives)
+    typographyTypefaceManrope: '"Manrope"',
+    // Typography/Typeface/Open Sans - Global (primitives)
+    typographyTypefaceOpenSans: '"Open Sans"',
+    // Typography/Typeface/Red Hat Text - Global (primitives)
+    typographyTypefaceRedHatText: '"Red Hat Text"',
+    // Typography/Typeface/Roboto - Global (primitives)
+    typographyTypefaceRoboto: '"Roboto"',
+    // Typography/Typeface/SF Pro - Global (primitives)
+    typographyTypefaceSfPro: '"SF Pro"',
+    // Typography/Typeface/Typold - Global (primitives)
+    typographyTypefaceTypold: '"Typold"',
+    // Typography/Typeface/Work Sans - Global (primitives)
+    typographyTypefaceWorkSans: '"Work Sans"',
+    // Typography/Weight/300 - Global (primitives)
+    typographyWeight300: '300',
+    // Typography/Weight/400 - Global (primitives)
+    typographyWeight400: '400',
+    // Typography/Weight/500 - Global (primitives)
+    typographyWeight500: '500',
+    // Typography/Weight/600 - Global (primitives)
+    typographyWeight600: '600',
     light: {
+        // Background/base - Brand
         backgroundBase: '#ffffff',
+        // Background/scrim - Theme - Anywhere
         backgroundScrim: '#00000040',
-        backgroundShade: '#f1f5f9',
-        dataVisualCategory01: '#130033',
-        dataVisualCategory01Highlight: '#1300334d',
-        dataVisualCategory02: '#299de0',
-        dataVisualCategory02Highlight: '#299de04d',
-        dataVisualCategory03: '#0a466c',
-        dataVisualCategory03Highlight: '#0a466c4d',
-        dataVisualCategory04: '#389e7a',
-        dataVisualCategory04Highlight: '#389e7a4d',
-        dataVisualCategory05: '#094a53',
-        dataVisualCategory05Highlight: '#094a534d',
+        // Background/shade - Brand
+        backgroundShade: '#f5f5f5',
+        // Data visual/category-01 - Brand
+        dataVisualCategory01: '#d67e51',
+        // Data visual/category-01-highlight - Brand
+        dataVisualCategory01Highlight: '#d67e514d',
+        // Data visual/category-02 - Brand
+        dataVisualCategory02: '#7a2a0b',
+        // Data visual/category-02-highlight - Brand
+        dataVisualCategory02Highlight: '#7a2a0b4d',
+        // Data visual/category-03 - Brand
+        dataVisualCategory03: '#ab922b',
+        // Data visual/category-03-highlight - Brand
+        dataVisualCategory03Highlight: '#ab922b4d',
+        // Data visual/category-04 - Brand
+        dataVisualCategory04: '#2d3300',
+        // Data visual/category-04-highlight - Brand
+        dataVisualCategory04Highlight: '#2d33004d',
+        // Data visual/category-05 - Brand
+        dataVisualCategory05: '#794b34',
+        // Data visual/category-05-highlight - Brand
+        dataVisualCategory05Highlight: '#794b344d',
+        // Data visual/category-06 - Brand
         dataVisualCategory06: '#7f7f7f',
+        // Data visual/category-06-highlight - Brand
         dataVisualCategory06Highlight: '#7f7f7f4d',
-        dataVisualCategory07: '#433479',
-        dataVisualCategory07Highlight: '#4334794d',
+        // Data visual/category-07 - Brand
+        dataVisualCategory07: '#530909',
+        // Data visual/category-07-highlight - Brand
+        dataVisualCategory07Highlight: '#5309094d',
+        // Data visual/category-1 - Theme - Better Home & Garden
         dataVisualCategory1: '#0a466c',
-        dataVisualCategory1Highlight: '#0a466c4d',
+        // Data visual/category-1-highlight - Theme - Anywhere
+        dataVisualCategory1Highlight: '#7a2a0b4d',
+        // Data visual/category-2 - Theme - Better Home & Garden
         dataVisualCategory2: '#299de0',
-        dataVisualCategory2Highlight: '#299de04d',
+        // Data visual/category-2-highlight - Theme - Anywhere
+        dataVisualCategory2Highlight: '#d67e514d',
+        // Data visual/category-3 - Theme - Better Home & Garden
         dataVisualCategory3: '#130033',
-        dataVisualCategory3Highlight: '#1300334d',
+        // Data visual/category-3-highlight - Theme - Anywhere
+        dataVisualCategory3Highlight: '#2d33004d',
+        // Data visual/category-4 - Theme - Better Home & Garden
         dataVisualCategory4: '#389e7a',
-        dataVisualCategory4Highlight: '#389e7a4d',
+        // Data visual/category-4-highlight - Theme - Anywhere
+        dataVisualCategory4Highlight: '#ab922b4d',
+        // Data visual/category-5 - Theme - Better Home & Garden
         dataVisualCategory5: '#094a53',
-        dataVisualCategory5Highlight: '#094a534d',
+        // Data visual/category-5-highlight - Theme - Anywhere
+        dataVisualCategory5Highlight: '#5309094d',
+        // Data visual/category-6 - Theme - Better Home & Garden
         dataVisualCategory6: '#7f7f7f',
+        // Data visual/category-6-highlight - Theme - Anywhere
         dataVisualCategory6Highlight: '#7f7f7f4d',
+        // Data visual/category-7 - Theme - Better Home & Garden
         dataVisualCategory7: '#433479',
-        dataVisualCategory7Highlight: '#4334794d',
+        // Data visual/category-7-highlight - Theme - Anywhere
+        dataVisualCategory7Highlight: '#794b344d',
+        // Data visual/gradient-end - Theme - Anywhere
         dataVisualGradientEnd: '#ffffff4d',
+        // Data visual/green - Theme - Anywhere
         dataVisualGreen: '#258750',
+        // Data visual/green-highlight - Theme - Anywhere
         dataVisualGreenHighlight: '#deede5',
+        // Data visual/negative - Brand
         dataVisualNegative: '#d83a52',
+        // Data visual/negative-highlight - Brand
         dataVisualNegativeHighlight: '#f9e1e5',
+        // Data visual/positive - Brand
         dataVisualPositive: '#258750',
+        // Data visual/positive-highlight - Brand
         dataVisualPositiveHighlight: '#deede5',
+        // Data visual/red - Theme - Anywhere
         dataVisualRed: '#d83a52',
+        // Data visual/red-highlight - Theme - Anywhere
         dataVisualRedHighlight: '#f9e1e5',
-        foregroundBrandOnInversePrimary: '#91c3fd',
-        foregroundBrandOnInverseSecondary: '#fdba72',
-        foregroundBrandOnSecondary: '#1f1f1f',
-        foregroundBrandPrimary: '#1559ea',
-        foregroundBrandPrimaryDepth: '#162f82',
-        foregroundBrandSecondary: '#e4570c',
-        foregroundBrandSecondaryDepth: '#80310f',
+        // Foreground/Brand/on-inverse-primary - Theme - Anywhere
+        foregroundBrandOnInversePrimary: '#727190',
+        // Foreground/Brand/on-inverse-secondary - Theme - Anywhere
+        foregroundBrandOnInverseSecondary: '#eba691',
+        // Foreground/Brand/on-light-color-secondary - Theme - Anywhere
+        foregroundBrandOnLightColorSecondary: '#af401c',
+        // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        foregroundBrandOnPrimary: '#ffffff',
+        // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        foregroundBrandOnSecondary: '#ffffff',
+        // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
+        foregroundBrandPrimary: '#030330',
+        // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
+        foregroundBrandPrimaryDepth: '#217221',
+        // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
+        foregroundBrandSecondary: '#e95525',
+        // Foreground/Brand/brand-secondary-depth - Theme - Anywhere
+        foregroundBrandSecondaryDepth: '#bc5b3c',
+        // Foreground/Link text/default - Brand
         foregroundLinkTextDefault: '#215ecd',
+        // Foreground/Link text/default-disabled - Brand
         foregroundLinkTextDefaultDisabled: '#7a9ee1',
+        // Foreground/Link text/default-hovered - Theme - Anywhere
         foregroundLinkTextDefaultHovered: '#1e55b9',
+        // Foreground/Link text/default-pressed - Theme - Anywhere
         foregroundLinkTextDefaultPressed: '#1a4ba4',
+        // Foreground/Link text/default-visited - Brand
         foregroundLinkTextDefaultVisited: '#7a3e7a',
-        foregroundLinkTextSubtleDisabled: '#f1f5f9',
+        // Foreground/Link text/subtle-disabled - Brand
+        foregroundLinkTextSubtleDisabled: '#bdbdbd',
+        // Foreground/Link text/subtle-hovered - Theme - Anywhere
         foregroundLinkTextSubtleHovered: '#292929',
-        foregroundLinkTextSubtleInversedDisabled: '#c8d6e5',
-        foregroundLinkTextSubtlePressed: '#424242',
-        foregroundNeutralDisabledOnColorSurface: '#c8d6e5',
-        foregroundNeutralDisabledOnSurface: '#f1f5f9',
-        foregroundNeutralOnSurface: '#0f1729',
-        foregroundNeutralOnSurfaceVariant01: '#344256',
-        foregroundNeutralOnSurfaceVariant02: '#65758b',
-        foregroundNeutralOnSurfaceVariant03: '#c8d6e5',
-        foregroundNeutralSkeletonElement: '#e1e7ef',
+        // Foreground/Link text/subtle-inverse-hovered - Theme - Anywhere
+        foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
+        // Foreground/Link text/subtle-inverse-pressed - Theme - Anywhere
+        foregroundLinkTextSubtleInversePressed: '#d1d1d1',
+        // Foreground/Link text/subtle-inversed-disabled - Brand
+        foregroundLinkTextSubtleInversedDisabled: '#757575',
+        // Foreground/Link text/subtle-pressed - Theme - Anywhere
+        foregroundLinkTextSubtlePressed: '#3d3d3d',
+        // Foreground/Neutral/disabled-on-color-surface - Brand
+        foregroundNeutralDisabledOnColorSurface: '#757575',
+        // Foreground/Neutral/disabled-on-surface - Brand
+        foregroundNeutralDisabledOnSurface: '#bdbdbd',
+        // Foreground/Neutral/inverse-on-surface - Theme - Anywhere
+        foregroundNeutralInverseOnSurface: '#fafafa',
+        // Foreground/Neutral/on-color - Brand - Interactive controls
+        foregroundNeutralOnColor: '#ffffff',
+        // Foreground/Neutral/on-inverse-surface - Brand - Text and icons against inverse surface
+        foregroundNeutralOnInverseSurface: '#fafafa',
+        // Foreground/Neutral/on-surface - Brand - Default foreground text and icons against any surface color
+        foregroundNeutralOnSurface: '#141414',
+        // Foreground/Neutral/on-surface-variant-01 - Brand - Secondary foreground color for icons and text
+        foregroundNeutralOnSurfaceVariant01: '#707070',
+        // Foreground/Neutral/on-surface-variant-02 - Brand - Tertiary foreground color for icons and text
+        foregroundNeutralOnSurfaceVariant02: '#757575',
+        // Foreground/Neutral/on-surface-variant-03 - Brand - Quaternary foreground color for icons and text. Only for placeholder text
+        foregroundNeutralOnSurfaceVariant03: '#8a8a8a',
+        // Foreground/Neutral/skeleton-element - Brand
+        foregroundNeutralSkeletonElement: '#e0e0e0',
+        // Foreground/Spectrum/blue - Theme - Anywhere
         foregroundSpectrumBlue: '#143778',
+        // Foreground/Spectrum/green - Theme - Anywhere
         foregroundSpectrumGreen: '#134428',
+        // Foreground/Spectrum/lime - Theme - Anywhere
         foregroundSpectrumLime: '#60651a',
+        // Foreground/Spectrum/magenta - Theme - Anywhere
         foregroundSpectrumMagenta: '#63076f',
+        // Foreground/Spectrum/orange - Brand
         foregroundSpectrumOrange: '#773001',
+        // Foreground/Spectrum/pink - Theme - Anywhere
         foregroundSpectrumPink: '#6c1240',
+        // Foreground/Spectrum/purple - Theme - Anywhere
         foregroundSpectrumPurple: '#310077',
+        // Foreground/Spectrum/red - Brand
         foregroundSpectrumRed: '#6c1d29',
+        // Foreground/Spectrum/teal - Theme - Anywhere
         foregroundSpectrumTeal: '#01413c',
+        // Foreground/Spectrum/yellow - Theme - Anywhere
         foregroundSpectrumYellow: '#7b5e18',
-        interactionBrandDisabledOpacity: '#0000000f',
-        interactionBrandHoverOpacity: '#0000001a',
-        interactionBrandPressOpacity: '#00000033',
-        interactionHoverOpacity: '#00000014',
-        interactionLinkActiveOpacity: '#0000004d',
-        interactionPressOpacity: '#00000029',
+        // Interactions/brand-disabled-opacity - Theme - Anywhere
         interactionsBrandDisabledOpacity: '#0000000f',
+        // Interactions/brand-hover-opacity - Theme - Anywhere
         interactionsBrandHoverOpacity: '#0000001a',
+        // Interactions/brand-press-opacity - Theme - Anywhere
         interactionsBrandPressOpacity: '#00000033',
+        // Interactions/disabled-opacity - Theme - Anywhere
+        interactionsDisabledOpacity: '#0000000f',
+        // Interactions/hover-opacity - Theme - Anywhere
         interactionsHoverOpacity: '#00000014',
+        // Interactions/link-active-opacity - Brand
         interactionsLinkActiveOpacity: '#0000004d',
+        // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
         interactionsNeutralHoverOpacity: '#00000014',
+        // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
         interactionsNeutralPressOpacity: '#00000029',
+        // Interactions/press-opacity - Theme - Anywhere
         interactionsPressOpacity: '#00000029',
-        interactionsPrimaryDisabledOpacity: '#1559ea1f',
-        interactionsPrimaryHoverOpacity: '#1559ea1a',
-        interactionsPrimaryPressOpacity: '#1559ea33',
+        // Interactions/primary-disabled-opacity - Theme - Anywhere
+        interactionsPrimaryDisabledOpacity: '#1413461f',
+        // Interactions/primary-hover-opacity - Theme - Anywhere
+        interactionsPrimaryHoverOpacity: '#1413461a',
+        // Interactions/primary-press-opacity - Theme - Anywhere
+        interactionsPrimaryPressOpacity: '#14134633',
+        // Shadow/shadow-10 - Theme - Anywhere
         shadow10: '#0000001a',
+        // Shadow/shadow-12 - Theme - Anywhere
         shadow12: '#0000001f',
+        // Shadow/shadow-15 - Theme - Anywhere
         shadow15: '#00000026',
+        // Shadow/shadow-25 - Theme - Anywhere
         shadow25: '#00000040',
+        // Shadow/shadow-32 - Theme - Anywhere
         shadow32: '#00000052',
+        // Shadow/inner-shadow - Brand
         shadowInner: '#ffffff',
+        // Shadow/inner-shadow-100 - Theme - Better Home & Garden
         shadowInner100: '#ffffff',
+        // Shadow/variant-01 - Brand
         shadowVariant01: '#0000001a',
+        // Shadow/variant-02 - Brand
         shadowVariant02: '#0000001f',
+        // Shadow/variant-03 - Brand
         shadowVariant03: '#00000026',
+        // Shadow/variant-04 - Brand
         shadowVariant04: '#00000040',
+        // Shadow/variant-05 - Brand
         shadowVariant05: '#00000052',
+        // Status/error - Brand - Foreground error text and icons
         statusError: '#d83a52',
+        // Status/information - Theme - Better Home & Garden
         statusInformation: '#276ef1',
+        // Status/informational - Brand - Foreground informational text and icons
         statusInformational: '#276ef1',
+        // Status/on-error - Brand - Foreground error text and icons
+        statusOnError: '#ffffff',
+        // Status/on-information - Theme - Better Home & Garden
+        statusOnInformation: '#ffffff',
+        // Status/on-informational - Brand - Foreground informational text and icons
+        statusOnInformational: '#ffffff',
+        // Status/on-success - Brand - Foreground success icons and text
+        statusOnSuccess: '#ffffff',
+        // Status/on-warning - Brand - Foreground warning icons
+        statusOnWarning: '#141414',
+        // Status/success - Brand - Foreground success icons and text
         statusSuccess: '#258750',
+        // Status/warning - Brand - Foreground warning icons
         statusWarning: '#f6bc2f',
-        strokeBrandPrimary: '#1559ea',
-        strokeBrandPrimaryDepth: '#162f82',
-        strokeBrandSecondary: '#e4570c',
-        strokeBrandSecondaryDepth: '#80310f',
-        strokeNeutralBase: '#48566a',
-        strokeNeutralDisabledDark: '#48566a',
-        strokeNeutralDisabledLight: '#c8d6e5',
+        // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
+        strokeBrandPrimary: '#030330',
+        // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
+        strokeBrandPrimaryDepth: '#030329',
+        // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
+        strokeBrandSecondary: '#dd6b47',
+        // Stroke/Brand/brand-secondary-depth - Theme - Anywhere
+        strokeBrandSecondaryDepth: '#bc5b3c',
+        // Stroke/Neutral/neutral-base - Brand - For control components
+        strokeNeutralBase: '#949494',
+        // Stroke/Neutral/disabled-dark - Brand - Disabled outline separating the fill and surface background
+        strokeNeutralDisabledDark: '#757575',
+        // Stroke/Neutral/disabled-light - Brand - Disabled outline separating the fill and surface background
+        strokeNeutralDisabledLight: '#bdbdbd',
+        // Stroke/Neutral/focus - Brand - Highlight focus element
         strokeNeutralFocus: '#000000',
-        strokeNeutralHigh: '#0f1729',
-        strokeNeutralHighContrast: '#0f1729',
-        strokeNeutralInteractionDisabledDark: '#48566a',
-        strokeNeutralInteractionDisabledLight: '#c8d6e5',
-        strokeNeutralInteractionFocus: '#000000',
+        // Stroke/Neutral/focus-on-inverse - Brand - Highlight focus element
+        strokeNeutralFocusOnInverse: '#ffffff',
+        // Stroke/Neutral/neutral-high - Brand
+        strokeNeutralHigh: '#141414',
+        // Stroke/Neutral/neutral-high-contrast - Theme - Anywhere
+        strokeNeutralHighContrast: '#141414',
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - Anywhere
         strokeNeutralInteractionsDisabledDark: '#757575',
+        // Stroke/Neutral/Interactions/disabled-light - Theme - Anywhere
         strokeNeutralInteractionsDisabledLight: '#bdbdbd',
+        // Stroke/Neutral/Interactions/focus - Theme - Anywhere
         strokeNeutralInteractionsFocus: '#000000',
-        strokeNeutralLow: '#e1e7ef',
-        strokeNeutralLowContrast: '#e1e7ef',
-        surfaceBrandPrimary: '#1559ea',
-        surfaceBrandPrimaryHighlight: '#bedbfe',
-        surfaceBrandSecondary: '#e4570c',
-        surfaceBrandSecondaryHighlight: '#fed6a9',
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - Anywhere
+        strokeNeutralInteractionsInverseFocus: '#ffffff',
+        // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
+        strokeNeutralLow: '#e0e0e0',
+        // Stroke/Neutral/neutral-low-contrast - Theme - Anywhere
+        strokeNeutralLowContrast: '#e0e0e0',
+        // Surface/Brand/primary - Brand
+        surfaceBrandPrimary: '#141346',
+        // Surface/Brand/primary-highlight - Theme - Anywhere
+        surfaceBrandPrimaryHighlight: '#dcdce3',
+        // Surface/Brand/secondary - Brand
+        surfaceBrandSecondary: '#e95525',
+        // Surface/Brand/secondary-highlight - Theme - Anywhere
+        surfaceBrandSecondaryHighlight: '#fae9e3',
+        // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
         surfaceNeutralInteractionsDarkDisabled: '#d6d6d6',
+        // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
         surfaceNeutralInteractionsLightDisabled: '#f5f5f5',
-        surfaceNeutralInteractionsSkeleton: '#e1e7ef',
+        // Surface/Neutral/inverse - Brand - Inverted. Use for toasts notification & snackbars
         surfaceNeutralInverse: '#1f1f1f',
+        // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
         surfaceNeutralInverseDark: '#1f1f1f',
+        // Surface/Neutral/inverse-light - Theme - Anywhere
         surfaceNeutralInverseLight: '#ffffff',
-        surfaceNeutralSkeleton: '#e1e7ef',
+        // Surface/Neutral/T1-base - Brand
         surfaceNeutralT1Base: '#ffffff',
-        surfaceNeutralT2Lowest: '#f1f5f9',
-        surfaceNeutralT3Low: '#c8d6e5',
-        surfaceNeutralT4High: '#48566a',
+        // Surface/Neutral/T2-lowest - Brand
+        surfaceNeutralT2Lowest: '#f5f5f5',
+        // Surface/Neutral/T3-low - Brand - Navigations, app bar etc
+        surfaceNeutralT3Low: '#dbdbdb',
+        // Surface/Neutral/T4-high - Brand - Navigations, app bar etc
+        surfaceNeutralT4High: '#8a8a8a',
+        // Surface/Neutral/T4-high 2 - Theme - Better Home & Garden
+        surfaceNeutralT4High2: '#8a8a8a',
+        // Surface/Neutral/transparent - Brand
+        surfaceNeutralTransparent: '#ffffff00',
+        // Surface/Spectrum/blue - Theme - Anywhere
         surfaceSpectrumBlue: '#dfe9fd',
+        // Surface/Spectrum/green - Theme - Anywhere
         surfaceSpectrumGreen: '#deede5',
+        // Surface/Spectrum/lime - Theme - Anywhere
         surfaceSpectrumLime: '#f6f7e0',
+        // Surface/Spectrum/magenta - Theme - Anywhere
         surfaceSpectrumMagenta: '#f6dbfa',
+        // Surface/Spectrum/orange - Theme - Better Home & Garden
         surfaceSpectrumOrange: '#fce7d9',
+        // Surface/Spectrum/pink - Theme - Anywhere
         surfaceSpectrumPink: '#f9deec',
+        // Surface/Spectrum/purple - Theme - Anywhere
         surfaceSpectrumPurple: '#e7d9fc',
+        // Surface/Spectrum/red - Theme - Anywhere
         surfaceSpectrumRed: '#f9e1e5',
+        // Surface/Spectrum/teal - Theme - Anywhere
         surfaceSpectrumTeal: '#d9eceb',
+        // Surface/Spectrum/yellow - Theme - Anywhere
         surfaceSpectrumYellow: '#fef5e0',
     },
-    root: {
-        brandsExperimentBlueDark100: '#0a2f85',
-        brandsExperimentBlueDark200: '#1347cc',
-        brandsExperimentBlueDark300: '#0f59e2',
-        brandsExperimentBlueDark400: '#357aea',
-        brandsExperimentBlueDark50: '#181d34',
-        brandsExperimentBlueDark500: '#2e88f6',
-        brandsExperimentBlueDark600: '#50a1ff',
-        brandsExperimentBlueDark700: '#7ab7ff',
-        brandsExperimentBlueDark800: '#dcebfe',
-        brandsExperimentBlueDark900: '#f0f6ff',
-        brandsExperimentBlueGrayDark100: '#1a2332',
-        brandsExperimentBlueGrayDark200: '#252e3c',
-        brandsExperimentBlueGrayDark300: '#323b49',
-        brandsExperimentBlueGrayDark400: '#5e6d82',
-        brandsExperimentBlueGrayDark50: '#0c101c',
-        brandsExperimentBlueGrayDark500: '#8b9bb2',
-        brandsExperimentBlueGrayDark600: '#b1c0d2',
-        brandsExperimentBlueGrayDark700: '#d4dce8',
-        brandsExperimentBlueGrayDark800: '#e2ebf3',
-        brandsExperimentBlueGrayDark900: '#f8fafc',
-        brandsExperimentBlueGrayLight100: '#f1f5f9',
-        brandsExperimentBlueGrayLight200: '#e1e7ef',
-        brandsExperimentBlueGrayLight300: '#c8d6e5',
-        brandsExperimentBlueGrayLight400: '#9eacc0',
-        brandsExperimentBlueGrayLight50: '#f8fafc',
-        brandsExperimentBlueGrayLight500: '#65758b',
-        brandsExperimentBlueGrayLight600: '#48566a',
-        brandsExperimentBlueGrayLight700: '#344256',
-        brandsExperimentBlueGrayLight800: '#1d283a',
-        brandsExperimentBlueGrayLight900: '#0f1729',
-        brandsExperimentBlueLight100: '#dcebfe',
-        brandsExperimentBlueLight200: '#bedbfe',
-        brandsExperimentBlueLight300: '#91c3fd',
-        brandsExperimentBlueLight400: '#61a6fa',
-        brandsExperimentBlueLight50: '#f2f7ff',
-        brandsExperimentBlueLight500: '#3479e9',
-        brandsExperimentBlueLight600: '#1559ea',
-        brandsExperimentBlueLight700: '#173fab',
-        brandsExperimentBlueLight800: '#162f82',
-        brandsExperimentBlueLight900: '#0c1736',
-        brandsExperimentInteractionsPrimaryDarkOpacity10: '#50a1ff1a',
-        brandsExperimentInteractionsPrimaryDarkOpacity12: '#50a1ff1f',
-        brandsExperimentInteractionsPrimaryDarkOpacity16: '#50a1ff29',
-        brandsExperimentInteractionsPrimaryDarkOpacity20: '#50a1ff33',
-        brandsExperimentInteractionsPrimaryDarkOpacity8: '#50a1ff14',
-        brandsExperimentInteractionsPrimaryLightOpacity10: '#1559ea1a',
-        brandsExperimentInteractionsPrimaryLightOpacity12: '#1559ea1f',
-        brandsExperimentInteractionsPrimaryLightOpacity16: '#1559ea29',
-        brandsExperimentInteractionsPrimaryLightOpacity20: '#1559ea33',
-        brandsExperimentInteractionsPrimaryLightOpacity8: '#1559ea14',
-        brandsExperimentOrangeDark100: '#852c0f',
-        brandsExperimentOrangeDark200: '#ab4827',
-        brandsExperimentOrangeDark300: '#ce5a07',
-        brandsExperimentOrangeDark400: '#f27013',
-        brandsExperimentOrangeDark50: '#31160d',
-        brandsExperimentOrangeDark500: '#fb923c',
-        brandsExperimentOrangeDark600: '#fdba72',
-        brandsExperimentOrangeDark700: '#fed6a9',
-        brandsExperimentOrangeDark800: '#ffedd6',
-        brandsExperimentOrangeDark900: '#fff6eb',
-        brandsExperimentOrangeLight100: '#ffedd6',
-        brandsExperimentOrangeLight200: '#fed6a9',
-        brandsExperimentOrangeLight300: '#fdba72',
-        brandsExperimentOrangeLight400: '#fb923c',
-        brandsExperimentOrangeLight50: '#fff6eb',
-        brandsExperimentOrangeLight500: '#f67416',
-        brandsExperimentOrangeLight600: '#e4570c',
-        brandsExperimentOrangeLight700: '#b63c0b',
-        brandsExperimentOrangeLight800: '#80310f',
-        brandsExperimentOrangeLight900: '#471a0a',
+
+    dark: {
+        // Background/base - Brand
+        backgroundBase: '#1f1f1f',
+        // Background/scrim - Theme - Anywhere
+        backgroundScrim: '#61616180',
+        // Background/shade - Brand
+        backgroundShade: '#292929',
+        // Data visual/category-01 - Brand
+        dataVisualCategory01: '#e6b297',
+        // Data visual/category-01-highlight - Brand
+        dataVisualCategory01Highlight: '#e6b2974d',
+        // Data visual/category-02 - Brand
+        dataVisualCategory02: '#b68a79',
+        // Data visual/category-02-highlight - Brand
+        dataVisualCategory02Highlight: '#b68a794d',
+        // Data visual/category-03 - Brand
+        dataVisualCategory03: '#cdbe80',
+        // Data visual/category-03-highlight - Brand
+        dataVisualCategory03Highlight: '#cdbe804d',
+        // Data visual/category-04 - Brand
+        dataVisualCategory04: '#969980',
+        // Data visual/category-04-highlight - Brand
+        dataVisualCategory04Highlight: '#9699804d',
+        // Data visual/category-05 - Brand
+        dataVisualCategory05: '#af9385',
+        // Data visual/category-05-highlight - Brand
+        dataVisualCategory05Highlight: '#af93854d',
+        // Data visual/category-06 - Brand
+        dataVisualCategory06: '#b2b2b2',
+        // Data visual/category-06-highlight - Brand
+        dataVisualCategory06Highlight: '#b2b2b24d',
+        // Data visual/category-07 - Brand
+        dataVisualCategory07: '#a98484',
+        // Data visual/category-07-highlight - Brand
+        dataVisualCategory07Highlight: '#a984844d',
+        // Data visual/category-1 - Theme - Better Home & Garden
+        dataVisualCategory1: '#0a466c',
+        // Data visual/category-1-highlight - Theme - Anywhere
+        dataVisualCategory1Highlight: '#b68a794d',
+        // Data visual/category-2 - Theme - Better Home & Garden
+        dataVisualCategory2: '#7fc4ec',
+        // Data visual/category-2-highlight - Theme - Anywhere
+        dataVisualCategory2Highlight: '#e6b2974d',
+        // Data visual/category-3 - Theme - Better Home & Garden
+        dataVisualCategory3: '#958ca3',
+        // Data visual/category-3-highlight - Theme - Anywhere
+        dataVisualCategory3Highlight: '#9699804d',
+        // Data visual/category-4 - Theme - Better Home & Garden
+        dataVisualCategory4: '#88c5af',
+        // Data visual/category-4-highlight - Theme - Anywhere
+        dataVisualCategory4Highlight: '#cdbe804d',
+        // Data visual/category-5 - Theme - Better Home & Garden
+        dataVisualCategory5: '#789ba0',
+        // Data visual/category-5-highlight - Theme - Anywhere
+        dataVisualCategory5Highlight: '#a984844d',
+        // Data visual/category-6 - Theme - Better Home & Garden
+        dataVisualCategory6: '#b2b2b2',
+        // Data visual/category-6-highlight - Theme - Anywhere
+        dataVisualCategory6Highlight: '#b2b2b24d',
+        // Data visual/category-7 - Theme - Better Home & Garden
+        dataVisualCategory7: '#a19abc',
+        // Data visual/category-7-highlight - Theme - Anywhere
+        dataVisualCategory7Highlight: '#af93854d',
+        // Data visual/gradient-end - Theme - Anywhere
+        dataVisualGradientEnd: '#1f1f1f4d',
+        // Data visual/green - Theme - Anywhere
+        dataVisualGreen: '#7cb796',
+        // Data visual/green-highlight - Theme - Anywhere
+        dataVisualGreenHighlight: '#0d2f1c',
+        // Data visual/negative - Brand
+        dataVisualNegative: '#e88997',
+        // Data visual/negative-highlight - Brand
+        dataVisualNegativeHighlight: '#4c141d',
+        // Data visual/positive - Brand
+        dataVisualPositive: '#7cb796',
+        // Data visual/positive-highlight - Brand
+        dataVisualPositiveHighlight: '#0d2f1c',
+        // Data visual/red - Theme - Anywhere
+        dataVisualRed: '#e88997',
+        // Data visual/red-highlight - Theme - Anywhere
+        dataVisualRedHighlight: '#4c141d',
+        // Foreground/Brand/on-inverse-primary - Theme - Anywhere
+        foregroundBrandOnInversePrimary: '#727190',
+        // Foreground/Brand/on-inverse-secondary - Theme - Anywhere
+        foregroundBrandOnInverseSecondary: '#eba691',
+        // Foreground/Brand/on-light-color-secondary - Theme - Anywhere
+        foregroundBrandOnLightColorSecondary: '#f5b39d',
+        // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnPrimary: '#ffffff',
+        // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        foregroundBrandOnSecondary: '#141414',
+        // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
+        foregroundBrandPrimary: '#727190',
+        // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
+        foregroundBrandPrimaryDepth: '#88bc88',
+        // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
+        foregroundBrandSecondary: '#f2997c',
+        // Foreground/Brand/brand-secondary-depth - Theme - Anywhere
+        foregroundBrandSecondaryDepth: '#eba691',
+        // Foreground/Link text/default - Brand
+        foregroundLinkTextDefault: '#7a9ee1',
+        // Foreground/Link text/default-disabled - Brand
+        foregroundLinkTextDefaultDisabled: '#14387b',
+        // Foreground/Link text/default-hovered - Theme - Anywhere
+        foregroundLinkTextDefaultHovered: '#90afe6',
+        // Foreground/Link text/default-pressed - Theme - Anywhere
+        foregroundLinkTextDefaultPressed: '#a6bfeb',
+        // Foreground/Link text/default-visited - Brand
+        foregroundLinkTextDefaultVisited: '#af8baf',
+        // Foreground/Link text/subtle-disabled - Brand
+        foregroundLinkTextSubtleDisabled: '#4d4d4d',
+        // Foreground/Link text/subtle-hovered - Theme - Anywhere
+        foregroundLinkTextSubtleHovered: '#e6e6e6',
+        // Foreground/Link text/subtle-inverse-hovered - Theme - Anywhere
         foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
+        // Foreground/Link text/subtle-inverse-pressed - Theme - Anywhere
         foregroundLinkTextSubtleInversePressed: '#d1d1d1',
+        // Foreground/Link text/subtle-inversed-disabled - Brand
+        foregroundLinkTextSubtleInversedDisabled: '#3d3d3d',
+        // Foreground/Link text/subtle-pressed - Theme - Anywhere
+        foregroundLinkTextSubtlePressed: '#d1d1d1',
+        // Foreground/Neutral/disabled-on-color-surface - Brand
+        foregroundNeutralDisabledOnColorSurface: '#3d3d3d',
+        // Foreground/Neutral/disabled-on-surface - Brand
+        foregroundNeutralDisabledOnSurface: '#4d4d4d',
+        // Foreground/Neutral/inverse-on-surface - Theme - Anywhere
         foregroundNeutralInverseOnSurface: '#fafafa',
+        // Foreground/Neutral/on-color - Brand - Interactive controls
         foregroundNeutralOnColor: '#ffffff',
+        // Foreground/Neutral/on-inverse-surface - Brand - Text and icons against inverse surface
         foregroundNeutralOnInverseSurface: '#fafafa',
-        interactionDisabledOpacity: '#0000000f',
-        interactionPrimaryDisabledOpacity: '#1559ea1f',
-        interactionPrimaryHoverOpacity: '#1559ea1a',
-        interactionPrimaryPressOpacity: '#1559ea33',
+        // Foreground/Neutral/on-surface - Brand - Default foreground text and icons against any surface color
+        foregroundNeutralOnSurface: '#fafafa',
+        // Foreground/Neutral/on-surface-variant-01 - Brand - Secondary foreground color for icons and text
+        foregroundNeutralOnSurfaceVariant01: '#c2c2c2',
+        // Foreground/Neutral/on-surface-variant-02 - Brand - Tertiary foreground color for icons and text
+        foregroundNeutralOnSurfaceVariant02: '#9e9e9e',
+        // Foreground/Neutral/on-surface-variant-03 - Brand - Quaternary foreground color for icons and text. Only for placeholder text
+        foregroundNeutralOnSurfaceVariant03: '#757575',
+        // Foreground/Neutral/skeleton-element - Brand
+        foregroundNeutralSkeletonElement: '#333333',
+        // Foreground/Spectrum/blue - Theme - Anywhere
+        foregroundSpectrumBlue: '#88aff7',
+        // Foreground/Spectrum/green - Theme - Anywhere
+        foregroundSpectrumGreen: '#87bd9f',
+        // Foreground/Spectrum/lime - Theme - Anywhere
+        foregroundSpectrumLime: '#dce28f',
+        // Foreground/Spectrum/magenta - Theme - Anywhere
+        foregroundSpectrumMagenta: '#e07aed',
+        // Foreground/Spectrum/orange - Brand
+        foregroundSpectrumOrange: '#f6a874',
+        // Foreground/Spectrum/pink - Theme - Anywhere
+        foregroundSpectrumPink: '#ea86b9',
+        // Foreground/Spectrum/purple - Theme - Anywhere
+        foregroundSpectrumPurple: '#c8a6f9',
+        // Foreground/Spectrum/red - Brand
+        foregroundSpectrumRed: '#ea93a0',
+        // Foreground/Spectrum/teal - Theme - Anywhere
+        foregroundSpectrumTeal: '#74bbb4',
+        // Foreground/Spectrum/yellow - Theme - Anywhere
+        foregroundSpectrumYellow: '#fada8d',
+        // Interactions/brand-disabled-opacity - Theme - Anywhere
+        interactionsBrandDisabledOpacity: '#ffffff0f',
+        // Interactions/brand-hover-opacity - Theme - Anywhere
+        interactionsBrandHoverOpacity: '#ffffff1a',
+        // Interactions/brand-press-opacity - Theme - Anywhere
+        interactionsBrandPressOpacity: '#ffffff33',
+        // Interactions/disabled-opacity - Theme - Anywhere
         interactionsDisabledOpacity: '#0000000f',
-        interactionsOpacityBlack10: '#0000001a',
-        interactionsOpacityBlack16: '#00000029',
-        interactionsOpacityBlack20: '#00000033',
-        interactionsOpacityBlack30: '#0000004d',
-        interactionsOpacityBlack6: '#0000000f',
-        interactionsOpacityBlack8: '#00000014',
-        interactionsOpacityWhite10: '#ffffff1a',
-        interactionsOpacityWhite16: '#ffffff29',
-        interactionsOpacityWhite20: '#ffffff33',
-        interactionsOpacityWhite30: '#ffffff4d',
-        interactionsOpacityWhite6: '#ffffff0f',
-        interactionsOpacityWhite8: '#ffffff14',
-        interactionsPrimaryDarkOpacity10: '#7271901a',
-        interactionsPrimaryDarkOpacity12: '#7271901f',
-        interactionsPrimaryDarkOpacity16: '#72719029',
-        interactionsPrimaryDarkOpacity20: '#72719033',
-        interactionsPrimaryDarkOpacity8: '#72719014',
-        interactionsPrimaryLightOpacity10: '#1413461a',
-        interactionsPrimaryLightOpacity12: '#1413461f',
-        interactionsPrimaryLightOpacity16: '#14134629',
-        interactionsPrimaryLightOpacity20: '#14134633',
-        interactionsPrimaryLightOpacity8: '#14134614',
-        internalPink00Light: '#ff4f8d',
-        internalPink50Dark: '#802847',
-        neutral00: '#000000',
-        neutral02: '#050505',
-        neutral04: '#0a0a0a',
-        neutral06: '#0f0f0f',
-        neutral08: '#141414',
-        neutral10: '#1a1a1a',
-        neutral100: '#ffffff',
-        neutral12: '#1f1f1f',
-        neutral14: '#242424',
-        neutral16: '#292929',
-        neutral18: '#2e2e2e',
-        neutral20: '#333333',
-        neutral22: '#383838',
-        neutral24: '#424242',
-        neutral26: '#424242',
-        neutral28: '#474747',
-        neutral30: '#4d4d4d',
-        neutral32: '#525252',
-        neutral34: '#575757',
-        neutral36: '#5c5c5c',
-        neutral38: '#616161',
-        neutral40: '#666666',
-        neutral42: '#6b6b6b',
-        neutral44: '#707070',
-        neutral46: '#757575',
-        neutral48: '#7a7a7a',
-        neutral50: '#808080',
-        neutral52: '#858585',
-        neutral54: '#8a8a8a',
-        neutral56: '#8f8f8f',
-        neutral58: '#949494',
-        neutral60: '#999999',
-        neutral62: '#9e9e9e',
-        neutral64: '#a3a3a3',
-        neutral66: '#a8a8a8',
-        neutral68: '#adadad',
-        neutral70: '#b3b3b3',
-        neutral72: '#b8b8b8',
-        neutral74: '#bdbdbd',
-        neutral76: '#c2c2c2',
-        neutral78: '#c7c7c7',
-        neutral80: '#cccccc',
-        neutral82: '#d1d1d1',
-        neutral84: '#d6d6d6',
-        neutral86: '#dbdbdb',
-        neutral88: '#e0e0e0',
-        neutral90: '#e6e6e6',
-        neutral92: '#ebebeb',
-        neutral94: '#f0f0f0',
-        neutral96: '#f5f5f5',
-        neutral98: '#fafafa',
-        neutralTransparent: '#ffffff00',
-        primary00Base: '#141346',
-        primary15Dark: '#11103c',
-        primary40Light: '#727190',
-        primary55Light: '#9595ac',
-        primary75Dark: '#050512',
-        primary85Light: '#dcdce3',
-        secondary00Base: '#e95525',
-        secondary15Dark: '#c6481f',
-        secondary40Light: '#f2997c',
-        secondary55Light: '#f5b39d',
-        secondary75Dark: '#3a1509',
-        secondary85Light: '#fce6de',
-        shadowsInnerShadowBlack100: '#000000',
-        shadowsInnerShadowWhite100: '#ffffff',
-        shadowsShadowBlack10: '#0000001a',
-        shadowsShadowBlack12: '#0000001f',
-        shadowsShadowBlack15: '#00000026',
-        shadowsShadowBlack25: '#00000040',
-        shadowsShadowBlack32: '#00000052',
-        shadowsShadowBlack50: '#00000080',
-        shadowsShadowGray10: '#6161611a',
-        shadowsShadowGray12: '#6161611f',
-        shadowsShadowGray15: '#61616126',
-        shadowsShadowGray25: '#61616140',
-        shadowsShadowGray32: '#61616152',
-        shadowsShadowGray50: '#61616180',
+        // Interactions/hover-opacity - Theme - Anywhere
+        interactionsHoverOpacity: '#ffffff14',
+        // Interactions/link-active-opacity - Brand
+        interactionsLinkActiveOpacity: '#ffffff4d',
+        // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
+        interactionsNeutralHoverOpacity: '#ffffff14',
+        // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
+        interactionsNeutralPressOpacity: '#ffffff29',
+        // Interactions/press-opacity - Theme - Anywhere
+        interactionsPressOpacity: '#ffffff29',
+        // Interactions/primary-disabled-opacity - Theme - Anywhere
+        interactionsPrimaryDisabledOpacity: '#7271901f',
+        // Interactions/primary-hover-opacity - Theme - Anywhere
+        interactionsPrimaryHoverOpacity: '#7271901a',
+        // Interactions/primary-press-opacity - Theme - Anywhere
+        interactionsPrimaryPressOpacity: '#72719033',
+        // Shadow/shadow-10 - Theme - Anywhere
+        shadow10: '#6161611a',
+        // Shadow/shadow-12 - Theme - Anywhere
+        shadow12: '#6161611f',
+        // Shadow/shadow-15 - Theme - Anywhere
+        shadow15: '#61616126',
+        // Shadow/shadow-25 - Theme - Anywhere
+        shadow25: '#61616140',
+        // Shadow/shadow-32 - Theme - Anywhere
+        shadow32: '#61616152',
+        // Shadow/inner-shadow - Brand
+        shadowInner: '#000000',
+        // Shadow/inner-shadow-100 - Theme - Better Home & Garden
+        shadowInner100: '#000000',
+        // Shadow/variant-01 - Brand
+        shadowVariant01: '#6161611a',
+        // Shadow/variant-02 - Brand
+        shadowVariant02: '#6161611f',
+        // Shadow/variant-03 - Brand
+        shadowVariant03: '#61616126',
+        // Shadow/variant-04 - Brand
+        shadowVariant04: '#61616140',
+        // Shadow/variant-05 - Brand
+        shadowVariant05: '#61616152',
+        // Status/error - Brand - Foreground error text and icons
+        statusError: '#e26b7d',
+        // Status/information - Theme - Better Home & Garden
+        statusInformation: '#5d92f5',
+        // Status/informational - Brand - Foreground informational text and icons
+        statusInformational: '#5d92f5',
+        // Status/on-error - Brand - Foreground error text and icons
         statusOnError: '#ffffff',
+        // Status/on-information - Theme - Better Home & Garden
         statusOnInformation: '#ffffff',
+        // Status/on-informational - Brand - Foreground informational text and icons
         statusOnInformational: '#ffffff',
+        // Status/on-success - Brand - Foreground success icons and text
         statusOnSuccess: '#ffffff',
+        // Status/on-warning - Brand - Foreground warning icons
         statusOnWarning: '#141414',
+        // Status/success - Brand - Foreground success icons and text
+        statusSuccess: '#519f73',
+        // Status/warning - Brand - Foreground warning icons
+        statusWarning: '#f8cd63',
+        // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
+        strokeBrandPrimary: '#727190',
+        // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
+        strokeBrandPrimaryDepth: '#9595ac',
+        // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
+        strokeBrandSecondary: '#f0bcac',
+        // Stroke/Brand/brand-secondary-depth - Theme - Anywhere
+        strokeBrandSecondaryDepth: '#eba691',
+        // Stroke/Neutral/neutral-base - Brand - For control components
+        strokeNeutralBase: '#6b6b6b',
+        // Stroke/Neutral/disabled-dark - Brand - Disabled outline separating the fill and surface background
+        strokeNeutralDisabledDark: '#3d3d3d',
+        // Stroke/Neutral/disabled-light - Brand - Disabled outline separating the fill and surface background
+        strokeNeutralDisabledLight: '#4d4d4d',
+        // Stroke/Neutral/focus - Brand - Highlight focus element
+        strokeNeutralFocus: '#ffffff',
+        // Stroke/Neutral/focus-on-inverse - Brand - Highlight focus element
         strokeNeutralFocusOnInverse: '#ffffff',
-        strokeNeutralInteractionInverseFocus: '#ffffff',
+        // Stroke/Neutral/neutral-high - Brand
+        strokeNeutralHigh: '#fafafa',
+        // Stroke/Neutral/neutral-high-contrast - Theme - Anywhere
+        strokeNeutralHighContrast: '#fafafa',
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - Anywhere
+        strokeNeutralInteractionsDisabledDark: '#3d3d3d',
+        // Stroke/Neutral/Interactions/disabled-light - Theme - Anywhere
+        strokeNeutralInteractionsDisabledLight: '#4d4d4d',
+        // Stroke/Neutral/Interactions/focus - Theme - Anywhere
+        strokeNeutralInteractionsFocus: '#ffffff',
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - Anywhere
         strokeNeutralInteractionsInverseFocus: '#ffffff',
+        // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
+        strokeNeutralLow: '#4d4d4d',
+        // Stroke/Neutral/neutral-low-contrast - Theme - Anywhere
+        strokeNeutralLowContrast: '#4d4d4d',
+        // Surface/Brand/primary - Brand
+        surfaceBrandPrimary: '#727190',
+        // Surface/Brand/primary-highlight - Theme - Anywhere
+        surfaceBrandPrimaryHighlight: '#050512',
+        // Surface/Brand/secondary - Brand
+        surfaceBrandSecondary: '#f2997c',
+        // Surface/Brand/secondary-highlight - Theme - Anywhere
+        surfaceBrandSecondaryHighlight: '#371b12',
+        // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
+        surfaceNeutralInteractionsDarkDisabled: '#474747',
+        // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
+        surfaceNeutralInteractionsLightDisabled: '#292929',
+        // Surface/Neutral/inverse - Brand - Inverted. Use for toasts notification & snackbars
+        surfaceNeutralInverse: '#383838',
+        // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
+        surfaceNeutralInverseDark: '#383838',
+        // Surface/Neutral/inverse-light - Theme - Anywhere
+        surfaceNeutralInverseLight: '#575757',
+        // Surface/Neutral/T1-base - Brand
+        surfaceNeutralT1Base: '#1f1f1f',
+        // Surface/Neutral/T2-lowest - Brand
+        surfaceNeutralT2Lowest: '#2e2e2e',
+        // Surface/Neutral/T3-low - Brand - Navigations, app bar etc
+        surfaceNeutralT3Low: '#383838',
+        // Surface/Neutral/T4-high - Brand - Navigations, app bar etc
+        surfaceNeutralT4High: '#7a7a7a',
+        // Surface/Neutral/T4-high 2 - Theme - Better Home & Garden
+        surfaceNeutralT4High2: '#7a7a7a',
+        // Surface/Neutral/transparent - Brand
         surfaceNeutralTransparent: '#ffffff00',
-        systemBlueDark: '#5d92f5',
-        systemBlueDarkBg: '#0e2754',
-        systemBlueLight: '#276ef1',
-        systemBlueLightBg: '#dfe9fd',
-        systemGreenDark: '#519f73',
-        systemGreenDarkBg: '#0d2f1c',
-        systemGreenLight: '#258750',
-        systemGreenLightBg: '#d3e7dc',
-        systemLinks00DefaultLight: '#215ecd',
-        systemLinks10HoverLight: '#1e55b9',
-        systemLinks20PressLight: '#1a4ba4',
-        systemLinks30ActiveDark: '#648edc',
-        systemLinks30ActiveLight: '#174290',
-        systemLinks40DefaultDark: '#7a9ee1',
-        systemLinks40DisabledDark: '#14387b',
-        systemLinks40DisabledLight: '#7a9ee1',
-        systemLinks50HoverDark: '#90afe6',
-        systemLinks60PressDark: '#a6bfeb',
-        systemRedDark: '#e26b7d',
-        systemRedDarkBg: '#4c141d',
-        systemRedLight: '#d83a52',
-        systemRedLightBg: '#f9e1e9',
-        systemSpectrumDataVisualAzure400: '#7fc4ec',
-        systemSpectrumDataVisualAzure700: '#299de0',
-        systemSpectrumDataVisualBackrose900: '#958ca3',
-        systemSpectrumDataVisualBlackrose1200: '#130033',
-        systemSpectrumDataVisualBronze1100: '#794b34',
-        systemSpectrumDataVisualBronze800: '#af9385',
-        systemSpectrumDataVisualBrown1200: '#7a2a0b',
-        systemSpectrumDataVisualBrown900: '#b68a79',
-        systemSpectrumDataVisualCadetGray1200: '#094a53',
-        systemSpectrumDataVisualCadetGray900: '#789ba0',
-        systemSpectrumDataVisualCooper500: '#e6b297',
-        systemSpectrumDataVisualCooper800: '#d67e51',
-        systemSpectrumDataVisualGold400: '#cdbe80',
-        systemSpectrumDataVisualGold700: '#ab922b',
-        systemSpectrumDataVisualGradientOpacityBlack: '#1f1f1f4d',
-        systemSpectrumDataVisualGradientOpacityWhite: '#ffffff4d',
-        systemSpectrumDataVisualHighlightAzure400Opacity: '#7fc4ec4d',
-        systemSpectrumDataVisualHighlightAzure700Opacity: '#299de04d',
-        systemSpectrumDataVisualHighlightBackrose900Opacity: '#958ca34d',
-        systemSpectrumDataVisualHighlightBlackrose1200Opacity: '#1300334d',
-        systemSpectrumDataVisualHighlightBronze1100Opacity: '#794b344d',
-        systemSpectrumDataVisualHighlightBronze800Opacity: '#af93854d',
-        systemSpectrumDataVisualHighlightBrown1200Opacity: '#7a2a0b4d',
-        systemSpectrumDataVisualHighlightBrown900Opacity: '#b68a794d',
-        systemSpectrumDataVisualHighlightCadetGray1200Opacity: '#094a534d',
-        systemSpectrumDataVisualHighlightCadetGray900Opacity: '#789ba04d',
-        systemSpectrumDataVisualHighlightCooper500Opacity: '#e6b2974d',
-        systemSpectrumDataVisualHighlightCooper800Opacity: '#d67e514d',
-        systemSpectrumDataVisualHighlightGold400Opacity: '#cdbe804d',
-        systemSpectrumDataVisualHighlightGold700Opacity: '#ab922b4d',
-        systemSpectrumDataVisualHighlightJade600Opacity: '#88c5af4d',
-        systemSpectrumDataVisualHighlightJade900Opacity: '#389e7a4d',
-        systemSpectrumDataVisualHighlightMaroon1200Opacity: '#5309094d',
-        systemSpectrumDataVisualHighlightMaroon900Opacity: '#a984844d',
-        systemSpectrumDataVisualHighlightPlatinum1000Opacity: '#7f7f7f4d',
-        systemSpectrumDataVisualHighlightPlatinum700Opacity: '#b2b2b24d',
-        systemSpectrumDataVisualHighlightSage1200Opacity: '#2d33004d',
-        systemSpectrumDataVisualHighlightSage900Opacity: '#9699804d',
-        systemSpectrumDataVisualHighlightTanzanite1200Opacity: '#0a466c4d',
-        systemSpectrumDataVisualHighlightTanzanite900Opacity: '#7899ae4d',
-        systemSpectrumDataVisualHighlightViolet1200Opacity: '#4334794d',
-        systemSpectrumDataVisualHighlightViolet900Opacity: '#a19abc4d',
-        systemSpectrumDataVisualJade600: '#88c5af',
-        systemSpectrumDataVisualJade900: '#389e7a',
-        systemSpectrumDataVisualMaroon1200: '#530909',
-        systemSpectrumDataVisualMaroon900: '#a98484',
-        systemSpectrumDataVisualPlatinum1000: '#7f7f7f',
-        systemSpectrumDataVisualPlatinum700: '#b2b2b2',
-        systemSpectrumDataVisualSage1200: '#2d3300',
-        systemSpectrumDataVisualSage900: '#969980',
-        systemSpectrumDataVisualTanzanite1200: '#0a466c',
-        systemSpectrumDataVisualTanzanite900: '#7899ae',
-        systemSpectrumDataVisualViolet1200: '#433479',
-        systemSpectrumDataVisualViolet900: '#a19abc',
-        systemSpectrumDepth45BlueDark: '#88aff7',
-        systemSpectrumDepth45GreenDark: '#87bd9f',
-        systemSpectrumDepth45LimeDark: '#dce28f',
-        systemSpectrumDepth45MagentaDark: '#e07aed',
-        systemSpectrumDepth45OrangeDark: '#f6a874',
-        systemSpectrumDepth45PinkDark: '#ea86b9',
-        systemSpectrumDepth45PurpleDark: '#c8a6f9',
-        systemSpectrumDepth45RedDark: '#ea93a0',
-        systemSpectrumDepth45TealDark: '#74bbb4',
-        systemSpectrumDepth45YellowDark: '#fada8d',
-        systemSpectrumDepth50BlueLight: '#143778',
-        systemSpectrumDepth50GreenLight: '#134428',
-        systemSpectrumDepth50LimeLight: '#60651a',
-        systemSpectrumDepth50MagentaLight: '#63076f',
-        systemSpectrumDepth50OrangeLight: '#773001',
-        systemSpectrumDepth50PinkLight: '#6c1240',
-        systemSpectrumDepth50PurpleLight: '#310077',
-        systemSpectrumDepth50RedLight: '#6c1d29',
-        systemSpectrumDepth50TealLight: '#01413c',
-        systemSpectrumDepth50YellowLight: '#7b5e18',
-        systemSpectrumHighlight65BlueDark: '#0e2754',
-        systemSpectrumHighlight65GreenDark: '#0d2f1c',
-        systemSpectrumHighlight65LimeDark: '#434712',
-        systemSpectrumHighlight65MagentaDark: '#45054e',
-        systemSpectrumHighlight65OrangeDark: '#532201',
-        systemSpectrumHighlight65PinkDark: '#4c0c2d',
-        systemSpectrumHighlight65PurpleDark: '#220053',
-        systemSpectrumHighlight65RedDark: '#4c141d',
-        systemSpectrumHighlight65TealDark: '#012e2a',
-        systemSpectrumHighlight65YellowDark: '#564210',
-        systemSpectrumHighlight85BlueLight: '#dfe9fd',
-        systemSpectrumHighlight85GreenLight: '#deede5',
-        systemSpectrumHighlight85LimeLight: '#f6f7e0',
-        systemSpectrumHighlight85MagentaLight: '#f6dbfa',
-        systemSpectrumHighlight85OrangeLight: '#fce7d9',
-        systemSpectrumHighlight85PinkLight: '#f9deec',
-        systemSpectrumHighlight85PurpleLight: '#e7d9fc',
-        systemSpectrumHighlight85RedLight: '#f9e1e5',
-        systemSpectrumHighlight85TealLight: '#d9eceb',
-        systemSpectrumHighlight85YellowLight: '#fef5e0',
-        systemSpectrumVibrant00BlueLight: '#276ef1',
-        systemSpectrumVibrant00GreenLight: '#258750',
-        systemSpectrumVibrant00LimeLight: '#c0ca33',
-        systemSpectrumVibrant00MagentaLight: '#c60ede',
-        systemSpectrumVibrant00OrangeLight: '#ee6002',
-        systemSpectrumVibrant00PinkLight: '#d82380',
-        systemSpectrumVibrant00PurpleLight: '#6200ee',
-        systemSpectrumVibrant00RedLight: '#d83a52',
-        systemSpectrumVibrant00TealLight: '#038377',
-        systemSpectrumVibrant00YellowLight: '#f6bc2f',
-        systemSpectrumVibrant40BlueDark: '#5d92f5',
-        systemSpectrumVibrant40GreenDark: '#7cb796',
-        systemSpectrumVibrant40LimeDark: '#d9df85',
-        systemSpectrumVibrant40MagentaDark: '#dd6eeb',
-        systemSpectrumVibrant40OrangeDark: '#f5a067',
-        systemSpectrumVibrant40PinkDark: '#e87bb3',
-        systemSpectrumVibrant40PurpleDark: '#a166f5',
-        systemSpectrumVibrant40RedDark: '#e88997',
-        systemSpectrumVibrant40TealDark: '#68b5ad',
-        systemSpectrumVibrant40YellowDark: '#fad782',
-        systemVisitedLinks00DefaultLight: '#7a3e7a',
-        systemVisitedLinks30ActiveDark: '#a278a2',
-        systemVisitedLinks30ActiveLight: '#552b55',
-        systemVisitedLinks40DefaultDark: '#af8baf',
-        systemVisitedLinks40DisabledDark: '#492549',
-        systemVisitedLinks40DisabledLight: '#af8baf',
-        systemYellowDark: '#f8cd63',
-        systemYellowDarkBg: '#564210',
-        systemYellowLight: '#f6bc2f',
-        systemYellowLightBg: '#fef5e0',
-        tertiary00Base: '#030330',
-        tertiary15Dark: '#030329',
-        tertiary40Light: '#686883',
-        tertiary55Light: '#8e8ea2',
-        tertiary75Dark: '#01010c',
-        tertiary85Light: '#d9d9e0',
+        // Surface/Spectrum/blue - Theme - Anywhere
+        surfaceSpectrumBlue: '#0e2754',
+        // Surface/Spectrum/green - Theme - Anywhere
+        surfaceSpectrumGreen: '#0d2f1c',
+        // Surface/Spectrum/lime - Theme - Anywhere
+        surfaceSpectrumLime: '#434712',
+        // Surface/Spectrum/magenta - Theme - Anywhere
+        surfaceSpectrumMagenta: '#45054e',
+        // Surface/Spectrum/orange - Theme - Better Home & Garden
+        surfaceSpectrumOrange: '#532201',
+        // Surface/Spectrum/pink - Theme - Anywhere
+        surfaceSpectrumPink: '#4c0c2d',
+        // Surface/Spectrum/purple - Theme - Anywhere
+        surfaceSpectrumPurple: '#220053',
+        // Surface/Spectrum/red - Theme - Anywhere
+        surfaceSpectrumRed: '#4c141d',
+        // Surface/Spectrum/teal - Theme - Anywhere
+        surfaceSpectrumTeal: '#012e2a',
+        // Surface/Spectrum/yellow - Theme - Anywhere
+        surfaceSpectrumYellow: '#564210',
     },
-});
-
-export const bspkDimension = Object.freeze({
-    cornerRadius120: 12,
-    cornerRadius160: 16,
-    cornerRadius40: 4,
-    cornerRadius80: 8,
-    cornerRadiusCircular: 999,
-    cornerRadiusNone: 0,
-    radiusFull: 999,
-    radiusLg: 12,
-    radiusMd: 8,
-    radiusNone: 0,
-    radiusSm: 4,
-    radiusXlg: 16,
-    spacingSizing01: 4,
-    spacingSizing02: 8,
-    spacingSizing03: 12,
-    spacingSizing04: 16,
-    spacingSizing05: 20,
-    spacingSizing06: 24,
-    spacingSizing07: 28,
-    spacingSizing08: 32,
-    spacingSizing09: 36,
-    spacingSizing10: 40,
-    spacingSizing11: 44,
-    spacingSizing12: 48,
-    spacingSizing13: 52,
-    spacingSizing14: 56,
-    spacingSizing15: 60,
-    spacingSizing16: 64,
-    spacingSizing17: 68,
-    spacingSizing18: 72,
-    spacingSizing19: 80,
-    spacingSizing20: 96,
-    spacingSizing21: 104,
-    spacingSizing22: 120,
-    spacingSizing23: 128,
-    spacingSizing24: 148,
-    spacingSizing25: 152,
-    spacingSizingNone: 0,
-    spacings1040: 104,
-    spacings120: 12,
-    spacings1200: 120,
-    spacings1280: 128,
-    spacings1480: 148,
-    spacings1520: 152,
-    spacings160: 16,
-    spacings200: 20,
-    spacings240: 24,
-    spacings280: 28,
-    spacings320: 32,
-    spacings360: 36,
-    spacings40: 4,
-    spacings400: 40,
-    spacings440: 44,
-    spacings480: 48,
-    spacings520: 52,
-    spacings560: 56,
-    spacings600: 60,
-    spacings640: 64,
-    spacings680: 68,
-    spacings720: 72,
-    spacings80: 8,
-    spacings800: 80,
-    spacings960: 96,
-    spacingsNone: 0,
-    strokeNone: 0,
-    strokeThick: 2,
-    strokeThicker: 4,
-    strokeThin: 1,
-    typographyLineHeightLh1: 16,
-    typographyLineHeightLh10: 48,
-    typographyLineHeightLh11: 56,
-    typographyLineHeightLh12: 60,
-    typographyLineHeightLh13: 64,
-    typographyLineHeightLh14: 72,
-    typographyLineHeightLh15: 88,
-    typographyLineHeightLh2: 20,
-    typographyLineHeightLh3: 22,
-    typographyLineHeightLh4: 24,
-    typographyLineHeightLh5: 28,
-    typographyLineHeightLh6: 32,
-    typographyLineHeightLh7: 36,
-    typographyLineHeightLh8: 40,
-    typographyLineHeightLh9: 44,
-    typographySizeBase: 16,
-    typographySizeBpMd: 18,
-    typographySizeDLgM: 64,
-    typographySizeDLgOld: 60,
-    typographySizeDMdM: 56,
-    typographySizeDMdOld: 52,
-    typographySizeDSmM: 48,
-    typographySizeDSmOld: 44,
-    typographySizeLgXlg: 28,
-    typographySizeMdMdp: 20,
-    typographySizeMdpLg: 24,
-    typographySizeSm: 14,
-    typographySizeXlgXxlg: 32,
-    typographySizeXs: 12,
-    typographySizeXxlgXxxlg: 36,
-    typographySizeXxxlg: 40,
-});
-
-export const bspkFont = Object.freeze({
-    bodyBase: '400, 16px/20px',
-    bodyBaseLineHeight: '20px',
-    bodyBaseSize: '16px',
-    bodyBaseStyle: 'Regular',
-    bodyLarge: '400, 18px/24px',
-    bodyLargeLineHeight: '24px',
-    bodyLargeSize: '18px',
-    bodyLargeStyle: 'Regular',
-    bodySmall: '400, 14px/20px',
-    bodySmallLineHeight: '20px',
-    bodySmallSize: '14px',
-    bodySmallStyle: 'Regular',
-    bodyXSmall: '400, 12px/16px',
-    bodyXSmallLineHeight: '16px',
-    bodyXSmallSize: '12px',
-    bodyXSmallStyle: 'Regular',
-    displayRegularLarge: '400, 64px/88px',
-    displayRegularLargeLineHeight: '88px',
-    displayRegularLargeSize: '64px',
-    displayRegularLargeStyle: 'Regular',
-    displayRegularMedium: '400, 56px/72px',
-    displayRegularMediumLineHeight: '72px',
-    displayRegularMediumSize: '56px',
-    displayRegularMediumStyle: 'Regular',
-    displayRegularSmall: '400, 48px/60px',
-    displayRegularSmallLineHeight: '60px',
-    displayRegularSmallSize: '48px',
-    displayRegularSmallStyle: 'Regular',
-    displaySemiboldLarge: '600, 64px/88px',
-    displaySemiboldLargeLineHeight: '88px',
-    displaySemiboldLargeSize: '64px',
-    displaySemiboldLargeStyle: 'SemiBold',
-    displaySemiboldMedium: '600, 56px/72px',
-    displaySemiboldMediumLineHeight: '72px',
-    displaySemiboldMediumSize: '56px',
-    displaySemiboldMediumStyle: 'SemiBold',
-    displaySemiboldSmall: '600, 48px/60px',
-    displaySemiboldSmallLineHeight: '60px',
-    displaySemiboldSmallSize: '48px',
-    displaySemiboldSmallStyle: 'SemiBold',
-    headingH1: '600, 40px/48px',
-    headingH1LineHeight: '48px',
-    headingH1Size: '40px',
-    headingH1Style: 'SemiBold',
-    headingH2: '600, 32px/40px',
-    headingH2LineHeight: '40px',
-    headingH2Size: '32px',
-    headingH2Style: 'SemiBold',
-    headingH3: '600, 28px/36px',
-    headingH3LineHeight: '36px',
-    headingH3Size: '28px',
-    headingH3Style: 'SemiBold',
-    headingH4: '600, 24px/32px',
-    headingH4LineHeight: '32px',
-    headingH4Size: '24px',
-    headingH4Style: 'SemiBold',
-    headingH5: '600, 20px/28px',
-    headingH5LineHeight: '28px',
-    headingH5Size: '20px',
-    headingH5Style: 'SemiBold',
-    headingH6: '500, 18px/24px',
-    headingH6LineHeight: '24px',
-    headingH6Size: '18px',
-    headingH6Style: 'Medium',
-    labelsBase: '500, 16px/20px',
-    labelsBaseLineHeight: '20px',
-    labelsBaseSize: '16px',
-    labelsBaseStyle: 'Medium',
-    labelsLarge: '500, 18px/24px',
-    labelsLargeLineHeight: '24px',
-    labelsLargeSize: '18px',
-    labelsLargeStyle: 'Medium',
-    labelsSmall: '500, 14px/20px',
-    labelsSmallLineHeight: '20px',
-    labelsSmallSize: '14px',
-    labelsSmallStyle: 'Medium',
-    labelsXSmall: '500, 12px/16px',
-    labelsXSmallLineHeight: '16px',
-    labelsXSmallSize: '12px',
-    labelsXSmallStyle: 'Medium',
-    subheaderLarge: '400, 24px/32px',
-    subheaderLargeLineHeight: '32px',
-    subheaderLargeSize: '24px',
-    subheaderLargeStyle: 'Regular',
-    subheaderMedium: '400, 20px/28px',
-    subheaderMediumLineHeight: '28px',
-    subheaderMediumSize: '20px',
-    subheaderMediumStyle: 'Regular',
-    subheaderXLarge: '400, 28px/36px',
-    subheaderXLargeLineHeight: '36px',
-    subheaderXLargeSize: '28px',
-    subheaderXLargeStyle: 'Regular',
-    subheaderXxLarge: '400, 32px/40px',
-    subheaderXxLargeLineHeight: '40px',
-    subheaderXxLargeSize: '32px',
-    subheaderXxLargeStyle: 'Regular',
-    subheaderXxxLarge: '400, 40px/48px',
-    subheaderXxxLargeLineHeight: '48px',
-    subheaderXxxLargeSize: '40px',
-    subheaderXxxLargeStyle: 'Regular',
-});
-
-export const bspkFontFamily = Object.freeze({
-    Arial: 'Arial',
-    Geist: 'Geist',
-    Helvetica: 'Helvetica',
-    Inter: 'Inter',
-    Lato: 'Lato',
-    Manrope: 'Manrope',
-    OpenSans: 'Open Sans',
-    RedHatText: 'Red Hat Text',
-    Roboto: 'Roboto',
-    SfPro: 'SF Pro',
-    Typold: 'Typold',
-    WorkSans: 'Work Sans',
-    default: 'SF Pro',
-});
-
-export const bspkFontWeight = Object.freeze({
-    fontWeight300: 'Light',
-    fontWeight400: 'Regular',
-    fontWeight500: 'Medium',
-    fontWeight600: 'SemiBold',
-});
-
-type ColorStore = typeof bspkColor;
-type ColorTheme = Exclude<keyof ColorStore, 'root'>;
-type ColorKey = keyof ColorStore['light'] | keyof ColorStore['root'];
-
-/**
- * Returns the color value for the given key and theme (default is light)
- *
- * @param {ColorKey} key
- * @param {ColorTheme} [overrideTheme]
- * @returns {string} Color value in hex format
- */
-function Color(key: ColorKey, overrideTheme?: ColorTheme): string {
-    if (key in bspkColor.root) return bspkColor.root[key as keyof ColorStore['root']];
-
-    return bspkColor[overrideTheme || Color.theme][key as keyof ColorStore[ColorTheme]];
-}
-
-Color.theme = 'light' as ColorTheme;
-Color.setTheme = (theme: ColorTheme) => (Color.theme = theme);
-
-export { Color };
+};
