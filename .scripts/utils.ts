@@ -768,6 +768,7 @@ export function generateMeta({
     tokenVariables: Variable[];
 }): string {
     const meta: {
+        type: string;
         varName: string;
         description?: string;
         cssVariable: string;
@@ -780,16 +781,32 @@ export function generateMeta({
         }[];
     }[] = [];
 
-    [...textVariables, ...effectVariables, ...tokenVariables].forEach((variable) => {
-        meta.push({
-            varName: variable.varName,
-            description: variable.description?.trim() || undefined,
-            cssVariable: `--${variable.slug}`,
-            tokenName: variable.name,
-            collection: 'collection' in variable ? variable.collection : undefined,
-            cssValue: 'css' in variable ? variable.css : undefined,
-            cssValues: 'cssValues' in variable ? variable.cssValues : undefined,
-        });
+    [
+        {
+            type: 'text',
+            variables: textVariables,
+        },
+        {
+            type: 'effect',
+            variables: effectVariables,
+        },
+        {
+            type: 'token',
+            variables: tokenVariables,
+        },
+    ].forEach(({ type, variables }) => {
+        variables.forEach((variable: any) =>
+            meta.push({
+                type,
+                varName: variable.varName,
+                description: variable.description?.trim() || undefined,
+                cssVariable: `--${variable.slug}`,
+                tokenName: variable.name,
+                collection: 'collection' in variable ? variable.collection : undefined,
+                cssValue: 'css' in variable ? variable.css : undefined,
+                cssValues: 'cssValues' in variable ? variable.cssValues : undefined,
+            }),
+        );
     });
 
     return `export const META = ${JSON.stringify(meta, null, 4)};`;
