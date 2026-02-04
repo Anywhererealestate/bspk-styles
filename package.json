@@ -23,8 +23,8 @@
     "devDependencies": {
         "@figma/plugin-typings": "*",
         "@semantic-release/git": "^10.0.1",
-        "@semantic-release/github": "^11.0.2",
-        "@semantic-release/npm": "^12.0.1",
+        "@semantic-release/github": "^12.0.2",
+        "@semantic-release/npm": "^13.1.2",
         "@types/node": "^22.7.9",
         "nodemon": "^3.1.7",
         "prettier": "^3.5.3",
