@@ -51,7 +51,9 @@ function main() {
 
     const textVariables = generateVariablesFromTextStyles(textStyles);
 
-    execSync(`rm -rf data && mkdir data`, { stdio: 'inherit' });
+    globalThis.debug.variables = tokenVariables;
+
+    execSync(`rm -rf data .tmp && mkdir .tmp data`, { stdio: 'inherit' });
 
     const sortAndWrite = (...vars: { slug: string; line: string[] }[][]) =>
         vars
@@ -65,7 +67,7 @@ function main() {
             `${brand.slug}.css`,
             [
                 `/* Generated from figma export: ${exportGenerated} */\n`,
-                generateFontStyle(brand.slug),
+                generateFontStyle(tokenVariables, brand.slug),
 
                 // ROOT - variables
                 `:root {`,
@@ -148,9 +150,9 @@ function main() {
 
     // compareSlugs();
 
-    // Object.entries(globalThis.debug).forEach(([key, value]) => {
-    //     fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
-    // });
+    Object.entries(globalThis.debug).forEach(([key, value]) => {
+        fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
+    });
 }
 
 main();

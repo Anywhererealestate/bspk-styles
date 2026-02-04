@@ -10,7 +10,7 @@
         "dev": "nodemon .scripts/build.ts --watch .scripts/build.ts",
         "semantic-release": "semantic-release",
         "pack": "rm -rf ./package && npm run build && npm pack",
-        "clean": "rm -rf data style ./*.js ./*.d.ts ./*.js.map",
+        "clean": "rm -rf data style ./*.js ./*.d.ts ./*.js.map ./*.css",
         "pack:dev": "npm run pack && tar -xvf ./bspk-styles-*.tgz"
     },
     "publishConfig": {

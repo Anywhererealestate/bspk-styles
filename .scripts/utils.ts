@@ -575,8 +575,21 @@ export function getTextVariableCSS(
         });
 }
 
-export const generateFontStyle = (brandTypeFace = DEFAULT_FONT): string[] => {
-    if (!brandTypeFace) return [];
+export const generateFontStyle = (variables: Variable[], brandSlug: string): string[] => {
+    const brandTypeFace = variables
+        // find the typeface variable for the brand
+        .find((variable) => variable.slug === 'typeface')!
+        // then find the cssValue for the brand
+        .cssValues! //
+        // find the value for the brand slug
+        .find((cssValue) => cssValue.modes.includes(brandSlug))!
+        // get the value
+        .value.toString()
+        // remove quotes if they exist since we'll wrap in quotes in the CSS if it's a string
+        .replace(/['"]/g, '');
+
+    if (!brandTypeFace)
+        throw new Error(`Generating font style for brand ${brandSlug} with typeface ${brandTypeFace || DEFAULT_FONT}`);
 
     const googleFont = encodeURIComponent(GOOGLE_FONTS.includes(brandTypeFace) ? brandTypeFace : DEFAULT_FONT);
 
