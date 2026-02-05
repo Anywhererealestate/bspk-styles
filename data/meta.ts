@@ -1379,7 +1379,7 @@ export const META = [
         varName: 'backgroundBase',
         cssVariable: '--background-base',
         tokenName: 'Background/base',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -1573,7 +1573,7 @@ export const META = [
         varName: 'backgroundShade',
         cssVariable: '--background-shade',
         tokenName: 'Background/shade',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -4404,7 +4404,7 @@ export const META = [
         cssValues: [
             {
                 modes: [],
-                value: '',
+                value: 0,
             },
         ],
     },
@@ -5672,7 +5672,7 @@ export const META = [
         varName: 'dataVisualCategory1',
         cssVariable: '--data-visual-category-1',
         tokenName: 'Data visual/category-1',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -5850,7 +5850,7 @@ export const META = [
         varName: 'dataVisualCategory2',
         cssVariable: '--data-visual-category-2',
         tokenName: 'Data visual/category-2',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -6028,7 +6028,7 @@ export const META = [
         varName: 'dataVisualCategory3',
         cssVariable: '--data-visual-category-3',
         tokenName: 'Data visual/category-3',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -6206,7 +6206,7 @@ export const META = [
         varName: 'dataVisualCategory4',
         cssVariable: '--data-visual-category-4',
         tokenName: 'Data visual/category-4',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -6384,7 +6384,7 @@ export const META = [
         varName: 'dataVisualCategory5',
         cssVariable: '--data-visual-category-5',
         tokenName: 'Data visual/category-5',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -6562,7 +6562,7 @@ export const META = [
         varName: 'dataVisualCategory6',
         cssVariable: '--data-visual-category-6',
         tokenName: 'Data visual/category-6',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -6740,7 +6740,7 @@ export const META = [
         varName: 'dataVisualCategory7',
         cssVariable: '--data-visual-category-7',
         tokenName: 'Data visual/category-7',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -8079,7 +8079,7 @@ export const META = [
         description: "Foreground color used on Brand's primary color (non neutral color)",
         cssVariable: '--foreground-brand-on-primary',
         tokenName: 'Foreground/Brand/on-brand-primary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -8177,7 +8177,7 @@ export const META = [
         description: "Foreground color used on Brand's primary color (non neutral color)",
         cssVariable: '--foreground-brand-on-secondary',
         tokenName: 'Foreground/Brand/on-brand-secondary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -8275,7 +8275,7 @@ export const META = [
         description: "Foreground text and icons that match the brand's primary color",
         cssVariable: '--foreground-brand-primary',
         tokenName: 'Foreground/Brand/brand-primary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -8372,7 +8372,7 @@ export const META = [
         varName: 'foregroundBrandPrimaryDepth',
         cssVariable: '--foreground-brand-primary-depth',
         tokenName: 'Foreground/Brand/brand-primary-depth',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -8470,7 +8470,7 @@ export const META = [
         description: "Foreground text and icons that match the brand's secondary color",
         cssVariable: '--foreground-brand-secondary',
         tokenName: 'Foreground/Brand/brand-secondary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -8664,7 +8664,7 @@ export const META = [
         varName: 'foregroundLinkTextDefault',
         cssVariable: '--foreground-link-text-default',
         tokenName: 'Foreground/Link text/default',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -8761,7 +8761,7 @@ export const META = [
         varName: 'foregroundLinkTextDefaultDisabled',
         cssVariable: '--foreground-link-text-default-disabled',
         tokenName: 'Foreground/Link text/default-disabled',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -9052,7 +9052,7 @@ export const META = [
         varName: 'foregroundLinkTextDefaultVisited',
         cssVariable: '--foreground-link-text-default-visited',
         tokenName: 'Foreground/Link text/default-visited',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -9715,7 +9715,7 @@ export const META = [
         varName: 'foregroundNeutralDisabledOnColorSurface',
         cssVariable: '--foreground-neutral-disabled-on-color-surface',
         tokenName: 'Foreground/Neutral/disabled-on-color-surface',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -9812,7 +9812,7 @@ export const META = [
         varName: 'foregroundNeutralDisabledOnSurface',
         cssVariable: '--foreground-neutral-disabled-on-surface',
         tokenName: 'Foreground/Neutral/disabled-on-surface',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -9999,7 +9999,7 @@ export const META = [
         description: 'Interactive controls',
         cssVariable: '--foreground-neutral-on-color',
         tokenName: 'Foreground/Neutral/on-color',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -10187,7 +10187,7 @@ export const META = [
         description: 'Default foreground text and icons against any surface color',
         cssVariable: '--foreground-neutral-on-surface',
         tokenName: 'Foreground/Neutral/on-surface',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -10285,7 +10285,7 @@ export const META = [
         description: 'Secondary foreground color for icons and text',
         cssVariable: '--foreground-neutral-on-surface-variant-01',
         tokenName: 'Foreground/Neutral/on-surface-variant-01',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -10383,7 +10383,7 @@ export const META = [
         description: 'Tertiary foreground color for icons and text',
         cssVariable: '--foreground-neutral-on-surface-variant-02',
         tokenName: 'Foreground/Neutral/on-surface-variant-02',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -10481,7 +10481,7 @@ export const META = [
         description: 'Quaternary foreground color for icons and text. Only for placeholder text',
         cssVariable: '--foreground-neutral-on-surface-variant-03',
         tokenName: 'Foreground/Neutral/on-surface-variant-03',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -10578,7 +10578,7 @@ export const META = [
         varName: 'foregroundNeutralSkeletonElement',
         cssVariable: '--foreground-neutral-skeleton-element',
         tokenName: 'Foreground/Neutral/skeleton-element',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -11063,7 +11063,7 @@ export const META = [
         varName: 'foregroundSpectrumOrange',
         cssVariable: '--foreground-spectrum-orange',
         tokenName: 'Foreground/Spectrum/orange',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -11354,7 +11354,7 @@ export const META = [
         varName: 'foregroundSpectrumRed',
         cssVariable: '--foreground-spectrum-red',
         tokenName: 'Foreground/Spectrum/red',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -12140,7 +12140,7 @@ export const META = [
         varName: 'interactionsLinkActiveOpacity',
         cssVariable: '--interactions-link-active-opacity',
         tokenName: 'Interactions/link-active-opacity',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -12662,7 +12662,7 @@ export const META = [
         varName: 'interactionsPrimaryDarkOpacity10',
         cssVariable: '--interactions-primary-dark-opacity-10',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-dark-opacity-10',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -12711,7 +12711,7 @@ export const META = [
         varName: 'interactionsPrimaryDarkOpacity12',
         cssVariable: '--interactions-primary-dark-opacity-12',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-dark-opacity-12',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -12760,7 +12760,7 @@ export const META = [
         varName: 'interactionsPrimaryDarkOpacity16',
         cssVariable: '--interactions-primary-dark-opacity-16',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-dark-opacity-16',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -12809,7 +12809,7 @@ export const META = [
         varName: 'interactionsPrimaryDarkOpacity20',
         cssVariable: '--interactions-primary-dark-opacity-20',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-dark-opacity-20',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -12858,7 +12858,7 @@ export const META = [
         varName: 'interactionsPrimaryDarkOpacity8',
         cssVariable: '--interactions-primary-dark-opacity-8',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-dark-opacity-8',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13101,7 +13101,7 @@ export const META = [
         varName: 'interactionsPrimaryLightOpacity10',
         cssVariable: '--interactions-primary-light-opacity-10',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-light-opacity-10',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13150,7 +13150,7 @@ export const META = [
         varName: 'interactionsPrimaryLightOpacity12',
         cssVariable: '--interactions-primary-light-opacity-12',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-light-opacity-12',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13199,7 +13199,7 @@ export const META = [
         varName: 'interactionsPrimaryLightOpacity16',
         cssVariable: '--interactions-primary-light-opacity-16',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-light-opacity-16',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13248,7 +13248,7 @@ export const META = [
         varName: 'interactionsPrimaryLightOpacity20',
         cssVariable: '--interactions-primary-light-opacity-20',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-light-opacity-20',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13297,7 +13297,7 @@ export const META = [
         varName: 'interactionsPrimaryLightOpacity8',
         cssVariable: '--interactions-primary-light-opacity-8',
         tokenName: 'Colors/Brands/BRAND/Interactions/primary-light-opacity-8',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13482,7 +13482,7 @@ export const META = [
         varName: 'primary00Base',
         cssVariable: '--primary-00-base',
         tokenName: 'Colors/Brands/BRAND/Primary/00-base',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13531,7 +13531,7 @@ export const META = [
         varName: 'primary15Dark',
         cssVariable: '--primary-15-dark',
         tokenName: 'Colors/Brands/BRAND/Primary/15-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13580,7 +13580,7 @@ export const META = [
         varName: 'primary40Light',
         cssVariable: '--primary-40-light',
         tokenName: 'Colors/Brands/BRAND/Primary/40-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13629,7 +13629,7 @@ export const META = [
         varName: 'primary55Light',
         cssVariable: '--primary-55-light',
         tokenName: 'Colors/Brands/BRAND/Primary/55-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13678,7 +13678,7 @@ export const META = [
         varName: 'primary75Dark',
         cssVariable: '--primary-75-dark',
         tokenName: 'Colors/Brands/BRAND/Primary/75-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13727,7 +13727,7 @@ export const META = [
         varName: 'primary85Light',
         cssVariable: '--primary-85-light',
         tokenName: 'Colors/Brands/BRAND/Primary/85-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13819,7 +13819,7 @@ export const META = [
         cssValues: [
             {
                 modes: [],
-                value: '',
+                value: 0,
             },
         ],
     },
@@ -13854,7 +13854,7 @@ export const META = [
         varName: 'secondary00Base',
         cssVariable: '--secondary-00-base',
         tokenName: 'Colors/Brands/BRAND/Secondary/00-base',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13903,7 +13903,7 @@ export const META = [
         varName: 'secondary15Dark',
         cssVariable: '--secondary-15-dark',
         tokenName: 'Colors/Brands/BRAND/Secondary/15-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -13978,7 +13978,7 @@ export const META = [
         varName: 'secondary40Light',
         cssVariable: '--secondary-40-light',
         tokenName: 'Colors/Brands/BRAND/Secondary/40-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -14027,7 +14027,7 @@ export const META = [
         varName: 'secondary55Light',
         cssVariable: '--secondary-55-light',
         tokenName: 'Colors/Brands/BRAND/Secondary/55-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -14076,7 +14076,7 @@ export const META = [
         varName: 'secondary75Dark',
         cssVariable: '--secondary-75-dark',
         tokenName: 'Colors/Brands/BRAND/Secondary/75-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -14125,7 +14125,7 @@ export const META = [
         varName: 'secondary85Light',
         cssVariable: '--secondary-85-light',
         tokenName: 'Colors/Brands/BRAND/Secondary/85-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['agent-workplace'],
@@ -14708,7 +14708,7 @@ export const META = [
         varName: 'shadowInner100',
         cssVariable: '--shadow-inner-100',
         tokenName: 'Shadow/inner-shadow-100',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -15753,7 +15753,7 @@ export const META = [
         cssValues: [
             {
                 modes: [],
-                value: '',
+                value: 0,
             },
         ],
     },
@@ -16091,7 +16091,7 @@ export const META = [
         cssValues: [
             {
                 modes: [],
-                value: '',
+                value: 0,
             },
         ],
     },
@@ -16101,7 +16101,7 @@ export const META = [
         description: 'Foreground error text and icons',
         cssVariable: '--status-error',
         tokenName: 'Status/error',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -16198,7 +16198,7 @@ export const META = [
         varName: 'statusInformation',
         cssVariable: '--status-information',
         tokenName: 'Status/information',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -16378,7 +16378,7 @@ export const META = [
         description: 'Foreground error text and icons',
         cssVariable: '--status-on-error',
         tokenName: 'Status/on-error',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -16475,7 +16475,7 @@ export const META = [
         varName: 'statusOnInformation',
         cssVariable: '--status-on-information',
         tokenName: 'Status/on-information',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -16655,7 +16655,7 @@ export const META = [
         description: 'Foreground success icons and text',
         cssVariable: '--status-on-success',
         tokenName: 'Status/on-success',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -16753,7 +16753,7 @@ export const META = [
         description: 'Foreground warning icons',
         cssVariable: '--status-on-warning',
         tokenName: 'Status/on-warning',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -16851,7 +16851,7 @@ export const META = [
         description: 'Foreground success icons and text',
         cssVariable: '--status-success',
         tokenName: 'Status/success',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -16949,7 +16949,7 @@ export const META = [
         description: 'Foreground warning icons',
         cssVariable: '--status-warning',
         tokenName: 'Status/warning',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -17161,7 +17161,7 @@ export const META = [
         description: 'Outline variant - decorative elements such as dividers',
         cssVariable: '--stroke-brand-primary',
         tokenName: 'Stroke/Brand/brand-primary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -17259,7 +17259,7 @@ export const META = [
         description: 'Outline variant - decorative elements such as dividers',
         cssVariable: '--stroke-brand-primary-depth',
         tokenName: 'Stroke/Brand/brand-primary-depth',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -17356,7 +17356,7 @@ export const META = [
         varName: 'strokeBrandSecondary',
         cssVariable: '--stroke-brand-secondary',
         tokenName: 'Stroke/Brand/brand-secondary',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -17551,7 +17551,7 @@ export const META = [
         description: 'For control components',
         cssVariable: '--stroke-neutral-base',
         tokenName: 'Stroke/Neutral/neutral-base',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -18725,7 +18725,7 @@ export const META = [
         cssValues: [
             {
                 modes: [],
-                value: '',
+                value: 0,
             },
         ],
     },
@@ -18887,7 +18887,7 @@ export const META = [
         varName: 'surfaceBrandPrimary',
         cssVariable: '--surface-brand-primary',
         tokenName: 'Surface/Brand/primary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -19081,7 +19081,7 @@ export const META = [
         varName: 'surfaceBrandSecondary',
         cssVariable: '--surface-brand-secondary',
         tokenName: 'Surface/Brand/secondary',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -19275,7 +19275,7 @@ export const META = [
         varName: 'surfaceNeutralInteractionsDarkDisabled',
         cssVariable: '--surface-neutral-interactions-dark-disabled',
         tokenName: 'Surface/Neutral/Interactions/dark-disabled',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -19364,7 +19364,7 @@ export const META = [
         varName: 'surfaceNeutralInteractionsLightDisabled',
         cssVariable: '--surface-neutral-interactions-light-disabled',
         tokenName: 'Surface/Neutral/Interactions/light-disabled',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -19543,7 +19543,7 @@ export const META = [
         varName: 'surfaceNeutralInverseDark',
         cssVariable: '--surface-neutral-inverse-dark',
         tokenName: 'Surface/Neutral/inverse-dark',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -19729,7 +19729,7 @@ export const META = [
         varName: 'surfaceNeutralT1Base',
         cssVariable: '--surface-neutral-t1-base',
         tokenName: 'Surface/Neutral/T1-base',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -19826,7 +19826,7 @@ export const META = [
         varName: 'surfaceNeutralT2Lowest',
         cssVariable: '--surface-neutral-t2-lowest',
         tokenName: 'Surface/Neutral/T2-lowest',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -19924,7 +19924,7 @@ export const META = [
         description: 'Navigations, app bar etc',
         cssVariable: '--surface-neutral-t3-low',
         tokenName: 'Surface/Neutral/T3-low',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -20022,7 +20022,7 @@ export const META = [
         description: 'Navigations, app bar etc',
         cssVariable: '--surface-neutral-t4-high',
         tokenName: 'Surface/Neutral/T4-high',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -20136,7 +20136,7 @@ export const META = [
         varName: 'surfaceNeutralTransparent',
         cssVariable: '--surface-neutral-transparent',
         tokenName: 'Surface/Neutral/transparent',
-        collection: 'Brand',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['anywhere', 'light'],
@@ -20621,7 +20621,7 @@ export const META = [
         varName: 'surfaceSpectrumOrange',
         cssVariable: '--surface-spectrum-orange',
         tokenName: 'Surface/Spectrum/orange',
-        collection: 'Theme - Better Home & Garden',
+        collection: 'Theme - BRAND',
         cssValues: [
             {
                 modes: ['light'],
@@ -21203,7 +21203,7 @@ export const META = [
         varName: 'tertiary00Base',
         cssVariable: '--tertiary-00-base',
         tokenName: 'Colors/Brands/BRAND/Tertiary/00-base',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],
@@ -21228,7 +21228,7 @@ export const META = [
         varName: 'tertiary15Dark',
         cssVariable: '--tertiary-15-dark',
         tokenName: 'Colors/Brands/BRAND/Tertiary/15-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],
@@ -21253,7 +21253,7 @@ export const META = [
         varName: 'tertiary40Light',
         cssVariable: '--tertiary-40-light',
         tokenName: 'Colors/Brands/BRAND/Tertiary/40-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],
@@ -21278,7 +21278,7 @@ export const META = [
         varName: 'tertiary55Light',
         cssVariable: '--tertiary-55-light',
         tokenName: 'Colors/Brands/BRAND/Tertiary/55-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],
@@ -21303,7 +21303,7 @@ export const META = [
         varName: 'tertiary75Dark',
         cssVariable: '--tertiary-75-dark',
         tokenName: 'Colors/Brands/BRAND/Tertiary/75-dark',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],
@@ -21328,7 +21328,7 @@ export const META = [
         varName: 'tertiary85Light',
         cssVariable: '--tertiary-85-light',
         tokenName: 'Colors/Brands/BRAND/Tertiary/85-light',
-        collection: 'Global (primitives)',
+        collection: ['Global (primitives)'],
         cssValues: [
             {
                 modes: ['anywhere'],

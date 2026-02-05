@@ -14,17 +14,15 @@ import {
     Token,
     Brand,
     generateVariablesFromTokens,
-    getCSSFromTokenVariables,
     generateVariablesFromEffectStyles,
     getCSSFromEffectVariables,
     generateVariablesFromTextStyles,
     getCSSFromTextVariables,
-    generateFontStyle,
-    compareSlugs,
-    getTextVariableTS,
-    getTokenVariableTS,
     getEffectVariableTS,
     generateMeta,
+    getParsedVariables,
+    sortAndWrite,
+    getTextVariableTS,
 } from './utils';
 import fs from 'fs';
 import { execSync } from 'child_process';
@@ -58,11 +56,7 @@ function main() {
     fs.writeFileSync(`.tmp/effectVariables.json`, JSON.stringify(effectVariables, null, 4));
     fs.writeFileSync(`.tmp/textVariables.json`, JSON.stringify(textVariables, null, 4));
 
-    const sortAndWrite = (...vars: { slug: string; line: string[] }[][]) =>
-        vars
-            .flat()
-            .sort((a, b) => a.slug.localeCompare(b.slug))
-            .map(({ line }) => `\t${line.join('\n\t')}`);
+    const parseTokenVariables = getParsedVariables(tokenVariables);
 
     BRANDS.forEach((brand) => {
         // write CSS
@@ -70,14 +64,15 @@ function main() {
             `${brand.slug}.css`,
             [
                 `/* Generated from figma export: ${exportGenerated} */\n`,
-                generateFontStyle(tokenVariables, brand.slug),
+                parseTokenVariables[brand.slug].googleImport,
+                `body {\n\tfont-family: var(--typeface)\n}\n`,
 
                 // ROOT - variables
                 `:root {`,
                 sortAndWrite(
                     getCSSFromTextVariables(textVariables, { device: 'root' }),
                     getCSSFromEffectVariables(effectVariables),
-                    getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'root' }),
+                    parseTokenVariables[brand.slug].root.css,
                 ),
 
                 // ROOT - mobile (default)
@@ -85,7 +80,7 @@ function main() {
 
                 // ROOT - light theme (default)
                 '/* light theme (default) */',
-                sortAndWrite(getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'light' })),
+                sortAndWrite(parseTokenVariables[brand.slug].light.css),
 
                 // ROOT - desktop overrides
                 `\n\t@media (width >= 640px) {`,
@@ -96,13 +91,12 @@ function main() {
                 // DARK - variables
                 '/* dark theme */',
                 `[data-theme='dark'] {`,
-                sortAndWrite(getCSSFromTokenVariables(tokenVariables, { brand: brand.slug as Brand, theme: 'dark' })),
+                sortAndWrite(parseTokenVariables[brand.slug].dark.css),
                 '}',
             ]
                 .flat()
                 .join('\n')
-                .replace(/\t/g, '    ')
-                .replace(/BRAND/g, brand.title),
+                .replace(/\t/g, '    '),
         );
 
         // write TS
@@ -126,19 +120,19 @@ function main() {
                 `};\n`,
 
                 `export const COLOR_TOKENS = {`,
-                sortAndWrite(getTokenVariableTS(tokenVariables, { brand: brand.slug as Brand, theme: 'root' })),
+                sortAndWrite(parseTokenVariables[brand.slug].root.ts),
+
                 `light: {`,
-                sortAndWrite(getTokenVariableTS(tokenVariables, { brand: brand.slug as Brand, theme: 'light' })),
+                sortAndWrite(parseTokenVariables[brand.slug].light.ts),
                 `},\n`,
                 `dark: {`,
-                sortAndWrite(getTokenVariableTS(tokenVariables, { brand: brand.slug as Brand, theme: 'dark' })),
+                sortAndWrite(parseTokenVariables[brand.slug].dark.ts),
                 `},\n`,
                 `};\n`,
             ]
                 .flat()
                 .join('\n')
-                .replace(/\t/g, '    ')
-                .replace(/BRAND/g, brand.title),
+                .replace(/\t/g, '    '),
         );
     });
 
@@ -161,9 +155,9 @@ function main() {
 
     // This is for debugging - it writes the generated variables to .tmp for inspection. You can uncomment this if you want to see the raw generated variables.
 
-    // Object.entries(globalThis.debug).forEach(([key, value]) => {
-    //     fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
-    // });
+    Object.entries(globalThis.debug).forEach(([key, value]) => {
+        fs.writeFileSync(`.tmp/${key}.json`, JSON.stringify(value, null, 4));
+    });
 }
 
 main();

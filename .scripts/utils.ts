@@ -19,7 +19,19 @@ declare global {
 
 globalThis.debug = globalThis.debug || {};
 
-const GOOGLE_FONTS = ['Work Sans', 'Geist', 'Inter'];
+/**
+ * A list of fonts that are accepted to be used in the generated CSS. If a token references a font that is not in this
+ * list, it will be replaced with the DEFAULT_FONT in the generated CSS and a warning will be logged.
+ */
+const FONTS_ACCEPTED: Record<string, { google: boolean; type: 'serif' | 'sans-serif' | 'monospace' }> = {
+    Inter: { google: true, type: 'sans-serif' },
+    'Work Sans': { google: true, type: 'sans-serif' },
+    Typold: { google: false, type: 'serif' },
+    'SF Pro': { google: false, type: 'sans-serif' },
+    Geist: { google: true, type: 'sans-serif' },
+};
+
+const DEFAULT_FONT: keyof typeof FONTS_ACCEPTED = 'Inter';
 
 const BRAND_SLUGS = BRANDS.map((brand) => brand.slug);
 
@@ -36,8 +48,6 @@ const STRING_SWAPS: Record<string, string | number> = {
     'Semi Bold': 600,
     'semi bold': 600,
 };
-
-const DEFAULT_FONT = 'Inter';
 
 const NAMES_TO_SKIP = ['Design Document/annotation', 'Device'];
 
@@ -143,7 +153,6 @@ const processCSSValue = (css: unknown, slug: string): string | number => {
         }
 
         if (slug.includes('typeface')) {
-            console.log(slug);
             return `"${nextValue}"`;
         }
     }
@@ -156,7 +165,7 @@ const processCSSValue = (css: unknown, slug: string): string | number => {
 type Variable = {
     slug: string;
     name: string;
-    collection: string;
+    collection?: string | string[];
     description?: string;
     values?: Record<string, unknown>;
     varName: string;
@@ -285,6 +294,26 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
             );
         };
 
+        /**
+         * Before continueing make sure the 'Typeface' token exists and each Brand has their own value.
+         *
+         * This is important since the typeface token is used to generate the font-family CSS and if it's not setup
+         * correctly it can cause major issues in the generated CSS.
+         */
+        {
+            const typefaceToken = Object.values(tokensDictionary).find((token) => token.name === 'Typeface');
+            if (!typefaceToken) throw new Error(`Typeface token not found in tokens.`);
+
+            const errors = BRANDS.flatMap((brand) => {
+                if (!typefaceToken?.valuesByMode?.[brand.slug]?.referencedToken?.valuesByMode?.default)
+                    return `Typeface token does not have a value for brand: ${brand.title}`;
+
+                return [];
+            });
+
+            if (errors.length > 0) throw new Error(errors.join('\n'));
+        }
+
         globalThis.debug['tokens-dictionary'] = tokensDictionary;
 
         Object.values(tokensDictionary)
@@ -324,8 +353,11 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
                         name,
                         values: {},
                         description: token.description,
-                        collection: collection,
+                        collection,
                     };
+                else {
+                    variables[slug].collection = [variables[slug].collection!, collection].flat();
+                }
 
                 Object.entries(values).forEach(([mode, value]) => {
                     if (
@@ -343,7 +375,11 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
 
     //globalThis.debug['variables-0'] = JSON.parse(JSON.stringify(variables));
 
-    /** Flatten variable values recursively looking for "default" keys in values object to flatten */
+    /**
+     * Flatten variable values recursively looking for "default" keys in values object to flatten
+     *
+     * Flatten collections
+     */
     {
         // This function recursively flattens the token values by looking for "default" keys and flattening the values into a single array of cssValues with associated modes. It also converts any rgb color objects into hex strings and processes CSS values to add units where necessary.
 
@@ -372,10 +408,12 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
                         css = rgbToHex(value);
                     }
                 } else css = processCSSValue(value, slug);
+
                 return [
                     {
                         modes: prevModes,
-                        value: css || '',
+                        // null coalescing to empty string since CSS variables cannot have null values, and this indicates an issue with the token that should be fixed
+                        value: css ?? '',
                     },
                 ];
             }
@@ -388,6 +426,16 @@ export function generateVariablesFromTokens(tokens: Token[], modes: Record<strin
         };
 
         Object.values(variables).forEach((variable) => {
+            // flatten collection if it's an array and includes a theme collection
+            if (Array.isArray(variable.collection)) {
+                if (variable.collection.includes('Theme - BRAND')) {
+                    variable.collection = 'Theme - BRAND';
+                } else {
+                    // remove duplicates and sort collections
+                    variable.collection = Array.from(new Set(variable.collection)).sort();
+                }
+            }
+
             variable.cssValues = flattenCssValues(variable.values!, [], variable.slug) || [];
         });
 
@@ -538,43 +586,197 @@ export function generateVariablesFromTextStyles(textStyles: TextStyle[]): TypeVa
     return allVariables;
 }
 
+export const sortAndWrite = (...vars: CSSEntry[][]) =>
+    vars
+        .flat()
+        .sort((a, b) => a.slug.localeCompare(b.slug))
+        .map(({ line }) => `\t${line.join('\n\t')}`);
+
 // get css from variables
+type CSSEntry = { line: string[]; slug: string };
 
-export function getCSSFromTokenVariables(
-    variables: Variable[],
+type TSEntry = { line: string[]; slug: string };
+
+type ParsedVariablesResult = Record<
+    Brand,
     {
-        brand,
-        theme,
-    }: {
-        brand: Brand;
-        theme: Theme | 'root';
-    },
-): { line: string[]; slug: string }[] {
-    return variables.flatMap((variable) => {
-        const value = variable.cssValues?.find((cssValue) => {
-            const hasBrandOrNone =
-                cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
-            const hasThemeOrNone =
-                theme !== 'root'
-                    ? cssValue.modes.includes(theme)
-                    : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
-            return hasBrandOrNone && hasThemeOrNone;
-        })?.value;
+        googleImport: string;
+        root: { ts: TSEntry[]; css: CSSEntry[] };
+        light: { ts: TSEntry[]; css: CSSEntry[] };
+        dark: { ts: TSEntry[]; css: CSSEntry[] };
+    }
+>;
 
-        if (!value) return [];
+const cssEntry = (variable: Variable, value: string | number) => ({
+    line: [
+        `/* ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection} */`,
+        variable.description && `/* ${variable.description} */`,
+        `--${variable.slug}: ${value};`,
+    ].filter(Boolean) as string[],
+    slug: variable.slug,
+});
 
-        return {
-            line: [
-                `/* ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection} */`,
-                variable.description && `/* ${variable.description} */`,
-                `--${variable.slug}: ${value};`,
-            ].filter(Boolean) as string[],
-            slug: variable.slug,
+const tsEntry = (variable: Variable, value: string | number) => ({
+    line: [
+        `// ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection}${
+            variable.description ? ' - ' + variable.description : ''
+        }`,
+        `"${pascalCase(variable.slug)}": '${value}',`,
+    ].filter(Boolean) as string[],
+    slug: variable.slug,
+});
+
+const buildDefaultParsedResults = (): ParsedVariablesResult => {
+    const result: ParsedVariablesResult = {} as ParsedVariablesResult;
+    BRANDS.forEach((brand) => {
+        result[brand.slug] = {
+            googleImport: '',
+            root: { ts: [], css: [] },
+            light: { ts: [], css: [] },
+            dark: { ts: [], css: [] },
         };
     });
+    return result;
+};
+
+globalThis.debug.none = globalThis.debug.none || [];
+
+/**
+ * Parses the variables into separate buckets for easier writing to CSS and TS files. It also generates the google font
+ * import for the typeface token.
+ */
+export function getParsedVariables(variables: Variable[]): ParsedVariablesResult {
+    const parsedResults = buildDefaultParsedResults();
+
+    const allBrands: {
+        root: { ts: TSEntry[]; css: CSSEntry[] };
+        light: { ts: TSEntry[]; css: CSSEntry[] };
+        dark: { ts: TSEntry[]; css: CSSEntry[] };
+    } = { root: { ts: [], css: [] }, light: { ts: [], css: [] }, dark: { ts: [], css: [] } };
+
+    variables.forEach((variable) => {
+        if (variable.slug === 'typeface') {
+            BRANDS.forEach((brand) => {
+                const value = variable.cssValues!.find((cssValue) => cssValue.modes.includes(brand.slug))
+                    ?.value as string;
+
+                // find the typeface for the brand
+                const brandTypeFace = value.replace(/['"]/g, '');
+
+                if (!brandTypeFace)
+                    throw new Error(
+                        `Typeface token not found for font style for brand ${brand.slug} with typeface ${brandTypeFace}`,
+                    );
+
+                if (!FONTS_ACCEPTED[brandTypeFace])
+                    throw new Error(
+                        `Font ${brandTypeFace} for brand ${brand.slug} is not in the list of accepted fonts. Please update the token to use an accepted font or add this font to the FONTS_ACCEPTED list.`,
+                    );
+
+                const googleImportLine = (googleFont: string) =>
+                    `@import url('https://fonts.googleapis.com/css2?family=${encodeURIComponent(googleFont)}:ital,wght@0,100..900;1,100..900&display=swap');`;
+
+                let typefaceValue = `"${brandTypeFace}", ${FONTS_ACCEPTED[brandTypeFace].type}`;
+                let googleFont = brandTypeFace;
+
+                if (!FONTS_ACCEPTED[brandTypeFace].google) {
+                    googleFont = DEFAULT_FONT;
+                    typefaceValue = `"${brandTypeFace}", "${googleFont}", ${FONTS_ACCEPTED[brandTypeFace].type}`;
+                }
+
+                parsedResults[brand.slug].googleImport = googleImportLine(googleFont);
+                parsedResults[brand.slug].root.css.push(cssEntry(variable, typefaceValue));
+                parsedResults[brand.slug].root.ts.push(tsEntry(variable, typefaceValue));
+            });
+            return;
+        }
+
+        variable.cssValues!.forEach((cssValue) => {
+            // no modes means it applies to all brands and themes, so we add it to the root of all brands
+            if (!cssValue.modes.length) {
+                (globalThis.debug.none as any[]).push({ variable, cssValue });
+
+                allBrands.root.css.push(cssEntry(variable, cssValue.value));
+                allBrands.root.ts.push(tsEntry(variable, cssValue.value));
+                return;
+            }
+
+            const brandMode = cssValue.modes.find((mode) => BRAND_SLUGS.includes(mode as Brand)) as Brand | undefined;
+
+            const themeMode: 'light' | 'dark' | 'root' =
+                (cssValue.modes.find((mode) => ['light', 'dark'].includes(mode)) as 'light' | 'dark') || 'root';
+
+            if (brandMode) {
+                if (themeMode) {
+                    parsedResults[brandMode][themeMode].css.push(cssEntry(variable, cssValue.value));
+                    parsedResults[brandMode][themeMode].ts.push(tsEntry(variable, cssValue.value));
+                    return;
+                }
+
+                parsedResults[brandMode].root.css.push(cssEntry(variable, cssValue.value));
+                parsedResults[brandMode].root.ts.push(tsEntry(variable, cssValue.value));
+                return;
+            }
+
+            // if (themeMode) {
+            //     allBrands[themeMode].css.push(cssEntry(variable, cssValue.value));
+            //     allBrands[themeMode].ts.push(tsEntry(variable, cssValue.value));
+            //     return;
+            // }
+        });
+
+        // special handling for typeface to generate font-family and google font import
+
+        return;
+    });
+
+    BRANDS.forEach((brand) => {
+        parsedResults[brand.slug].root.css.unshift(...allBrands.root.css);
+        parsedResults[brand.slug].light.css.unshift(...allBrands.light.css);
+        parsedResults[brand.slug].dark.css.unshift(...allBrands.dark.css);
+        parsedResults[brand.slug].root.ts.unshift(...allBrands.root.ts);
+        parsedResults[brand.slug].light.ts.unshift(...allBrands.light.ts);
+        parsedResults[brand.slug].dark.ts.unshift(...allBrands.dark.ts);
+    });
+
+    return parsedResults;
 }
 
-export function getCSSFromEffectVariables(effectVariables: EffectVariable[]): { line: string[]; slug: string }[] {
+// export function getCSSFromTokenVariables(
+//     variables: Variable[],
+//     {
+//         brand,
+//         theme,
+//     }: {
+//         brand: Brand;
+//         theme: Theme | 'root';
+//     },
+// ): { line: string[]; slug: string }[] {
+//     return variables.flatMap((variable) => {
+//         const value = variable.cssValues?.find((cssValue) => {
+//             const hasBrandOrNone =
+//                 cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
+//             const hasThemeOrNone =
+//                 theme !== 'root'
+//                     ? cssValue.modes.includes(theme)
+//                     : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
+//             return hasBrandOrNone && hasThemeOrNone;
+//         })?.value;
+
+//         if (!value) return [];
+
+//         return {
+//             line: [
+//                 `/* ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection} */`,
+//                 variable.description && `/* ${variable.description} */`,
+//                 `--${variable.slug}: ${value};`,
+//             ].filter(Boolean) as string[],
+//             slug: variable.slug,
+//         };
+//     });
+// }
+
+export function getCSSFromEffectVariables(effectVariables: EffectVariable[]): CSSEntry[] {
     return effectVariables.map((variable) => {
         return {
             line: [
@@ -589,7 +791,7 @@ export function getCSSFromEffectVariables(effectVariables: EffectVariable[]): { 
 export function getCSSFromTextVariables(
     textVariables: TypeVariable[],
     { device }: { device: Device | 'root' },
-): { line: string[]; slug: string }[] {
+): CSSEntry[] {
     return textVariables
         .filter((variable) => {
             if (device === 'root') return variable.modes.every((mode) => !DEVICE_MODES.includes(mode as Device));
@@ -605,34 +807,6 @@ export function getCSSFromTextVariables(
             };
         });
 }
-
-// generate font style
-
-export const generateFontStyle = (variables: Variable[], brandSlug: string): string[] => {
-    const brandTypeFace = variables
-        // find the typeface variable for the brand
-        .find((variable) => variable.slug === 'typeface')!
-        // then find the cssValue for the brand
-        .cssValues! //
-        // find the value for the brand slug
-        .find((cssValue) => cssValue.modes.includes(brandSlug))!
-        // get the value
-        .value.toString()
-        // remove quotes if they exist since we'll wrap in quotes in the CSS if it's a string
-        .replace(/['"]/g, '');
-
-    if (!brandTypeFace)
-        throw new Error(
-            `typeface not found for font style for brand ${brandSlug} with typeface ${brandTypeFace || DEFAULT_FONT}`,
-        );
-
-    const googleFont = encodeURIComponent(GOOGLE_FONTS.includes(brandTypeFace) ? brandTypeFace : DEFAULT_FONT);
-
-    return [
-        `@import url('https://fonts.googleapis.com/css2?family=${googleFont}:ital,wght@0,100..900;1,100..900&display=swap');`,
-        `body {\n\tfont-family: var(--typeface);\n}\n`,
-    ];
-};
 
 // compare slugs in existing anywhere.css files to newly generated .tmp/anywhere.css files to find any unexpected changes in variables
 
@@ -711,40 +885,40 @@ export function getTextVariableTS(
         });
 }
 
-export function getTokenVariableTS(
-    variables: Variable[],
-    {
-        brand,
-        theme,
-    }: {
-        brand: Brand;
-        theme: Theme | 'root';
-    },
-): { line: string[]; slug: string }[] {
-    return variables.flatMap((variable) => {
-        const value = variable.cssValues?.find((cssValue) => {
-            const hasBrandOrNone =
-                cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
-            const hasThemeOrNone =
-                theme !== 'root'
-                    ? cssValue.modes.includes(theme)
-                    : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
-            return hasBrandOrNone && hasThemeOrNone;
-        })?.value;
+// export function getTokenVariableTS(
+//     variables: Variable[],
+//     {
+//         brand,
+//         theme,
+//     }: {
+//         brand: Brand;
+//         theme: Theme | 'root';
+//     },
+// ): { line: string[]; slug: string }[] {
+//     return variables.flatMap((variable) => {
+//         const value = variable.cssValues?.find((cssValue) => {
+//             const hasBrandOrNone =
+//                 cssValue.modes.includes(brand) || BRANDS.every((b) => !cssValue.modes.includes(b.slug as Brand));
+//             const hasThemeOrNone =
+//                 theme !== 'root'
+//                     ? cssValue.modes.includes(theme)
+//                     : ['light', 'dark'].every((theme) => !cssValue.modes.includes(theme));
+//             return hasBrandOrNone && hasThemeOrNone;
+//         })?.value;
 
-        if (!value) return [];
+//         if (!value) return [];
 
-        return {
-            line: [
-                `// ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection}${
-                    variable.description ? ' - ' + variable.description : ''
-                }`,
-                `"${pascalCase(variable.slug)}": '${value}',`,
-            ].filter(Boolean) as string[],
-            slug: variable.slug,
-        };
-    });
-}
+//         return {
+//             line: [
+//                 `// ${variable.name}${!variable.collection ? '' : ' - ' + variable.collection}${
+//                     variable.description ? ' - ' + variable.description : ''
+//                 }`,
+//                 `"${pascalCase(variable.slug)}": '${value}',`,
+//             ].filter(Boolean) as string[],
+//             slug: variable.slug,
+//         };
+//     });
+// }
 
 export function getEffectVariableTS(effectVariables: EffectVariable[]): { line: string[]; slug: string }[] {
     return effectVariables.map((variable) => {

@@ -776,9 +776,11 @@ export const COLOR_TOKENS = {
     cornerRadius80: '8px',
     // Corner radius/circular - Global (primitives)
     cornerRadiusCircular: '999px',
-    // Foreground/AI-powered/blue - Theme - Anywhere
+    // Corner radius/None - Global (primitives)
+    cornerRadiusNone: '0',
+    // Foreground/AI-powered/blue - Theme - BRAND
     foregroundAiPoweredBlue: '#000000',
-    // Foreground/AI-powered/pink - Theme - Anywhere
+    // Foreground/AI-powered/pink - Theme - BRAND
     foregroundAiPoweredPink: '#000000',
     // Interactions/opacity-black-10 - Global (primitives)
     interactionsOpacityBlack10: '#0000001a',
@@ -804,37 +806,37 @@ export const COLOR_TOKENS = {
     interactionsOpacityWhite6: '#ffffff0f',
     // Interactions/opacity-white-8 - Global (primitives)
     interactionsOpacityWhite8: '#ffffff14',
-    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-10 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-dark-opacity-10 - Global (primitives)
     interactionsPrimaryDarkOpacity10: '#7271901a',
-    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-12 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-dark-opacity-12 - Global (primitives)
     interactionsPrimaryDarkOpacity12: '#7271901f',
-    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-16 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-dark-opacity-16 - Global (primitives)
     interactionsPrimaryDarkOpacity16: '#72719029',
-    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-20 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-dark-opacity-20 - Global (primitives)
     interactionsPrimaryDarkOpacity20: '#72719033',
-    // Colors/Brands/Anywhere/Interactions/primary-dark-opacity-8 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-dark-opacity-8 - Global (primitives)
     interactionsPrimaryDarkOpacity8: '#72719014',
-    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-10 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-light-opacity-10 - Global (primitives)
     interactionsPrimaryLightOpacity10: '#1413461a',
-    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-12 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-light-opacity-12 - Global (primitives)
     interactionsPrimaryLightOpacity12: '#1413461f',
-    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-16 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-light-opacity-16 - Global (primitives)
     interactionsPrimaryLightOpacity16: '#14134629',
-    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-20 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-light-opacity-20 - Global (primitives)
     interactionsPrimaryLightOpacity20: '#14134633',
-    // Colors/Brands/Anywhere/Interactions/primary-light-opacity-8 - Global (primitives)
+    // Colors/Brands/BRAND/Interactions/primary-light-opacity-8 - Global (primitives)
     interactionsPrimaryLightOpacity8: '#14134614',
-    // Colors/Brands/Anywhere/Primary/00-base - Global (primitives)
+    // Colors/Brands/BRAND/Primary/00-base - Global (primitives)
     primary00Base: '#141346',
-    // Colors/Brands/Anywhere/Primary/15-dark - Global (primitives)
+    // Colors/Brands/BRAND/Primary/15-dark - Global (primitives)
     primary15Dark: '#11103c',
-    // Colors/Brands/Anywhere/Primary/40-light - Global (primitives)
+    // Colors/Brands/BRAND/Primary/40-light - Global (primitives)
     primary40Light: '#727190',
-    // Colors/Brands/Anywhere/Primary/55-light - Global (primitives)
+    // Colors/Brands/BRAND/Primary/55-light - Global (primitives)
     primary55Light: '#9595ac',
-    // Colors/Brands/Anywhere/Primary/75-dark - Global (primitives)
+    // Colors/Brands/BRAND/Primary/75-dark - Global (primitives)
     primary75Dark: '#050512',
-    // Colors/Brands/Anywhere/Primary/85-light - Global (primitives)
+    // Colors/Brands/BRAND/Primary/85-light - Global (primitives)
     primary85Light: '#dcdce3',
     // Radius/full - Borders
     radiusFull: '999px',
@@ -842,25 +844,27 @@ export const COLOR_TOKENS = {
     radiusLg: '12px',
     // Radius/md - Borders
     radiusMd: '8px',
+    // Radius/none - Borders
+    radiusNone: '0',
     // Radius/sm - Borders
     radiusSm: '4px',
     // Radius/xlg - Borders
     radiusXlg: '16px',
-    // Colors/Brands/Anywhere/Secondary/00-base - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/00-base - Global (primitives)
     secondary00Base: '#e95525',
-    // Colors/Brands/Anywhere/Secondary/15-dark - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/15-dark - Global (primitives)
     secondary15Dark: '#c6481f',
-    // Colors/Brands/Anywhere/Secondary/15-light - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/15-light - Global (primitives)
     secondary15Light: '#f5b39d',
-    // Colors/Brands/Anywhere/Secondary/25-base - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/25-base - Global (primitives)
     secondary25Base: '#af401c',
-    // Colors/Brands/Anywhere/Secondary/40-light - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/40-light - Global (primitives)
     secondary40Light: '#f2997c',
-    // Colors/Brands/Anywhere/Secondary/55-light - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/55-light - Global (primitives)
     secondary55Light: '#f5b39d',
-    // Colors/Brands/Anywhere/Secondary/75-dark - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/75-dark - Global (primitives)
     secondary75Dark: '#3a1509',
-    // Colors/Brands/Anywhere/Secondary/85-light - Global (primitives)
+    // Colors/Brands/BRAND/Secondary/85-light - Global (primitives)
     secondary85Light: '#fce6de',
     // Shadows/Inner-Shadow-black-100 - Global (primitives)
     shadowsInnerShadowBlack100: '#000000',
@@ -940,6 +944,8 @@ export const COLOR_TOKENS = {
     spacingSizing24: '148px',
     // Spacing/sizing-25 - Spacing & Sizing
     spacingSizing25: '152px',
+    // Spacing/sizing-none - Spacing & Sizing
+    spacingSizingNone: '0',
     // Spacings/1040 - Global (primitives)
     spacings1040: '104px',
     // Spacings/120 - Global (primitives)
@@ -990,34 +996,38 @@ export const COLOR_TOKENS = {
     spacings800: '80px',
     // Spacings/960 - Global (primitives)
     spacings960: '96px',
-    // Stroke/AI-powered/blue - Theme - Anywhere
+    // Spacings/None - Global (primitives)
+    spacingsNone: '0',
+    // Stroke/AI-powered/blue - Theme - BRAND
     strokeAiPoweredBlue: '#000000',
-    // Stroke/AI-powered/pink - Theme - Anywhere
+    // Stroke/AI-powered/pink - Theme - BRAND
     strokeAiPoweredPink: '#000000',
+    // Stroke/none - Borders
+    strokeNone: '0',
     // Stroke/thick - Borders
     strokeThick: '2px',
     // Stroke/thicker - Borders
     strokeThicker: '4px',
     // Stroke/thin - Borders
     strokeThin: '1px',
-    // Surface/AI-powered/blue - Theme - Anywhere
+    // Surface/AI-powered/blue - Theme - BRAND
     surfaceAiPoweredBlue: '#000000',
-    // Surface/AI-powered/pink - Theme - Anywhere
+    // Surface/AI-powered/pink - Theme - BRAND
     surfaceAiPoweredPink: '#000000',
-    // Colors/Brands/Anywhere/Tertiary/00-base - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/00-base - Global (primitives)
     tertiary00Base: '#030330',
-    // Colors/Brands/Anywhere/Tertiary/15-dark - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/15-dark - Global (primitives)
     tertiary15Dark: '#030329',
-    // Colors/Brands/Anywhere/Tertiary/40-light - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/40-light - Global (primitives)
     tertiary40Light: '#686883',
-    // Colors/Brands/Anywhere/Tertiary/55-light - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/55-light - Global (primitives)
     tertiary55Light: '#8e8ea2',
-    // Colors/Brands/Anywhere/Tertiary/75-dark - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/75-dark - Global (primitives)
     tertiary75Dark: '#01010c',
-    // Colors/Brands/Anywhere/Tertiary/85-light - Global (primitives)
+    // Colors/Brands/BRAND/Tertiary/85-light - Global (primitives)
     tertiary85Light: '#d9d9e0',
     // Typeface - Brand
-    typeface: '"Inter"',
+    typeface: '"Inter", sans-serif',
     // Typography/Line-height/lh-1 - Global (primitives)
     typographyLineHeightLh1: '16px',
     // Typography/Line-height/lh-10 - Global (primitives)
@@ -1113,11 +1123,11 @@ export const COLOR_TOKENS = {
     // Typography/Weight/600 - Global (primitives)
     typographyWeight600: '600',
     light: {
-        // Background/base - Brand
+        // Background/base - Theme - BRAND
         backgroundBase: '#ffffff',
-        // Background/scrim - Theme - Anywhere
+        // Background/scrim - Theme - BRAND
         backgroundScrim: '#00000040',
-        // Background/shade - Brand
+        // Background/shade - Theme - BRAND
         backgroundShade: '#f5f5f5',
         // Data visual/category-01 - Brand
         dataVisualCategory01: '#d67e51',
@@ -1147,39 +1157,39 @@ export const COLOR_TOKENS = {
         dataVisualCategory07: '#530909',
         // Data visual/category-07-highlight - Brand
         dataVisualCategory07Highlight: '#5309094d',
-        // Data visual/category-1 - Theme - Better Home & Garden
-        dataVisualCategory1: '#0a466c',
-        // Data visual/category-1-highlight - Theme - Anywhere
+        // Data visual/category-1 - Theme - BRAND
+        dataVisualCategory1: '#7a2a0b',
+        // Data visual/category-1-highlight - Theme - BRAND
         dataVisualCategory1Highlight: '#7a2a0b4d',
-        // Data visual/category-2 - Theme - Better Home & Garden
-        dataVisualCategory2: '#299de0',
-        // Data visual/category-2-highlight - Theme - Anywhere
+        // Data visual/category-2 - Theme - BRAND
+        dataVisualCategory2: '#d67e51',
+        // Data visual/category-2-highlight - Theme - BRAND
         dataVisualCategory2Highlight: '#d67e514d',
-        // Data visual/category-3 - Theme - Better Home & Garden
-        dataVisualCategory3: '#130033',
-        // Data visual/category-3-highlight - Theme - Anywhere
+        // Data visual/category-3 - Theme - BRAND
+        dataVisualCategory3: '#2d3300',
+        // Data visual/category-3-highlight - Theme - BRAND
         dataVisualCategory3Highlight: '#2d33004d',
-        // Data visual/category-4 - Theme - Better Home & Garden
-        dataVisualCategory4: '#389e7a',
-        // Data visual/category-4-highlight - Theme - Anywhere
+        // Data visual/category-4 - Theme - BRAND
+        dataVisualCategory4: '#ab922b',
+        // Data visual/category-4-highlight - Theme - BRAND
         dataVisualCategory4Highlight: '#ab922b4d',
-        // Data visual/category-5 - Theme - Better Home & Garden
-        dataVisualCategory5: '#094a53',
-        // Data visual/category-5-highlight - Theme - Anywhere
+        // Data visual/category-5 - Theme - BRAND
+        dataVisualCategory5: '#530909',
+        // Data visual/category-5-highlight - Theme - BRAND
         dataVisualCategory5Highlight: '#5309094d',
-        // Data visual/category-6 - Theme - Better Home & Garden
+        // Data visual/category-6 - Theme - BRAND
         dataVisualCategory6: '#7f7f7f',
-        // Data visual/category-6-highlight - Theme - Anywhere
+        // Data visual/category-6-highlight - Theme - BRAND
         dataVisualCategory6Highlight: '#7f7f7f4d',
-        // Data visual/category-7 - Theme - Better Home & Garden
-        dataVisualCategory7: '#433479',
-        // Data visual/category-7-highlight - Theme - Anywhere
+        // Data visual/category-7 - Theme - BRAND
+        dataVisualCategory7: '#794b34',
+        // Data visual/category-7-highlight - Theme - BRAND
         dataVisualCategory7Highlight: '#794b344d',
-        // Data visual/gradient-end - Theme - Anywhere
+        // Data visual/gradient-end - Theme - BRAND
         dataVisualGradientEnd: '#ffffff4d',
-        // Data visual/green - Theme - Anywhere
+        // Data visual/green - Theme - BRAND
         dataVisualGreen: '#258750',
-        // Data visual/green-highlight - Theme - Anywhere
+        // Data visual/green-highlight - Theme - BRAND
         dataVisualGreenHighlight: '#deede5',
         // Data visual/negative - Brand
         dataVisualNegative: '#d83a52',
@@ -1189,127 +1199,127 @@ export const COLOR_TOKENS = {
         dataVisualPositive: '#258750',
         // Data visual/positive-highlight - Brand
         dataVisualPositiveHighlight: '#deede5',
-        // Data visual/red - Theme - Anywhere
+        // Data visual/red - Theme - BRAND
         dataVisualRed: '#d83a52',
-        // Data visual/red-highlight - Theme - Anywhere
+        // Data visual/red-highlight - Theme - BRAND
         dataVisualRedHighlight: '#f9e1e5',
-        // Foreground/Brand/on-inverse-primary - Theme - Anywhere
+        // Foreground/Brand/on-inverse-primary - Theme - BRAND
         foregroundBrandOnInversePrimary: '#727190',
-        // Foreground/Brand/on-inverse-secondary - Theme - Anywhere
-        foregroundBrandOnInverseSecondary: '#eba691',
-        // Foreground/Brand/on-light-color-secondary - Theme - Anywhere
+        // Foreground/Brand/on-inverse-secondary - Theme - BRAND
+        foregroundBrandOnInverseSecondary: '#f2997c',
+        // Foreground/Brand/on-light-color-secondary - Theme - BRAND
         foregroundBrandOnLightColorSecondary: '#af401c',
-        // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        // Foreground/Brand/on-brand-primary - Theme - BRAND - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnPrimary: '#ffffff',
-        // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        // Foreground/Brand/on-brand-secondary - Theme - BRAND - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnSecondary: '#ffffff',
-        // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
+        // Foreground/Brand/brand-primary - Theme - BRAND - Foreground text and icons that match the brand's primary color
         foregroundBrandPrimary: '#030330',
-        // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
-        foregroundBrandPrimaryDepth: '#217221',
-        // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
+        // Foreground/Brand/brand-primary-depth - Theme - BRAND
+        foregroundBrandPrimaryDepth: '#11103c',
+        // Foreground/Brand/brand-secondary - Theme - BRAND - Foreground text and icons that match the brand's secondary color
         foregroundBrandSecondary: '#e95525',
-        // Foreground/Brand/brand-secondary-depth - Theme - Anywhere
-        foregroundBrandSecondaryDepth: '#bc5b3c',
-        // Foreground/Link text/default - Brand
+        // Foreground/Brand/brand-secondary-depth - Theme - BRAND
+        foregroundBrandSecondaryDepth: '#c6481f',
+        // Foreground/Link text/default - Theme - BRAND
         foregroundLinkTextDefault: '#215ecd',
-        // Foreground/Link text/default-disabled - Brand
+        // Foreground/Link text/default-disabled - Theme - BRAND
         foregroundLinkTextDefaultDisabled: '#7a9ee1',
-        // Foreground/Link text/default-hovered - Theme - Anywhere
+        // Foreground/Link text/default-hovered - Theme - BRAND
         foregroundLinkTextDefaultHovered: '#1e55b9',
-        // Foreground/Link text/default-pressed - Theme - Anywhere
+        // Foreground/Link text/default-pressed - Theme - BRAND
         foregroundLinkTextDefaultPressed: '#1a4ba4',
-        // Foreground/Link text/default-visited - Brand
+        // Foreground/Link text/default-visited - Theme - BRAND
         foregroundLinkTextDefaultVisited: '#7a3e7a',
         // Foreground/Link text/subtle-disabled - Brand
         foregroundLinkTextSubtleDisabled: '#bdbdbd',
-        // Foreground/Link text/subtle-hovered - Theme - Anywhere
+        // Foreground/Link text/subtle-hovered - Theme - BRAND
         foregroundLinkTextSubtleHovered: '#292929',
-        // Foreground/Link text/subtle-inverse-hovered - Theme - Anywhere
+        // Foreground/Link text/subtle-inverse-hovered - Theme - BRAND
         foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-pressed - Theme - Anywhere
+        // Foreground/Link text/subtle-inverse-pressed - Theme - BRAND
         foregroundLinkTextSubtleInversePressed: '#d1d1d1',
         // Foreground/Link text/subtle-inversed-disabled - Brand
         foregroundLinkTextSubtleInversedDisabled: '#757575',
-        // Foreground/Link text/subtle-pressed - Theme - Anywhere
+        // Foreground/Link text/subtle-pressed - Theme - BRAND
         foregroundLinkTextSubtlePressed: '#3d3d3d',
-        // Foreground/Neutral/disabled-on-color-surface - Brand
+        // Foreground/Neutral/disabled-on-color-surface - Theme - BRAND
         foregroundNeutralDisabledOnColorSurface: '#757575',
-        // Foreground/Neutral/disabled-on-surface - Brand
+        // Foreground/Neutral/disabled-on-surface - Theme - BRAND
         foregroundNeutralDisabledOnSurface: '#bdbdbd',
-        // Foreground/Neutral/inverse-on-surface - Theme - Anywhere
+        // Foreground/Neutral/inverse-on-surface - Theme - BRAND
         foregroundNeutralInverseOnSurface: '#fafafa',
-        // Foreground/Neutral/on-color - Brand - Interactive controls
+        // Foreground/Neutral/on-color - Theme - BRAND - Interactive controls
         foregroundNeutralOnColor: '#ffffff',
         // Foreground/Neutral/on-inverse-surface - Brand - Text and icons against inverse surface
         foregroundNeutralOnInverseSurface: '#fafafa',
-        // Foreground/Neutral/on-surface - Brand - Default foreground text and icons against any surface color
+        // Foreground/Neutral/on-surface - Theme - BRAND - Default foreground text and icons against any surface color
         foregroundNeutralOnSurface: '#141414',
-        // Foreground/Neutral/on-surface-variant-01 - Brand - Secondary foreground color for icons and text
+        // Foreground/Neutral/on-surface-variant-01 - Theme - BRAND - Secondary foreground color for icons and text
         foregroundNeutralOnSurfaceVariant01: '#707070',
-        // Foreground/Neutral/on-surface-variant-02 - Brand - Tertiary foreground color for icons and text
+        // Foreground/Neutral/on-surface-variant-02 - Theme - BRAND - Tertiary foreground color for icons and text
         foregroundNeutralOnSurfaceVariant02: '#757575',
-        // Foreground/Neutral/on-surface-variant-03 - Brand - Quaternary foreground color for icons and text. Only for placeholder text
+        // Foreground/Neutral/on-surface-variant-03 - Theme - BRAND - Quaternary foreground color for icons and text. Only for placeholder text
         foregroundNeutralOnSurfaceVariant03: '#8a8a8a',
-        // Foreground/Neutral/skeleton-element - Brand
+        // Foreground/Neutral/skeleton-element - Theme - BRAND
         foregroundNeutralSkeletonElement: '#e0e0e0',
-        // Foreground/Spectrum/blue - Theme - Anywhere
+        // Foreground/Spectrum/blue - Theme - BRAND
         foregroundSpectrumBlue: '#143778',
-        // Foreground/Spectrum/green - Theme - Anywhere
+        // Foreground/Spectrum/green - Theme - BRAND
         foregroundSpectrumGreen: '#134428',
-        // Foreground/Spectrum/lime - Theme - Anywhere
+        // Foreground/Spectrum/lime - Theme - BRAND
         foregroundSpectrumLime: '#60651a',
-        // Foreground/Spectrum/magenta - Theme - Anywhere
+        // Foreground/Spectrum/magenta - Theme - BRAND
         foregroundSpectrumMagenta: '#63076f',
-        // Foreground/Spectrum/orange - Brand
+        // Foreground/Spectrum/orange - Theme - BRAND
         foregroundSpectrumOrange: '#773001',
-        // Foreground/Spectrum/pink - Theme - Anywhere
+        // Foreground/Spectrum/pink - Theme - BRAND
         foregroundSpectrumPink: '#6c1240',
-        // Foreground/Spectrum/purple - Theme - Anywhere
+        // Foreground/Spectrum/purple - Theme - BRAND
         foregroundSpectrumPurple: '#310077',
-        // Foreground/Spectrum/red - Brand
+        // Foreground/Spectrum/red - Theme - BRAND
         foregroundSpectrumRed: '#6c1d29',
-        // Foreground/Spectrum/teal - Theme - Anywhere
+        // Foreground/Spectrum/teal - Theme - BRAND
         foregroundSpectrumTeal: '#01413c',
-        // Foreground/Spectrum/yellow - Theme - Anywhere
+        // Foreground/Spectrum/yellow - Theme - BRAND
         foregroundSpectrumYellow: '#7b5e18',
-        // Interactions/brand-disabled-opacity - Theme - Anywhere
+        // Interactions/brand-disabled-opacity - Theme - BRAND
         interactionsBrandDisabledOpacity: '#0000000f',
-        // Interactions/brand-hover-opacity - Theme - Anywhere
+        // Interactions/brand-hover-opacity - Theme - BRAND
         interactionsBrandHoverOpacity: '#0000001a',
-        // Interactions/brand-press-opacity - Theme - Anywhere
+        // Interactions/brand-press-opacity - Theme - BRAND
         interactionsBrandPressOpacity: '#00000033',
-        // Interactions/disabled-opacity - Theme - Anywhere
+        // Interactions/disabled-opacity - Theme - BRAND
         interactionsDisabledOpacity: '#0000000f',
-        // Interactions/hover-opacity - Theme - Anywhere
+        // Interactions/hover-opacity - Theme - BRAND
         interactionsHoverOpacity: '#00000014',
-        // Interactions/link-active-opacity - Brand
+        // Interactions/link-active-opacity - Theme - BRAND
         interactionsLinkActiveOpacity: '#0000004d',
         // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
         interactionsNeutralHoverOpacity: '#00000014',
         // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
         interactionsNeutralPressOpacity: '#00000029',
-        // Interactions/press-opacity - Theme - Anywhere
+        // Interactions/press-opacity - Theme - BRAND
         interactionsPressOpacity: '#00000029',
-        // Interactions/primary-disabled-opacity - Theme - Anywhere
+        // Interactions/primary-disabled-opacity - Theme - BRAND
         interactionsPrimaryDisabledOpacity: '#1413461f',
-        // Interactions/primary-hover-opacity - Theme - Anywhere
+        // Interactions/primary-hover-opacity - Theme - BRAND
         interactionsPrimaryHoverOpacity: '#1413461a',
-        // Interactions/primary-press-opacity - Theme - Anywhere
+        // Interactions/primary-press-opacity - Theme - BRAND
         interactionsPrimaryPressOpacity: '#14134633',
-        // Shadow/shadow-10 - Theme - Anywhere
+        // Shadow/shadow-10 - Theme - BRAND
         shadow10: '#0000001a',
-        // Shadow/shadow-12 - Theme - Anywhere
+        // Shadow/shadow-12 - Theme - BRAND
         shadow12: '#0000001f',
-        // Shadow/shadow-15 - Theme - Anywhere
+        // Shadow/shadow-15 - Theme - BRAND
         shadow15: '#00000026',
-        // Shadow/shadow-25 - Theme - Anywhere
+        // Shadow/shadow-25 - Theme - BRAND
         shadow25: '#00000040',
-        // Shadow/shadow-32 - Theme - Anywhere
+        // Shadow/shadow-32 - Theme - BRAND
         shadow32: '#00000052',
         // Shadow/inner-shadow - Brand
         shadowInner: '#ffffff',
-        // Shadow/inner-shadow-100 - Theme - Better Home & Garden
+        // Shadow/inner-shadow-100 - Theme - BRAND
         shadowInner100: '#ffffff',
         // Shadow/variant-01 - Brand
         shadowVariant01: '#0000001a',
@@ -1321,35 +1331,35 @@ export const COLOR_TOKENS = {
         shadowVariant04: '#00000040',
         // Shadow/variant-05 - Brand
         shadowVariant05: '#00000052',
-        // Status/error - Brand - Foreground error text and icons
+        // Status/error - Theme - BRAND - Foreground error text and icons
         statusError: '#d83a52',
-        // Status/information - Theme - Better Home & Garden
+        // Status/information - Theme - BRAND
         statusInformation: '#276ef1',
         // Status/informational - Brand - Foreground informational text and icons
         statusInformational: '#276ef1',
-        // Status/on-error - Brand - Foreground error text and icons
+        // Status/on-error - Theme - BRAND - Foreground error text and icons
         statusOnError: '#ffffff',
-        // Status/on-information - Theme - Better Home & Garden
+        // Status/on-information - Theme - BRAND
         statusOnInformation: '#ffffff',
         // Status/on-informational - Brand - Foreground informational text and icons
         statusOnInformational: '#ffffff',
-        // Status/on-success - Brand - Foreground success icons and text
+        // Status/on-success - Theme - BRAND - Foreground success icons and text
         statusOnSuccess: '#ffffff',
-        // Status/on-warning - Brand - Foreground warning icons
+        // Status/on-warning - Theme - BRAND - Foreground warning icons
         statusOnWarning: '#141414',
-        // Status/success - Brand - Foreground success icons and text
+        // Status/success - Theme - BRAND - Foreground success icons and text
         statusSuccess: '#258750',
-        // Status/warning - Brand - Foreground warning icons
+        // Status/warning - Theme - BRAND - Foreground warning icons
         statusWarning: '#f6bc2f',
-        // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
+        // Stroke/Brand/brand-primary - Theme - BRAND - Outline variant - decorative elements such as dividers
         strokeBrandPrimary: '#030330',
-        // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
+        // Stroke/Brand/brand-primary-depth - Theme - BRAND - Outline variant - decorative elements such as dividers
         strokeBrandPrimaryDepth: '#030329',
-        // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
-        strokeBrandSecondary: '#dd6b47',
-        // Stroke/Brand/brand-secondary-depth - Theme - Anywhere
-        strokeBrandSecondaryDepth: '#bc5b3c',
-        // Stroke/Neutral/neutral-base - Brand - For control components
+        // Stroke/Brand/brand-secondary - Theme - BRAND
+        strokeBrandSecondary: '#e95525',
+        // Stroke/Brand/brand-secondary-depth - Theme - BRAND
+        strokeBrandSecondaryDepth: '#c6481f',
+        // Stroke/Neutral/neutral-base - Theme - BRAND - For control components
         strokeNeutralBase: '#949494',
         // Stroke/Neutral/disabled-dark - Brand - Disabled outline separating the fill and surface background
         strokeNeutralDisabledDark: '#757575',
@@ -1361,78 +1371,76 @@ export const COLOR_TOKENS = {
         strokeNeutralFocusOnInverse: '#ffffff',
         // Stroke/Neutral/neutral-high - Brand
         strokeNeutralHigh: '#141414',
-        // Stroke/Neutral/neutral-high-contrast - Theme - Anywhere
+        // Stroke/Neutral/neutral-high-contrast - Theme - BRAND
         strokeNeutralHighContrast: '#141414',
-        // Stroke/Neutral/Interactions/disabled-dark - Theme - Anywhere
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - BRAND
         strokeNeutralInteractionsDisabledDark: '#757575',
-        // Stroke/Neutral/Interactions/disabled-light - Theme - Anywhere
+        // Stroke/Neutral/Interactions/disabled-light - Theme - BRAND
         strokeNeutralInteractionsDisabledLight: '#bdbdbd',
-        // Stroke/Neutral/Interactions/focus - Theme - Anywhere
+        // Stroke/Neutral/Interactions/focus - Theme - BRAND
         strokeNeutralInteractionsFocus: '#000000',
-        // Stroke/Neutral/Interactions/inverse-focus - Theme - Anywhere
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - BRAND
         strokeNeutralInteractionsInverseFocus: '#ffffff',
         // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
         strokeNeutralLow: '#e0e0e0',
-        // Stroke/Neutral/neutral-low-contrast - Theme - Anywhere
+        // Stroke/Neutral/neutral-low-contrast - Theme - BRAND
         strokeNeutralLowContrast: '#e0e0e0',
-        // Surface/Brand/primary - Brand
+        // Surface/Brand/primary - Theme - BRAND
         surfaceBrandPrimary: '#141346',
-        // Surface/Brand/primary-highlight - Theme - Anywhere
+        // Surface/Brand/primary-highlight - Theme - BRAND
         surfaceBrandPrimaryHighlight: '#dcdce3',
-        // Surface/Brand/secondary - Brand
+        // Surface/Brand/secondary - Theme - BRAND
         surfaceBrandSecondary: '#e95525',
-        // Surface/Brand/secondary-highlight - Theme - Anywhere
-        surfaceBrandSecondaryHighlight: '#fae9e3',
-        // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
+        // Surface/Brand/secondary-highlight - Theme - BRAND
+        surfaceBrandSecondaryHighlight: '#fce6de',
+        // Surface/Neutral/Interactions/dark-disabled - Theme - BRAND
         surfaceNeutralInteractionsDarkDisabled: '#d6d6d6',
-        // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
+        // Surface/Neutral/Interactions/light-disabled - Theme - BRAND
         surfaceNeutralInteractionsLightDisabled: '#f5f5f5',
         // Surface/Neutral/inverse - Brand - Inverted. Use for toasts notification & snackbars
         surfaceNeutralInverse: '#1f1f1f',
-        // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
+        // Surface/Neutral/inverse-dark - Theme - BRAND
         surfaceNeutralInverseDark: '#1f1f1f',
-        // Surface/Neutral/inverse-light - Theme - Anywhere
+        // Surface/Neutral/inverse-light - Theme - BRAND
         surfaceNeutralInverseLight: '#ffffff',
-        // Surface/Neutral/T1-base - Brand
+        // Surface/Neutral/T1-base - Theme - BRAND
         surfaceNeutralT1Base: '#ffffff',
-        // Surface/Neutral/T2-lowest - Brand
+        // Surface/Neutral/T2-lowest - Theme - BRAND
         surfaceNeutralT2Lowest: '#f5f5f5',
-        // Surface/Neutral/T3-low - Brand - Navigations, app bar etc
+        // Surface/Neutral/T3-low - Theme - BRAND - Navigations, app bar etc
         surfaceNeutralT3Low: '#dbdbdb',
-        // Surface/Neutral/T4-high - Brand - Navigations, app bar etc
+        // Surface/Neutral/T4-high - Theme - BRAND - Navigations, app bar etc
         surfaceNeutralT4High: '#8a8a8a',
-        // Surface/Neutral/T4-high 2 - Theme - Better Home & Garden
-        surfaceNeutralT4High2: '#8a8a8a',
-        // Surface/Neutral/transparent - Brand
+        // Surface/Neutral/transparent - Theme - BRAND
         surfaceNeutralTransparent: '#ffffff00',
-        // Surface/Spectrum/blue - Theme - Anywhere
+        // Surface/Spectrum/blue - Theme - BRAND
         surfaceSpectrumBlue: '#dfe9fd',
-        // Surface/Spectrum/green - Theme - Anywhere
+        // Surface/Spectrum/green - Theme - BRAND
         surfaceSpectrumGreen: '#deede5',
-        // Surface/Spectrum/lime - Theme - Anywhere
+        // Surface/Spectrum/lime - Theme - BRAND
         surfaceSpectrumLime: '#f6f7e0',
-        // Surface/Spectrum/magenta - Theme - Anywhere
+        // Surface/Spectrum/magenta - Theme - BRAND
         surfaceSpectrumMagenta: '#f6dbfa',
-        // Surface/Spectrum/orange - Theme - Better Home & Garden
+        // Surface/Spectrum/orange - Theme - BRAND
         surfaceSpectrumOrange: '#fce7d9',
-        // Surface/Spectrum/pink - Theme - Anywhere
+        // Surface/Spectrum/pink - Theme - BRAND
         surfaceSpectrumPink: '#f9deec',
-        // Surface/Spectrum/purple - Theme - Anywhere
+        // Surface/Spectrum/purple - Theme - BRAND
         surfaceSpectrumPurple: '#e7d9fc',
-        // Surface/Spectrum/red - Theme - Anywhere
+        // Surface/Spectrum/red - Theme - BRAND
         surfaceSpectrumRed: '#f9e1e5',
-        // Surface/Spectrum/teal - Theme - Anywhere
+        // Surface/Spectrum/teal - Theme - BRAND
         surfaceSpectrumTeal: '#d9eceb',
-        // Surface/Spectrum/yellow - Theme - Anywhere
+        // Surface/Spectrum/yellow - Theme - BRAND
         surfaceSpectrumYellow: '#fef5e0',
     },
 
     dark: {
-        // Background/base - Brand
+        // Background/base - Theme - BRAND
         backgroundBase: '#1f1f1f',
-        // Background/scrim - Theme - Anywhere
+        // Background/scrim - Theme - BRAND
         backgroundScrim: '#61616180',
-        // Background/shade - Brand
+        // Background/shade - Theme - BRAND
         backgroundShade: '#292929',
         // Data visual/category-01 - Brand
         dataVisualCategory01: '#e6b297',
@@ -1462,39 +1470,39 @@ export const COLOR_TOKENS = {
         dataVisualCategory07: '#a98484',
         // Data visual/category-07-highlight - Brand
         dataVisualCategory07Highlight: '#a984844d',
-        // Data visual/category-1 - Theme - Better Home & Garden
-        dataVisualCategory1: '#0a466c',
-        // Data visual/category-1-highlight - Theme - Anywhere
+        // Data visual/category-1 - Theme - BRAND
+        dataVisualCategory1: '#b68a79',
+        // Data visual/category-1-highlight - Theme - BRAND
         dataVisualCategory1Highlight: '#b68a794d',
-        // Data visual/category-2 - Theme - Better Home & Garden
-        dataVisualCategory2: '#7fc4ec',
-        // Data visual/category-2-highlight - Theme - Anywhere
+        // Data visual/category-2 - Theme - BRAND
+        dataVisualCategory2: '#e6b297',
+        // Data visual/category-2-highlight - Theme - BRAND
         dataVisualCategory2Highlight: '#e6b2974d',
-        // Data visual/category-3 - Theme - Better Home & Garden
-        dataVisualCategory3: '#958ca3',
-        // Data visual/category-3-highlight - Theme - Anywhere
+        // Data visual/category-3 - Theme - BRAND
+        dataVisualCategory3: '#969980',
+        // Data visual/category-3-highlight - Theme - BRAND
         dataVisualCategory3Highlight: '#9699804d',
-        // Data visual/category-4 - Theme - Better Home & Garden
-        dataVisualCategory4: '#88c5af',
-        // Data visual/category-4-highlight - Theme - Anywhere
+        // Data visual/category-4 - Theme - BRAND
+        dataVisualCategory4: '#cdbe80',
+        // Data visual/category-4-highlight - Theme - BRAND
         dataVisualCategory4Highlight: '#cdbe804d',
-        // Data visual/category-5 - Theme - Better Home & Garden
-        dataVisualCategory5: '#789ba0',
-        // Data visual/category-5-highlight - Theme - Anywhere
+        // Data visual/category-5 - Theme - BRAND
+        dataVisualCategory5: '#a98484',
+        // Data visual/category-5-highlight - Theme - BRAND
         dataVisualCategory5Highlight: '#a984844d',
-        // Data visual/category-6 - Theme - Better Home & Garden
+        // Data visual/category-6 - Theme - BRAND
         dataVisualCategory6: '#b2b2b2',
-        // Data visual/category-6-highlight - Theme - Anywhere
+        // Data visual/category-6-highlight - Theme - BRAND
         dataVisualCategory6Highlight: '#b2b2b24d',
-        // Data visual/category-7 - Theme - Better Home & Garden
-        dataVisualCategory7: '#a19abc',
-        // Data visual/category-7-highlight - Theme - Anywhere
+        // Data visual/category-7 - Theme - BRAND
+        dataVisualCategory7: '#af9385',
+        // Data visual/category-7-highlight - Theme - BRAND
         dataVisualCategory7Highlight: '#af93854d',
-        // Data visual/gradient-end - Theme - Anywhere
+        // Data visual/gradient-end - Theme - BRAND
         dataVisualGradientEnd: '#1f1f1f4d',
-        // Data visual/green - Theme - Anywhere
+        // Data visual/green - Theme - BRAND
         dataVisualGreen: '#7cb796',
-        // Data visual/green-highlight - Theme - Anywhere
+        // Data visual/green-highlight - Theme - BRAND
         dataVisualGreenHighlight: '#0d2f1c',
         // Data visual/negative - Brand
         dataVisualNegative: '#e88997',
@@ -1504,127 +1512,127 @@ export const COLOR_TOKENS = {
         dataVisualPositive: '#7cb796',
         // Data visual/positive-highlight - Brand
         dataVisualPositiveHighlight: '#0d2f1c',
-        // Data visual/red - Theme - Anywhere
+        // Data visual/red - Theme - BRAND
         dataVisualRed: '#e88997',
-        // Data visual/red-highlight - Theme - Anywhere
+        // Data visual/red-highlight - Theme - BRAND
         dataVisualRedHighlight: '#4c141d',
-        // Foreground/Brand/on-inverse-primary - Theme - Anywhere
+        // Foreground/Brand/on-inverse-primary - Theme - BRAND
         foregroundBrandOnInversePrimary: '#727190',
-        // Foreground/Brand/on-inverse-secondary - Theme - Anywhere
-        foregroundBrandOnInverseSecondary: '#eba691',
-        // Foreground/Brand/on-light-color-secondary - Theme - Anywhere
+        // Foreground/Brand/on-inverse-secondary - Theme - BRAND
+        foregroundBrandOnInverseSecondary: '#f2997c',
+        // Foreground/Brand/on-light-color-secondary - Theme - BRAND
         foregroundBrandOnLightColorSecondary: '#f5b39d',
-        // Foreground/Brand/on-brand-primary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        // Foreground/Brand/on-brand-primary - Theme - BRAND - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnPrimary: '#ffffff',
-        // Foreground/Brand/on-brand-secondary - Brand - Foreground color used on Brand's primary color (non neutral color)
+        // Foreground/Brand/on-brand-secondary - Theme - BRAND - Foreground color used on Brand's primary color (non neutral color)
         foregroundBrandOnSecondary: '#141414',
-        // Foreground/Brand/brand-primary - Brand - Foreground text and icons that match the brand's primary color
+        // Foreground/Brand/brand-primary - Theme - BRAND - Foreground text and icons that match the brand's primary color
         foregroundBrandPrimary: '#727190',
-        // Foreground/Brand/brand-primary-depth - Theme - Better Home & Garden
-        foregroundBrandPrimaryDepth: '#88bc88',
-        // Foreground/Brand/brand-secondary - Brand - Foreground text and icons that match the brand's secondary color
+        // Foreground/Brand/brand-primary-depth - Theme - BRAND
+        foregroundBrandPrimaryDepth: '#9595ac',
+        // Foreground/Brand/brand-secondary - Theme - BRAND - Foreground text and icons that match the brand's secondary color
         foregroundBrandSecondary: '#f2997c',
-        // Foreground/Brand/brand-secondary-depth - Theme - Anywhere
-        foregroundBrandSecondaryDepth: '#eba691',
-        // Foreground/Link text/default - Brand
+        // Foreground/Brand/brand-secondary-depth - Theme - BRAND
+        foregroundBrandSecondaryDepth: '#f5b39d',
+        // Foreground/Link text/default - Theme - BRAND
         foregroundLinkTextDefault: '#7a9ee1',
-        // Foreground/Link text/default-disabled - Brand
+        // Foreground/Link text/default-disabled - Theme - BRAND
         foregroundLinkTextDefaultDisabled: '#14387b',
-        // Foreground/Link text/default-hovered - Theme - Anywhere
+        // Foreground/Link text/default-hovered - Theme - BRAND
         foregroundLinkTextDefaultHovered: '#90afe6',
-        // Foreground/Link text/default-pressed - Theme - Anywhere
+        // Foreground/Link text/default-pressed - Theme - BRAND
         foregroundLinkTextDefaultPressed: '#a6bfeb',
-        // Foreground/Link text/default-visited - Brand
+        // Foreground/Link text/default-visited - Theme - BRAND
         foregroundLinkTextDefaultVisited: '#af8baf',
         // Foreground/Link text/subtle-disabled - Brand
         foregroundLinkTextSubtleDisabled: '#4d4d4d',
-        // Foreground/Link text/subtle-hovered - Theme - Anywhere
+        // Foreground/Link text/subtle-hovered - Theme - BRAND
         foregroundLinkTextSubtleHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-hovered - Theme - Anywhere
+        // Foreground/Link text/subtle-inverse-hovered - Theme - BRAND
         foregroundLinkTextSubtleInverseHovered: '#e6e6e6',
-        // Foreground/Link text/subtle-inverse-pressed - Theme - Anywhere
+        // Foreground/Link text/subtle-inverse-pressed - Theme - BRAND
         foregroundLinkTextSubtleInversePressed: '#d1d1d1',
         // Foreground/Link text/subtle-inversed-disabled - Brand
         foregroundLinkTextSubtleInversedDisabled: '#3d3d3d',
-        // Foreground/Link text/subtle-pressed - Theme - Anywhere
+        // Foreground/Link text/subtle-pressed - Theme - BRAND
         foregroundLinkTextSubtlePressed: '#d1d1d1',
-        // Foreground/Neutral/disabled-on-color-surface - Brand
+        // Foreground/Neutral/disabled-on-color-surface - Theme - BRAND
         foregroundNeutralDisabledOnColorSurface: '#3d3d3d',
-        // Foreground/Neutral/disabled-on-surface - Brand
+        // Foreground/Neutral/disabled-on-surface - Theme - BRAND
         foregroundNeutralDisabledOnSurface: '#4d4d4d',
-        // Foreground/Neutral/inverse-on-surface - Theme - Anywhere
+        // Foreground/Neutral/inverse-on-surface - Theme - BRAND
         foregroundNeutralInverseOnSurface: '#fafafa',
-        // Foreground/Neutral/on-color - Brand - Interactive controls
+        // Foreground/Neutral/on-color - Theme - BRAND - Interactive controls
         foregroundNeutralOnColor: '#ffffff',
         // Foreground/Neutral/on-inverse-surface - Brand - Text and icons against inverse surface
         foregroundNeutralOnInverseSurface: '#fafafa',
-        // Foreground/Neutral/on-surface - Brand - Default foreground text and icons against any surface color
+        // Foreground/Neutral/on-surface - Theme - BRAND - Default foreground text and icons against any surface color
         foregroundNeutralOnSurface: '#fafafa',
-        // Foreground/Neutral/on-surface-variant-01 - Brand - Secondary foreground color for icons and text
+        // Foreground/Neutral/on-surface-variant-01 - Theme - BRAND - Secondary foreground color for icons and text
         foregroundNeutralOnSurfaceVariant01: '#c2c2c2',
-        // Foreground/Neutral/on-surface-variant-02 - Brand - Tertiary foreground color for icons and text
+        // Foreground/Neutral/on-surface-variant-02 - Theme - BRAND - Tertiary foreground color for icons and text
         foregroundNeutralOnSurfaceVariant02: '#9e9e9e',
-        // Foreground/Neutral/on-surface-variant-03 - Brand - Quaternary foreground color for icons and text. Only for placeholder text
+        // Foreground/Neutral/on-surface-variant-03 - Theme - BRAND - Quaternary foreground color for icons and text. Only for placeholder text
         foregroundNeutralOnSurfaceVariant03: '#757575',
-        // Foreground/Neutral/skeleton-element - Brand
+        // Foreground/Neutral/skeleton-element - Theme - BRAND
         foregroundNeutralSkeletonElement: '#333333',
-        // Foreground/Spectrum/blue - Theme - Anywhere
+        // Foreground/Spectrum/blue - Theme - BRAND
         foregroundSpectrumBlue: '#88aff7',
-        // Foreground/Spectrum/green - Theme - Anywhere
+        // Foreground/Spectrum/green - Theme - BRAND
         foregroundSpectrumGreen: '#87bd9f',
-        // Foreground/Spectrum/lime - Theme - Anywhere
+        // Foreground/Spectrum/lime - Theme - BRAND
         foregroundSpectrumLime: '#dce28f',
-        // Foreground/Spectrum/magenta - Theme - Anywhere
+        // Foreground/Spectrum/magenta - Theme - BRAND
         foregroundSpectrumMagenta: '#e07aed',
-        // Foreground/Spectrum/orange - Brand
+        // Foreground/Spectrum/orange - Theme - BRAND
         foregroundSpectrumOrange: '#f6a874',
-        // Foreground/Spectrum/pink - Theme - Anywhere
+        // Foreground/Spectrum/pink - Theme - BRAND
         foregroundSpectrumPink: '#ea86b9',
-        // Foreground/Spectrum/purple - Theme - Anywhere
+        // Foreground/Spectrum/purple - Theme - BRAND
         foregroundSpectrumPurple: '#c8a6f9',
-        // Foreground/Spectrum/red - Brand
+        // Foreground/Spectrum/red - Theme - BRAND
         foregroundSpectrumRed: '#ea93a0',
-        // Foreground/Spectrum/teal - Theme - Anywhere
+        // Foreground/Spectrum/teal - Theme - BRAND
         foregroundSpectrumTeal: '#74bbb4',
-        // Foreground/Spectrum/yellow - Theme - Anywhere
+        // Foreground/Spectrum/yellow - Theme - BRAND
         foregroundSpectrumYellow: '#fada8d',
-        // Interactions/brand-disabled-opacity - Theme - Anywhere
+        // Interactions/brand-disabled-opacity - Theme - BRAND
         interactionsBrandDisabledOpacity: '#ffffff0f',
-        // Interactions/brand-hover-opacity - Theme - Anywhere
+        // Interactions/brand-hover-opacity - Theme - BRAND
         interactionsBrandHoverOpacity: '#ffffff1a',
-        // Interactions/brand-press-opacity - Theme - Anywhere
+        // Interactions/brand-press-opacity - Theme - BRAND
         interactionsBrandPressOpacity: '#ffffff33',
-        // Interactions/disabled-opacity - Theme - Anywhere
+        // Interactions/disabled-opacity - Theme - BRAND
         interactionsDisabledOpacity: '#0000000f',
-        // Interactions/hover-opacity - Theme - Anywhere
+        // Interactions/hover-opacity - Theme - BRAND
         interactionsHoverOpacity: '#ffffff14',
-        // Interactions/link-active-opacity - Brand
+        // Interactions/link-active-opacity - Theme - BRAND
         interactionsLinkActiveOpacity: '#ffffff4d',
         // Interactions/neutral-hover-opacity - Brand - surfaces using neutral tones
         interactionsNeutralHoverOpacity: '#ffffff14',
         // Interactions/neutral-press-opacity - Brand - surfaces using neutral tones
         interactionsNeutralPressOpacity: '#ffffff29',
-        // Interactions/press-opacity - Theme - Anywhere
+        // Interactions/press-opacity - Theme - BRAND
         interactionsPressOpacity: '#ffffff29',
-        // Interactions/primary-disabled-opacity - Theme - Anywhere
+        // Interactions/primary-disabled-opacity - Theme - BRAND
         interactionsPrimaryDisabledOpacity: '#7271901f',
-        // Interactions/primary-hover-opacity - Theme - Anywhere
+        // Interactions/primary-hover-opacity - Theme - BRAND
         interactionsPrimaryHoverOpacity: '#7271901a',
-        // Interactions/primary-press-opacity - Theme - Anywhere
+        // Interactions/primary-press-opacity - Theme - BRAND
         interactionsPrimaryPressOpacity: '#72719033',
-        // Shadow/shadow-10 - Theme - Anywhere
+        // Shadow/shadow-10 - Theme - BRAND
         shadow10: '#6161611a',
-        // Shadow/shadow-12 - Theme - Anywhere
+        // Shadow/shadow-12 - Theme - BRAND
         shadow12: '#6161611f',
-        // Shadow/shadow-15 - Theme - Anywhere
+        // Shadow/shadow-15 - Theme - BRAND
         shadow15: '#61616126',
-        // Shadow/shadow-25 - Theme - Anywhere
+        // Shadow/shadow-25 - Theme - BRAND
         shadow25: '#61616140',
-        // Shadow/shadow-32 - Theme - Anywhere
+        // Shadow/shadow-32 - Theme - BRAND
         shadow32: '#61616152',
         // Shadow/inner-shadow - Brand
         shadowInner: '#000000',
-        // Shadow/inner-shadow-100 - Theme - Better Home & Garden
+        // Shadow/inner-shadow-100 - Theme - BRAND
         shadowInner100: '#000000',
         // Shadow/variant-01 - Brand
         shadowVariant01: '#6161611a',
@@ -1636,35 +1644,35 @@ export const COLOR_TOKENS = {
         shadowVariant04: '#61616140',
         // Shadow/variant-05 - Brand
         shadowVariant05: '#61616152',
-        // Status/error - Brand - Foreground error text and icons
+        // Status/error - Theme - BRAND - Foreground error text and icons
         statusError: '#e26b7d',
-        // Status/information - Theme - Better Home & Garden
+        // Status/information - Theme - BRAND
         statusInformation: '#5d92f5',
         // Status/informational - Brand - Foreground informational text and icons
         statusInformational: '#5d92f5',
-        // Status/on-error - Brand - Foreground error text and icons
+        // Status/on-error - Theme - BRAND - Foreground error text and icons
         statusOnError: '#ffffff',
-        // Status/on-information - Theme - Better Home & Garden
+        // Status/on-information - Theme - BRAND
         statusOnInformation: '#ffffff',
         // Status/on-informational - Brand - Foreground informational text and icons
         statusOnInformational: '#ffffff',
-        // Status/on-success - Brand - Foreground success icons and text
+        // Status/on-success - Theme - BRAND - Foreground success icons and text
         statusOnSuccess: '#ffffff',
-        // Status/on-warning - Brand - Foreground warning icons
+        // Status/on-warning - Theme - BRAND - Foreground warning icons
         statusOnWarning: '#141414',
-        // Status/success - Brand - Foreground success icons and text
+        // Status/success - Theme - BRAND - Foreground success icons and text
         statusSuccess: '#519f73',
-        // Status/warning - Brand - Foreground warning icons
+        // Status/warning - Theme - BRAND - Foreground warning icons
         statusWarning: '#f8cd63',
-        // Stroke/Brand/brand-primary - Brand - Outline variant - decorative elements such as dividers
+        // Stroke/Brand/brand-primary - Theme - BRAND - Outline variant - decorative elements such as dividers
         strokeBrandPrimary: '#727190',
-        // Stroke/Brand/brand-primary-depth - Brand - Outline variant - decorative elements such as dividers
+        // Stroke/Brand/brand-primary-depth - Theme - BRAND - Outline variant - decorative elements such as dividers
         strokeBrandPrimaryDepth: '#9595ac',
-        // Stroke/Brand/brand-secondary - Theme - Better Home & Garden
-        strokeBrandSecondary: '#f0bcac',
-        // Stroke/Brand/brand-secondary-depth - Theme - Anywhere
-        strokeBrandSecondaryDepth: '#eba691',
-        // Stroke/Neutral/neutral-base - Brand - For control components
+        // Stroke/Brand/brand-secondary - Theme - BRAND
+        strokeBrandSecondary: '#f2997c',
+        // Stroke/Brand/brand-secondary-depth - Theme - BRAND
+        strokeBrandSecondaryDepth: '#f5b39d',
+        // Stroke/Neutral/neutral-base - Theme - BRAND - For control components
         strokeNeutralBase: '#6b6b6b',
         // Stroke/Neutral/disabled-dark - Brand - Disabled outline separating the fill and surface background
         strokeNeutralDisabledDark: '#3d3d3d',
@@ -1676,69 +1684,67 @@ export const COLOR_TOKENS = {
         strokeNeutralFocusOnInverse: '#ffffff',
         // Stroke/Neutral/neutral-high - Brand
         strokeNeutralHigh: '#fafafa',
-        // Stroke/Neutral/neutral-high-contrast - Theme - Anywhere
+        // Stroke/Neutral/neutral-high-contrast - Theme - BRAND
         strokeNeutralHighContrast: '#fafafa',
-        // Stroke/Neutral/Interactions/disabled-dark - Theme - Anywhere
+        // Stroke/Neutral/Interactions/disabled-dark - Theme - BRAND
         strokeNeutralInteractionsDisabledDark: '#3d3d3d',
-        // Stroke/Neutral/Interactions/disabled-light - Theme - Anywhere
+        // Stroke/Neutral/Interactions/disabled-light - Theme - BRAND
         strokeNeutralInteractionsDisabledLight: '#4d4d4d',
-        // Stroke/Neutral/Interactions/focus - Theme - Anywhere
+        // Stroke/Neutral/Interactions/focus - Theme - BRAND
         strokeNeutralInteractionsFocus: '#ffffff',
-        // Stroke/Neutral/Interactions/inverse-focus - Theme - Anywhere
+        // Stroke/Neutral/Interactions/inverse-focus - Theme - BRAND
         strokeNeutralInteractionsInverseFocus: '#ffffff',
         // Stroke/Neutral/neutral-low - Brand - Outline variant - decorative elements such as dividers
         strokeNeutralLow: '#4d4d4d',
-        // Stroke/Neutral/neutral-low-contrast - Theme - Anywhere
+        // Stroke/Neutral/neutral-low-contrast - Theme - BRAND
         strokeNeutralLowContrast: '#4d4d4d',
-        // Surface/Brand/primary - Brand
+        // Surface/Brand/primary - Theme - BRAND
         surfaceBrandPrimary: '#727190',
-        // Surface/Brand/primary-highlight - Theme - Anywhere
+        // Surface/Brand/primary-highlight - Theme - BRAND
         surfaceBrandPrimaryHighlight: '#050512',
-        // Surface/Brand/secondary - Brand
+        // Surface/Brand/secondary - Theme - BRAND
         surfaceBrandSecondary: '#f2997c',
-        // Surface/Brand/secondary-highlight - Theme - Anywhere
-        surfaceBrandSecondaryHighlight: '#371b12',
-        // Surface/Neutral/Interactions/dark-disabled - Theme - Better Home & Garden
+        // Surface/Brand/secondary-highlight - Theme - BRAND
+        surfaceBrandSecondaryHighlight: '#3a1509',
+        // Surface/Neutral/Interactions/dark-disabled - Theme - BRAND
         surfaceNeutralInteractionsDarkDisabled: '#474747',
-        // Surface/Neutral/Interactions/light-disabled - Theme - Better Home & Garden
+        // Surface/Neutral/Interactions/light-disabled - Theme - BRAND
         surfaceNeutralInteractionsLightDisabled: '#292929',
         // Surface/Neutral/inverse - Brand - Inverted. Use for toasts notification & snackbars
         surfaceNeutralInverse: '#383838',
-        // Surface/Neutral/inverse-dark - Theme - Better Home & Garden
+        // Surface/Neutral/inverse-dark - Theme - BRAND
         surfaceNeutralInverseDark: '#383838',
-        // Surface/Neutral/inverse-light - Theme - Anywhere
+        // Surface/Neutral/inverse-light - Theme - BRAND
         surfaceNeutralInverseLight: '#575757',
-        // Surface/Neutral/T1-base - Brand
+        // Surface/Neutral/T1-base - Theme - BRAND
         surfaceNeutralT1Base: '#1f1f1f',
-        // Surface/Neutral/T2-lowest - Brand
+        // Surface/Neutral/T2-lowest - Theme - BRAND
         surfaceNeutralT2Lowest: '#2e2e2e',
-        // Surface/Neutral/T3-low - Brand - Navigations, app bar etc
+        // Surface/Neutral/T3-low - Theme - BRAND - Navigations, app bar etc
         surfaceNeutralT3Low: '#383838',
-        // Surface/Neutral/T4-high - Brand - Navigations, app bar etc
+        // Surface/Neutral/T4-high - Theme - BRAND - Navigations, app bar etc
         surfaceNeutralT4High: '#7a7a7a',
-        // Surface/Neutral/T4-high 2 - Theme - Better Home & Garden
-        surfaceNeutralT4High2: '#7a7a7a',
-        // Surface/Neutral/transparent - Brand
+        // Surface/Neutral/transparent - Theme - BRAND
         surfaceNeutralTransparent: '#ffffff00',
-        // Surface/Spectrum/blue - Theme - Anywhere
+        // Surface/Spectrum/blue - Theme - BRAND
         surfaceSpectrumBlue: '#0e2754',
-        // Surface/Spectrum/green - Theme - Anywhere
+        // Surface/Spectrum/green - Theme - BRAND
         surfaceSpectrumGreen: '#0d2f1c',
-        // Surface/Spectrum/lime - Theme - Anywhere
+        // Surface/Spectrum/lime - Theme - BRAND
         surfaceSpectrumLime: '#434712',
-        // Surface/Spectrum/magenta - Theme - Anywhere
+        // Surface/Spectrum/magenta - Theme - BRAND
         surfaceSpectrumMagenta: '#45054e',
-        // Surface/Spectrum/orange - Theme - Better Home & Garden
+        // Surface/Spectrum/orange - Theme - BRAND
         surfaceSpectrumOrange: '#532201',
-        // Surface/Spectrum/pink - Theme - Anywhere
+        // Surface/Spectrum/pink - Theme - BRAND
         surfaceSpectrumPink: '#4c0c2d',
-        // Surface/Spectrum/purple - Theme - Anywhere
+        // Surface/Spectrum/purple - Theme - BRAND
         surfaceSpectrumPurple: '#220053',
-        // Surface/Spectrum/red - Theme - Anywhere
+        // Surface/Spectrum/red - Theme - BRAND
         surfaceSpectrumRed: '#4c141d',
-        // Surface/Spectrum/teal - Theme - Anywhere
+        // Surface/Spectrum/teal - Theme - BRAND
         surfaceSpectrumTeal: '#012e2a',
-        // Surface/Spectrum/yellow - Theme - Anywhere
+        // Surface/Spectrum/yellow - Theme - BRAND
         surfaceSpectrumYellow: '#564210',
     },
 };
